@@ -1,0 +1,146 @@
+[setup]
+
+camera = CSD2_03_camera.cam,75,1060
+actor = act_01_ty,CSD2_03_01_Ty,75,1060
+actor = act_31_slyProp,CSD2_03_02_slyprop,75,1060
+actor = CSD2_03_01_TyRangs,CSD2_03_01_TyRangs,75,1060
+subtitle = csE1_03
+firstsample = CSE1_03_P01
+musicloop =
+PlaySFXName = TYCSD2_03_Extra
+
+[timeline]
+
+frame = 0
+subobjoff = 0,all
+subobjon  = 0,a_arm_l
+subobjon  = 0,a_arm_r
+subobjon  = 0,a_body
+subobjon  = 0,a_head
+subobjon  = 0,a_headbits
+subobjoff = 1,A_Rang_Standard_L
+subobjoff = 1,A_Rang_Standard_R
+
+frame = 89
+effect = event=playsound name=CSTyStepMetal
+
+frame = 140
+say = CSE1_03_P01,CSE1_03_P02
+subtitle = 0
+
+frame = 216
+say = CSE1_03_P02,CSE1_04_P01
+subtitle = 1
+
+frame = 285
+subtitle = 9
+
+frame = 286
+subobjon = 1,A_Rang_Standard_L
+subobjon = 1,A_Rang_Standard_R
+
+frame = 298
+effect = event=playsound name=SlyStepMetal
+
+frame = 306
+effect = event=playsound name=SlyStepMetal
+
+frame = 314
+effect = event=playsound name=SlyStepMetal
+
+frame = 326
+effect = event=playsound name=CSTyStepMetal
+
+frame = 333
+effect = event=playsound name=CSTyStepMetal
+
+frame = 342
+effect = event=playsound name=CSTyStepMetal
+
+frame = 351
+effect = event=playsound name=CSTyStepMetal
+
+frame = 363
+effect = event=playsound name=SlyStepMetal
+
+frame = 370
+effect = event=playsound name=SlyStepMetal
+
+frame = 379
+effect = event=playsound name=SlyStepMetal
+
+frame = 385
+effect = event=playsound name=SlyStepMetal
+
+frame = 426
+effect = event=playsound name=TyRangDoomLP
+
+frame = 451
+effect = event=playsound name=TyRangDoomLP
+
+frame = 473
+effect = event=playsound name=CSTyLandMetal
+
+frame = 484
+effect = event=stopsound name=TyRangDoomLP
+
+frame = 485
+effect = event=playsound name=EnemyPunchMed
+
+frame = 495
+effect = event=stopsound name=TyRangDoomLP
+
+frame = 496
+effect = event=playsound name=EnemyPunchMed
+
+Frame = 515
+subobjoff = 2,All
+
+frame = 596
+subobjoff = 1,A_Rang_Standard_L
+subobjoff = 1,A_Rang_Standard_R
+
+frame = 608
+effect = event=playsound name=TyLedgeGrab
+
+frame = 626
+say = CSE1_04_P01,CSE1_04_P02
+subtitle = 2
+
+frame = 655
+say = CSE1_04_P02,CSE1_04_P03
+subtitle = 3
+
+frame = 703
+say = CSE1_04_P03,CSE1_04_P04
+subtitle = 4
+
+frame = 750
+say = CSE1_04_P04,CSE1_04_P05
+subtitle = 5
+
+frame = 797
+effect = event=playsound name=TyJump
+
+frame = 833
+effect = event=playsound name=CSTyLandMetal
+
+frame = 880
+say = CSE1_04_P05,CSE1_04_P06
+subtitle = 6
+
+frame = 904
+say = CSE1_04_P06,CSE1_04_P07
+subtitle = 7
+
+frame = 970
+say = CSE1_04_P07,none
+subtitle = 8
+
+frame = 1044
+effect = event=playsound name=SlyStepMetal
+
+frame = 1059
+effect = event=playsound name=SlyStepMetal
+
+//end

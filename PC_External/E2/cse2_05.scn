@@ -1,0 +1,185 @@
+[setup]
+
+camera = cse1_05_camera.cam,2,795
+actor = act_01_ty,cse1_05_01_ty,2,795
+actor = cse1_05_02_neofluffy,cse1_05_02_neofluffy,2,795
+actor = prop_0521_E1_BlastDoors,cse1_05_03_blastDoors,2,795
+//prop_0521_E1_BlastDoors
+//cse1_05_03_blastDoors
+subtitle = blank
+firstsample = blank
+PlaySFXName = TYCSD2_05_Extra
+
+[timeline]
+
+frame = 0
+subobjoff = 0,all
+subobjon  = 0,a_arm_l
+subobjon  = 0,a_arm_r
+subobjon  = 0,a_body
+subobjon  = 0,a_head
+subobjon  = 0,a_headbits
+
+frame = 27
+effect = event=playsound name=D2MetalDoor2Open
+
+frame = 34
+effect = event=playsound name=D2MetalDoor2Open
+
+frame = 40
+effect = event=playsound name=D2MetalDoor2Open
+
+frame = 63
+effect = event=playsound name=D2MetalDoor1Open
+
+frame = 153
+effect = event=playsound name=CSTyStepMetal scale=0.5
+
+frame = 165
+effect = event=playsound name=CSTyStepMetal scale=0.5
+
+frame = 177
+effect = event=playsound name=CSTyStepMetal scale=0.5
+
+frame = 189
+effect = event=playsound name=CSTyStepMetal scale=0.5
+
+frame = 202
+effect = event=playsound name=CSTyStepMetal scale=0.5
+
+frame = 214
+effect = event=playsound name=CSTyStepMetal scale=0.5
+
+frame = 290
+effect = event=playsound name=D2RobotLegMove
+
+frame = 311
+effect = event=playsound name=D2RobotFootstep
+
+frame = 320
+effect = event=playsound name=D2RobotLegMove
+
+frame = 345
+effect = event=playsound name=D2RobotFootstep
+
+frame = 353
+effect = event=playsound name=D2RobotLegMove
+
+frame = 375
+effect = event=playsound name=D2RobotFootstep
+
+frame = 380
+effect = event=playsound name=D2RobotLegMove
+
+frame = 392
+effect = event=playsound name=D2RobotFootstep scale=0.60
+
+frame = 405
+effect = event=playsound name=D2RobotLegMove scale=0.60
+
+frame = 418
+effect = event=playsound name=CSTyStepMetal scale=0.5
+
+frame = 426
+effect = event=playsound name=D2RobotFootstep scale=0.60
+
+frame = 432
+effect = event=playsound name=D2RobotLegMove scale=0.60
+
+frame = 431
+effect = event=playsound name=CSTyStepMetal scale=0.5
+
+frame = 444
+effect = event=playsound name=CSTyStepMetal scale=0.5
+
+frame = 451
+effect = event=playsound name=D2RobotFootstep scale=0.60
+
+frame = 455
+effect = event=playsound name=CSTyStepMetal scale=0.5
+
+frame = 460
+effect = event=playsound name=D2RobotLegMove scale=0.60
+
+frame = 463
+effect = event=playsound name=CSTyStepMetal scale=0.5
+
+frame = 470
+effect = event=playsound name=CSTyStepMetal scale=0.5
+
+frame = 478
+effect = event=playsound name=CSTyStepMetal scale=0.5
+
+frame = 481
+effect = event=playsound name=D2RobotFootstep scale=0.60
+
+frame = 482
+effect = event=playsound name=TyJump
+
+frame = 493
+effect = event=playsound name=D2RobotLegMove scale=0.60
+
+frame = 514
+effect = event=playsound name=D2RobotFootstep scale=0.60
+
+frame = 520
+effect = event=playsound name=D2RobotLegMove scale=0.60
+
+frame = 533
+effect = event=playsound name=TyLedgeGrab
+
+frame = 536
+effect = event=playsound name=D2RobotFootstep scale=0.60
+
+frame = 545
+effect = event=playsound name=D2RobotLegMove scale=0.60
+
+frame = 566
+effect = event=playsound name=D2RobotFootstep scale=0.60
+
+frame = 572
+effect = event=playsound name=D2RobotLegMove scale=0.60
+
+frame = 593
+effect = event=playsound name=D2RobotFootstep scale=0.60
+
+frame = 605
+effect = event=playsound name=D2RobotLegMove scale=0.60
+
+frame = 629
+effect = event=playsound name=TyLedgePullUp
+
+frame = 630
+effect = event=playsound name=D2RobotFootstep scale=0.60
+
+frame = 645
+effect = event=playsound name=D2RobotLegMove scale=0.60
+
+frame = 652
+effect = event=playsound name=CSTyLandMetal
+
+frame = 670
+effect = event=playsound name=D2RobotFootstep scale=0.60
+
+frame = 686
+effect = event=playsound name=D2RobotLegMove scale=0.60
+
+frame = 707
+effect = event=playsound name=D2RobotFootstep scale=0.60
+
+frame = 722
+effect = event=playsound name=D2RobotLegMove scale=0.60
+
+frame = 743
+effect = event=playsound name=D2RobotFootstep scale=0.60
+
+frame = 754
+effect = event=playsound name=D2RobotLegMove scale=0.60
+
+frame = 775
+effect = event=playsound name=D2RobotFootstep scale=0.60
+
+frame = 786
+effect = event=playsound name=D2RobotLegMove scale=0.60
+
+//end

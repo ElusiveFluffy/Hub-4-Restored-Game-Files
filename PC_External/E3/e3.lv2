@@ -1,0 +1,193 @@
+// MapEd Data File version 2
+// Copyright Krome Studios
+// Saved by [LJP]   Date: 30/07/2002   Time: 10:39:17 AM
+//
+
+
+name setup
+
+WorldMinMax = -2095.877,-5879.585,-1615.425,4100.859,10618.318,3461.530
+ground = room_e3_01.mdl
+collisionHeapSize = 129024
+envcube = env_z1.mdl
+envrotate = 0
+fog = 0.60, 0.40, 0.20
+fogPlane = 1000.00,90000
+waterFog = 0.4, 0.35, 0.75
+maxDepth = 600.00
+farPlane = 25000.00
+waterFogPlane = 5.00
+waterFarPlane = 3500.00
+bDisplayMist = 0
+waterMaterial = fx_088
+causticMaterial = fx_089
+music = level1.wav
+light = -1.00, 1.50, 1.30
+bDrawLensFlare = 0
+lod_0 = 1250
+lod_1 = 2500
+lod_2 = 4500
+lod_3 = 8000
+lod_4 = 12000
+lod_5 = 17000
+lod_6 = 25000
+lod_7 = 40000
+overlay_1 = room_e3_02.mdl, 0, none
+overlay_2 = room_e3_03.mdl, 0, none
+shadow_dir = 0.604,-0.795,0.055
+shadow_fadeTo = 0.00
+shadow_height = 9000
+shadow_d1_nearFar = 100, 10000
+shadow_d1_radius = 1000
+shadow_d1_ranges = 600,700
+shadow_d1_bias = 0.0005
+shadow_d2_nearFar = 100,10000, 100,10000
+shadow_d2_radius = 800, 1500
+shadow_d2_ranges = 450,650, 3000,3300
+shadow_d2_bias = 0.0005, 0.0010
+shadow_d3_nearFar = 100,10000, 100,10000, 100,10000
+shadow_d3_radius = 800,1100,2000
+shadow_d3_ranges = 450,650, 850,9500, 1500,1600
+shadow_d3_bias = 0.0005, 0.001, 0.002
+switch_shadow_handheld 1
+switch_shadow_docked 1
+switch_shadow_d1_nearFar = 100, 20000
+switch_shadow_d1_radius = 4000
+switch_shadow_d1_ranges = 2000,4000
+switch_shadow_d1_bias = 0.0005
+switch_shadow_d2_nearFar = 100, 10000, 100, 10000
+switch_shadow_d2_radius = 10000, 2000
+switch_shadow_d2_ranges = 100000,10000, 1000,1700
+switch_shadow_d2_bias = 0.001, 0.001
+switch_shadow_d3_nearFar = 0, 10000, 100, 10000
+switch_shadow_d3_radius = 10000, 2000
+switch_shadow_d3_ranges = 100000,10000, 1000,1700
+switch_shadow_d3_bias = 0.001, 0.001
+switch_shadow_baked_ortho = 0.2, 0.16, 2000, 0, 0
+ssao 15 0.003 0.007 0.997 0.8
+bloom 0.6 0.6 0.6 1 1
+hsv 1 1 1.3
+
+name TY
+
+pos = 0, 0, 0
+rot = 0.000, 1.169, -0.000
+effect = 0,none
+// User: ???
+
+name FROG_TALISMAN
+
+pos = 311, 2691, 9
+rot = 0.410, -2.180, -0.050
+ID = 2,TalismanFrog
+bVisible = 1,true
+// User: LJP
+
+name DINGOTALISMAN
+
+pos = -189, 2688, -73
+rot = 0.497, 2.302, -0.038
+ID = 3,TalismanDingo
+bVisible = 1,true
+// User: LJP
+
+name COCKYTALISMAN
+
+pos = 1, 2687, -165
+rot = 0.427, 3.072, -0.030
+ID = 4,TalismanCocky
+bVisible = 1,true
+// User: LJP
+
+name PLATYTALISMAN
+
+pos = 175, 2688, -116
+rot = 0.388, -2.555, -0.031
+ID = 5,TalismanPlaty
+bVisible = 1,true
+// User: LJP
+
+name DIALOG
+
+pos = -317, 2688, 410
+ID = 6,endcutscene
+camera = camera
+  cameraSource = -268.518, 0.000, 448.366
+  cameraTarget = -868.518, 0.000, -151.634
+bUseEventCamera = 0,false
+heroPos = 0.000, 0.000, 0.000
+heroLookAt = 0.000, 0.000, 0.000
+bUseHeroPos = 0,false
+dialogNr = 7
+dialogNr2 = -1
+dialog2Nr = -1
+dialog2Nr2 = -1
+OnCompletion = event
+  TargetID = 7,d1prop
+  Message = Activate
+bUseNewDialog = 1,true
+OnActivation = event
+  TargetID = 0,none
+  Message = none
+bLevelIntro = 1,true
+bYesNoOption = 0,false
+OnYes = event
+  TargetID = 0,none
+  Message = none
+OnNo = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = -193, 2771, 660
+ID = 9,cycutscene
+camera = camera
+  cameraSource = 35.341, 4738.733, 1719.077
+  cameraTarget = -564.659, 4738.733, 1119.077
+bUseEventCamera = 0,false
+heroPos = 0.000, 0.000, 0.000
+heroLookAt = 0.000, 0.000, 0.000
+bUseHeroPos = 0,false
+dialogNr = 8
+dialogNr2 = -1
+dialog2Nr = -1
+dialog2Nr2 = -1
+OnCompletion = event
+  TargetID = 8,z1portal
+  Message = Activate
+bUseNewDialog = 1,true
+OnActivation = event
+  TargetID = 0,none
+  Message = none
+bLevelIntro = 0,false
+bYesNoOption = 0,false
+OnYes = event
+  TargetID = 0,none
+  Message = none
+OnNo = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+name PORTAL
+
+pos = 480, 2675, 231
+ID = 8,z1portal
+standPos = 0.000, 0.000, 0.000
+standYaw = 0.000
+connectingLevel = 0,z1
+bExitPortal = 0,false
+bVisible = 0,false
+// User: LJP
+
+name D1PROP
+
+pos = -537, 2584, 46
+ID = 7,d1prop
+OnCompletion = event
+  TargetID = 8,z1portal
+  Message = Activate
+OnCompletion100 = event
+  TargetID = 9,cycutscene
+  Message = Activate
+// User: LJP

@@ -1,0 +1,2493 @@
+// MapEd Data File version 2
+// Copyright Krome Studios
+// Saved by [LJP]   Date: 31/07/2002   Time: 2:07:22 PM
+//
+
+
+name setup
+
+WorldMinMax = -24704.859,-4000.000,-21047.561,49409.719,6726.539,50672.195
+ground = room_e4_01.mdl
+collisionHeapSize = 2065488
+envcube = env_e4.mdl
+bDrawLensFlare = 0
+envrotate = 0
+fog = 0.40, 0.35, 0.75
+fogPlane = 1000,90000
+waterFog = 0.4, 0.35, 0.75
+maxDepth = 600.00
+farPlane = 25000
+waterFogPlane = 5.00
+waterFarPlane = 3500.00
+bDisplayMist = 0
+waterMaterial = fx_088
+causticMaterial = fx_089
+music = level1.wav
+light = -1.00, 1.50, 1.30
+propDrawMult = 1,1.5,1.5
+propUpdateMult = 1,1.5,1.5
+lod_0 = 1250
+lod_1 = 2500
+lod_2 = 4500
+lod_3 = 8000
+lod_4 = 12000
+lod_5 = 17000
+lod_6 = 25000
+lod_7 = 40000
+overlay_0 = room_e4_02.mdl, 0, grasseffect
+overlay_1 = room_e4_03.mdl, 1, none
+switch_shadow_handheld 3
+switch_shadow_docked 3
+switch_shadow_d1_nearFar = 100, 20000
+switch_shadow_d1_radius = 4000
+switch_shadow_d1_ranges = 2000,4000
+switch_shadow_d1_bias = 0.0005
+switch_shadow_d2_nearFar = 100, 10000, 100, 10000
+switch_shadow_d2_radius = 10000, 2000
+switch_shadow_d2_ranges = 100000,10000, 1000,1700
+switch_shadow_d2_bias = 0.001, 0.001
+switch_shadow_d3_nearFar = 100, 10000, 0, 10000
+switch_shadow_d3_radius = 2000, 10000, 
+switch_shadow_d3_ranges = 1000,1700, 100000,10000
+switch_shadow_d3_bias = 0.001, 0.001
+switch_shadow_baked_ortho = 0.16, 0.26,-5250, -3500, 0
+ssao 15 0.003 0.007 0.997 0.8
+bloom 0.5 0.5 0.7 1.3 2
+hsv 1 1.1 1.1
+
+
+name TY
+
+pos = 12, 0, -2049
+rot = 0.000, 3.000, -0.000
+effect = 0,none
+// User: ???
+
+name TYATTRIBUTES
+
+pos = -141, 0, -1620
+rot = 0.000, 0.000, 0.000
+ID = 2,tyattrib
+// User: LJP
+
+name TRIGGERBOX
+
+pos = -1264, 2059, -2365
+ID = 3,fall3
+box = boxzone
+  pos = -41,-362,-5138
+  yaw = -1.58
+  width = 10000.00
+  height = 100.00
+  depth = 15000.00
+  pitch = 0.00
+bActive = 1,true
+OnEnter = event
+  TargetID = 0,none
+  Message = none
+OnAction = event
+  TargetID = 0,none
+  Message = none
+OnExit = event
+  TargetID = 2,tyattrib
+  Message = FallingOffGeoFluffy
+bExclaim = 0,false
+bEnterOnceOnly = 0,false
+bExitOnceOnly = 0,false
+bActionOnceOnly = 0,false
+targetID = 0,none
+// User: LJP
+
+pos = 1732, 490, -96
+ID = 4,fall1
+box = boxzone
+  pos = 2016,-261,217
+  yaw = -0.01
+  width = 1200.00
+  height = 100.00
+  depth = 750.00
+  pitch = 0.00
+bActive = 1,true
+OnEnter = event
+  TargetID = 0,none
+  Message = none
+OnAction = event
+  TargetID = 0,none
+  Message = none
+OnExit = event
+  TargetID = 2,tyattrib
+  Message = FallingOffGeoFluffy
+bExclaim = 0,false
+bEnterOnceOnly = 0,false
+bExitOnceOnly = 0,false
+bActionOnceOnly = 0,false
+targetID = 0,none
+// User: LJP
+
+pos = -2062, 490, -124
+ID = 5,fall2
+box = boxzone
+  pos = -1914,-466,232
+  yaw = -0.01
+  width = 1200.00
+  height = 100.00
+  depth = 750.00
+  pitch = 0.00
+bActive = 1,true
+OnEnter = event
+  TargetID = 0,none
+  Message = none
+OnAction = event
+  TargetID = 0,none
+  Message = none
+OnExit = event
+  TargetID = 2,tyattrib
+  Message = FallingOffGeoFluffy
+bExclaim = 0,false
+bEnterOnceOnly = 0,false
+bExitOnceOnly = 0,false
+bActionOnceOnly = 0,false
+targetID = 0,none
+// User: LJP
+
+name DIALOG
+
+pos = 143, 0, -1858
+ID = 6,introdialog
+camera = camera
+  cameraSource = 342.033, 17.453, -2123.399
+  cameraTarget = 128.571, 0.000, -1835.212
+bUseEventCamera = 0,false
+heroPos = 0.000, 0.000, 0.000
+heroLookAt = 0.000, 0.000, 0.000
+bUseHeroPos = 0,false
+dialogNr = 1
+dialogNr2 = -1
+dialog2Nr = -1
+dialog2Nr2 = -1
+OnCompletion = event
+  TargetID = 132,8frill
+  Message = Activate
+bUseNewDialog = 1,true
+OnActivation = event
+  TargetID = 83,entryglow
+  Message = Hide
+bLevelIntro = 1,true
+bYesNoOption = 0,false
+OnYes = event
+  TargetID = 0,none
+  Message = none
+OnNo = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = -4, 0, -1881
+ID = 7,hitallbolts
+camera = camera
+  cameraSource = -173.843, 0.000, -2108.989
+  cameraTarget = -4.229, 16.436, -1880.714
+bUseEventCamera = 0,false
+heroPos = 0.000, 0.000, 0.000
+heroLookAt = 0.000, 0.000, 0.000
+bUseHeroPos = 0,false
+dialogNr = 2
+dialogNr2 = -1
+dialog2Nr = -1
+dialog2Nr2 = -1
+OnCompletion = event
+  TargetID = 0,none
+  Message = none
+bUseNewDialog = 1,true
+OnActivation = event
+  TargetID = 0,none
+  Message = none
+bLevelIntro = 0,false
+bYesNoOption = 0,false
+OnYes = event
+  TargetID = 0,none
+  Message = none
+OnNo = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = -97, 0, -1135
+ID = 8,slyappears
+camera = camera
+  cameraSource = 2.813, 0.000, -1034.959
+  cameraTarget = -597.187, 0.000, -1634.959
+bUseEventCamera = 0,false
+heroPos = 2.000, 0.000, -1494.000
+heroLookAt = -4.000, 0.000, -1239.000
+bUseHeroPos = 1,true
+dialogNr = 6
+dialogNr2 = -1
+dialog2Nr = -1
+dialog2Nr2 = -1
+OnCompletion = event
+  TargetID = 83,entryglow
+  Message = Show
+bUseNewDialog = 1,true
+OnActivation = event
+  TargetID = 20,hidehead
+  Message = Activate
+bLevelIntro = 0,false
+bYesNoOption = 0,false
+OnYes = event
+  TargetID = 0,none
+  Message = none
+OnNo = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = 146, 12, -1158
+ID = 9,intoneck
+camera = camera
+  cameraSource = 246.433, 12.160, -1058.220
+  cameraTarget = -353.567, 12.160, -1658.220
+bUseEventCamera = 0,false
+heroPos = 0.000, 0.000, 0.000
+heroLookAt = 0.000, 0.000, 0.000
+bUseHeroPos = 0,false
+dialogNr = 50
+dialogNr2 = -1
+dialog2Nr = -1
+dialog2Nr2 = -1
+OnCompletion = event
+  TargetID = 22,doomerangstart
+  Message = Activate
+bUseNewDialog = 1,true
+OnActivation = event
+  TargetID = 0,none
+  Message = none
+bLevelIntro = 0,false
+bYesNoOption = 0,false
+OnYes = event
+  TargetID = 0,none
+  Message = none
+OnNo = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+name SCRIPT
+
+pos = -1041, -1100, 10
+ID = 10,coolallbroke
+delay = 0.000
+bDelayEachMessage = 0,false
+bEnabled = 1,true
+Message0 = event
+  TargetID = 138,cool3spawn
+  Message = Deactivate
+Message1 = event
+  TargetID = 134,allbroke1
+  Message = Activate
+Message2 = event
+  TargetID = 135,allbroke2
+  Message = Activate
+Message3 = event
+  TargetID = 136,allbroke3
+  Message = Activate
+Message4 = event
+  TargetID = 0,none
+  Message = none
+Message5 = event
+  TargetID = 0,none
+  Message = none
+Message6 = event
+  TargetID = 0,none
+  Message = none
+Message7 = event
+  TargetID = 0,none
+  Message = none
+Message8 = event
+  TargetID = 0,none
+  Message = none
+Message9 = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = 177, 0, -1596
+ID = 11,activateburners
+delay = 0.000
+bDelayEachMessage = 0,false
+bEnabled = 1,true
+Message0 = event
+  TargetID = 12,activateburnera
+  Message = activate
+Message1 = event
+  TargetID = 13,activateburnerb
+  Message = Activate
+Message2 = event
+  TargetID = 14,activateburnerc
+  Message = activate
+Message3 = event
+  TargetID = 15,activateburnerd
+  Message = Activate
+Message4 = event
+  TargetID = 0,none
+  Message = none
+Message5 = event
+  TargetID = 0,none
+  Message = none
+Message6 = event
+  TargetID = 0,none
+  Message = none
+Message7 = event
+  TargetID = 0,none
+  Message = none
+Message8 = event
+  TargetID = 0,none
+  Message = none
+Message9 = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = 80, -0, -1461
+ID = 12,activateburnera
+delay = 0.000
+bDelayEachMessage = 0,false
+bEnabled = 1,true
+Message0 = event
+  TargetID = 104,r
+  Message = Activate
+Message1 = event
+  TargetID = 107,o
+  Message = Activate
+Message2 = event
+  TargetID = 106,p
+  Message = Activate
+Message3 = event
+  TargetID = 105,q
+  Message = Activate
+Message4 = event
+  TargetID = 108,n
+  Message = Activate
+Message5 = event
+  TargetID = 109,m
+  Message = Activate
+Message6 = event
+  TargetID = 113,i
+  Message = Activate
+Message7 = event
+  TargetID = 111,k
+  Message = Activate
+Message8 = event
+  TargetID = 117,e
+  Message = Activate
+Message9 = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = 408, -0, -1579
+ID = 13,activateburnerb
+delay = 0.000
+bDelayEachMessage = 0,false
+bEnabled = 1,true
+Message0 = event
+  TargetID = 112,j
+  Message = Activate
+Message1 = event
+  TargetID = 110,l
+  Message = Activate
+Message2 = event
+  TargetID = 116,f
+  Message = Activate
+Message3 = event
+  TargetID = 121,a
+  Message = Activate
+Message4 = event
+  TargetID = 119,c
+  Message = Activate
+Message5 = event
+  TargetID = 115,g
+  Message = Activate
+Message6 = event
+  TargetID = 120,b
+  Message = Activate
+Message7 = event
+  TargetID = 118,d
+  Message = Activate
+Message8 = event
+  TargetID = 114,h
+  Message = Activate
+Message9 = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = 195, 0, -1444
+ID = 14,activateburnerc
+delay = 0.000
+bDelayEachMessage = 0,false
+bEnabled = 1,true
+Message0 = event
+  TargetID = 101,z9
+  Message = Activate
+Message1 = event
+  TargetID = 98,z6
+  Message = Activate
+Message2 = event
+  TargetID = 99,z7
+  Message = Activate
+Message3 = event
+  TargetID = 100,z8
+  Message = Activate
+Message4 = event
+  TargetID = 97,z5
+  Message = Activate
+Message5 = event
+  TargetID = 96,z4
+  Message = Activate
+Message6 = event
+  TargetID = 95,z3
+  Message = Activate
+Message7 = event
+  TargetID = 94,z2
+  Message = Activate
+Message8 = event
+  TargetID = 93,z
+  Message = Activate
+Message9 = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = 309, 0, -1499
+ID = 15,activateburnerd
+delay = 0.000
+bDelayEachMessage = 0,false
+bEnabled = 1,true
+Message0 = event
+  TargetID = 92,y
+  Message = Activate
+Message1 = event
+  TargetID = 91,x
+  Message = Activate
+Message2 = event
+  TargetID = 90,w
+  Message = Activate
+Message3 = event
+  TargetID = 89,v
+  Message = Activate
+Message4 = event
+  TargetID = 88,u
+  Message = Activate
+Message5 = event
+  TargetID = 87,t
+  Message = Activate
+Message6 = event
+  TargetID = 86,s
+  Message = Activate
+Message7 = event
+  TargetID = 102,z10
+  Message = Activate
+Message8 = event
+  TargetID = 103,z11
+  Message = Activate
+Message9 = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = -1006, -1100, 622
+ID = 16,cool3script
+delay = 0.000
+bDelayEachMessage = 0,false
+bEnabled = 1,true
+Message0 = event
+  TargetID = 133,cool2spawn
+  Message = Deactivate
+Message1 = event
+  TargetID = 138,cool3spawn
+  Message = Activate
+Message2 = event
+  TargetID = 0,none
+  Message = none
+Message3 = event
+  TargetID = 0,none
+  Message = none
+Message4 = event
+  TargetID = 0,none
+  Message = none
+Message5 = event
+  TargetID = 0,none
+  Message = none
+Message6 = event
+  TargetID = 0,none
+  Message = none
+Message7 = event
+  TargetID = 0,none
+  Message = none
+Message8 = event
+  TargetID = 0,none
+  Message = none
+Message9 = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = -1046, -1100, 331
+ID = 17,cool1script
+delay = 0.000
+bDelayEachMessage = 0,false
+bEnabled = 1,true
+Message0 = event
+  TargetID = 132,8frill
+  Message = Deactivate
+Message1 = event
+  TargetID = 137,cool1spawn
+  Message = Activate
+Message2 = event
+  TargetID = 0,none
+  Message = none
+Message3 = event
+  TargetID = 0,none
+  Message = none
+Message4 = event
+  TargetID = 0,none
+  Message = none
+Message5 = event
+  TargetID = 0,none
+  Message = none
+Message6 = event
+  TargetID = 0,none
+  Message = none
+Message7 = event
+  TargetID = 0,none
+  Message = none
+Message8 = event
+  TargetID = 0,none
+  Message = none
+Message9 = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = -1055, -1100, 445
+ID = 18,cool2script
+delay = 0.000
+bDelayEachMessage = 0,false
+bEnabled = 1,true
+Message0 = event
+  TargetID = 137,cool1spawn
+  Message = Deactivate
+Message1 = event
+  TargetID = 133,cool2spawn
+  Message = Activate
+Message2 = event
+  TargetID = 0,none
+  Message = none
+Message3 = event
+  TargetID = 0,none
+  Message = none
+Message4 = event
+  TargetID = 0,none
+  Message = none
+Message5 = event
+  TargetID = 0,none
+  Message = none
+Message6 = event
+  TargetID = 0,none
+  Message = none
+Message7 = event
+  TargetID = 0,none
+  Message = none
+Message8 = event
+  TargetID = 0,none
+  Message = none
+Message9 = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = -226, 0, -916
+ID = 19,delay
+delay = 2.000
+bDelayEachMessage = 0,false
+bEnabled = 1,true
+Message0 = event
+  TargetID = 7,hitallbolts
+  Message = Activate
+Message1 = event
+  TargetID = 0,none
+  Message = none
+Message2 = event
+  TargetID = 0,none
+  Message = none
+Message3 = event
+  TargetID = 0,none
+  Message = none
+Message4 = event
+  TargetID = 0,none
+  Message = none
+Message5 = event
+  TargetID = 0,none
+  Message = none
+Message6 = event
+  TargetID = 0,none
+  Message = none
+Message7 = event
+  TargetID = 0,none
+  Message = none
+Message8 = event
+  TargetID = 0,none
+  Message = none
+Message9 = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = -237, 0, -1115
+ID = 20,hidehead
+delay = 0.000
+bDelayEachMessage = 0,false
+bEnabled = 1,true
+Message0 = event
+  TargetID = 82,boltright
+  Message = Hide
+Message1 = event
+  TargetID = 80,Face
+  Message = Hide
+Message2 = event
+  TargetID = 81,boltleft
+  Message = Hide
+Message3 = event
+  TargetID = 2,tyattrib
+  Message = GotDoomarang
+Message4 = event
+  TargetID = 0,none
+  Message = none
+Message5 = event
+  TargetID = 0,none
+  Message = none
+Message6 = event
+  TargetID = 0,none
+  Message = none
+Message7 = event
+  TargetID = 0,none
+  Message = none
+Message8 = event
+  TargetID = 0,none
+  Message = none
+Message9 = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+name ICECOOLANTOBJECTIVE
+
+pos = -1059, -1100, 213
+ID = 21,coolobjective
+OnSuccess = event
+  TargetID = 8,slyappears
+  Message = Activate
+On1stBroken = event
+  TargetID = 17,cool1script
+  Message = Activate
+On2ndBroken = event
+  TargetID = 18,cool2script
+  Message = Activate
+On3rdBroken = event
+  TargetID = 16,cool3script
+  Message = Activate
+OnAllBroken = event
+  TargetID = 10,coolallbroke
+  Message = Activate
+// User: LJP
+
+name ENDGAMEOBJECTIVE
+
+pos = -406, 17, -1958
+ID = 22,doomerangstart
+OnStart = event
+  TargetID = 9,intoneck
+  Message = Activate
+OnSuccess = event
+  TargetID = 49,portal
+  Message = Activate
+// User: LJP
+
+name SOUNDPROP
+
+pos = -4747, 10512, 3696
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4Tunnel,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.500
+maxDelay = 1.000
+bActive = 1,true
+ID = 23,blank
+dummySphere = spherezone
+  pos = -4747,10512,3696
+  radius = 1500.00
+// User: AJM
+
+pos = -2700, 8000, -1400
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4Tunnel,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.500
+maxDelay = 1.000
+bActive = 1,true
+ID = 24,blank
+dummySphere = spherezone
+  pos = 447,11952,3699
+  radius = 1500.00
+// User: AJM
+
+pos = -5247, 8816, 2503
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4Tunnel,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.500
+maxDelay = 1.000
+bActive = 1,true
+ID = 25,blank
+dummySphere = spherezone
+  pos = -5247,8816,2503
+  radius = 1500.00
+// User: AJM
+
+pos = -6085, 9791, 5646
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4TunnelLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 26,blank
+dummySphere = spherezone
+  pos = -6085,9791,5646
+  radius = 1500.00
+// User: AJM
+
+pos = -2752, 8001, -1385
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4TunnelLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 27,blank
+dummySphere = spherezone
+  pos = -2752,8001,-1385
+  radius = 1501.00
+// User: AJM
+
+pos = 2, 1412, -78
+rot = 0.000, 0.000, 0.000
+sound = *CassCockpitLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 28,blank
+dummySphere = spherezone
+  pos = 2,1412,-78
+  radius = 1000.00
+// User: AJM
+
+pos = -527, -1070, 626
+rot = 0.000, 0.000, 0.000
+sound = *CassInteriorLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 29,blank
+dummySphere = spherezone
+  pos = -527,-1070,626
+  radius = 1000.00
+// User: AJM
+
+pos = 455, -1070, 578
+rot = 0.000, 0.000, 0.000
+sound = *CassInteriorLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 30,blank
+dummySphere = spherezone
+  pos = 455,-1070,578
+  radius = 1000.00
+// User: AJM
+
+pos = -426, -1070, -1075
+rot = 0.000, 0.000, 0.000
+sound = *CassInteriorLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 31,blank
+dummySphere = spherezone
+  pos = -426,-1070,-1075
+  radius = 1500.00
+// User: AJM
+
+pos = 454, -1070, -1035
+rot = 0.000, 0.000, 0.000
+sound = *CassInteriorLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 32,blank
+dummySphere = spherezone
+  pos = 454,-1070,-1035
+  radius = 1500.00
+// User: AJM
+
+pos = -6002, 8274, -727
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4TunnelLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 33,blank
+dummySphere = spherezone
+  pos = -6002,8274,-727
+  radius = 1500.00
+// User: AJM
+
+pos = -4237, 8908, 1191
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4TunnelLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 34,blank
+dummySphere = spherezone
+  pos = -4237,8908,1191
+  radius = 1500.00
+// User: AJM
+
+pos = -4845, 9018, 4109
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4TunnelLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 35,blank
+dummySphere = spherezone
+  pos = -4845,9018,4109
+  radius = 1500.00
+// User: AJM
+
+pos = -3369, 11556, 5958
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4TunnelLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 36,blank
+dummySphere = spherezone
+  pos = -3369,11556,5958
+  radius = 1500.00
+// User: AJM
+
+pos = 373, 12244, 1774
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4TunnelLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 37,blank
+dummySphere = spherezone
+  pos = 373,12244,1774
+  radius = 1501.00
+// User: AJM
+
+pos = -931, 11700, 4688
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4TunnelLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 38,blank
+dummySphere = spherezone
+  pos = -931,11700,4688
+  radius = 1501.00
+// User: AJM
+
+pos = -2663, 11284, 3446
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4TunnelLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 39,blank
+dummySphere = spherezone
+  pos = -2663,11284,3446
+  radius = 1502.00
+// User: AJM
+
+pos = -4577, 7908, -1861
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4Tunnel,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.500
+maxDelay = 1.000
+bActive = 1,true
+ID = 40,blank
+dummySphere = spherezone
+  pos = -4577,7908,-1861
+  radius = 1500.00
+// User: AJM
+
+pos = -6216, 8676, 409
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4Tunnel,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.500
+maxDelay = 1.000
+bActive = 1,true
+ID = 41,blank
+dummySphere = spherezone
+  pos = -6216,8676,409
+  radius = 1501.00
+// User: AJM
+
+pos = -6102, 9348, 4093
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4Tunnel,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.500
+maxDelay = 1.000
+bActive = 1,true
+ID = 42,blank
+dummySphere = spherezone
+  pos = -6102,9348,4093
+  radius = 1500.00
+// User: AJM
+
+pos = -4364, 10692, 5966
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4Tunnel,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.500
+maxDelay = 1.000
+bActive = 1,true
+ID = 43,blank
+dummySphere = spherezone
+  pos = -4364,10692,5966
+  radius = 1500.00
+// User: AJM
+
+pos = -1777, 11636, 4924
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4Tunnel,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.500
+maxDelay = 1.000
+bActive = 1,true
+ID = 44,blank
+dummySphere = spherezone
+  pos = -1777,11636,4924
+  radius = 1500.00
+// User: AJM
+
+pos = 197, 12516, 643
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4TunnelLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 45,blank
+dummySphere = spherezone
+  pos = 197,12516,643
+  radius = 1500.00
+// User: AJM
+
+pos = -3283, 11006, 3200
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4Tunnel,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.500
+maxDelay = 1.000
+bActive = 1,true
+ID = 46,blank
+dummySphere = spherezone
+  pos = -3283,11006,3200
+  radius = 1501.00
+// User: AJM
+
+pos = -6254, 8544, 600
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4Tunnel,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.500
+maxDelay = 1.000
+bActive = 1,true
+ID = 47,blank
+dummySphere = spherezone
+  pos = -6254,8544,600
+  radius = 1500.00
+// User: AJM
+
+pos = -3606, 8880, 898
+rot = 0.000, 0.000, 0.000
+sound = *EnvE4Tunnel,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.500
+maxDelay = 1.000
+bActive = 1,true
+ID = 48,blank
+dummySphere = spherezone
+  pos = -3606,8880,898
+  radius = 1500.00
+// User: AJM
+
+name PORTAL
+
+pos = 512, 17, -2078
+ID = 49,portal
+standPos = 0.000, 0.000, 0.000
+standYaw = 0.000
+connectingLevel = 22,e3
+bExitPortal = 0,false
+bVisible = 0,false
+// User: LJP
+
+name FLAMER
+
+pos = -535, 0, -1020
+rot = 0.000, 0.022, -0.000
+ID = 50,flamer7
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 275.000
+bVisible = 1,true
+bActive = 0,false
+bEnabled = 1,true
+// User: LJP
+
+pos = -1333, -83, -958
+rot = 0.000, -0.008, -0.000
+ID = 51,flamer1
+FlameOnTime = 3.000
+FlameOffTime = 0.010
+HeightOffset = 600.000
+bVisible = 1,true
+bActive = 0,false
+bEnabled = 1,true
+// User: LJP
+
+pos = 674, 18, -1851
+rot = 0.000, -1.570, 0.000
+ID = 52,flamer4
+FlameOnTime = 1.000
+FlameOffTime = 2.000
+HeightOffset = 600.000
+bVisible = 1,true
+bActive = 0,false
+bEnabled = 1,true
+// User: LJP
+
+pos = 548, 0, -1028
+rot = 0.000, -0.008, -0.000
+ID = 53,flamer8
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 275.000
+bVisible = 1,true
+bActive = 0,false
+bEnabled = 1,true
+// User: LJP
+
+pos = 980, -85, -963
+rot = -0.000, -0.013, -0.003
+ID = 54,flamer9
+FlameOnTime = 3.000
+FlameOffTime = 0.010
+HeightOffset = 600.000
+bVisible = 1,true
+bActive = 0,false
+bEnabled = 1,true
+// User: LJP
+
+pos = 1329, -86, -963
+rot = 0.000, 0.002, -0.000
+ID = 55,flamer10
+FlameOnTime = 3.000
+FlameOffTime = 0.010
+HeightOffset = 600.000
+bVisible = 1,true
+bActive = 0,false
+bEnabled = 1,true
+// User: LJP
+
+pos = 1354, -83, -1662
+rot = 0.000, -1.577, 0.000
+ID = 56,blank
+FlameOnTime = 2.500
+FlameOffTime = 1.000
+HeightOffset = 300.000
+bVisible = 1,true
+bActive = 0,false
+bEnabled = 1,true
+// User: LJP
+
+pos = 205, 0, -2480
+rot = 0.000, 3.140, -0.000
+ID = 57,flamer6
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 500.000
+bVisible = 1,true
+bActive = 0,false
+bEnabled = 1,true
+// User: LJP
+
+pos = -984, -83, -955
+rot = 0.000, -0.008, 0.003
+ID = 58,flamer2
+FlameOnTime = 3.000
+FlameOffTime = 0.010
+HeightOffset = 600.000
+bVisible = 1,true
+bActive = 0,false
+bEnabled = 1,true
+// User: LJP
+
+pos = -196, 0, -2478
+rot = 0.000, 3.140, 0.000
+ID = 59,flamer5
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 500.000
+bVisible = 1,true
+bActive = 0,false
+bEnabled = 1,true
+// User: LJP
+
+pos = -1322, -83, -1663
+rot = 0.000, 1.587, 0.000
+ID = 60,blank
+FlameOnTime = 2.500
+FlameOffTime = 1.000
+HeightOffset = 6.000
+bVisible = 1,true
+bActive = 0,false
+bEnabled = 1,true
+// User: LJP
+
+pos = -669, 18, -1854
+rot = 0.000, 1.572, 0.000
+ID = 61,flamer3
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 600.000
+bVisible = 1,true
+bActive = 0,false
+bEnabled = 1,true
+// User: LJP
+
+name E4DOOR
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+ID = 62,blank
+scale = 1.000, 1.000, 1.000
+OnEnable = event
+  TargetID = 0,none
+  Message = none
+OnSuccess = event
+  TargetID = 21,coolobjective
+  Message = Activate
+// User: LJP
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+ID = 63,doorright
+scale = -1.000, 1.000, 1.000
+OnEnable = event
+  TargetID = 19,delay
+  Message = Activate
+OnSuccess = event
+  TargetID = 11,activateburners
+  Message = activate
+// User: LJP
+
+name ICECOOLANT
+
+pos = 130, -1101, 386
+rot = 0.000, 3.142, 0.000
+ID = 64,blank
+OnSuccess = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = -407, -1101, -97
+rot = 0.000, 3.000, 0.000
+ID = 65,blank
+OnSuccess = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = -130, -1101, -384
+rot = 0.000, -3.082, 0.000
+ID = 66,blank
+OnSuccess = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = 130, -1101, -384
+rot = 0.000, 3.142, 0.000
+ID = 67,blank
+OnSuccess = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = 406, -1101, 115
+rot = 0.000, 2.980, 0.000
+ID = 68,blank
+OnSuccess = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = -412, -1101, 114
+rot = 0.000, 3.000, 0.000
+ID = 69,blank
+OnSuccess = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = 406, -1101, -96
+rot = 0.000, 2.980, 0.000
+ID = 70,blank
+OnSuccess = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = -115, -1101, 392
+rot = 0.000, -3.082, 0.000
+ID = 71,blank
+OnSuccess = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+name ICECOOLANTINNER
+
+pos = 130, -1101, 386
+rot = 0.000, 3.142, 0.000
+ID = 72,blank
+OnSuccess = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = -412, -1101, 114
+rot = 0.000, 3.000, 0.000
+ID = 73,blank
+OnSuccess = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = 406, -1101, -96
+rot = 0.000, 2.980, 0.000
+ID = 74,blank
+OnSuccess = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = -407, -1101, -97
+rot = 0.000, 3.000, 0.000
+ID = 75,blank
+OnSuccess = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = -130, -1101, -384
+rot = 0.000, -3.082, 0.000
+ID = 76,blank
+OnSuccess = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = 130, -1101, -384
+rot = 0.000, 3.142, 0.000
+ID = 77,blank
+OnSuccess = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = 406, -1101, 115
+rot = 0.000, 2.980, 0.000
+ID = 78,blank
+OnSuccess = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+pos = -115, -1101, 392
+rot = 0.000, -3.082, 0.000
+ID = 79,blank
+OnSuccess = event
+  TargetID = 0,none
+  Message = none
+// User: LJP
+
+name E4FACE
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+ID = 80,Face
+// User: LJP
+
+name E4BOLT
+
+pos = 264, 714, -170
+rot = 0.000, 0.000, 0.000
+ID = 81,boltleft
+// User: LJP
+
+pos = -269, 709, -165
+rot = -0.242, -3.004, -0.034
+ID = 82,boltright
+// User: LJP
+
+name ENTRYGLOW
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+ID = 83,entryglow
+// User: LJP
+
+name MECHANICS
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+scale = -1.000, 1.000, 1.000
+// User: LJP
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: LJP
+
+name LAVABURNER
+
+pos = 1304, -830, 1314
+rot = 0.000, 0.000, 0.000
+ID = 86,s
+FlameOnTime = 3.000
+FlameOffTime = 1.000
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 0,false
+// User: LJP
+
+pos = 890, -830, 1317
+rot = 0.000, 3.125, 0.000
+ID = 87,t
+FlameOnTime = 3.000
+FlameOffTime = 1.000
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 0,false
+// User: LJP
+
+pos = 1304, -541, 719
+rot = 0.000, 0.000, 0.000
+ID = 88,u
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 0,false
+// User: LJP
+
+pos = 890, -541, 721
+rot = 0.000, 3.125, 0.000
+ID = 89,v
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 0,false
+// User: LJP
+
+pos = 1304, -383, 719
+rot = 0.000, 0.000, 0.000
+ID = 90,w
+FlameOnTime = 3.000
+FlameOffTime = 3.000
+HeightOffset = 300.000
+Delay = 1.500
+bActive = 0,false
+// User: LJP
+
+pos = 890, -382, 721
+rot = 0.000, 3.125, 0.000
+ID = 91,x
+FlameOnTime = 3.000
+FlameOffTime = 3.000
+HeightOffset = 300.000
+Delay = 1.500
+bActive = 0,false
+// User: LJP
+
+pos = 1306, -312, 787
+rot = 0.000, 0.000, 0.000
+ID = 92,y
+FlameOnTime = 3.000
+FlameOffTime = 1.000
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 0,false
+// User: LJP
+
+pos = 892, -311, 790
+rot = 0.000, 3.125, 0.000
+ID = 93,z
+FlameOnTime = 3.000
+FlameOffTime = 1.000
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 0,false
+// User: LJP
+
+pos = 1304, -643, 1281
+rot = 0.000, 0.000, 0.000
+ID = 94,z2
+FlameOnTime = 3.000
+FlameOffTime = 1.000
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 0,false
+// User: LJP
+
+pos = 890, -642, 1284
+rot = 0.000, 3.125, 0.000
+ID = 95,z3
+FlameOnTime = 3.000
+FlameOffTime = 1.000
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 0,false
+// User: LJP
+
+pos = 1306, -263, 159
+rot = 0.000, 0.000, 0.000
+ID = 96,z4
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 0,false
+// User: LJP
+
+pos = 1306, -95, 159
+rot = 0.000, 0.000, 0.000
+ID = 97,z5
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 0,false
+// User: LJP
+
+pos = 892, -94, 161
+rot = 0.000, 3.125, 0.000
+ID = 98,z6
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 0,false
+// User: LJP
+
+pos = 892, -262, 161
+rot = 0.000, 3.125, 0.000
+ID = 99,z7
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 0,false
+// User: LJP
+
+pos = 1306, 37, 159
+rot = 0.000, 0.000, 0.000
+ID = 100,z8
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 0,false
+// User: LJP
+
+pos = 892, 38, 161
+rot = 0.000, 3.125, 0.000
+ID = 101,z9
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 0,false
+// User: LJP
+
+pos = 1304, -526, 1281
+rot = 0.000, 0.000, 0.000
+ID = 102,z10
+FlameOnTime = 3.000
+FlameOffTime = 1.000
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 0,false
+// User: LJP
+
+pos = 890, -526, 1284
+rot = 0.000, 3.125, 0.000
+ID = 103,z11
+FlameOnTime = 3.000
+FlameOffTime = 1.000
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 0,false
+// User: LJP
+
+pos = -1308, 33, 145
+rot = 0.000, 3.125, 0.000
+ID = 104,r
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 300.000
+Delay = 2.000
+bActive = 0,false
+// User: LJP
+
+pos = -894, 32, 142
+rot = 0.000, 0.000, 0.000
+ID = 105,q
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 300.000
+Delay = 2.000
+bActive = 0,false
+// User: LJP
+
+pos = -1308, -267, 145
+rot = 0.000, 3.125, 0.000
+ID = 106,p
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 300.000
+Delay = 2.000
+bActive = 0,false
+// User: LJP
+
+pos = -1308, -99, 145
+rot = 0.000, 3.125, 0.000
+ID = 107,o
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 300.000
+Delay = 2.000
+bActive = 0,false
+// User: LJP
+
+pos = -894, -100, 142
+rot = 0.000, 0.000, 0.000
+ID = 108,n
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 300.000
+Delay = 2.000
+bActive = 0,false
+// User: LJP
+
+pos = -894, -268, 142
+rot = 0.000, 0.000, 0.000
+ID = 109,m
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 300.000
+Delay = 2.000
+bActive = 0,false
+// User: LJP
+
+pos = -896, -388, 702
+rot = 0.000, 0.000, 0.000
+ID = 110,l
+FlameOnTime = 3.000
+FlameOffTime = 3.000
+HeightOffset = 300.000
+Delay = 3.500
+bActive = 0,false
+// User: LJP
+
+pos = -1310, -387, 705
+rot = 0.000, 3.125, 0.000
+ID = 111,k
+FlameOnTime = 3.000
+FlameOffTime = 3.000
+HeightOffset = 300.000
+Delay = 3.500
+bActive = 0,false
+// User: LJP
+
+pos = -895, -316, 770
+rot = 0.000, 0.000, 0.000
+ID = 112,j
+FlameOnTime = 3.000
+FlameOffTime = 1.000
+HeightOffset = 300.000
+Delay = 2.000
+bActive = 0,false
+// User: LJP
+
+pos = -1308, -316, 773
+rot = 0.000, 3.125, 0.000
+ID = 113,i
+FlameOnTime = 3.000
+FlameOffTime = 1.000
+HeightOffset = 300.000
+Delay = 2.000
+bActive = 0,false
+// User: LJP
+
+pos = -897, -835, 1298
+rot = 0.000, 0.000, 0.000
+ID = 114,h
+FlameOnTime = 3.000
+FlameOffTime = 1.000
+HeightOffset = 300.000
+Delay = 2.000
+bActive = 0,false
+// User: LJP
+
+pos = -1310, -834, 1301
+rot = 0.000, 3.125, 0.000
+ID = 115,g
+FlameOnTime = 3.000
+FlameOffTime = 1.000
+HeightOffset = 300.000
+Delay = 2.000
+bActive = 0,false
+// User: LJP
+
+pos = -896, -546, 702
+rot = 0.000, 0.000, 0.000
+ID = 116,f
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 300.000
+Delay = 2.000
+bActive = 0,false
+// User: LJP
+
+pos = -1310, -546, 705
+rot = 0.000, 3.125, 0.000
+ID = 117,e
+FlameOnTime = 2.000
+FlameOffTime = 2.000
+HeightOffset = 300.000
+Delay = 2.000
+bActive = 0,false
+// User: LJP
+
+pos = -897, -648, 1265
+rot = 0.000, 0.000, 0.000
+ID = 118,d
+FlameOnTime = 3.000
+FlameOffTime = 1.000
+HeightOffset = 300.000
+Delay = 2.000
+bActive = 0,false
+// User: LJP
+
+pos = -1310, -647, 1268
+rot = 0.000, 3.125, 0.000
+ID = 119,c
+FlameOnTime = 3.000
+FlameOffTime = 1.000
+HeightOffset = 300.000
+Delay = 2.000
+bActive = 0,false
+// User: LJP
+
+pos = -897, -531, 1265
+rot = 0.000, 0.000, 0.000
+ID = 120,b
+FlameOnTime = 3.000
+FlameOffTime = 1.000
+HeightOffset = 300.000
+Delay = 2.000
+bActive = 0,false
+// User: LJP
+
+pos = -1310, -530, 1268
+rot = 0.000, 3.125, 0.000
+ID = 121,a
+FlameOnTime = 3.000
+FlameOffTime = 1.000
+HeightOffset = 300.000
+Delay = 2.000
+bActive = 0,false
+// User: LJP
+
+name FRILLLIZARD
+
+pos = 375, -1070, 815
+rot = 0.000, -2.790, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 316, -1070, 1108
+  waypoint = -324, -1070, 1001
+spawnpool = 1
+ID = 122,blank
+bVisible = 1,true
+bActive = 1,true
+// User: LJP
+
+pos = 487, -1070, -873
+rot = 0.000, 3.083, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 719, -1065, -392
+  waypoint = 458, -1070, -572
+spawnpool = 1
+ID = 123,blank
+bVisible = 1,true
+bActive = 1,true
+// User: LJP
+
+pos = -655, -1070, 10
+rot = 0.000, 2.283, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = -329, -1070, 884
+  waypoint = -940, -1100, 270
+spawnpool = 1
+ID = 124,blank
+bVisible = 1,true
+bActive = 1,true
+// User: LJP
+
+pos = -677, -1070, -810
+rot = 0.000, 2.883, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = -429, -1070, -438
+  waypoint = -1147, -1100, -949
+spawnpool = 1
+ID = 125,blank
+bVisible = 1,true
+bActive = 1,true
+// User: LJP
+
+pos = -1033, -1100, 795
+rot = 0.000, 1.600, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = -1033, -1100, 907
+  waypoint = -1033, -1100, 216
+spawnpool = 1
+ID = 126,blank
+bVisible = 1,true
+bActive = 1,true
+// User: LJP
+
+pos = 25, -1070, -1490
+rot = 0.000, 2.883, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = -598, -1070, -1318
+  waypoint = 583, -1070, -1191
+spawnpool = 1
+ID = 127,blank
+bVisible = 1,true
+bActive = 1,true
+// User: LJP
+
+name BLUETONGUE
+
+pos = 489, -1070, 2010
+rot = 0.000, -0.390, -0.000
+spawnpool = 2
+type = 0,Patroller
+// User: LJP
+
+pos = 576, -1070, 1771
+rot = 0.000, -0.330, -0.000
+spawnpool = 2
+type = 0,Patroller
+// User: LJP
+
+name NINJAGECKO
+
+pos = -580, -1070, 2044
+rot = 0.000, 1.012, -0.000
+spawnpool = 3
+// User: LJP
+
+pos = -576, -1070, 1782
+rot = 0.000, 1.302, -0.000
+spawnpool = 3
+// User: LJP
+
+name ENEMYSPAWNER
+
+pos = 1146, -1100, 24
+rot = 0.000, 0.000, 0.000
+type = 1,FrillLizard
+delay = 1
+max = 6
+maintainMin = 2
+waypoints = waypoint
+  waypoint = 480, -1070, -908
+  waypoint = 26, -1070, -1488
+  waypoint = -675, -1070, -826
+  waypoint = -654, -1070, 7
+  waypoint = -1072, -1100, 882
+  waypoint = 377, -1070, 797
+  waypoint = 403, -1070, 316
+  waypoint = 908, -1100, -44
+subtype = 0
+delayChange = 0.000, 0.000, 0.000
+ID = 132,8frill
+bVisible = 0,false
+spawnpool = 1
+bSpawnOnActivate = 1,true
+bStealOk = 0,false
+bKillOnDeactivate = 0,false
+bFaceHero = 0,false
+bPlaceAtWaypoints = 1,true
+maxSpawnTotal = -1
+// User: LJP
+
+pos = 23, -1070, 898
+rot = 0.000, 0.000, 0.000
+type = 2,BlueTongue
+delay = 1
+max = 2
+maintainMin = 2
+waypoints = waypoint
+  waypoint = -932, -1029, 297
+  waypoint = -642, -999, -617
+  waypoint = 584, -1070, -786
+  waypoint = 1023, -1100, 990
+subtype = 0
+delayChange = 0.000, 0.000, 0.000
+ID = 133,cool2spawn
+bVisible = 0,false
+spawnpool = 2
+bSpawnOnActivate = 1,true
+bStealOk = 0,false
+bKillOnDeactivate = 0,false
+bFaceHero = 0,false
+bPlaceAtWaypoints = 1,true
+maxSpawnTotal = -1
+// User: LJP
+
+pos = 255, -1070, 1434
+rot = 0.000, 0.000, 0.000
+type = 4,NinjaGecko
+delay = 1
+max = 2
+maintainMin = -1
+waypoints = waypoint
+  waypoint = -662, -1070, 377
+  waypoint = 895, -1100, 293
+  waypoint = -339, -1070, -856
+subtype = 0
+delayChange = 0.000, 0.000, 0.000
+ID = 134,allbroke1
+bVisible = 0,false
+spawnpool = 3
+bSpawnOnActivate = 1,true
+bStealOk = 1,true
+bKillOnDeactivate = 0,false
+bFaceHero = 0,false
+bPlaceAtWaypoints = 1,true
+maxSpawnTotal = 3
+// User: LJP
+
+pos = -123, -1070, 1432
+rot = 0.000, 0.000, 0.000
+type = 1,FrillLizard
+delay = 1
+max = 2
+maintainMin = -1
+waypoints = waypoint
+  waypoint = 255, -1070, 1165
+  waypoint = 587, -1070, 495
+  waypoint = -613, -1070, 284
+subtype = 0
+delayChange = 0.000, 0.000, 0.000
+ID = 135,allbroke2
+bVisible = 0,false
+spawnpool = 1
+bSpawnOnActivate = 1,true
+bStealOk = 1,true
+bKillOnDeactivate = 0,false
+bFaceHero = 0,false
+bPlaceAtWaypoints = 1,true
+maxSpawnTotal = 3
+// User: LJP
+
+pos = 48, -1070, 1471
+rot = 0.000, 0.000, 0.000
+type = 2,BlueTongue
+delay = 1
+max = 2
+maintainMin = -1
+waypoints = waypoint
+  waypoint = -487, -1070, -310
+  waypoint = -191, -1070, 574
+  waypoint = 401, -1070, -654
+subtype = 0
+delayChange = 0.000, 0.000, 0.000
+ID = 136,allbroke3
+bVisible = 0,false
+spawnpool = 2
+bSpawnOnActivate = 1,true
+bStealOk = 1,true
+bKillOnDeactivate = 0,false
+bFaceHero = 0,false
+bPlaceAtWaypoints = 1,true
+maxSpawnTotal = 3
+// User: LJP
+
+pos = 457, -1070, 858
+rot = 0.000, 0.000, 0.000
+type = 1,FrillLizard
+delay = 1
+max = 2
+maintainMin = 2
+waypoints = waypoint
+  waypoint = -317, -1061, -1274
+  waypoint = -405, -1070, 1169
+  waypoint = 431, -1070, 291
+  waypoint = -872, -1100, -348
+subtype = 0
+delayChange = 0.000, 0.000, 0.000
+ID = 137,cool1spawn
+bVisible = 0,false
+spawnpool = 1
+bSpawnOnActivate = 1,true
+bStealOk = 1,true
+bKillOnDeactivate = 0,false
+bFaceHero = 0,false
+bPlaceAtWaypoints = 1,true
+maxSpawnTotal = -1
+// User: LJP
+
+pos = -145, -1070, 895
+rot = 0.000, 0.000, 0.000
+type = 4,NinjaGecko
+delay = 1
+max = 2
+maintainMin = 2
+waypoints = waypoint
+  waypoint = 393, -1057, -890
+  waypoint = -608, -1070, 974
+  waypoint = 713, -1065, 409
+  waypoint = 28, -1070, 1287
+subtype = 0
+delayChange = 0.000, 0.000, 0.000
+ID = 138,cool3spawn
+bVisible = 0,false
+spawnpool = 3
+bSpawnOnActivate = 1,true
+bStealOk = 0,false
+bKillOnDeactivate = 0,false
+bFaceHero = 0,false
+bPlaceAtWaypoints = 1,true
+maxSpawnTotal = -1
+// User: LJP
+
+name NEOFLUFFY
+
+pos = 0, 0, 0
+rot = 0.000, 0.000, 0.000
+// User: LJP
+
+name BOSSCASS
+
+pos = 8, 837, -177
+bEnabled = 1,true
+// User: LJP
+
+name STATICE4TUNNELSTRAIGHT
+
+pos = 0, 12609, 0
+rot = -1.571, 0.000, -0.000
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = 637, 12609, 1000
+rot = -1.571, 3.142, 0.000
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -3614, 8720, 1269
+rot = 0.046, -0.479, -1.410
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -4604, 8859, 1229
+rot = 0.046, -0.479, -1.410
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -3014, 7853, -2082
+rot = 1.201, 2.744, 0.168
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -2061, 8083, -412
+rot = -0.932, -0.571, 1.551
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = 637, 12609, 2000
+rot = -1.571, 3.142, 0.000
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = 637, 12609, 3000
+rot = -1.571, 3.142, 0.000
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = 637, 12609, 4000
+rot = -1.571, 3.142, 0.000
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+name STATICE4TUNNEL45
+
+pos = 0, 12609, 1000
+rot = -1.571, -0.000, 1.047
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = 186, 12286, 1900
+rot = -2.285, 0.361, -0.911
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -38, 11683, 4217
+rot = 2.385, -2.840, 0.981
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -882, 11767, 4697
+rot = 0.266, -2.874, -1.079
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -2415, 11513, 4191
+rot = -1.720, -3.134, -0.328
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -2485, 11688, 5450
+rot = 1.422, -3.134, -0.328
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -3740, 11403, 6330
+rot = -1.778, 2.375, -0.182
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -3570, 10979, 3291
+rot = 1.360, -2.359, -0.476
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -4841, 9940, 3741
+rot = 3.088, -1.422, 1.190
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -6525, 9309, 3358
+rot = -1.360, 0.782, -0.476
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -4969, 10261, 6044
+rot = -3.088, 1.720, 1.190
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -6695, 9733, 6398
+rot = 1.778, -0.766, -0.182
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -4126, 8151, 4650
+rot = -1.115, -3.009, 0.715
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -4065, 8622, 3800
+rot = -0.814, -3.031, -0.504
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -4625, 9018, 3108
+rot = 2.454, -0.383, 1.413
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -5291, 8778, 2438
+rot = 2.194, -0.576, 0.036
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -5395, 8256, 1622
+rot = 1.933, -0.385, -1.342
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -5078, 8212, 702
+rot = 1.417, 0.476, -0.464
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -2671, 8921, 1134
+rot = 2.818, -2.779, 0.875
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -6175, 8171, -383
+rot = -2.142, -2.575, -1.457
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -5679, 8208, -1221
+rot = 1.933, 0.341, -0.107
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -2599, 8149, -1222
+rot = -1.042, 0.096, 1.114
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+name STATICE4TUNNEL90
+
+pos = 719, 12010, 2669
+rot = 1.690, 2.427, -0.316
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -2888, 11692, 6338
+rot = 1.360, -2.359, -0.476
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -2718, 11269, 3298
+rot = -1.778, 2.375, -0.182
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -5673, 9599, 3365
+rot = -1.778, 2.375, -0.182
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -5842, 10023, 6405
+rot = 1.360, -2.359, -0.476
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -4844, 8403, 5133
+rot = -2.847, -1.097, -0.591
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -6583, 9137, 1148
+rot = -0.048, -2.575, -1.457
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -7274, 8692, 780
+rot = 2.275, -0.789, -0.582
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -5016, 7959, -1890
+rot = 2.283, 1.035, -0.619
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+name STATICE4TUNNEL180
+
+pos = 637, 12609, 0
+rot = -1.571, 3.142, 0.000
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -2877, 8895, 532
+rot = 1.142, 1.238, -0.127
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -4172, 8049, -1589
+rot = -1.200, -0.397, 0.168
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -3593, 7951, -1836
+rot = 1.941, -0.397, 0.168
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+name STATICE4TUNNELSPLIT
+
+pos = -1847, 11805, 4826
+rot = 3.088, -1.422, 1.190
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+name STATICE4TUNNELSPLIT2
+
+pos = -6486, 8989, 4959
+rot = 2.039, -1.422, 1.189
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+name STATICE4TUNNELSWERVE
+
+pos = -4572, 11061, 5954
+rot = 3.134, 0.149, 1.244
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -4443, 10740, 3652
+rot = 3.134, 0.149, 1.244
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -6486, 8989, 4959
+rot = -3.008, -0.067, -0.846
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -4478, 8666, 81
+rot = 1.142, 1.238, -0.127
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -3765, 9022, 495
+rot = 0.324, 0.363, 0.875
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -6960, 8405, -14
+rot = 0.797, 0.127, 0.860
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+name STATICE4TUNNELTIGHT
+
+pos = -5592, 9053, 5000
+rot = -3.008, -0.067, -0.846
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = 679, 11918, 3563
+rot = 1.707, -2.294, -0.136
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -5593, 8998, 1188
+rot = 0.046, -0.479, -1.410
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+name STATICE4TUNNELPIPE
+
+pos = 638, 12513, 1500
+rot = 3.142, 3.142, 0.000
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -3625, 8646, 1278
+rot = 2.388, -1.511, 0.957
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -4490, 8718, 1229
+rot = 0.744, -1.511, -0.688
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -5031, 9032, 1215
+rot = 0.744, -1.511, -0.688
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -411, 11703, 4496
+rot = 1.617, -2.112, -0.256
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -1317, 11962, 4784
+rot = -1.476, 1.393, 0.069
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = 638, 12449, 3920
+rot = 3.142, 3.142, 0.000
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = 638, 12598, 3920
+rot = 3.142, 3.142, 0.000
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = 638, 12761, 3920
+rot = 3.142, 3.142, 0.000
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = 638, 12523, 3825
+rot = 3.142, 3.142, 0.000
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = 638, 12677, 3825
+rot = 3.142, 3.142, 0.000
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+name STATICE4TUNNELZAPPER
+
+pos = 1, 12605, 879
+rot = 0.000, -3.142, -0.000
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -5864, 8241, -826
+rot = -1.162, -2.641, 0.007
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -2806, 8001, -1652
+rot = 1.201, 2.744, 0.168
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -2341, 8164, -749
+rot = 1.142, 2.503, 0.285
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -1775, 7813, -96
+rot = -2.033, -0.716, -0.039
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -4987, 8920, 2782
+rot = 1.281, -0.909, -0.222
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = -4826, 8418, 321
+rot = 1.349, 0.905, -0.359
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = 635, 12517, 3600
+rot = 0.000, -3.142, -0.000
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+pos = 635, 12694, 3600
+rot = 0.000, -3.142, -0.000
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP
+
+name STATICE4TUNNELEND
+
+pos = -851, 7238, 938
+rot = -2.210, 2.571, 1.552
+scale = 1.000, 1.000, 1.000
+castShadows = 0
+// User: LJP

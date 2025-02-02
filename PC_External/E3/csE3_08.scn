@@ -1,0 +1,35 @@
+[setup]
+ 
+camera = csD1_08_camera.cam,10,565
+actor = act1_41_cy,csD1_08_41_cy,10,565
+actor = Prop_0584_Cytube,csD1_08_0584_cytube,10,565
+subtitle = blank
+firstsample = blank
+ 
+[timeline]
+
+frame = 20
+effect = event=clear
+
+frame = 280
+effect = event=playsound name=D2MetalDoor1Open
+
+frame = 477
+effect = event=flashwhite
+
+frame = 478
+effect = event=playsound name=C1Flashes
+
+frame = 504
+effect = event=flashwhite
+
+frame = 505
+effect = event=playsound name=C1Flashes
+
+frame = 534
+effect = event=flashwhite
+
+frame = 535
+effect = event=playsound name=C1Flashes
+
+//end

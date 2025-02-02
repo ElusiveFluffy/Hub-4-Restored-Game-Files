@@ -1,0 +1,49 @@
+[setup]
+
+camera = CSD2_08_camera.cam,20,550
+actor = act_01_ty,CSD2_08_01_Ty,20,550
+actor = Act1_08_ShazzaProp,CSD2_08_03_shazza,20,550
+actor = Act_75_Shadowbat,csd2_08_02_Shadowbat,20,550
+actor = csd2_08_04_Talisman,csd2_08_04_Talisman,20,550
+subtitle = CSD2_08
+firstsample = CSE1_07_P11
+musicloop =
+PlaySFXName = TYCSD2_08_Extra
+
+[timeline]
+
+frame = 0
+subobjoff = 0,all
+subobjon  = 0,a_arm_l
+subobjon  = 0,a_arm_r
+subobjon  = 0,a_body
+subobjon  = 0,a_head
+subobjon  = 0,a_headbits
+
+frame = 24
+say = CSE1_07_P11,CSE1_07_P12
+subtitle = 0
+
+frame = 134
+effect = event=playsound name=ShadowBatFlap
+
+frame = 174
+effect = event=playsound name=ShadowBatFlap
+
+frame = 207
+effect = event=playsound name=ShadowBatFlap
+
+frame = 224
+effect = event=playsound name=CSWhoosh
+
+frame = 285
+effect = event=playsound name=CSTyStepMetal
+
+frame = 389
+say = CSE1_07_P12,none
+subtitle = 1
+
+frame = 429
+effect = event=playsound name=CSShazzaKiss
+
+//end

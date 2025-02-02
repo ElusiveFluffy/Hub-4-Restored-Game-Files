@@ -1,0 +1,2801 @@
+// MapEd Data File version 2
+// Copyright Krome Studios
+// Saved by [DYO]   Date: 15/08/2002   Time: 12:30:39 PM
+//
+
+
+name setup
+
+WorldMinMax = -7558.104,-2205.423,-15410.191,18823.465,6181.860,15410.191
+ground = room_e2_01.mdl
+collisionHeapSize = 909312
+envcube = env_e2.mdl
+bDrawLensFlare = 0
+envrotate = 0
+fog = 0.1, 0.05, 0.25
+fogPlane = 500,15000
+waterFog = 0.4, 0.35, 0.75
+maxDepth = 600.00
+farPlane = 25000.00
+waterFogPlane = 5.00
+waterFarPlane = 3500.00
+bDisplayMist = 0
+waterMaterial = fx_088
+causticMaterial = fx_089
+music = level1.wav
+disableOverlayShadows = 1
+light = -1.00, 1.50, 1.30
+lod_0 = 1250
+lod_1 = 2500
+lod_2 = 4500
+lod_3 = 8000
+lod_4 = 12000
+lod_5 = 17000
+lod_6 = 25000
+lod_7 = 40000
+overlay_0 = room_e2_03.mdl, 1, none
+overlay_1 = room_e2_02.mdl, 0, grasseffect
+overlay_2 = room_e2_04.mdl, 1, none
+overlay_water = room_e2_water.mdl,room_e2_water.qsm
+shadow_dir = -0.250,-0.965,0.081
+shadow_fadeTo = 0.40
+shadow_height = 9000
+shadow_d1_nearFar = 100, 10000
+shadow_d1_radius = 1500
+shadow_d1_ranges = 1100,1200
+shadow_d1_bias = 0.0005
+shadow_d2_nearFar = 100,10000, 100,10000
+shadow_d2_radius = 1000, 5000
+shadow_d2_ranges = 600,700, 4000,4500
+shadow_d2_bias = 0.0005, 0.0010
+shadow_d3_nearFar = 100,10000, 100,10000, 100,10000
+shadow_d3_radius = 1000,2500,9000
+shadow_d3_ranges = 600,700, 1600,2000, 7500,8250
+shadow_d3_bias = 0.0005, 0.0008, 0.0015
+switch_shadow_handheld 3
+switch_shadow_docked 3
+switch_shadow_d1_nearFar = 100, 20000
+switch_shadow_d1_radius = 4000
+switch_shadow_d1_ranges = 2000,4000
+switch_shadow_d1_bias = 0.0005
+switch_shadow_d2_nearFar = 100, 10000, 100, 10000
+switch_shadow_d2_radius = 10000, 2000
+switch_shadow_d2_ranges = 100000,10000, 1000,1700
+switch_shadow_d2_bias = 0.001, 0.001
+switch_shadow_d3_nearFar = 100, 10000, 0, 10000
+switch_shadow_d3_radius = 2000, 10000
+switch_shadow_d3_ranges = 1000,1700, 100000,10000
+switch_shadow_d3_bias = 0.001, 0.001
+switch_shadow_baked_ortho = 0.7, 0.9, -1000, -4000, -8000
+ssao 15 0.003 0.007 0.995 0.8
+bloom 0.5 0.5 0.7 1.3 2
+hsv 1 1.1 1.1
+
+name TY
+
+pos = -6306, -866, -7322
+rot = 0.000, 1.169, -0.000
+effect = 0,none
+// User: ???
+
+name TRIGGERSPHERE
+
+pos = 8063, 2641, -6169
+ID = 2,ConfrontSlyTrigger
+sphere = spherezone
+  pos = 8545,2781,-6745
+  radius = 700.00
+bActive = 1,true
+OnEnter = event
+  TargetID = 8,ConfrontSly
+  Message = Activate
+OnAction = event
+  TargetID = 0,none
+  Message = none
+OnExit = event
+  TargetID = 0,none
+  Message = none
+bExclaim = 0,false
+bEnterOnceOnly = 1,true
+bExitOnceOnly = 0,false
+bActionOnceOnly = 0,false
+targetID = 0,none
+bSaveEnterOnceOnly = 0,false
+// User: DYO
+
+name TRIGGERBOX
+
+pos = 8833, 2641, -8343
+ID = 3,EndOfLevelTrigger
+box = boxzone
+  pos = 8981,2741,-7868
+  yaw = 0.15
+  width = 1000.00
+  height = 200.00
+  depth = 300.00
+  pitch = 0.00
+bActive = 0,false
+OnEnter = event
+  TargetID = 9,EndOfLevel
+  Message = Activate
+OnAction = event
+  TargetID = 0,none
+  Message = none
+OnExit = event
+  TargetID = 0,none
+  Message = none
+bExclaim = 0,false
+bEnterOnceOnly = 1,true
+bExitOnceOnly = 0,false
+bActionOnceOnly = 0,false
+targetID = 0,none
+bSaveEnterOnceOnly = 0,false
+// User: DYO
+
+pos = -4523, -1354, -4883
+ID = 4,ShazzaCutsceneTrigger
+box = boxzone
+  pos = -4473,-1254,-4005
+  yaw = -0.45
+  width = 1000.00
+  height = 400.00
+  depth = 1000.00
+  pitch = 0.00
+bActive = 1,true
+OnEnter = event
+  TargetID = 30,GateHideScript
+  Message = Activate
+OnAction = event
+  TargetID = 0,none
+  Message = none
+OnExit = event
+  TargetID = 0,none
+  Message = none
+bExclaim = 0,false
+bEnterOnceOnly = 1,true
+bExitOnceOnly = 0,false
+bActionOnceOnly = 0,false
+targetID = 0,none
+bSaveEnterOnceOnly = 0,false
+// User: DYO
+
+pos = -1904, -1354, -1883
+ID = 5,Restart1Trigger
+box = boxzone
+  pos = -1756,-1222,-2102
+  yaw = -0.80
+  width = 800.00
+  height = 400.00
+  depth = 1500.00
+  pitch = 0.00
+bActive = 1,true
+OnEnter = event
+  TargetID = 52,Restart1
+  Message = Activate
+OnAction = event
+  TargetID = 0,none
+  Message = none
+OnExit = event
+  TargetID = 0,none
+  Message = none
+bExclaim = 0,false
+bEnterOnceOnly = 0,false
+bExitOnceOnly = 0,false
+bActionOnceOnly = 0,false
+targetID = 0,none
+bSaveEnterOnceOnly = 0,false
+// User: DYO
+
+pos = 107, 42, -7587
+ID = 6,Restart3Trigger
+box = boxzone
+  pos = 344,110,-7238
+  yaw = 1.49
+  width = 400.00
+  height = 200.00
+  depth = 1000.00
+  pitch = 0.00
+bActive = 1,true
+OnEnter = event
+  TargetID = 53,Restart3
+  Message = Activate
+OnAction = event
+  TargetID = 0,none
+  Message = none
+OnExit = event
+  TargetID = 0,none
+  Message = none
+bExclaim = 0,false
+bEnterOnceOnly = 0,false
+bExitOnceOnly = 0,false
+bActionOnceOnly = 0,false
+targetID = 0,none
+bSaveEnterOnceOnly = 0,false
+// User: DYO
+
+pos = 1576, 1381, -14314
+ID = 7,Restart2Trigger
+box = boxzone
+  pos = 1537,1451,-13772
+  yaw = 0.70
+  width = 705.00
+  height = 400.00
+  depth = 1005.00
+  pitch = 0.00
+bActive = 1,true
+OnEnter = event
+  TargetID = 54,Restart2
+  Message = Activate
+OnAction = event
+  TargetID = 0,none
+  Message = none
+OnExit = event
+  TargetID = 0,none
+  Message = none
+bExclaim = 0,false
+bEnterOnceOnly = 0,false
+bExitOnceOnly = 0,false
+bActionOnceOnly = 0,false
+targetID = 0,none
+bSaveEnterOnceOnly = 0,false
+// User: DYO
+
+name DIALOG
+
+pos = 8591, 2641, -6045
+ID = 8,ConfrontSly
+camera = camera
+  cameraSource = 8513.625, 2640.273, -5813.438
+  cameraTarget = 7913.625, 2640.273, -6413.438
+bUseEventCamera = 0,false
+heroPos = 0.000, 0.000, 0.000
+heroLookAt = 0.000, 0.000, 0.000
+bUseHeroPos = 0,false
+dialogNr = 3
+dialogNr2 = -1
+dialog2Nr = -1
+dialog2Nr2 = -1
+OnCompletion = event
+  TargetID = 0,none
+  Message = none
+bUseNewDialog = 1,true
+OnActivation = event
+  TargetID = 0,none
+  Message = none
+bLevelIntro = 0,false
+bYesNoOption = 0,false
+OnYes = event
+  TargetID = 0,none
+  Message = none
+OnNo = event
+  TargetID = 0,none
+  Message = none
+// User: DYO
+
+pos = 9234, 2641, -8012
+ID = 9,EndOfLevel
+camera = camera
+  cameraSource = 9334.454, 2641.433, -7912.298
+  cameraTarget = 8734.454, 2641.433, -8512.299
+bUseEventCamera = 0,false
+heroPos = 0.000, 0.000, 0.000
+heroLookAt = 0.000, 0.000, 0.000
+bUseHeroPos = 0,false
+dialogNr = 5
+dialogNr2 = -1
+dialog2Nr = -1
+dialog2Nr2 = -1
+OnCompletion = event
+  TargetID = 51,PortalE4
+  Message = Activate
+bUseNewDialog = 1,true
+OnActivation = event
+  TargetID = 229,BlastDoors
+  Message = Hide
+bLevelIntro = 0,false
+bYesNoOption = 0,false
+OnYes = event
+  TargetID = 0,none
+  Message = none
+OnNo = event
+  TargetID = 0,none
+  Message = none
+// User: DYO
+
+pos = -1627, -1540, -3058
+ID = 10,ShadowBatIntro
+camera = camera
+  cameraSource = -1527.043, -1588.022, -2958.338
+  cameraTarget = -2127.043, -1588.022, -3558.338
+bUseEventCamera = 0,false
+heroPos = 0.000, 0.000, 0.000
+heroLookAt = 0.000, 0.000, 0.000
+bUseHeroPos = 0,false
+dialogNr = 7
+dialogNr2 = -1
+dialog2Nr = -1
+dialog2Nr2 = -1
+OnCompletion = event
+  TargetID = 29,GateShowScript
+  Message = Activate
+bUseNewDialog = 1,true
+OnActivation = event
+  TargetID = 0,none
+  Message = none
+bLevelIntro = 0,false
+bYesNoOption = 0,false
+OnYes = event
+  TargetID = 0,none
+  Message = none
+OnNo = event
+  TargetID = 0,none
+  Message = none
+// User: DYO
+
+pos = -1259, -1540, -3440
+ID = 11,ShadowBatDefeated
+camera = camera
+  cameraSource = -1158.531, -1588.022, -3339.762
+  cameraTarget = -1758.531, -1588.022, -3939.762
+bUseEventCamera = 0,false
+heroPos = 0.000, 0.000, 0.000
+heroLookAt = 0.000, 0.000, 0.000
+bUseHeroPos = 0,false
+dialogNr = 8
+dialogNr2 = -1
+dialog2Nr = -1
+dialog2Nr2 = -1
+OnCompletion = event
+  TargetID = 32,DefeatedScript2
+  Message = Activate
+bUseNewDialog = 1,true
+OnActivation = event
+  TargetID = 0,none
+  Message = none
+bLevelIntro = 0,false
+bYesNoOption = 0,false
+OnYes = event
+  TargetID = 0,none
+  Message = none
+OnNo = event
+  TargetID = 0,none
+  Message = none
+// User: DYO
+
+name PATH
+
+pos = 10290, 2641, -5266
+type = 11,EnemyRegion
+waypoints = waypoint
+  waypoint = 10636, 2641, -5749
+  waypoint = 10544, 2641, -6438
+  waypoint = 9994, 2641, -6504
+  waypoint = 9487, 2641, -6288
+  waypoint = 8980, 2640, -5833
+  waypoint = 7609, 2641, -5843
+  waypoint = 7471, 2646, -5243
+  waypoint = 8780, 2638, -4697
+  waypoint = 9258, 2639, -5209
+  waypoint = 9817, 2682, -5504
+// User: DYO
+
+pos = 8414, 2660, -4024
+type = 11,EnemyRegion
+waypoints = waypoint
+  waypoint = 8498, 2675, -3755
+  waypoint = 8486, 2818, -3457
+  waypoint = 9192, 2641, -3333
+  waypoint = 9421, 2641, -3943
+  waypoint = 9229, 2668, -4393
+  waypoint = 9075, 2659, -4795
+  waypoint = 8523, 2638, -4995
+  waypoint = 7872, 2635, -5117
+  waypoint = 7792, 2675, -4468
+  waypoint = 8115, 2670, -4312
+// User: DYO
+
+pos = -1211, -1181, -2835
+type = 5,CaveBat
+waypoints = waypoint
+  waypoint = -699, -316, -3511
+  waypoint = -299, 410, -3532
+  waypoint = 294, 691, -4272
+  waypoint = 822, 686, -5870
+  waypoint = 595, 726, -7580
+  waypoint = -362, 956, -9225
+  waypoint = -1037, 956, -10468
+  waypoint = -1791, 836, -11491
+  waypoint = -1974, 892, -12486
+  waypoint = -1663, 550, -13798
+// User: DYO
+
+pos = -1875, -1355, -2560
+type = 11,EnemyRegion
+waypoints = waypoint
+  waypoint = -1096, -1354, -1767
+  waypoint = -1468, -1353, -1323
+  waypoint = -1969, -1355, -1740
+  waypoint = -2158, -1355, -2294
+// User: DYO
+
+pos = -2451, -1354, -3278
+type = 11,EnemyRegion
+waypoints = waypoint
+  waypoint = -2848, -1354, -2952
+  waypoint = -3806, -1353, -2814
+  waypoint = -4424, -1354, -3166
+  waypoint = -4648, -1354, -3806
+  waypoint = -4013, -1353, -3664
+  waypoint = -3321, -1353, -4132
+// User: DYO
+
+pos = -6115, -1437, -7266
+type = 11,EnemyRegion
+waypoints = waypoint
+  waypoint = -5890, -1437, -6811
+  waypoint = -6089, -1437, -6706
+  waypoint = -6403, -1437, -6778
+  waypoint = -6501, -1437, -6960
+  waypoint = -6746, -1437, -7162
+  waypoint = -6643, -1437, -7447
+  waypoint = -6631, -1437, -7935
+  waypoint = -6313, -1437, -8277
+  waypoint = -6225, -1437, -8070
+  waypoint = -6382, -1437, -7943
+  waypoint = -6495, -1437, -7770
+  waypoint = -6466, -1437, -7492
+  waypoint = -6324, -1437, -7197
+// User: DYO
+
+pos = -3314, -1354, -5049
+type = 11,EnemyRegion
+waypoints = waypoint
+  waypoint = -2893, -1353, -5363
+  waypoint = -3230, -1352, -6100
+  waypoint = -3825, -1354, -5847
+  waypoint = -4385, -1354, -5544
+  waypoint = -4119, -1352, -5059
+  waypoint = -3779, -1352, -5266
+  waypoint = -3530, -1354, -5392
+// User: DYO
+
+pos = 2175, 31, -2091
+type = 11,EnemyRegion
+waypoints = waypoint
+  waypoint = 2530, 98, -1659
+  waypoint = 3033, 128, -1903
+  waypoint = 2672, 44, -2721
+  waypoint = 1939, -7, -2414
+  waypoint = 1185, 43, -2279
+  waypoint = 744, 42, -2240
+  waypoint = 706, 42, -1832
+  waypoint = 1277, 42, -1889
+  waypoint = 1774, 40, -2044
+// User: DYO
+
+pos = 927, 58, -4759
+type = 11,EnemyRegion
+waypoints = waypoint
+  waypoint = 1135, 42, -4315
+  waypoint = 1375, 42, -4396
+  waypoint = 1801, 42, -4604
+  waypoint = 2063, 42, -4652
+  waypoint = 2679, 42, -4575
+  waypoint = 2691, 42, -4053
+  waypoint = 1944, 42, -4226
+  waypoint = 1367, 42, -3950
+  waypoint = 926, 42, -3841
+  waypoint = 558, 42, -4618
+// User: DYO
+
+pos = -300, 1284, -13953
+type = 11,EnemyRegion
+waypoints = waypoint
+  waypoint = 265, 1284, -13967
+  waypoint = 775, 1284, -13793
+  waypoint = 1054, 1284, -14238
+  waypoint = 1276, 1284, -14697
+  waypoint = 631, 1284, -14990
+  waypoint = 99, 1284, -15117
+  waypoint = -446, 1284, -15134
+  waypoint = -997, 1284, -14842
+  waypoint = -953, 1284, -14398
+  waypoint = -767, 1284, -13973
+// User: DYO
+
+pos = -1666, 42, -11430
+type = 11,EnemyRegion
+waypoints = waypoint
+  waypoint = -1495, 42, -11579
+  waypoint = -1333, 42, -11842
+  waypoint = -1453, 42, -12055
+  waypoint = -1618, 42, -12345
+  waypoint = -1857, 42, -12791
+  waypoint = -2179, 42, -13446
+  waypoint = -2656, 42, -13102
+  waypoint = -3048, 42, -12758
+  waypoint = -2442, 42, -12141
+  waypoint = -2001, 42, -11748
+// User: DYO
+
+pos = -2220, 42, -13753
+type = 5,CaveBat
+waypoints = waypoint
+  waypoint = -2232, 1122, -13760
+  waypoint = -1649, 1570, -13668
+  waypoint = -515, 1674, -14548
+  waypoint = 850, 1730, -14285
+  waypoint = 2038, 1738, -12963
+  waypoint = 1983, 1738, -11686
+  waypoint = 2666, 1706, -10751
+  waypoint = 3252, 1674, -9625
+  waypoint = 4057, 1648, -8260
+  waypoint = 4949, 1666, -6780
+// User: DYO
+
+pos = 824, 42, -8821
+type = 11,EnemyRegion
+waypoints = waypoint
+  waypoint = 1185, 42, -9205
+  waypoint = 1361, 42, -8914
+  waypoint = 1061, 70, -8383
+  waypoint = 1355, 42, -7405
+  waypoint = 723, 42, -7388
+  waypoint = 601, 42, -6785
+  waypoint = 533, 42, -6190
+  waypoint = 78, 42, -5985
+  waypoint = -64, 42, -6381
+  waypoint = 10, 54, -7095
+  waypoint = -281, 42, -7706
+  waypoint = -259, 42, -8338
+  waypoint = 456, 42, -8550
+// User: DYO
+
+pos = -691, 42, -10804
+type = 11,EnemyRegion
+waypoints = waypoint
+  waypoint = -126, 42, -10880
+  waypoint = 547, 42, -11034
+  waypoint = 411, 42, -11499
+  waypoint = -61, 42, -11451
+  waypoint = -589, 42, -11826
+// User: DYO
+
+pos = 1489, 1387, -13245
+type = 11,EnemyRegion
+waypoints = waypoint
+  waypoint = 1465, 1374, -13413
+  waypoint = 1955, 1376, -13822
+  waypoint = 2164, 1386, -13819
+  waypoint = 2642, 1380, -13674
+  waypoint = 2815, 1379, -13410
+  waypoint = 3104, 1380, -12909
+  waypoint = 2910, 1381, -12501
+  waypoint = 2842, 1381, -11947
+  waypoint = 2489, 1381, -11799
+  waypoint = 2427, 1381, -12147
+  waypoint = 1432, 1398, -12526
+  waypoint = 1519, 1405, -12820
+// User: DYO
+
+pos = -2276, 305, -10363
+type = 11,EnemyRegion
+waypoints = waypoint
+  waypoint = -2402, 299, -10246
+  waypoint = -2628, 305, -10200
+  waypoint = -2748, 291, -10308
+  waypoint = -2780, 306, -10432
+  waypoint = -2638, 306, -10587
+  waypoint = -2400, 306, -10641
+  waypoint = -2299, 306, -10528
+// User: DYO
+
+name WATERVOLUME
+
+pos = -6876, -1988, 100
+rot = 0.000, 0.000, 0.000
+scale = 30000.000, 800.000, 40000.000
+// User: RJC
+
+name SCRIPT
+
+pos = -4724, -1353, -4701
+ID = 29,GateShowScript
+delay = 0.000
+bDelayEachMessage = 0,false
+bEnabled = 1,true
+Message0 = event
+  TargetID = 230,E1ShadowGate
+  Message = Open
+Message1 = event
+  TargetID = 230,E1ShadowGate
+  Message = Show
+Message2 = event
+  TargetID = 313,Shazza
+  Message = Hide
+Message3 = event
+  TargetID = 312,ShadowBat
+  Message = Activate
+Message4 = event
+  TargetID = 0,none
+  Message = none
+Message5 = event
+  TargetID = 0,none
+  Message = none
+Message6 = event
+  TargetID = 0,none
+  Message = none
+Message7 = event
+  TargetID = 0,none
+  Message = none
+Message8 = event
+  TargetID = 0,none
+  Message = none
+Message9 = event
+  TargetID = 0,none
+  Message = none
+// User: DYO
+
+pos = -4865, -1354, -4632
+ID = 30,GateHideScript
+delay = 0.000
+bDelayEachMessage = 0,false
+bEnabled = 1,true
+Message0 = event
+  TargetID = 230,E1ShadowGate
+  Message = Hide
+Message1 = event
+  TargetID = 10,ShadowBatIntro
+  Message = Activate
+Message2 = event
+  TargetID = 0,none
+  Message = none
+Message3 = event
+  TargetID = 0,none
+  Message = none
+Message4 = event
+  TargetID = 0,none
+  Message = none
+Message5 = event
+  TargetID = 0,none
+  Message = none
+Message6 = event
+  TargetID = 0,none
+  Message = none
+Message7 = event
+  TargetID = 0,none
+  Message = none
+Message8 = event
+  TargetID = 0,none
+  Message = none
+Message9 = event
+  TargetID = 0,none
+  Message = none
+// User: DYO
+
+pos = -1233, -1349, -3550
+ID = 31,DefeatedScript
+delay = 0.000
+bDelayEachMessage = 0,false
+bEnabled = 1,true
+Message0 = event
+  TargetID = 230,E1ShadowGate
+  Message = Hide
+Message1 = event
+  TargetID = 11,ShadowBatDefeated
+  Message = Activate
+Message2 = event
+  TargetID = 0,none
+  Message = none
+Message3 = event
+  TargetID = 0,none
+  Message = none
+Message4 = event
+  TargetID = 0,none
+  Message = none
+Message5 = event
+  TargetID = 0,none
+  Message = none
+Message6 = event
+  TargetID = 0,none
+  Message = none
+Message7 = event
+  TargetID = 0,none
+  Message = none
+Message8 = event
+  TargetID = 0,none
+  Message = none
+Message9 = event
+  TargetID = 0,none
+  Message = none
+// User: DYO
+
+pos = -1077, -1515, -3602
+ID = 32,DefeatedScript2
+delay = 0.000
+bDelayEachMessage = 0,false
+bEnabled = 1,true
+Message0 = event
+  TargetID = 3,EndOfLevelTrigger
+  Message = Activate
+Message1 = event
+  TargetID = 230,E1ShadowGate
+  Message = Show
+Message2 = event
+  TargetID = 0,none
+  Message = none
+Message3 = event
+  TargetID = 0,none
+  Message = none
+Message4 = event
+  TargetID = 0,none
+  Message = none
+Message5 = event
+  TargetID = 0,none
+  Message = none
+Message6 = event
+  TargetID = 0,none
+  Message = none
+Message7 = event
+  TargetID = 0,none
+  Message = none
+Message8 = event
+  TargetID = 0,none
+  Message = none
+Message9 = event
+  TargetID = 0,none
+  Message = none
+// User: DYO
+
+name CONDITIONALSCRIPT
+
+pos = -3742, -1579, -7216
+ID = 33,CScriptBossDeadD
+delay = 0.000
+bDelayEachMessage = 0,false
+bExecuteOnStart = 1,true
+condition = 6,DoneD
+bNegative = 0,false
+bEnabled = 1,true
+Message0 = event
+  TargetID = 4,ShazzaCutsceneTrigger
+  Message = Deactivate
+Message1 = event
+  TargetID = 313,Shazza
+  Message = Hide
+Message2 = event
+  TargetID = 230,E1ShadowGate
+  Message = Open
+Message3 = event
+  TargetID = 3,EndOfLevelTrigger
+  Message = Activate
+Message4 = event
+  TargetID = 2,ConfrontSlyTrigger
+  Message = Deactivate
+Message5 = event
+  TargetID = 0,none
+  Message = none
+Message6 = event
+  TargetID = 0,none
+  Message = none
+Message7 = event
+  TargetID = 0,none
+  Message = none
+Message8 = event
+  TargetID = 0,none
+  Message = none
+Message9 = event
+  TargetID = 0,none
+  Message = none
+// User: DYO
+
+name SOUNDPROP
+
+pos = 1231, -97, -2791
+rot = 0.000, 0.000, 0.000
+sound = *LavaFlowLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 34,blank
+dummySphere = spherezone
+  pos = 1431,3,-2591
+  radius = 1500.00
+// User: AJM
+
+pos = 3371, -86, -3868
+rot = 0.000, 0.000, 0.000
+sound = *LavaFlowLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 35,blank
+dummySphere = spherezone
+  pos = 3371,-86,-3868
+  radius = 1500.00
+// User: AJM
+
+pos = 1134, -97, -3655
+rot = 0.000, 0.000, 0.000
+sound = *LavaFlowLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 36,blank
+dummySphere = spherezone
+  pos = 1134,-97,-3655
+  radius = 1500.00
+// User: AJM
+
+pos = 522, -87, -5245
+rot = 0.000, 0.000, 0.000
+sound = *LavaFlowLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 37,blank
+dummySphere = spherezone
+  pos = 522,-87,-5245
+  radius = 1500.00
+// User: AJM
+
+pos = 949, -95, -7123
+rot = 0.000, 0.000, 0.000
+sound = *LavaFlowLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 38,blank
+dummySphere = spherezone
+  pos = 949,-95,-7123
+  radius = 1500.00
+// User: AJM
+
+pos = 719, -217, -10090
+rot = 0.000, 0.000, 0.000
+sound = *LavaFlowLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 39,blank
+dummySphere = spherezone
+  pos = 719,-217,-10090
+  radius = 1500.00
+// User: AJM
+
+pos = -1076, -249, -12072
+rot = 0.000, 0.000, 0.000
+sound = *LavaFlowLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 40,blank
+dummySphere = spherezone
+  pos = -1076,-249,-12072
+  radius = 1500.00
+// User: AJM
+
+pos = -2907, 7, -13579
+rot = 0.000, 0.000, 0.000
+sound = *LavaFlowLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 41,blank
+dummySphere = spherezone
+  pos = -2907,7,-13579
+  radius = 1500.00
+// User: AJM
+
+pos = 4073, 1097, -6874
+rot = 0.000, 0.000, 0.000
+sound = *LavaFlowLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 42,blank
+dummySphere = spherezone
+  pos = 4073,1097,-6874
+  radius = 1500.00
+// User: AJM
+
+pos = 8575, 2453, -7257
+rot = 0.000, 0.000, 0.000
+sound = *LavaFlowLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 43,blank
+dummySphere = spherezone
+  pos = 8575,2453,-7257
+  radius = 1500.00
+// User: AJM
+
+pos = -580, -179, -8678
+rot = 0.000, 0.000, 0.000
+sound = *LavaFlowLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 44,blank
+dummySphere = spherezone
+  pos = -580,-179,-8678
+  radius = 1500.00
+// User: AJM
+
+pos = -1320, -245, -10060
+rot = 0.000, 0.000, 0.000
+sound = *LavaFlowLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 45,blank
+dummySphere = spherezone
+  pos = -1320,-245,-10060
+  radius = 1500.00
+// User: AJM
+
+pos = -3284, -273, -10318
+rot = 0.000, 0.000, 0.000
+sound = *LavaFlowLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 46,blank
+dummySphere = spherezone
+  pos = -3284,-273,-10318
+  radius = 1500.00
+// User: AJM
+
+pos = -2589, -270, -10990
+rot = 0.000, 0.000, 0.000
+sound = *LavaFlowLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 47,blank
+dummySphere = spherezone
+  pos = -2589,-270,-10990
+  radius = 1500.00
+// User: AJM
+
+pos = -858, -54, -14290
+rot = 0.000, 0.000, 0.000
+sound = *LavaFlowLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 48,blank
+dummySphere = spherezone
+  pos = -858,-54,-14290
+  radius = 1500.00
+// User: AJM
+
+pos = 1995, 1145, -11701
+rot = 0.000, 0.000, 0.000
+sound = *LavaFlowLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 49,blank
+dummySphere = spherezone
+  pos = 1995,1145,-11701
+  radius = 1500.00
+// User: AJM
+
+pos = 2694, 1161, -10145
+rot = 0.000, 0.000, 0.000
+sound = *LavaFlowLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 50,blank
+dummySphere = spherezone
+  pos = 2694,1161,-10145
+  radius = 1500.00
+// User: AJM
+
+name PORTAL
+
+pos = 9046, 2641, -8219
+ID = 51,PortalE4
+standPos = 0.000, 0.000, 0.000
+standYaw = 0.000
+connectingLevel = 23,e4
+bExitPortal = 1,true
+bVisible = 0,false
+// User: DYO
+
+name RESTART
+
+pos = -1625, -1385, -1231
+ID = 52,Restart1
+rot = 0.000, 0.100, -0.000
+DDAValue = -1
+camera = camera
+  cameraSource = -1727.474, -521.958, -2587.898
+  cameraTarget = -1638.172, -1244.436, -1309.047
+// User: DYO
+
+pos = -370, 10, -7832
+ID = 53,Restart3
+rot = 0.000, 1.500, -0.000
+DDAValue = -1
+camera = camera
+  cameraSource = 584.319, 329.779, -7417.137
+  cameraTarget = -324.836, 128.150, -7795.612
+// User: DYO
+
+pos = 3027, 1351, -13295
+ID = 54,Restart2
+rot = 0.000, -2.043, 0.000
+DDAValue = -1
+camera = camera
+  cameraSource = 2066.441, 1855.892, -12794.122
+  cameraTarget = 3023.110, 1384.451, -13277.709
+// User: DYO
+
+name FULLPIE
+
+pos = 2311, 1338, -10288
+// User: DYO
+
+name PICNICBASKET
+
+pos = -485, 217, -14451
+rot = 0.000, 0.000, 0.000
+type = 0,DDABasket
+bVisible = 1,true
+// User: DYO
+
+pos = 7591, 2541, -4939
+rot = 0.000, 0.000, 0.000
+type = 0,DDABasket
+bVisible = 1,true
+// User: DYO
+
+pos = 9530, 2641, -5804
+rot = 0.000, 0.000, 0.000
+type = 0,DDABasket
+bVisible = 0,false
+// User: DYO
+
+pos = 8738, 2639, -4430
+rot = 0.000, 0.000, 0.000
+type = 0,DDABasket
+bVisible = 0,false
+// User: DYO
+
+pos = -49, 42, -7425
+rot = 0.000, 0.000, 0.000
+type = 0,DDABasket
+bVisible = 0,false
+// User: DYO
+
+pos = 2814, 92, -2000
+rot = 0.000, 0.000, 0.000
+type = 0,DDABasket
+bVisible = 0,false
+// User: DYO
+
+pos = -1861, -1354, -1543
+rot = 0.000, 0.000, 0.000
+type = 0,DDABasket
+bVisible = 0,false
+// User: DYO
+
+pos = -1642, 42, -14318
+rot = 0.000, 0.000, 0.000
+type = 0,DDABasket
+bVisible = 0,false
+// User: DYO
+
+pos = 2954, 1380, -12833
+rot = 0.000, 0.000, 0.000
+type = 0,DDABasket
+bVisible = 0,false
+// User: DYO
+
+pos = -6596, -1421, -7011
+rot = 0.000, 0.000, 0.000
+type = 0,DDABasket
+bVisible = 1,true
+// User: DYO
+
+name EXTRALIFE
+
+pos = -3754, 115, -10073
+// User: DYO
+
+pos = 1655, 268, -6520
+// User: DYO
+
+pos = 8488, 2673, -3195
+// User: DYO
+
+pos = -3225, -1915, -3501
+// User: DYO
+
+pos = 5441, 1275, -6132
+// User: DYO
+
+name SHADOWBATPIPE
+
+pos = 4949, 1382, -6770
+ID = 71,ShadowPipe3
+midPt = 4949.000, 2438.000, -6770.000
+endPt = 5407.000, 2974.000, -6337.000
+batFallingPt = 4541.000, 1198.000, -7308.000
+// User: DYO
+
+pos = -1020, -1197, -2664
+ID = 72,ShadowPipe1
+midPt = -1020.000, 91.000, -2664.000
+endPt = 157.000, 291.000, -2273.000
+batFallingPt = -1211.000, -1181.000, -2835.000
+// User: DYO
+
+pos = -1652, 42, -13828
+ID = 73,ShadowPipe2
+midPt = -1652.000, 1194.000, -13828.000
+endPt = -598.000, 1586.000, -14446.000
+batFallingPt = -2220.000, 42.000, -13753.000
+// User: DYO
+
+name SHADOWBATVALVE
+
+pos = -3104, 699, -13625
+rot = 0.000, 1.850, 0.000
+OnBoomerangHit = event
+  TargetID = 73,ShadowPipe2
+  Message = Open
+ID = 74,Valve2
+// User: DYO
+
+pos = -543, -818, -2047
+rot = 0.000, -1.050, -0.000
+OnBoomerangHit = event
+  TargetID = 72,ShadowPipe1
+  Message = Open
+ID = 75,Valve1
+// User: DYO
+
+pos = 3803, 2137, -7021
+rot = 0.458, 1.258, -0.020
+OnBoomerangHit = event
+  TargetID = 71,ShadowPipe3
+  Message = Open
+ID = 76,Valve3
+// User: DYO
+
+name SEAGULL
+
+pos = 10808, 3039, -1432
+count = 20
+scale = 3000.000, 2500.000, 3000.000
+rot = 0.000, -2.283, 0.000
+// User: DYO
+
+pos = 12688, 3007, -5412
+count = 20
+scale = 3000.000, 2500.000, 3000.000
+rot = 0.000, 1.700, 0.000
+// User: DYO
+
+name LAVABURNER
+
+pos = 6226, 3252, -5919
+rot = 0.000, -0.000, -1.534
+ID = 79,blank
+FlameOnTime = 5.000
+FlameOffTime = 1.500
+HeightOffset = 650.000
+Delay = 0.000
+bActive = 1,true
+// User: DYO
+
+pos = 5971, 3285, -5598
+rot = -3.141, -3.141, 1.458
+ID = 80,blank
+FlameOnTime = 5.000
+FlameOffTime = 1.500
+HeightOffset = 650.000
+Delay = 0.000
+bActive = 1,true
+// User: DYO
+
+pos = 6112, 3288, -5765
+rot = -3.141, -3.141, 1.558
+ID = 81,blank
+FlameOnTime = 5.000
+FlameOffTime = 1.500
+HeightOffset = 650.000
+Delay = 0.000
+bActive = 1,true
+// User: DYO
+
+pos = 6340, 3159, -6072
+rot = -3.141, -3.141, 1.558
+ID = 82,blank
+FlameOnTime = 5.000
+FlameOffTime = 1.500
+HeightOffset = 650.000
+Delay = 0.000
+bActive = 1,true
+// User: DYO
+
+pos = 6222, 2628, -6060
+rot = 3.142, 3.142, -1.542
+ID = 83,blank
+FlameOnTime = 5.000
+FlameOffTime = 1.500
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 1,true
+// User: DYO
+
+pos = 6119, 2628, -5877
+rot = 3.142, 3.142, -1.542
+ID = 84,blank
+FlameOnTime = 5.000
+FlameOffTime = 1.500
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 1,true
+// User: DYO
+
+pos = 6006, 2628, -5697
+rot = 3.142, 3.142, -1.542
+ID = 85,blank
+FlameOnTime = 5.000
+FlameOffTime = 1.500
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 1,true
+// User: DYO
+
+pos = 5908, 2628, -5525
+rot = 3.142, 3.142, -1.542
+ID = 86,blank
+FlameOnTime = 5.000
+FlameOffTime = 1.500
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 1,true
+// User: DYO
+
+pos = 5860, 3190, -5441
+rot = -3.141, -3.141, 1.558
+ID = 87,blank
+FlameOnTime = 5.000
+FlameOffTime = 1.500
+HeightOffset = 650.000
+Delay = 0.000
+bActive = 1,true
+// User: DYO
+
+pos = 5817, 2628, -5361
+rot = 3.142, 3.142, -1.542
+ID = 88,blank
+FlameOnTime = 5.000
+FlameOffTime = 1.500
+HeightOffset = 300.000
+Delay = 0.000
+bActive = 1,true
+// User: DYO
+
+name SEAMINE
+
+pos = -4227, -1971, -6301
+rot = 0.000, 0.000, 0.000
+bAttractable  = 1,true
+bVisible = 1,true
+// User: DYO
+
+pos = -3398, -1971, -7037
+rot = 0.000, 0.000, 0.000
+bAttractable  = 1,true
+bVisible = 1,true
+// User: DYO
+
+pos = -2320, -2028, -6164
+rot = 0.000, 0.000, 0.000
+bAttractable  = 0,false
+bVisible = 1,true
+// User: DYO
+
+pos = -1757, -2051, -5064
+rot = 0.000, 0.000, 0.000
+bAttractable  = 0,false
+bVisible = 1,true
+// User: DYO
+
+pos = -1757, -2051, -3172
+rot = 0.000, 0.000, 0.000
+bAttractable  = 0,false
+bVisible = 1,true
+// User: DYO
+
+pos = -2897, -2035, -3809
+rot = 0.000, 0.000, 0.000
+bAttractable  = 0,false
+bVisible = 1,true
+// User: DYO
+
+name STATICB1PIPEANGLE
+
+pos = -3921, -1726, -4727
+rot = -0.541, -0.018, -1.541
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -4932, -1069, -4141
+rot = 1.588, 2.747, 0.004
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -4198, -1077, -4453
+rot = 1.571, -0.377, 0.051
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -4261, -1475, -4422
+rot = 0.355, 3.045, -1.346
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -4003, -1472, -3874
+rot = -0.023, 1.024, -0.026
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -3036, -2060, -3148
+rot = -1.545, -0.768, 0.013
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -3038, -1860, -3151
+rot = 1.553, 2.374, 0.001
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -3517, -1859, -3658
+rot = 1.553, 2.374, 0.001
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -3665, -1454, -4104
+rot = 0.935, 3.081, 1.562
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -3656, -1859, -4112
+rot = 2.208, -3.106, -1.545
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -2327, -1859, -3305
+rot = 2.348, 3.104, 1.534
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -2601, -1859, -3580
+rot = 0.000, -2.347, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -3331, -1859, -4361
+rot = 0.000, -2.295, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -3073, -1859, -4074
+rot = 0.000, -0.742, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+name STATICB1PIPE8M
+
+pos = -4662, -1068, -4255
+rot = 0.000, -0.401, -0.000
+scale = 0.500, 1.000, 1.000
+// User: ???
+
+pos = -4144, -1471, -4144
+rot = 0.000, -2.007, 0.000
+scale = 0.500, 1.000, 1.000
+// User: ???
+
+pos = -2820, -1859, -3365
+rot = 0.000, -0.785, -0.000
+scale = 0.500, 1.000, 1.000
+// User: ???
+
+pos = -3296, -1859, -3867
+rot = 0.000, -0.751, -0.000
+scale = 0.500, 1.000, 1.000
+// User: ???
+
+name STATICB1PIPE2M
+
+pos = -3923, -1929, -4728
+rot = -2.818, -0.011, 1.563
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -4028, -1726, -4900
+rot = 2.871, 1.012, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -4933, -1270, -4142
+rot = 2.758, 3.138, 1.563
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -4372, -1072, -4379
+rot = 0.000, -0.410, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -4222, -1276, -4442
+rot = 0.442, 3.032, -1.416
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -3178, -2060, -3010
+rot = 1.571, 2.365, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -3512, -2057, -3658
+rot = -2.348, -3.129, 1.559
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -3831, -1457, -3986
+rot = 0.000, -0.602, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -3659, -1656, -4111
+rot = 0.637, 0.011, 1.541
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -3492, -1859, -4233
+rot = 0.000, -0.637, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -2322, -2061, -3307
+rot = -0.838, 0.006, 1.565
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -2472, -1859, -3450
+rot = 0.000, 0.785, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -3209, -1859, -4225
+rot = 0.000, 0.838, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+name LAVA
+
+pos = 622, -256, -5047
+rot = 0.000, 0.000, 0.000
+TimeOffset = 5
+Height = 100.000
+Delay = 4.500
+// User: DYO
+
+pos = -1088, -403, -11300
+rot = 0.000, 0.000, 0.000
+TimeOffset = 7
+Height = 150.000
+Delay = 5.000
+// User: DYO
+
+pos = 1104, -380, -9860
+rot = 0.000, 0.000, 0.000
+TimeOffset = 2
+Height = 80.000
+Delay = 4.000
+// User: DYO
+
+pos = 3343, -232, -3933
+rot = 0.000, 2.007, 0.000
+TimeOffset = 3
+Height = 150.000
+Delay = 5.000
+// User: DYO
+
+pos = 670, -376, -10643
+rot = 0.000, -1.657, 0.000
+TimeOffset = 6
+Height = 120.000
+Delay = 5.000
+// User: DYO
+
+pos = -2151, -438, -11067
+rot = 0.000, 0.000, 0.000
+TimeOffset = 9
+Height = 150.000
+Delay = 2.000
+// User: DYO
+
+pos = -1685, -459, -9639
+rot = 0.000, 0.000, 0.000
+TimeOffset = 9
+Height = 100.000
+Delay = 3.000
+// User: DYO
+
+pos = -2906, -181, -13537
+rot = 0.000, 0.000, 0.000
+TimeOffset = 9
+Height = 100.000
+Delay = 4.000
+// User: DYO
+
+pos = -75, -360, -10113
+rot = 0.000, -1.657, 0.000
+TimeOffset = 1
+Height = 120.000
+Delay = 4.000
+// User: DYO
+
+pos = 1057, -122, -3084
+rot = 0.000, 0.000, 0.000
+TimeOffset = 1
+Height = 200.000
+Delay = 2.000
+// User: DYO
+
+pos = -3766, -330, -11032
+rot = 0.000, 0.000, 0.000
+TimeOffset = 10
+Height = 100.000
+Delay = 3.000
+// User: DYO
+
+pos = 3517, 1007, -10458
+rot = 0.000, 0.000, 0.000
+TimeOffset = 1
+Height = 50.000
+Delay = 6.000
+// User: DYO
+
+pos = -662, -401, -8997
+rot = 0.000, -1.657, 0.000
+TimeOffset = 2
+Height = 120.000
+Delay = 3.500
+// User: DYO
+
+pos = 2845, 1007, -11386
+rot = 0.000, 0.000, 0.000
+TimeOffset = 1
+Height = 50.000
+Delay = 4.000
+// User: DYO
+
+name STATICLAVAPIPEGROUND
+
+pos = -115, -22, -2590
+rot = -1.826, -0.032, 1.549
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 3739, 121, -3651
+rot = -1.537, -0.036, 1.559
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 3724, 278, -4236
+rot = -1.581, -0.040, -1.524
+scale = -1.000, -1.000, -1.000
+// User: ???
+
+pos = 3735, 279, -3798
+rot = -1.537, -0.036, 1.559
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 645, 122, -10243
+rot = 1.049, -3.115, 1.546
+scale = -1.000, -1.000, 1.000
+// User: ???
+
+pos = 808, 123, -9960
+rot = -1.101, -0.038, 1.569
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -923, 278, -13744
+rot = 1.936, -3.103, -1.570
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -1053, 118, -13797
+rot = 1.936, -3.103, -1.570
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -1271, 111, -14637
+rot = 2.023, 0.038, 1.567
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+name STATICLAVAPIPE1M
+
+pos = -167, -181, -2398
+rot = 0.000, -1.274, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -199, -181, -2295
+rot = 0.000, -1.292, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 562, -21, -2501
+rot = 0.000, 0.244, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 297, -21, -2568
+rot = 0.000, 0.244, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 191, -21, -2594
+rot = 0.000, 0.244, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 1706, -34, -4823
+rot = 0.000, -0.480, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 1324, -34, -4625
+rot = 0.000, -0.480, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 3716, 13, -4436
+rot = 0.000, 1.562, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 3730, 279, -4017
+rot = 0.000, -1.588, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 3716, 145, -4307
+rot = 1.571, -0.000, -1.562
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 1038, -30, -9542
+rot = 0.000, -2.068, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 76, 185, -14427
+rot = 0.000, 1.213, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -138, 185, -14966
+rot = 0.000, 1.196, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -309, 185, -15037
+rot = 0.000, 2.775, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -920, 185, -14798
+rot = 0.000, 2.766, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -563, 185, -14938
+rot = 0.000, 2.766, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -665, 185, -14898
+rot = 0.000, 2.766, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -463, 113, -14775
+rot = 0.000, 2.688, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -707, 113, -14654
+rot = 0.000, 2.679, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -805, 113, -14605
+rot = 0.000, 2.679, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -1050, 113, -14483
+rot = 0.000, 2.679, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -218, 279, -14104
+rot = 0.000, -0.375, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -349, 119, -14156
+rot = 0.000, -0.375, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -603, 119, -14056
+rot = 0.000, -0.375, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -705, 119, -14015
+rot = 0.000, -0.375, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -961, 119, -13916
+rot = 0.000, -0.367, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -473, 279, -14003
+rot = 0.000, -0.375, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -575, 279, -13963
+rot = 0.000, -0.375, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -830, 279, -13864
+rot = 0.000, -0.367, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -402, 113, -14948
+rot = 0.000, -2.025, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 906, -30, -9783
+rot = 0.000, -2.077, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+name STATICLAVAPIPE2M
+
+pos = 427, -21, -2534
+rot = 0.000, 0.244, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 56, -21, -2628
+rot = 0.000, 0.244, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -233, -181, -2159
+rot = 0.000, -1.353, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 1824, -35, -4884
+rot = 0.000, -0.480, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 1587, -35, -4761
+rot = 0.000, -0.480, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 1441, -35, -4685
+rot = 0.000, -0.480, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 1200, -35, -4561
+rot = 0.000, -0.480, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 3728, 279, -4150
+rot = 0.000, -1.606, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 3732, 279, -3884
+rot = 0.000, 1.553, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 973, -31, -9661
+rot = 0.000, -2.077, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -347, 278, -14052
+rot = 0.000, -0.375, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -704, 278, -13912
+rot = 0.000, -0.375, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -171, 119, -14061
+rot = 0.000, 1.204, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -478, 119, -14104
+rot = 0.000, -0.375, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -835, 119, -13965
+rot = 0.000, -0.375, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 769, 122, -10028
+rot = 0.000, -2.094, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 535, -35, -10441
+rot = 0.000, -2.077, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -896, 121, -13680
+rot = 1.927, -3.120, -1.546
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -433, 184, -14989
+rot = 0.000, 2.766, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -90, 184, -14847
+rot = 0.000, 1.187, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 687, 122, -10171
+rot = 0.000, -2.094, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 453, -35, -10583
+rot = 0.000, -2.077, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -1235, 112, -14562
+rot = 0.000, -2.025, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -791, 184, -14849
+rot = 0.000, 2.766, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -926, 112, -14546
+rot = 0.000, 2.679, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -582, 112, -14716
+rot = 0.000, 2.679, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 122, 184, -14302
+rot = 0.000, 1.213, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -40, 278, -14009
+rot = 0.000, 1.204, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+name STATICLAVAPIPEANGLE
+
+pos = -130, -180, -2522
+rot = 2.854, -0.006, 1.552
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 688, -22, -2472
+rot = 0.000, -1.353, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -95, -22, -2665
+rot = 0.000, -2.906, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 3716, 15, -4307
+rot = 3.098, -0.014, -1.526
+scale = -1.000, -1.000, -1.000
+// User: ???
+
+pos = 3740, 122, -3728
+rot = 3.142, -0.011, 1.555
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 1101, -31, -9429
+rot = 0.000, 1.065, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -951, 278, -13817
+rot = 0.000, 2.766, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -229, 118, -14205
+rot = 0.000, -1.972, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -98, 278, -14152
+rot = 0.000, -1.972, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 31, 183, -14548
+rot = 3.129, 2.793, 0.037
+scale = -1.000, -1.000, -1.000
+// User: ???
+
+pos = -113, 186, -14494
+rot = 0.000, 1.196, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -171, 186, -14638
+rot = 0.000, 2.749, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -29, 184, -14696
+rot = 3.109, -1.946, 0.002
+scale = -1.000, -1.000, -1.000
+// User: ???
+
+pos = -187, 184, -15085
+rot = 3.128, 2.767, 0.038
+scale = -1.000, -1.000, -1.000
+// User: ???
+
+pos = -1039, 184, -14749
+rot = 0.000, 1.169, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 609, -35, -10306
+rot = 2.618, 0.006, -1.547
+scale = -1.000, -1.000, -1.000
+// User: ???
+
+pos = 846, -31, -9897
+rot = 0.471, 3.134, -1.555
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -1165, 112, -14424
+rot = 0.000, 1.082, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = 373, -36, -10725
+rot = 0.000, 2.627, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -345, 112, -14833
+rot = 0.000, -0.463, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -1081, 118, -13869
+rot = 0.000, 2.766, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+name BLASTDOORS
+
+pos = 9003, 2641, -8024
+rot = 0.000, 3.315, 0.000
+ID = 229,BlastDoors
+scale = 1.000, 1.000, 1.000
+// User: RBW
+
+name E1SHADOWGATE
+
+pos = -4448, -1355, -3989
+rot = 0.000, -0.420, -0.000
+ID = 230,E1ShadowGate
+scale = 1.000, 1.000, 1.000
+bVisible = 1,true
+// User: DYO
+
+name TORCH1
+
+pos = -6230, -879, -7113
+rot = 0.000, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: DYO
+
+pos = -6396, -883, -7544
+rot = 0.000, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: DYO
+
+pos = 2928, 1380, -13444
+rot = 0.000, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: DYO
+
+pos = 3081, 1380, -13120
+rot = 0.000, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: DYO
+
+name FRILLLIZARD
+
+pos = 8510, 2640, -4097
+rot = 0.000, -0.350, -0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 8569, 2638, -4715
+  waypoint = 8044, 2638, -4689
+spawnpool = -1
+ID = 235,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 9444, 2641, -6088
+rot = 0.000, 3.100, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 9556, 2641, -5802
+  waypoint = 9111, 2640, -5769
+spawnpool = -1
+ID = 236,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 8817, 2638, -5075
+rot = 0.000, 3.100, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 9017, 2639, -5022
+  waypoint = 8547, 2638, -4900
+spawnpool = -1
+ID = 237,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 8417, 2638, -5299
+rot = 0.000, 3.100, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 8400, 2637, -4985
+  waypoint = 8305, 2639, -5501
+spawnpool = -1
+ID = 238,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 7868, 2639, -5557
+rot = 0.000, 3.100, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 7568, 2640, -5288
+  waypoint = 8119, 2637, -5192
+spawnpool = -1
+ID = 239,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 8698, 2641, -3541
+rot = 0.000, -0.350, -0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 8436, 2639, -4215
+  waypoint = 8158, 2639, -4615
+spawnpool = -1
+ID = 240,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 8877, 2641, -4023
+rot = 0.000, -0.350, -0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 8618, 2638, -4653
+  waypoint = 8186, 2635, -4892
+spawnpool = -1
+ID = 241,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 850, 42, -1958
+rot = 0.000, -1.000, -0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 447, 42, -1955
+  waypoint = 523, 42, -2267
+spawnpool = -1
+ID = 242,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = -6006, -1437, -6871
+rot = 0.000, -0.460, -0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = -6301, -1435, -7076
+  waypoint = -6124, -1437, -7161
+spawnpool = -1
+ID = 243,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = -6570, -1437, -7647
+rot = 0.000, 1.650, 0.000
+Type = 0,Patroller
+spawnpool = -1
+ID = 244,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = -6374, -1437, -8072
+rot = 0.000, 2.610, 0.000
+Type = 0,Patroller
+spawnpool = -1
+ID = 245,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = -3198, -1354, -5339
+rot = 0.000, -2.100, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = -3298, -1351, -5154
+  waypoint = -3367, -1354, -5469
+spawnpool = -1
+ID = 246,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = -4111, -1353, -5342
+rot = 0.000, 2.583, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = -4415, -1347, -5054
+  waypoint = -3754, -1352, -5430
+spawnpool = -1
+ID = 247,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = -3128, -1353, -3275
+rot = 0.000, -0.300, -0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = -3493, -1353, -3558
+spawnpool = -1
+ID = 248,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = -2820, -1353, -3427
+rot = 0.000, -1.100, -0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = -3241, -1348, -3457
+  waypoint = -3090, -1352, -3767
+spawnpool = -1
+ID = 249,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = -1465, -1354, -1881
+rot = 0.000, -1.100, -0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = -1726, -1354, -2064
+  waypoint = -1912, -1354, -1949
+spawnpool = -1
+ID = 250,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 2421, 61, -1912
+rot = 0.000, -0.500, -0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 2234, 39, -2117
+  waypoint = 2427, 44, -2227
+spawnpool = -1
+ID = 251,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = -3458, -1353, -3052
+rot = 0.000, -0.300, -0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = -3673, -1347, -3322
+  waypoint = -3238, -1353, -3515
+spawnpool = -1
+ID = 252,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 2583, 63, -1951
+rot = 0.000, -0.700, -0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 2393, 61, -2106
+  waypoint = 2600, 67, -2186
+spawnpool = -1
+ID = 253,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 828, 42, -4534
+rot = 0.000, 2.750, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 1393, 21, -4162
+  waypoint = 938, 42, -3922
+spawnpool = -1
+ID = 254,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 2023, 42, -4546
+rot = 0.000, 1.750, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 3008, 21, -4585
+  waypoint = 2599, 42, -4430
+spawnpool = -1
+ID = 255,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 1989, 42, -4340
+rot = 0.000, 1.750, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 2768, 21, -4297
+  waypoint = 2625, 42, -4142
+spawnpool = -1
+ID = 256,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 439, 42, -6291
+rot = 0.000, 2.950, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 232, 45, -6099
+  waypoint = 43, 42, -6472
+spawnpool = -1
+ID = 257,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 1170, 42, -7615
+rot = 0.000, -1.733, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 610, 168, -7822
+  waypoint = 625, 42, -7513
+spawnpool = -1
+ID = 258,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 1008, 42, -7943
+rot = 0.000, -2.133, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 597, 167, -7648
+  waypoint = 538, 42, -7937
+spawnpool = -1
+ID = 259,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 31, 1284, -14916
+rot = 0.000, -2.300, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = -557, 1284, -14556
+  waypoint = -543, 1284, -14878
+spawnpool = -1
+ID = 260,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 42, 1284, -14150
+rot = 0.000, -1.500, -0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = -585, 1284, -14093
+  waypoint = -132, 1284, -14471
+spawnpool = -1
+ID = 261,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = -1906, 42, -11775
+rot = 0.000, 2.900, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = -1928, 46, -12173
+  waypoint = -2216, 42, -12088
+spawnpool = -1
+ID = 262,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = -2575, 43, -12412
+rot = 0.000, -2.483, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = -2142, 43, -12318
+  waypoint = -2304, 42, -12168
+spawnpool = -1
+ID = 263,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = -6281, -1437, -6856
+rot = 0.000, 0.220, -0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = -6158, -1439, -7058
+  waypoint = -6488, -1437, -6979
+spawnpool = -1
+ID = 264,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = -6657, -1437, -7191
+rot = 0.000, 1.170, -0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = -6582, -1437, -7373
+  waypoint = -6463, -1437, -7091
+spawnpool = -1
+ID = 265,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 823, 42, -8407
+rot = 0.000, -2.533, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 320, 161, -7698
+  waypoint = 81, 42, -8041
+spawnpool = -1
+ID = 266,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = -441, 42, -11570
+rot = 0.000, 2.500, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = -256, 47, -11084
+  waypoint = -80, 42, -11343
+spawnpool = -1
+ID = 267,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = -536, 42, -10948
+rot = 0.000, 1.250, -0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 15, 42, -10978
+  waypoint = -358, 42, -11372
+spawnpool = -1
+ID = 268,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 313, 42, -11354
+rot = 0.000, -3.033, 0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 373, 42, -11082
+  waypoint = -54, 42, -11392
+spawnpool = -1
+ID = 269,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 2817, 1379, -13154
+rot = 0.000, -0.760, -0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 2313, 1380, -12911
+  waypoint = 2757, 1380, -12726
+spawnpool = -1
+ID = 270,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = 2664, 1381, -12219
+rot = 0.000, -0.210, -0.000
+Type = 0,Patroller
+waypoints = waypoint
+  waypoint = 2110, 1380, -12626
+  waypoint = 2486, 1380, -12758
+spawnpool = -1
+ID = 271,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+pos = -2451, 304, -10419
+rot = 0.000, 1.400, -0.000
+Type = 0,Patroller
+spawnpool = -1
+ID = 272,blank
+bVisible = 1,true
+bActive = 1,true
+// User: DYO
+
+name SKINK
+
+pos = 1511, 42, -2065
+rot = 0.000, -1.500, -0.000
+waypoints = waypoint
+  waypoint = 1210, 42, -1877
+  waypoint = 1204, 42, -2205
+spawnpool = -1
+bVisible = 1,true
+// User: DYO
+
+pos = -3907, -1353, -3081
+rot = 0.000, -0.500, -0.000
+waypoints = waypoint
+  waypoint = -3895, -1342, -3609
+  waypoint = -4320, -1354, -3537
+spawnpool = -1
+bVisible = 1,true
+// User: DYO
+
+pos = -3391, -1353, -3959
+rot = 0.000, -1.200, -0.000
+waypoints = waypoint
+  waypoint = -3532, -1344, -3538
+  waypoint = -3806, -1352, -3703
+spawnpool = -1
+bVisible = 1,true
+// User: DYO
+
+pos = -1597, -1354, -1597
+rot = 0.000, 0.000, 0.000
+waypoints = waypoint
+  waypoint = -1830, -1354, -1802
+  waypoint = -1260, -1354, -1802
+spawnpool = -1
+bVisible = 1,true
+// User: DYO
+
+pos = -1851, -1354, -2439
+rot = 0.000, -0.900, -0.000
+waypoints = waypoint
+  waypoint = -2102, -1355, -2283
+  waypoint = -1980, -1354, -2113
+spawnpool = -1
+bVisible = 1,true
+// User: DYO
+
+pos = -3311, -1353, -5878
+rot = 0.000, -2.783, 0.000
+waypoints = waypoint
+  waypoint = -3669, -1352, -5697
+  waypoint = -3487, -1353, -5522
+spawnpool = -1
+bVisible = 1,true
+// User: DYO
+
+pos = 9799, 2641, -5616
+rot = 0.000, -1.850, 0.000
+waypoints = waypoint
+  waypoint = 9176, 2639, -5274
+  waypoint = 8964, 2639, -5463
+spawnpool = -1
+bVisible = 1,true
+// User: DYO
+
+pos = 9883, 2641, -6060
+rot = 0.000, -1.850, 0.000
+waypoints = waypoint
+  waypoint = 9159, 2640, -5587
+  waypoint = 8903, 2639, -5796
+spawnpool = -1
+bVisible = 1,true
+// User: DYO
+
+pos = 9032, 2641, -3629
+rot = 0.000, -0.600, -0.000
+waypoints = waypoint
+  waypoint = 8346, 2638, -4411
+  waypoint = 8661, 2638, -4487
+spawnpool = -1
+bVisible = 1,true
+// User: DYO
+
+pos = 9122, 2640, -4273
+rot = 0.000, -0.850, -0.000
+waypoints = waypoint
+  waypoint = 8492, 2638, -4377
+  waypoint = 8592, 2637, -4727
+spawnpool = -1
+bVisible = 1,true
+// User: DYO
+
+pos = 2735, 48, -2528
+rot = 0.000, -2.000, 0.000
+waypoints = waypoint
+  waypoint = 2392, 44, -2188
+  waypoint = 2292, 42, -2504
+spawnpool = -1
+bVisible = 1,true
+// User: DYO
+
+pos = 1044, 42, -4054
+rot = 0.000, 1.200, -0.000
+waypoints = waypoint
+  waypoint = 1718, 21, -4509
+  waypoint = 1773, 42, -4225
+spawnpool = -1
+bVisible = 1,true
+// User: DYO
+
+pos = 64, 42, -6635
+rot = 0.000, 2.350, 0.000
+waypoints = waypoint
+  waypoint = 428, 51, -6591
+  waypoint = 546, 42, -7136
+spawnpool = -1
+bVisible = 1,true
+// User: DYO
+
+pos = 799, 1284, -14431
+rot = 0.000, -1.600, 0.000
+waypoints = waypoint
+  waypoint = 318, 1284, -14100
+  waypoint = 558, 1284, -14908
+spawnpool = -1
+bVisible = 1,true
+// User: DYO
+
+pos = 1579, 1380, -12609
+rot = 0.000, 0.500, -0.000
+waypoints = waypoint
+  waypoint = 2115, 1382, -12742
+  waypoint = 1659, 1379, -12983
+spawnpool = -1
+bVisible = 1,true
+// User: DYO
+
+pos = -102, 42, -8138
+rot = 0.000, 2.750, 0.000
+waypoints = waypoint
+  waypoint = 366, 50, -7627
+  waypoint = 197, 42, -7393
+spawnpool = -1
+bVisible = 1,true
+// User: DYO
+
+pos = -2652, 304, -10425
+rot = 0.000, 1.800, 0.000
+spawnpool = -1
+bVisible = 1,true
+// User: DYO
+
+pos = -2484, 42, -12990
+rot = 0.000, 2.400, 0.000
+waypoints = waypoint
+  waypoint = -2238, 50, -12318
+  waypoint = -1808, 44, -12598
+spawnpool = -1
+bVisible = 1,true
+// User: DYO
+
+pos = -1446, 42, -11833
+rot = 0.000, 2.700, 0.000
+waypoints = waypoint
+  waypoint = -1728, 45, -11889
+  waypoint = -1707, 42, -11625
+spawnpool = -1
+bVisible = 1,true
+// User: DYO
+
+name WHITEBAT
+
+pos = -1000, -1236, -3754
+rot = 0.000, 0.000, 0.000
+// User: DYO
+
+pos = -1000, -1236, -3754
+rot = 0.000, 0.000, 0.000
+// User: DYO
+
+pos = -1000, -1236, -3754
+rot = 0.000, 0.000, 0.000
+// User: DYO
+
+pos = -1000, -1236, -3754
+rot = 0.000, 0.000, 0.000
+// User: DYO
+
+pos = -1000, -1236, -3754
+rot = 0.000, 0.000, 0.000
+// User: DYO
+
+pos = -1000, -1236, -3754
+rot = 0.000, 0.000, 0.000
+// User: DYO
+
+pos = -1000, -1236, -3754
+rot = 0.000, 0.000, 0.000
+// User: DYO
+
+pos = -1000, -1236, -3754
+rot = 0.000, 0.000, 0.000
+// User: DYO
+
+pos = -1000, -1236, -3754
+rot = 0.000, 0.000, 0.000
+// User: DYO
+
+pos = -1000, -1236, -3754
+rot = 0.000, 0.000, 0.000
+// User: DYO
+
+pos = -1000, -1236, -3754
+rot = 0.000, 0.000, 0.000
+// User: DYO
+
+pos = -1000, -1236, -3754
+rot = 0.000, 0.000, 0.000
+// User: DYO
+
+pos = -1000, -1236, -3754
+rot = 0.000, 0.000, 0.000
+// User: DYO
+
+pos = -1000, -1236, -3754
+rot = 0.000, 0.000, 0.000
+// User: DYO
+
+pos = -1000, -1236, -3754
+rot = 0.000, 0.000, 0.000
+// User: DYO
+
+pos = -1000, -1236, -3754
+rot = 0.000, 0.000, 0.000
+// User: DYO
+
+pos = -1000, -1236, -3754
+rot = 0.000, 0.000, 0.000
+// User: DYO
+
+pos = -1000, -1236, -3754
+rot = 0.000, 0.000, 0.000
+// User: DYO
+
+pos = -1000, -1236, -3754
+rot = 0.000, 0.000, 0.000
+// User: DYO
+
+pos = -1000, -1236, -3754
+rot = 0.000, 0.000, 0.000
+// User: DYO
+
+name SHADOWBAT
+
+pos = -1334, -992, -3264
+rot = 0.000, -1.883, 0.000
+OnDamage1 = event
+  TargetID = 0,none
+  Message = none
+OnDamage2 = event
+  TargetID = 0,none
+  Message = none
+OnDefeated = event
+  TargetID = 31,DefeatedScript
+  Message = Activate
+ID = 312,ShadowBat
+bEnabled = 0,false
+// User: DYO
+
+name SHAZZA
+
+pos = -4568, -1355, -4308
+rot = 0.000, -0.300, -0.000
+bActive = 1,true
+ID = 313,Shazza
+// User: DYO

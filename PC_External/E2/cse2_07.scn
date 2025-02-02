@@ -1,0 +1,61 @@
+[setup]
+ 
+camera = csE1_07_shadowbat.cam,100,1420
+actor = Act_01_ty,csE1_07_01_ty,100,1420
+actor = Act1_08_shazzaProp,csE1_07_02_shazza,100,1420
+actor = Act_75_Shadowbat,csE1_07_03_Shadowbat,100,1420
+actor = csE1_07_talisman,csE1_07_talismananim,100,1420
+actor = prop_0546_E1ShadowGate,csE1_07_shadowgate,100,380
+subtitle = CSE1_07
+firstsample = CSE1_07_P04
+PlaySFXName = TYCSD2_07_Extra
+
+
+[timeline]
+
+frame = 0
+subobjoff = 0,all
+subobjon  = 0,a_arm_l
+subobjon  = 0,a_arm_r
+subobjon  = 0,a_body
+subobjon  = 0,a_head
+subobjon  = 0,a_headbits
+
+frame = 114
+say = CSE1_07_P04,CSE1_07_P05
+subtitle = 3
+
+frame = 199
+say = CSE1_07_P05,CSE1_07_P06
+subtitle = 4
+
+frame = 270
+subtitle = 10
+
+frame = 392
+say = CSE1_07_P06,CSE1_07_P07
+subtitle = 5
+
+frame = 530
+subtitle = 10
+
+frame = 695
+say = CSE1_07_P07,CSE1_07_P08
+subtitle = 6
+
+frame = 810
+subtitle = 10
+
+frame = 853
+say = CSE1_07_P08,CSE1_07_P10
+subtitle = 7
+
+frame = 925
+subtitle = 10
+
+frame = 1256
+say = CSE1_07_P10,none
+subtitle = 9
+
+
+//end
