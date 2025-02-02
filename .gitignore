@@ -1,11 +1,10 @@
 # Treating the git ignore like a whitelist so the .git folder isn't inside of PC_External slowing down load times
 # Untrack everything else so the other game files outside of PC_External don't get added
-*    
-
+*
 !*/
     
 # whitelist everything here
-!PC_External/
+!PC_External/**
 !.gitignore
-!.README.md
+!README.md
 !.gitattributes
