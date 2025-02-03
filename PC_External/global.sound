@@ -1,0 +1,7072 @@
+// Global sound file for Ty
+// Defines the sound events and the sounds that play when these sound events are
+// triggered.
+// 
+// Only CODERS should ADD or REMOVE entries, as they have to update an enumeration
+// of these sound events in Soundbank.h in Ty
+// 
+// 
+
+
+// -----------------------------------------------------------------------------
+// setup
+
+name setup
+    Sound = A3_16_P08,a3vox,c3vox 
+    Sound = A3_40_P02,a3vox,c3vox 
+    Sound = C1_30_P04,c1vox
+    Sound = C1_30_P04A
+    Sound = L1_11_P64,c1vox
+    Sound = L1_11_P65,c1vox
+    Sound = PLACEHOLDER,a1,a2,a3,a4,b1,b2,b3,b4,c1,c2,c3,c4,d1,d2,d3,d4,e1,e2,e3,e4,z1,z2
+    Sound = sfx_0005_aquacaught,a1,a3,b1,b2,d4,c2,c3,c4,e1,d2,e2,e3,z1,z2
+    Sound = sfx_0006_aquadeflect,a1,a3,b1,b2,d4,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0010_lassocatch
+    Sound = sfx_0011_lassothrow,b3
+    Sound = sfx_0012_aquarangthrow,a1,a3,b1,b2,d4,c2,c3,c4,e1,d2,e2,e3,z1,z2
+    Sound = sfx_0015_boomerang,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0016_irangbeep,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0017_boomerang,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0018_zappyrang,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0019_b'rangdeflect,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2,
+    Sound = sfx_0021_b'rangcatch,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,d1,z1,z2,
+    Sound = sfx_0026_ricochet,b1,c2,e1,d2,e4
+    Sound = sfx_0027_ricochet,b1,c2,e1,d2,e4
+    Sound = sfx_0028_lp_doomerang,looping,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,d1,z1,z2
+    Sound = sfx_0031_lp_flamerang,looping,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0032_flamerangignite,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0033_explosionmid,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,d1,z1,z2
+    Sound = sfx_0034_frangice,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0036_frangextinguish,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0037_postwobble,a1,a2,a3,a4,b1,b2,b3,b4,c1,c2,c3,c4,d1,d2,d3,d4,e1,e2,e3,e4,z1,z2
+    Sound = sfx_0046_lp_superbite,looping,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0047_superbite,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0048_superbitewhoosh,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0050_slyrangthow,c1,d2
+    Sound = sfx_0051_slyrangcatch,c1,d2
+    Sound = sfx_0052_slyrangpass
+    Sound = sfx_0053_slyrangdflect,c1,d2
+    Sound = sfx_0055_snowcannon,b2,c2
+    Sound = sfx_0059_bilbycage01,a1,a2,a3,b1,b2,b3,c1,c2,c3,z1,z2
+    Sound = sfx_0060_cratesmash,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d1,e2,e3,z1,z2
+    Sound = sfx_0061_cratesmash,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d1,e2,e3,z1,z2
+    Sound = sfx_0062_crateexplodes
+    Sound = sfx_0070_crystalsmash,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0071_ninjastarhit,c1,e1,e4
+    Sound = sfx_0072_ninjastarthro,c1,e1,e4
+    Sound = sfx_0073_lneddyshield,c1,c3,e1
+    Sound = sfx_0075_drum
+    Sound = sfx_0079_glassshatter,e4
+    Sound = sfx_0080_superflame,c4
+    Sound = sfx_0085_divebite,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0086_tyeatpie,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0087_basketsmash,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0089_tybites
+    Sound = sfx_0090_tybites,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0091_lp_tension,looping,b3
+    Sound = sfx_0092_tensionsnap,b3
+    Sound = sfx_0093_ranghit,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0094_sentinalfall
+    Sound = sfx_0095_smwoodimpct,b3
+    Sound = sfx_0096_cannister,d4
+    Sound = sfx_0097_canfloat,d4
+    Sound = sfx_0098_canrelease,d4
+    Sound = sfx_0099_fencehit,a4,b3
+    Sound = sfx_0101_tyjump,a1,a2,a3,a4,b1,b2,b3,b4,c1,c2,c3,c4,d1,d2,d3,d4,e1,e2,e3,e4,z1,z2
+    Sound = sfx_0106_tystopsshort,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,d1,z1,z2
+    Sound = sfx_0107_tystopsshort,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,d1,z1,z2
+    Sound = sfx_0108_tystopsshortwet,a1,a2,a3,b1,c1,c3,e1,d2,e2,e3,z1,z2
+    Sound = sfx_0115_Tysplash,a1,a2,a3,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,z1,z2
+    Sound = sfx_0116_Tysplash,a1,a2,a3,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,z1,z2
+    Sound = sfx_0117_minisplash,a1,a2,a3,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,z1,z2
+    Sound = sfx_0125_tystep_dirt,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,d1,z1,z2
+    Sound = sfx_0126_tystep_dirt,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,d1,z1,z2
+    Sound = sfx_0127_tystep_dirt,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,d1,z1,z2
+    Sound = sfx_0131_tyland_dirt,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,d1,z1,z2
+    Sound = sfx_0133_tystep_leaves,a1,a2,a3,a4,b1,c1,c2,c3,c4,e1,e2,e3,z1,z2
+    Sound = sfx_0140_tystep_ice,b2,c2,c4,e4,z1,z2
+    Sound = sfx_0143_tystep_stone,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,d1,z1,z2
+    Sound = sfx_0144_tyland_stone,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,d1,z1,z2
+    Sound = sfx_0145_tystep_grass,a1,a2,a3,a4,b1,b2,c1,c2,c3,c4,e1,e2,e3,z1,z2
+    Sound = sfx_0147_lp_tyswim,looping,a1,a3,b1,b2,d4,c2,c3,c4,e1,d2,e2,e3,z1,z2
+    Sound = sfx_0148_tystep_water,a1,a2,a3,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,z1,z2
+    Sound = sfx_0149_tystep_water,a1,a2,a3,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,z1,z2
+    Sound = sfx_0150_tyoutofwater
+    Sound = sfx_0152_tystep_wood,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,e2,e3,d1,z1,z2
+    Sound = sfx_0153_tystep_wood,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,e2,e3,d1,z1,z2
+    Sound = sfx_0154_tyland_wood,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,e2,e3,d1,z1,z2
+    Sound = sfx_0155_tyuwatermove
+    Sound = sfx_0156_lp_tyuwatermove
+    Sound = sfx_0157_tyknockdown,a1,a2,a3,a4,b1,b2,b3,b4,c1,c2,c3,c4,d1,d2,d3,d4,e1,e2,e3,e4,z1,z2
+    Sound = sfx_0158_tyhitsgroundhard,a1,a2,a3,b1,b2,c1,c2,c3,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0161_tyland_metal,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0162_tystep_metal,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0165_tylandhwood,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,e2,e3,z1,z2
+    Sound = sfx_0168_woodgroan,a1,a2,b1,d4,c1,e2,e3,z1,z2
+    Sound = sfx_0175_lp_tywaterslide1,looping,a2,c1,e1
+    Sound = sfx_0180_wetshaking,a1,a2,a3,b1,b2,d4,c1,c2,c3,e1,d2,e2,e3,z1,z2
+    Sound = sfx_0181_lp_iceglide,looping,b2,c2
+    Sound = sfx_0201_bubble_tydies,a1,a3,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,z1,z2
+    Sound = sfx_0232_lp_icemelting,looping,b2,c3
+    Sound = sfx_0249_jeepignition,b3
+    Sound = sfx_0251_lp_jeepidle,looping,b3
+    Sound = sfx_0253_lp_jeep1stgear,looping,b3
+    Sound = sfx_0254_gearchange,b3
+    Sound = sfx_0255_lp_jeep3rdgear,looping,b3
+    Sound = sfx_0256_jeepthrottle,b3
+    Sound = sfx_0260_gravelskid,a2,b3,d1
+    Sound = sfx_0271_watertanksmash,b3
+    Sound = sfx_0276_lp_doomgrind,looping,e4
+    Sound = sfx_0278_streetsign,b3
+    Sound = sfx_0279_housecollapse,b3
+    Sound = sfx_0280_woodcollapse,a1,b1,b3,d2
+    Sound = sfx_0281_woodcrash,a4,b3
+    Sound = sfx_0282_metalcrash,a4,b3
+    Sound = sfx_0284_metaltowerfall,b3
+    Sound = sfx_0285_bullsplash,b3,d4
+    Sound = sfx_0286_bulljump,b3
+    Sound = sfx_0287_bulldigs
+    Sound = sfx_0288_bullcannon,a4
+    Sound = sfx_0289_shedsmash,a4,b3
+    Sound = sfx_0290_bulland,b3
+    Sound = sfx_0291_bullcharge,b3
+    Sound = sfx_0292_bullsplish
+    Sound = sfx_0292_lp_bullwater,looping,b3
+    Sound = sfx_0301_crabclaw,a1,a3,b2,c3
+    Sound = sfx_0303_lp_crabscuttle,looping,a1,a3,b2,c3
+    Sound = sfx_0304_crabsappears
+    Sound = sfx_0305_crabdeath,a1,a3,c3
+    Sound = sfx_0307_crocbites,a1,b1,e1,z1,z2
+    Sound = sfx_0308_lp_crocswim,looping,a1,b1,e1,z1,z2
+    Sound = sfx_0309_crocsurface,a1,b1,e1,z1,z2
+    Sound = sfx_0310_crocsplash,a1,b1,d4,e1
+    Sound = sfx_0320_enemyfallssmall,a1,a2,a3,b1,b2,c3,d1,e2,e3
+    Sound = sfx_0322_enemyfallmed,a1,a2,a3,b1,b2,b3,c1,c2,c3,d1,d2,d3,e1,e2,e3
+    Sound = sfx_0323_enemyfallslarge,a1,a2,a3,a4,b1,b2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0324_enemydies,a1,a2,a3,b1,b2,b3,c1,c2,c3,e1,d2,e2,e3,e4
+    Sound = sfx_0325_enemydies_uw
+    Sound = sfx_0326_snoring,a1
+    Sound = sfx_0327_rufushop,a1
+    Sound = sfx_0328_rufusscratch,a1
+    Sound = sfx_0329_rufusattack,a1
+    Sound = sfx_0330_rufusland,a1
+    Sound = sfx_0331_throw,b2,b3,c2,e1,d2,z1,z2
+    Sound = sfx_0335_lp_sharkmove,looping,a3
+    Sound = sfx_0337_sharkbuttscage
+    Sound = sfx_0338_sharkbite,a3
+    Sound = sfx_0345_eelbite,a3
+    Sound = sfx_0346_eelextend,a3
+    Sound = sfx_0347_eelretract,a3
+    Sound = sfx_0348_lp_eelidle,looping,a3
+    Sound = sfx_0349_lilneddyouch,c1,c3,e1
+    Sound = sfx_0350_lilneddycharge,c1,c3
+    Sound = sfx_0351_lneddyland,c1,c3,e1
+    Sound = sfx_0352_leechburst,a2,c1,c2
+    Sound = sfx_0357_leechmove,a2,c1
+    Sound = sfx_0358_leechsuck,a2,c1,c2
+    Sound = sfx_0359_leechjump,a2,c1
+    Sound = sfx_0360_spideattack,b1,c1,c2
+    Sound = sfx_0361_lp_spidemove,looping,b1,c1
+    Sound = sfx_0361_spidertaunt,looping,b1,c1,c2
+    Sound = sfx_0362_lp_roachflutter,looping,b1
+    Sound = sfx_0363_lp_roachmovement,looping,b1
+    Sound = sfx_0364_lp_wombatmove,looping,b2,c2
+    Sound = sfx_0364_wombatmove
+    Sound = sfx_0365_wombatpass,b2,c2
+    Sound = sfx_0365_wombatsnowboard,b2,c2
+    Sound = sfx_0366_wombattrick,b2,c2
+    Sound = sfx_0367_lp_killbike,looping,b3
+    Sound = sfx_0368_killbikerev,b3
+    Sound = sfx_0369_killbikedefeated,b3
+    Sound = sfx_0370_cavebatidle,a2
+    Sound = sfx_0370_killbikepass
+    Sound = sfx_0371_lp_fboatidle
+    Sound = sfx_0372_lp_speedboat,looping,c3
+    Sound = sfx_0374_speedboatimpact,c3
+    Sound = sfx_0375_wombattaunt,b2,c2
+    Sound = sfx_0376_snowrootaunt,b2,c2
+    Sound = sfx_0377_rhinobeetlestep,looping,a2
+    Sound = sfx_0378_lp_rhinobeetle,looping,a2
+    Sound = sfx_0380_lp_rbeethissing,looping,a2
+    Sound = sfx_0383_enemystep_wood,a1,a2,a3,b1,b2,c1,c2,c3,e1,e2,e3,e4,z1,z2
+    Sound = sfx_0384_batsmack,b1,e1,d2
+    Sound = sfx_0385_lizarddance,a1,a2,a3,b2,c2,e1,d2,e2,e3,e4
+    Sound = sfx_0386_lizardhiss,a1,a2,a3,b2,c2,e1,d2,e2,e3
+    Sound = sfx_0387_lizardtakeaswing,a1,a2,a3,a4,b1,b2,d4,c1,c2,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0389_punch,a1,a2,a3,b1,b2,b3,c1,c2,c3,d1,d2,d3,e1,e2,e3,e4,z1,z2
+    Sound = sfx_0390_btonguehiss
+    Sound = sfx_0391_btonguepunch,a2,b2,c2,c4,e1,d2,e4
+    Sound = sfx_0392_canhit,b1,b3,e1,d2
+    Sound = sfx_0393_bigstep_hard,a1,a2,a3,b1,b2,c1,c2,c3,e1,d2,e4
+    Sound = sfx_0395_ninjawhip,c1,e1,e4
+    Sound = sfx_0396_enemystep_soft,a1,a2,a3,b1,b2,b3,c1,c2,c3,d1,d2,d3,e1,e2,e3,e4,z2
+    Sound = sfx_0397_enemyfall_soft,b2,d4,c2
+    Sound = sfx_0398_enemystep_hard,a1,a2,a3,b1,b2,c1,c2,c3,e1,d2,e2,e3,e4
+    Sound = sfx_0402_lp_batsflock,looping,a2,d2
+    Sound = sfx_0404_batbite,a3,b1,c3
+    Sound = sfx_0405_lp_batfly,looping,b1,d2
+    Sound = sfx_0406_rbacksnort,a4,b3,d1
+    Sound = sfx_0407_B3rbacksnort,b3
+    Sound = sfx_0407_rbacksnort,a4,b3,d1
+    Sound = sfx_0408_lp_rbackrun,looping,a4
+    Sound = sfx_0408_lp_rbackrunB3,looping,b3
+    Sound = sfx_0409_rbackfall,a4,b3,d1
+    Sound = sfx_040_swoop
+    Sound = sfx_0410_rbackcrash,a4,b3,d1
+    Sound = sfx_0411_rbackroar,a4
+    Sound = sfx_0412_rbackroar,a4
+    Sound = sfx_0413_rbacktrotl,a4,b3,d1
+    Sound = sfx_0414_rbacktrotr,a4,b3,d1
+    Sound = sfx_0415_rbackskid,a4
+    Sound = sfx_0416_rbackhurt,a4
+    Sound = sfx_0416_rbackroarb3,b3
+    Sound = sfx_0418_lp_antswarm,looping,a4
+    Sound = sfx_0419_rbacksquish,a4,c4
+    Sound = sfx_0420_rback4legs,a4,b3,d1
+    Sound = sfx_0421_scream,a4
+    Sound = sfx_0422_laughing,a4
+    Sound = sfx_0423_bullshockwave,a4
+    Sound = sfx_0425_fallingstalactites,d2
+    Sound = sfx_0426_stalactiteimpact,d2
+    Sound = sfx_0427_fireworkslaunch
+    Sound = sfx_0428_fireworks1
+    Sound = sfx_0430_shadowswoops1,d2
+    Sound = sfx_0431_shadowwaveattack,d2
+    Sound = sfx_0432_shadowwingflap,d2
+    Sound = sfx_0433_shadowshriek,d2
+    Sound = sfx_0435_shadowdefeated,d2
+    Sound = sfx_0436_lp_shadowsucks,looping,d2
+    Sound = sfx_0437_shadowwingflap,d2
+    Sound = sfx_0440_yowieroar,c4
+    Sound = sfx_0441_yowiedefeated,c4
+    Sound = sfx_0442_lp_hoverhead,looping,c4
+    Sound = sfx_0443_lp_robot,looping,c4
+    Sound = sfx_0444_headdetatch,c4
+    Sound = sfx_0445_robotroar,c4
+    Sound = sfx_0446_fluffsmacksTy,c4
+    Sound = sfx_0447_fluffyattack,c4
+    Sound = sfx_0448_fluffyattack,c4
+    Sound = sfx_0449_robothurt,c4
+    Sound = sfx_0451_chestbeat,c4
+    Sound = sfx_0451_robotbeat,c4
+    Sound = sfx_0455_rangneddy,b1,e1
+    Sound = sfx_0461_armourfalls,b1
+    Sound = sfx_0463_neddyhit,b1
+    Sound = sfx_0464_neddyfalls,b1
+    Sound = sfx_0465_neddylaughs,b1
+    Sound = sfx_0466_neddystep,b1
+    Sound = sfx_0471_fluffyland,c4
+    Sound = sfx_0472_fluffyjump,c4
+    Sound = sfx_0475_chumexplode,d4
+    Sound = sfx_0476_crikeybitesty,d4
+    Sound = sfx_0476_lp_criksplash,looping,d4
+    Sound = sfx_0477_lp_crikeymove,looping,d4
+    Sound = sfx_0478_crikeatschum
+    Sound = sfx_0478_lp_crikeatschum,looping,d4
+    Sound = sfx_0479_crikeatscan
+    Sound = sfx_0479_lp_crikeatscan,looping,d4
+    Sound = sfx_0484_crikeyhurt,d4
+    Sound = sfx_0488_crikeybites,d4
+    Sound = sfx_0490_lp_flamethrow,looping,c1,c3,e1,d2,e4
+    Sound = sfx_0500_opalx,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2,mm
+    Sound = sfx_0501_opalx,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2,mm
+    Sound = sfx_0502_opalx,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2,mm
+    Sound = sfx_0503_opalx,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2,mm
+    Sound = sfx_0510_musicice,b2
+    Sound = sfx_0511_musicice,b2
+    Sound = sfx_0512_musicice,b2
+    Sound = sfx_0513_musicice,b2
+    Sound = sfx_0514_musicice,b2
+    Sound = sfx_0515_airmeterlose,a1,a3,b1,b2,c1,c2,c3,d2,d3,d4,e1,e2,e3,e4,z1,z2
+    Sound = sfx_0516_lp_airempty,looping,a1,a3,b1,b2,c1,c2,c3,d2,d3,d4,e1,e2,e3,e4,z1,z2
+    Sound = sfx_0517_airgain,a1,a3,b1,b2,c1,c2,c3,d2,d3,d4,e1,e2,e3,z1,z2
+    Sound = sfx_0522_allopals,a1,a2,a3,a4,b1,b2,b3,b4,c1,c2,c3,c4,d1,d2,d3,d4,e1,e2,e3,e4,z1,z2
+    Sound = sfx_0523_lp_opalcollect,looping,a1,a2,a3,b1,b2,b3,c1,c2,c3,e2,e3,z1,z2
+    Sound = sfx_0525_bigbutton,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0527_B3claim,b3
+    Sound = sfx_0528_B3checkpoint,b3
+    Sound = sfx_0530_cp_appears,a1,a2,a3,b1,b2,b3,c1,c2,c3,d1,d2,d3,e1,e2,e3,z1,z2
+    Sound = sfx_0531_objectiveA1,a1,b3,c1,e4
+    Sound = sfx_0535_objectiveB2,a3,b1,b2,c2,c3
+    Sound = sfx_0541_Typortal,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,d1,z1,z2
+    Sound = sfx_0547_shroom,a1,a2,a3,a4,b1,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0548_jumpflower,a1,a2,a3,a4,c1,c2,c3,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0554_collectrang,a1,z1,
+    Sound = sfx_0555_bilbyclue,a1,a2,a3,b1,b2,b3,c1,c2,c3
+    Sound = sfx_0558_talismanmove,z1
+    Sound = sfx_0559_talismanmove,z1
+    Sound = sfx_0560_rangpress,z1
+    Sound = sfx_0570_startergun,a1,a2,a3,b1,b2,b3,c1,c2,c3,e1,e2,e3,z2
+    Sound = sfx_0571_buzzer,a1,a2,a3,b1,b2,b3,c1,c2,c3,e1,e2,e3,z2
+    Sound = sfx_0572_collecttegg,a1,a2,a3,b1,b2,b3,c1,c2,c3
+    Sound = sfx_0573_collectcog,a1,a2,a3,b1,b2,b3,c1,c2,c3
+    Sound = sfx_0574_bilbyrescue,a1,a2,a3,b1,b2,b3,c1,c2,c3
+    Sound = sfx_0575_collecttalisman,z1
+    Sound = sfx_0576_lp_talismachine,looping
+    Sound = sfx_0577_lp_idletalisman,looping,z1
+    Sound = sfx_0578_lp_rangmachine,looping,z1
+    Sound = sfx_0580_rescue,a3,b2,c2
+    Sound = sfx_0582_emucaught,b3
+    Sound = sfx_0583_emuseen,b3
+    Sound = sfx_0584_lp_emumove
+    Sound = sfx_0590_bunyipappear,a1,a2,a3,b1,b2,c2,c3,e1,d2,e2,e3,z1,z2
+    Sound = sfx_0591_bunyipmove,a1,a2,a3,b1,b2,c2,c3,e1,d2,e2,e3,z1,z2
+    Sound = sfx_0593_bunyipthud,a1,a2,a3,b1,b2,c2,c3,e1,d2,e2,e3,z1,z2
+    Sound = sfx_0594_lp_bunyip,looping,a1,a2,a3,b1,b2,c2,c3,e1,d2,e2,e3,z1,z2
+    Sound = sfx_0595_bunyipyell,a1,a2,a3,b1,b2,c2,c3,e1,d2,e2,e3,z1,z2
+    Sound = sfx_0601_singlechirp,a1,a2,c1,e2,z1,z2
+    Sound = sfx_0604_lp_batssquealing,looping,a2,d2
+    Sound = sfx_0605_batsqueal,b1
+    Sound = sfx_0606_cavebatshit,a2
+    Sound = sfx_0625_sentinalalarm
+    Sound = sfx_0645_crow,a1,a4,b3,e2,e3,z1,z2,
+    Sound = sfx_0647_sturkeyseen,a2,b1
+    Sound = sfx_0648_lp_turkeyrun,looping,a2,b1
+    Sound = sfx_0649_sturkeycaught,a2,b1
+    Sound = sfx_0670_lp_crows,looping,a4,b3
+    Sound = sfx_0671_birdtune,a1,a2,c1,e2,z1,z2
+    Sound = sfx_0700_seagull,a3,d4,c3,e2,e3,
+    Sound = sfx_0701_seagull,a3,d4,c3,e2,e3,
+    Sound = sfx_0707_lp_seagulls,looping,a3,d4,c3,c4,e2,e3,
+    Sound = sfx_0713_lp_emurunning,looping,b3
+    Sound = sfx_0720_lp_mauriewings,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c4,e1,d2,e2,e3,e4,d1,z1,z2
+    Sound = sfx_0725_lennywetstep,a1,a2,a3,b1,b2,c1,c3,e1,d2
+    Sound = sfx_0742_friendstepsoft,a2,a3,b1,b2,b3,c1,c2,c3,e1,d2,e2,e3,e4,d1,z1,z2
+    Sound = sfx_0743_jeepstartdrive,a2
+    Sound = sfx_0745_lp_olliegrowl,looping,c3
+    Sound = sfx_0746_olliehit,c3
+    Sound = sfx_0747_lp_olliethresh,looping
+    Sound = sfx_0749_rexellestep,a3,c3,d2,d1
+    Sound = sfx_0750_rexellestep,a3,c3,d2,d1
+    Sound = sfx_0751_olliehithead,c3
+    Sound = sfx_0752_rexelleland,c3,d2,d1
+    Sound = sfx_0753_goldclank,c3
+    Sound = sfx_0754_goldpu,c3
+    Sound = sfx_0755_ellejump,c3
+    Sound = sfx_0756_rexjump,c3
+    Sound = sfx_0801_lp_cicada,looping,a1,a2,c1,z1
+    Sound = sfx_0802_birdtune,a1,a2,c1,e2,z1,z2
+    Sound = sfx_0803_birdtune,a1,a2,c1,e2,z1,z2
+    Sound = sfx_0804_birdtune,a1,a2,c1,e2,z1,z2
+    Sound = sfx_0805_birdwhistle,a1,a2,c1,e2,z1,z2
+    Sound = sfx_0806_lp_birds,looping,a1,a2,c1,e2,z1,z2
+    Sound = sfx_0808_lp_rainforest,looping,a1,c1,d1
+    Sound = sfx_0810_lp_rain,looping,a2,c1
+    Sound = sfx_0812_cavedrip,a2,b1,c1,e1
+    Sound = sfx_0814_lp_lava,looping,a3,c3,e1,d2
+    Sound = sfx_0815_lp_mtwind,looping,b2,c2,c4
+    Sound = sfx_0817_lp_cows,looping,b3
+    Sound = sfx_0818_lp_sheep,looping,b3
+    Sound = sfx_0821_kookas,e2,z1,z2
+    Sound = sfx_0823_lp_waterslide,looping,a2,c1,e1
+    Sound = sfx_0824_distantthunder,a4
+    Sound = sfx_0825_spike,a2,c3,e1
+    Sound = sfx_0826_spike,a2,c3,e1
+    Sound = sfx_0827_shears,e1
+    Sound = sfx_0828_shears,e1
+    Sound = sfx_0829_uwaterhatch,a3,c3
+    Sound = sfx_0831_distantthunder,a4,e1
+    Sound = sfx_0832_lp_beach,looping,a3,c3,d4
+    Sound = sfx_0833_lp_waterfall,looping,a1,a2,b1,b3,c1,e1,e2,e3,z1,z2
+    Sound = sfx_0834_lp_waterfall
+    Sound = sfx_0835_elevatorup,a2,b2
+    Sound = sfx_0836_elevatordown,a2,b2
+    Sound = sfx_0837_lp_nitebkgrnd,looping,b1,e3
+    Sound = sfx_0838_lp_pontoonarea,looping,d4,c3
+    Sound = sfx_0839_lp_frogsamb,looping,a2,b1,e2,e3,z2,
+    Sound = sfx_0840_frog,a1,a2,b1
+    Sound = sfx_0842_lp_rotatinglog,looping,a2,c1
+    Sound = sfx_0843_lp_rollinglog,looping,b2
+    Sound = sfx_0844_logimpact,b2
+    Sound = sfx_0845_clamsejectsty,a3
+    Sound = sfx_0846_clamsnapsshut
+    Sound = sfx_0847_clamopens
+    Sound = sfx_0848_coconuthits,a3
+    Sound = sfx_0852_lp_unlitflame,looping,b1,c4
+    Sound = sfx_0855_lp_uwaterambience,looping,a1,a3,b1,b2,d4,c2,c3,e1,d2,e2,e3,e4,d1,z1,z2
+    Sound = sfx_0857_lp_flaming,looping,b1,c2,z1
+    Sound = sfx_0858_lp_furnace,looping,c2
+    Sound = sfx_0861_lp_torch,looping,a1,a2,b1,d4,c1,c2,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_0863_lp_bushfire,looping,b3,c2
+    Sound = sfx_0866_beepingmine,a3,c3,c4,e1,d2
+    Sound = sfx_0866_lp_hvrpltfm,looping,a1,a3,b1,c1,c3,e1,e2,e3,z1
+    Sound = sfx_0867_mineexploding,a3,d4,c3,e1,d2
+    Sound = sfx_0869_lp_geyser,looping,a3,c3,e4
+    Sound = sfx_0870_geyser,a3,c3
+    Sound = sfx_0873_lp_furnaceidle,looping,c1,e4
+    Sound = sfx_0877_E4cassdoorhit,e4
+    Sound = sfx_0878_E4explode,e4
+    Sound = sfx_0878_E4fthrowerup,e4
+    Sound = sfx_0880_E4throwerdown,e4
+    Sound = sfx_0886_lp_cablecar,looping,c2
+    Sound = sfx_0889_lp_boulderoll,looping,a2
+    Sound = sfx_0890_boulderland,a2,b2
+    Sound = sfx_0891_boulderbounce,a2
+    Sound = sfx_0892_trapdoor,c1
+    Sound = sfx_0893_snowlumpsfall,b2,c2,c4
+    Sound = sfx_0894_lp_beltactive,looping,c2
+    Sound = sfx_0895_lp_saw,looping,b2
+    Sound = sfx_0896_sawshake,looping,b2
+    Sound = sfx_0901_boing,a1,a2,a3,a4,b1,d4,c1,c2,c3,c4,e1,e2,e3,e4,z1,z2
+    Sound = sfx_0905_lp_bubbles,looping,c4
+    Sound = sfx_0906_bubble,a1,a3,b1,b2,d4,c3,e1,d2,e2,e3,z1,z2
+    Sound = sfx_0907_bubbles,a1,a3,b1,b2,d4,c3,e1,d2,e2,e3,z1,z2
+    Sound = sfx_0917_speargun,a3,b2,e1
+    Sound = sfx_0918_dchargebang,c3
+    Sound = sfx_0920_furnaceio,c1
+    Sound = sfx_0921_furnacecold,c1
+    Sound = sfx_0925_snowballground,b2,c2
+    Sound = sfx_0926_snowballland,b2,c2,c4
+    Sound = sfx_0929_icecrack,b2,c2,c4
+    Sound = sfx_0930_lp_snowball,looping,b2,c2
+    Sound = sfx_0931_giantsnoblland,c4
+    Sound = sfx_0932_lp_pipeflow,looping,b3
+    Sound = sfx_0935_lp_ er,looping,b3
+    Sound = sfx_0937_doorsqueak,a4,c3,z1
+    Sound = sfx_0938_thinice,b2
+    Sound = sfx_0940_lp_bcassint,looping,e4
+    Sound = sfx_0961_snopilebang,b2,c2
+    Sound = sfx_0962_cablecarhit,c2
+    Sound = sfx_0963_toxicpipe,b3
+    Sound = sfx_0964_piperepair,b3
+    Sound = sfx_0965_piperepair,b3
+    Sound = sfx_0967_slidingdoor,c1
+    Sound = sfx_0968_doorthud,a4,c1,z1
+    Sound = sfx_0970_wsdebris,a2,c1,e1
+    Sound = sfx_0971_wsdebris,a2,c1,e1
+    Sound = sfx_0972_lp_rattlingchest,looping,c3
+    Sound = sfx_0973_crikeysurface,d4
+    Sound = sfx_0975_lp_surfaceswim,looping,d4
+    Sound = sfx_0985_littlebubbles,a1,a3,b1,b2,d4,c3,e1,d2,z1,z2
+    Sound = sfx_0986_lp_robotengroom,looping,e4
+    Sound = sfx_0987_robotstep,e4
+    Sound = sfx_0988_lp_robotengroom,looping,e4
+    Sound = sfx_0989_tunnelwhoosh,e4
+    Sound = sfx_0989_tunnelwhoosh2,e4
+    Sound = sfx_0989_tunnelwhoosh3,e4
+    Sound = sfx_0989_tunnelwhoosh4,e4
+    Sound = sfx_0989_tunnelwhoosh5,e4
+    Sound = sfx_0990_lp_tunnel,looping,e4
+    Sound = sfx_0990_lp_tunnel2,looping,e4
+    Sound = sfx_0990_lp_tunnel3,looping,e4
+    Sound = sfx_0990_lp_tunnel4,looping,e4
+    Sound = sfx_0990_lp_tunnel5,looping,e4
+    Sound = sfx_0991_slyland,c1,e1,d2,e4
+    Sound = sfx_0992_slystepwood,c1
+    Sound = sfx_0993_slystepmetal,c1,e1,d2
+    Sound = sfx_0998_lp_lightrain,looping,a2
+    Sound = sfx_0999_lp_shimmering,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,e2,e3,e4,z1,z2
+    Sound = sfx_1001_fierceouch,a2,b2,c2,e4
+    Sound = sfx_1004_positivegrunt,a2,b2,c2,e4
+    Sound = sfx_1005_positivegrunt,a2,b2,c2,e4
+    Sound = sfx_1006_bristlingenemy,a2,b2,c2,e4
+    Sound = sfx_1009_frillshriek,b3,c2
+    Sound = sfx_1011_frillouch,a1,a2,a3,b1,b2,c2,e2,e3,e4
+    Sound = sfx_1012_frillouch,a1,a2,a3,b1,b2,c2,e2,e3,e4
+    Sound = sfx_1014_gninjawa,c1,e1,e4
+    Sound = sfx_1014_ninjadeath,c1,e1,e4
+    Sound = sfx_1015_skinktriumph
+    Sound = sfx_1015_wombathurt,b2,c2
+    Sound = sfx_1016_skinktriumph
+    Sound = sfx_1016_wombatdies,b2,c2
+    Sound = sfx_1017_skinkdies,b1,e1
+    Sound = sfx_1018_skinkdies,b1,e1
+    Sound = sfx_1024_dennishit,b1vox
+    Sound = sfx_1025_dennishit,b1vox
+    Sound = sfx_1026_dennishit,b1vox
+    Sound = sfx_1027_shazzahit,a2vox,b3vox,d2vox
+    Sound = sfx_1027_shazzahitagain,a2vox,b3vox,d2vox
+    Sound = sfx_1028_ellehit,a3vox,c3vox
+    Sound = sfx_1029_sheilahit,b2vox,c1vox,c2vox,d2vox
+    Sound = sfx_1030_rexhit,a3vox,b1vox,c3vox
+    Sound = sfx_1031_lennyhit,c1vox
+    Sound = sfx_1032_lennyhit,c1vox
+    Sound = sfx_1033_lennyhit,c1vox
+    Sound = sfx_1034_lennyhit,c1vox
+    Sound = sfx_1035_kenhit,a2vox,c2vox
+    Sound = sfx_1036_bunyipelder,a4vox,c4vox,d4vox,e4vox,z1vox,z2vox
+    Sound = sfx_1038_farlaphit,a3vox,c3vox
+    Sound = sfx_1039_slyhit,c1vox,d2vox
+    Sound = sfx_1040_slyhit,c1vox,d2vox
+    Sound = sfx_1042_aurorahit,a3vox
+    Sound = sfx_1043_juliushit,a1vox,a4vox,b4vox,d4vox,c4vox,z1vox,z2vox
+    Sound = sfx_1044_juliushit,a1vox,a4vox,b4vox,d4vox,c4vox,z1vox,z2vox
+    Sound = sfx_1049_tyledge
+    Sound = sfx_1050_tyclimb,a1vox,a2vox,a3vox,a4vox,b1vox,b2vox,b3vox,b4vox,d4vox,c1vox,c2vox,c3vox,c4vox,e1vox,d2vox,e2vox,e3vox,e4vox,z1vox,z2vox
+    Sound = sfx_1051_tyclimb,a1vox,a2vox,a3vox,a4vox,b1vox,b2vox,b3vox,b4vox,d4vox,c1vox,c2vox,c3vox,c4vox,e1vox,d2vox,e2vox,e3vox,e4vox,z1vox,z2vox
+    Sound = sfx_1053_tycheckpoint,a1vox,a2vox,a3vox,b1vox,b2vox,c1vox,c2vox,c3vox,e1vox,d2vox,e2vox,e3vox
+    Sound = sfx_1055_tyhurt
+    Sound = sfx_1056_tyhurt
+    Sound = sfx_1060_mauriehit,a1vox,a2vox,a4vox,b1vox,b2vox,b3vox,b4vox,d4vox,c1vox,c2vox,c4vox,e1vox,d2vox,e2vox,e3vox,e4vox,z1vox,z2vox
+    Sound = sfx_1061_mauriehit,a1vox,a2vox,a4vox,b1vox,b2vox,b4vox,d4vox,c1vox,c2vox,c4vox,e1vox,d2vox,e2vox,e3vox,e4vox,z1vox,z2vox
+    Sound = sfx_1062_mauriehit,a1vox,a2vox,a4vox,b1vox,b2vox,b4vox,d4vox,c1vox,c2vox,c4vox,e1vox,d2vox,e2vox,e3vox,e4vox,z1vox,z2vox
+    Sound = sfx_1063_mauriehit,a1vox,a2vox,a4vox,b1vox,b2vox,b4vox,d4vox,c1vox,c2vox,c4vox,e1vox,d2vox,e2vox,e3vox,e4vox,z1vox,z2vox
+    Sound = sfx_1070_typositive
+    Sound = sfx_1072_typositive
+    Sound = sfx_1073_typositive
+    Sound = sfx_1077_lp_snowspider,looping,b2,c2
+    Sound = sfx_1081_seadragonkid,a3vox
+    Sound = sfx_1082_seadragonkid,a3vox
+    Sound = sfx_1085_koalakid,b2vox,c2vox
+    Sound = sfx_1086_koalakid,b2vox,c2vox
+    Sound = sfx_1087_koalakid,b2vox,c2vox
+    Sound = sfx_1088_koalakid,b2vox,c2vox
+    Sound = sfx_1090_koalakidhit,b2,c2
+    Sound = sfx_1091_koalakidhit,b2,c2
+    Sound = sfx_1092_cocoqsand,a3
+    Sound = sfx_1093_lavaspout,c3,d2
+    Sound = sfx_1094_ninja1,c1,e1,e4
+    Sound = sfx_1094_ninja2,c1,e1,e4
+    Sound = sfx_1095_rockland,b2,c1,c2,e1,e4
+    Sound = sfx_1096_lp_steam,looping,d2
+    Sound = sfx_1097_lp_gennie,looping,z1
+    Sound = sfx_1098_doorclose,z1
+    Sound = sfx_1098_dooropen,z1
+    Sound = sfx_CSD1_robotcollapse,d1
+    Sound = sfx_CSFX_D2shazzasnog,d2
+    Sound = sfx_CSFX_bullbreath,b3
+    Sound = sfx_CSFX_dropitem,e4
+    Sound = sfx_CSFX_flash,c1,d1
+    Sound = sfx_CSFX_headflyoff,e1,e4
+    Sound = sfx_CSFX_latch,d2
+    Sound = sfx_CSFX_longjump,c4,d1
+    Sound = sfx_CSFX_lp_laser,looping,z1
+    Sound = sfx_CSFX_metaldoor2,d2,d1,z1
+    Sound = sfx_CSFX_metaldrop,e4
+    Sound = sfx_CSFX_pickup,b2
+    Sound = sfx_CSFX_robotservo,d2
+    Sound = sfx_CSFX_robotstep,d2
+    Sound = sfx_CSFX_talismanspin,d1
+    Sound = sfx_CSFX_whoosh,a1,a2,b2,c2
+    Sound = sfx_logo_menu_mono,mm
+    Sound = sfx_lp_CSA1
+    Sound = sfx_lp_CSA2
+    Sound = sfx_lp_CSA3
+    Sound = sfx_lp_CSA4
+    Sound = sfx_lp_CSB1
+    Sound = sfx_lp_CSB2
+    Sound = sfx_lp_CSB3
+    Sound = sfx_lp_CSC1
+    Sound = sfx_lp_CSC2
+    Sound = sfx_lp_CSD4
+    Sound = sfx_menu_accept
+    Sound = sfx_menu_cancel
+    Sound = sfx_menu_click
+    Sound = sfx_menubeep2
+    Sound = silencio,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_zappyrang_throw_01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_zappyrang_throw_02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_zappyrang_throw_03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_flamerang_throw_01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_flamerang_throw_02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_flamerang_throw_03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_Ty_glide_lp,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = SP_fire_med_lp,looping,z1
+    Sound = HD_frostyrang_throw1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_frostyrang_throw2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_frostyrang_throw3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_kaboomerang_throw1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_kaboomerang_throw2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_kaboomerang_throw3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_multirang_throw1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_multirang_throw2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_multirang_throw3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_Crikey_bigsplash_01,d4
+    Sound = HD_Crikey_bigsplash_02,d4
+    Sound = HD_Crikey_bigsplash_03,d4
+    Sound = HD_Crikey_bigsplash_04,d4
+    Sound = HD_crate_01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_crate_02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_crate_03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_crate_04,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_crate_05,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_crate_06,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_grab_dirt_gravel,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_grab_metal,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_grab_sand_snow,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_grab_stone_rock,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_ty_bitesNEW,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_aquarang_uwater_hit,a1,a3,b1,b2,d4,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = sfx_ty_burn,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = HD_yabbie_hit,b2
+    Sound = HD_uwater_stalac_fall,b2
+    Sound = HD_uwater_stalac_land,b2
+    Sound = TyDirtStep1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyDirtStep2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyDirtStep3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyDirtStep4,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyDirtStep5,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyDirtStep6,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyDirtLand,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyDirtLand2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tygrassstep1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tygrassstep2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tygrassstep3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tygrassstep4,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TygrassLand,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyHardLand1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyHardSlide,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyHardStep1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyHardStep2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyHardStep3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyHardStep4,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyHardStep5,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyHardStep6,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyLandMet,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyStepMet1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyStepMet2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyStepMet3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyStepWood1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyStepWood2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyStepWood3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyStepWood4,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyLandWood,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyLeavesLand,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyLeavesStep1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyLeavesStep2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyLeavesStep3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyLeavesStep4,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyWetStep01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyWetStep03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyWetStep02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyWetStep04,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TySplash1B,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TySplash2B,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TySplash3B,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TySplash4B,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tykart_rockhit01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tykart_rockhit02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tykart_rockhit03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tykart_methit01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tykart_methit02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tykart_methit03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tykart_hit06,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tykart_hit07,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tykart_hit08,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tykart_bailhit01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tykart_bailhit02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tykart_bailhit03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyPunchedM1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyPunchedM2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyPunchedM3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyFriendStepSoft1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyFriendStepSoft2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyFriendStepSoft3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = FriendStepBare01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = FriendStepBare02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = FriendStepBare03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYFriendStepB_01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYFriendStepB_02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_TreeSmash1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_TreeSmash2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_TreeSmash3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TY_Hydraulic1LP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TY_Hydraulic2LP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_aquathrow1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_aquathrow2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_aquathrow3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_explosion1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_explosion2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_explosion3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_explosion4,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = EnemyStepMet1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = EnemyStepMet2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = EnemyStepMet3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TySplashingSTlp1,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TySplashingST2p1,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TySplashingST3p1,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYsp_birds_01_lp,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYspBirdsLp1,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYspBirdsLp2,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYspKookas1,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYspKookas3,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_Punch_C_01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_Punch_C_02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_Punch_C_03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_Punch_C_04,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_Punch_B_01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_Punch_B_02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_Punch_B_03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_Punch_B_04,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_rangcatch01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_rangcatch02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_rangcatch03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_rangcatchC06,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_rangcatchC015,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_rangdeflect_01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_rangdeflect_02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_rangdeflect_03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_rangdeflect_04,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_rangthrow_01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_rangthrow_02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_rangthrow_03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_rangthrow_04,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_rangthrow_05,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_ricochet1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_ricochet2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_ricochet3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_tyjumpA01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_tyjumpA02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_tyjumpA03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_tyjumpA04,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2Aquarangcatch1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2Aquarangcatch2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_aquathrow1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_aquathrow3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_flamehits01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_flamehits02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_flamehits03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_iceformB_1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_iceformB_2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_iceformB_3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_icesmash01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_icesmash02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = GenWhoosh1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = GenWhoosh2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = GenWhoosh3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_rang_thunder_hit01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = T2_rang_thunder_hit02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_lge_dirt1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_lge_dirt2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_lge_dirt3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_lge_dirt4,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_lge_hard1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_lge_hard2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_lge_hard3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_lge_hard4,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_lge_wood1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_lge_wood2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_lge_wood3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_dirt1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_dirt2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_dirt3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_dirt4,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_dirt5,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_dirt6,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_grass1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_grass2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_grass3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_grass4,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_grass01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_grass02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_grass03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_grass04,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_grass05,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_hard01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_hard02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_hard04,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_hard05,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_hard06,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_water1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_water2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_water3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_water4,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_wood1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_wood2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_wood3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_med_wood4,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_small_dirt_01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_small_dirt_02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_small_dirt_03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_small_dirt_04,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_small_hard_01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_small_hard_02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_small_hard_03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty_step_small_hard_04,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tycavedrip1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tycavedrip2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tycavedrip3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tycavedrip4,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Tycavedrip5,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyBubble01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyBubble02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyBubble03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyBubble04,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyBubble05,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyBubble06,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyBubble07,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyBubble08,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyBubble09,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyBubble10,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyBubble11,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyBubble12,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyBubble13,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyBubble14,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyBigBubbles1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyBigBubbles2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TyBigBubbles3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYR_RangDeflect01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYR_RangDeflect02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYR_RangDeflect03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYR_RangDeflect04,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYR_RangDeflect05,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYR_RangDeflect06,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYR_RangDeflect07,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYR_RangDeflect08,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYR_RangDeflect09,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYR_RangDeflect10,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = Ty1_waterslide1,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TySwimMono2_lp,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TySwimMono1_lp,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_Birds01LP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_Birds02LP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_Birds03LP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_Birds04LP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_Birds05LP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_Birds06LP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_Birds07LP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_Birds08LP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_Birds09LP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_Birds10LP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_Birds11LP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_Birds12LP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_Birds09NightLP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_BirdsCrows01LP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_KookaDist1LP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_KookaDist2LP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_Birds10NightLP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_Birds11NightLP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_Birds12NightLP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_Birds13lp,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_BirdCall01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_BirdCall02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_BirdCall03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_BirdCall04,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_BirdCall05,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_BirdCall06,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_BirdCall07,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_cricketslp,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_cicadalp,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_BirdsSwampLP,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = GenWhoosh4,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_Crowcaw1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_Crowcaw2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_Crowcaw3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_magpie1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYAMB_magpie2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TY_BT_Alert1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TY_BT_Alert2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TY_BT_Alert3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TY_BT_Death1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TY_BT_Death2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TY_BT_Death3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TY_Frill_Death1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TY_Frill_Death4,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TY_EnemyADeath1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TY_EnemyADeath2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TY_EnemyADeath3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TY_EnemyADeath4,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYR_RangDeflect01,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYR_RangDeflect02,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYR_RangDeflect03,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYR_RangDeflect04,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYR_RangDeflect05,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYR_RangDeflect06,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYR_RangDeflect07,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYR_RangDeflect08,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYR_RangDeflect09,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYR_RangDeflect10,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TY_B3cow1,b3
+    Sound = TY_B3cow2,b3
+    Sound = TY_B3cow3,b3
+    Sound = TY_B3cows_lp,looping,b3
+    Sound = TY_B3atmos_lp1,looping,b3
+    Sound = TY_B3Shed1,b3
+    Sound = TY_B3Shed2,b3
+    Sound = TY_B3Shed3,b3
+    Sound = TY_B3House1,b3
+    Sound = TY_B3House2,b3
+    Sound = TY1_CS_PlaceTalisman,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TY1_A4_BullTalisman,a4
+    Sound = TY1_A1_2ndRangRemove,a1
+    Sound = TY1_CS_TalismanHandle1,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TY1_CS_TalismanHandle2,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TY1_B3_tensionsnap,b3
+    Sound = TY1_B3_tensionLP,looping,b3
+    Sound = TY1_B3_FenceHit2,b3
+    Sound = TY1_B3_FenceHit1,b3
+    Sound = TY1_B3_TwisterattackST,b3
+    Sound = TY1_B3_lasoothrow1,b3
+    Sound = TY1_B3_lasoothrow2,b3
+    Sound = TY1_B3_lasoothrow3,b3
+    Sound = TY1_windmtnhighE_lp,looping,b2,c2
+    Sound = TY1_windmtnhighD_lp,looping,b2,c2
+    Sound = TY1_wind_shadowB_lp,looping,d2
+    Sound = TY1_wind_ocean_lp,looping,a3,c3,d4
+    Sound = TY1_wind_cassbot1_lp,looping,e4
+    Sound = TY1_wind_desert1_lp,looping,a4,b3
+    Sound = TY1_wind_mntD_lp,looping,b1,b2,c2
+    Sound = TY1_wind_mntC_lp,looping,b1,b2,c2
+    Sound = TY1_wind_mntB_lp,looping,b1,b2,c2
+    Sound = TY1_oceanshoreD_lp,looping,a3,c3,d4
+    Sound = TY1_oceanshoreC_lp,looping,a3,c3,d4
+    Sound = TY1_oceanshoreB_lp,looping,a3,c3,d4
+    Sound = TY1_oceanC_lp,looping,a3,c3,d4
+    Sound = TY1_oceanB_lp,looping,a3,c3,d4
+    Sound = TY1_gullsE_lp,looping,a3,c3,d4
+    Sound = TY1_gullsD_lp,looping,a3,c3,d4
+    Sound = TY1_gullsB_lp,looping,a3,c3,d4
+    Sound = TY1_gullsC_lp,looping,a3,c3,d4
+    Sound = TY1_cavern_eerie2_lp,looping,a3,c3,d4,d2,e4
+    Sound = TY1_cavern_eerie1_lp,looping,a3,c3,d4,d2,e4
+    Sound = TY1_rumble_lp,looping,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TY1_cave_int_drips_lp,looping,a2,a3,b1,c1,c3,d4
+    Sound = sfx_0935_lp_twister,looping,b3
+    Sound = TY_YowieSlam,C4
+    Sound = TY_WaterfallClose_LP,looping,a1,a2,b1,b3,c1,e1,e2,e3,z1,z2
+    Sound = TY_WaterfallDistant_LP,looping,a1,a2,b1,b3,c1,e1,e2,e3,z1,z2
+    Sound = SP_JuliusMachine_02_lp,looping,z1
+    Sound = SP_JuliusMachine_01_lp,looping,z1
+    Sound = TY_JuliusElectric_LP,looping,z1
+    Sound = TYB_Swim1_lp,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYB_Swim2_lp,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYB_smallsplash1,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYB_smallsplash2,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+    Sound = TYB_smallsplash3,a1,a2,a3,a4,b1,b2,b3,d4,c1,c2,c3,c4,e1,d2,e2,e3,e4,z1,z2
+
+    Sound = Ty1_Flamethrow1_lp,looping,c1,c3,e1,d2,e4
+    Sound = HardCoreOn
+
+    Sound = HardCoreOff
+
+    Sound = TYCSA1_01_Extra,a1
+    Sound = TYCSA1_02_Extra,a1
+    Sound = TYCSA1_03_Extra,a1
+    Sound = TYCSA1_60_Extra,a1
+    Sound = TYCSA1_61_Extra,a1
+    Sound = TYCSA1_62_Extra,a1
+    Sound = TYCSZ1_08_Extra,z1
+    Sound = TYCSZ1_09_Extra,z1
+    Sound = TYCSZ1_12_Extra,z1
+    Sound = TYCSZ1_13_Extra,z1
+    Sound = TYCSZ1_15_Extra,z1
+    Sound = TYCSZ1_16_Extra,z1
+    Sound = TYCSZ1_50_Extra,z1
+    Sound = TYCSZ1_59_Extra,z1
+    Sound = TYCSZ1_72_Extra,z1
+    Sound = TYCSZ1_73_Extra,z1
+    Sound = TYCSZ1_74_Extra,z1
+    Sound = TYCSA2_33_Extra,a2
+    Sound = TYCSA2_70_Extra,a2
+    Sound = TYCSA3_70_Extra,a3
+    Sound = TYCSB1_70_Extra,b1
+    Sound = TYCSB2_70_Extra,b2
+    Sound = TYCSB3_02_Extra,b3
+    Sound = TYCSD4_05_Extra,d4
+    Sound = TYCSC1_70_Extra,c1
+    Sound = TYCSC1_27_Extra,c1
+    Sound = TYCSC2_70_Extra,c2
+    Sound = TYCSC3_70_Extra,c3
+    Sound = TYCSC3_60_Extra,c3
+    Sound = TYCSC3_61_Extra,c3
+    Sound = TYCSD2_03_Extra,d2
+    Sound = TYCSD2_07_Extra,d2
+	Sound = TYCSZ1_11_Extra,z1
+	Sound = TYCSZ1_17_Extra,z1
+	Sound = TYCSZ1_18_Extra,z1
+	Sound = TYCSZ1_19_Extra,z1
+	Sound = TYCSZ1_20_Extra,z1
+	Sound = TYCSZ1_21_Extra,z1
+	Sound = TYCSZ1_60_Extra,z1
+	Sound = TYCSZ1_61_Extra,z1
+	Sound = TYCSE4_06_Extra,e4
+	Sound = TYCSD2_05_Extra,d2
+	Sound = TYCSD2_08_Extra,d2
+	Sound = TYCSC4_04_Extra,c4
+	Sound = TYCSC4_05_Extra,c4
+	Sound = TYCSD1_07_Extra,d1
+
+
+
+// -----------------------------------------------------------------------------
+// Ty
+
+name Ty
+
+SoundEvent = TyJump
+    Volume = 100
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.05 
+    Sound = T2_tyjumpA01
+      Chance = 0.25
+    Sound = T2_tyjumpA02
+      Chance = 0.25
+    Sound = T2_tyjumpA04
+      Chance = 0.25
+    Sound = T2_tyjumpA04
+      Chance = 0.25
+
+SoundEvent = TyKnockDown
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0157_tyknockdown
+
+SoundEvent = TyStep
+  Volume = 200
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.05
+  Volume = 255
+    Sound = TyDirtStep1
+      Chance = 0.17
+    Sound = TyDirtStep2
+      Chance = 0.17
+    Sound = TyDirtStep3
+      Chance = 0.17
+    Sound = TyDirtStep4
+      Chance = 0.17
+    Sound = TyDirtStep5
+      Chance = 0.17
+    Sound = TyDirtStep6
+      Chance = 0.15
+  Material = ID_GRASS_THICK
+    MinPitch = 0.9
+    MaxPitch = 1.05
+    Sound = TyLeavesStep1
+      Chance = 0.25
+    Sound = TyLeavesStep2
+      Chance = 0.25
+    Sound = TyLeavesStep3
+      Chance = 0.25
+    Sound = TyLeavesStep4
+      Chance = 0.25
+  Material = ID_GRASS_THIN
+    MinPitch = 0.95
+    MaxPitch = 1.05
+    Sound = Tygrassstep1
+      Chance = 0.25
+    Sound = Tygrassstep2
+      Chance = 0.25
+    Sound = Tygrassstep3
+      Chance = 0.25
+    Sound = Tygrassstep4
+      Chance = 0.25
+  Material = ID_WATER_BLUE
+    Volume = 180
+    MinPitch = 0.85
+    MaxPitch = 1.18
+    Sound = TyWetStep01
+      Chance = 0.25
+    Sound = TyWetStep02
+      Chance = 0.25
+    Sound = TyWetStep03
+      Chance = 0.25
+    Sound = TyWetStep04
+      Chance = 0.25
+  Material = ID_MUD
+    MinPitch = 0.30
+    MaxPitch = 0.47
+    Sound = TyWetStep01
+      Chance = 0.25
+    Sound = TyWetStep02
+      Chance = 0.25
+    Sound = TyWetStep03
+      Chance = 0.25
+    Sound = TyWetStep04
+      Chance = 0.25
+  Material = ID_WOOD
+    Volume = 115
+    MinPitch = 0.75
+    MaxPitch = 0.85
+    Sound = TyStepWood1
+      Chance = 0.25
+    Sound = TyStepWood2
+      Chance = 0.25
+    Sound = TyStepWood3
+      Chance = 0.25
+    Sound = TyStepWood4
+      Chance = 0.25
+  Material = ID_HOLLOWWOOD
+    Volume = 115
+    MinPitch = 1.0
+    MaxPitch = 1.1
+    Sound = TyStepWood1
+      Chance = 0.25
+    Sound = TyStepWood2
+      Chance = 0.25
+    Sound = TyStepWood3
+      Chance = 0.25
+    Sound = TyStepWood4
+      Chance = 0.25
+  Material = ID_METAL
+    Volume = 130
+    MinPitch = 0.85
+    MaxPitch = 1.08
+    Sound = TyStepMet1
+      Chance = 0.33
+    Sound = TyStepMet2
+      Chance = 0.33
+    Sound = TyStepMet3
+      Chance = 0.34
+  Material = ID_ICE_SLIDE
+    Sound = sfx_0181_lp_iceglide
+  Material = ID_ICE
+    MinPitch = 0.90
+    MaxPitch = 1.10
+    Volume = 110
+    Sound = sfx_0140_tystep_ice
+  Material = ID_SNOW
+    MinPitch = 0.65
+    MaxPitch = 0.76
+    Sound = TyDirtStep1
+      Chance = 0.17
+    Sound = TyDirtStep2
+      Chance = 0.17
+    Sound = TyDirtStep3
+      Chance = 0.17
+    Sound = TyDirtStep4
+      Chance = 0.17
+    Sound = TyDirtStep5
+      Chance = 0.17
+    Sound = TyDirtStep6
+      Chance = 0.15
+  Material = ID_ROCK
+    MinPitch = 0.90
+    MaxPitch = 1.12
+    Sound = TyHardStep1
+      Chance = 0.15
+    Sound = TyHardStep2
+      Chance = 0.17
+    Sound = TyHardStep3
+      Chance = 0.17
+    Sound = TyHardStep4
+      Chance = 0.17
+    Sound = TyHardStep5
+      Chance = 0.17
+    Sound = TyHardStep6
+      Chance = 0.17
+  Material = ID_QUICKSAND
+    MinPitch = 0.20
+    MaxPitch = 0.40
+    Sound = TyWetStep01
+      Chance = 0.25
+    Sound = TyWetStep02
+      Chance = 0.25
+    Sound = TyWetStep03
+      Chance = 0.25
+    Sound = TyWetStep04
+      Chance = 0.25
+
+SoundEvent = TyWoodGroan
+  Volume = 100
+  Range = 1500
+  Material = ID_NONE
+    MinPitch = 0.88
+    MaxPitch = 1.19
+    Sound = sfx_0168_woodgroan
+
+SoundEvent = TyLand
+  Volume = 200
+  Range = 5000
+  Material = ID_NONE
+    Sound = TyDirtLand
+      Chance = 0.5
+    Sound = TyDirtLand2
+      Chance = 0.5
+  Material = ID_WOOD
+    Volume = 115
+    Sound = sfx_0165_tylandhwood
+  Material = ID_ROCK
+    Sound = TyHardLand1
+  Material = ID_GRASS_THICK
+    MinPitch = 0.75
+    MaxPitch = 0.75
+    Sound = TyLeavesLand
+  Material = ID_GRASS_THIN
+    MinPitch = 0.69
+    MaxPitch = 0.69
+    Sound = TygrassLand
+  Material = ID_WATER_BLUE
+    Volume = 140
+    MinPitch = 0.97
+    MaxPitch = 1.11
+    Sound = sfx_0117_minisplash
+      Chance = 0.25
+    Sound = TYB_smallsplash1
+      Chance = 0.25
+    Sound = TYB_smallsplash2
+      Chance = 0.25
+    Sound = TYB_smallsplash3
+      Chance = 0.25
+  Material = ID_MUD
+    MinPitch = 0.20
+    MaxPitch = 0.20
+    Sound = sfx_0148_tystep_water
+  Material = ID_HOLLOWWOOD
+    Volume = 115
+    Sound = TyLandWood
+  Material = ID_METAL
+    Volume = 115
+    Sound = TyLandMet
+  Material = ID_ICE
+    MinPitch = 1.20
+    MaxPitch = 1.20
+    Sound = sfx_0144_tyland_stone
+  Material = ID_SNOW
+    MinPitch = 0.65
+    MaxPitch = 0.65
+    Sound = sfx_0131_tyland_dirt
+  Material = ID_QUICKSAND
+    MinPitch = 0.20
+    MaxPitch = 0.24
+    Sound = sfx_0148_tystep_water
+  Material = ID_WATER_SLIDE
+    Sound = sfx_0148_tystep_water
+
+SoundEvent = TyLongfallLand
+  Range = 5000
+  Material = ID_None
+    Sound = sfx_0158_tyhitsgroundhard
+  Material = ID_WATER_BLUE
+    MinPitch = 0.97
+    MaxPitch = 1.11
+    Sound = TySplash1B
+
+SoundEvent = TySwimmingLP
+  Volume = 60
+  Range = 1484
+  Material = ID_None
+    Sound = TYB_Swim1_lp
+      Chance = 0.5
+    Sound = TYB_Swim2_lp
+      Chance = 0.5
+
+SoundEvent = TySplashShallow
+  Volume = 170
+  Range = 3000
+  Material = ID_None
+    Sound = sfx_0115_Tysplash
+
+SoundEvent = TySplashDeep
+  Volume = 50
+  Range = 3000
+  Material = ID_None
+    Volume = 50
+    Sound = TySplash1B
+      Chance = 0.25
+    Sound = TySplash2B
+      Chance = 0.25
+    Sound = TySplash3B
+      Chance = 0.25
+    Sound = TySplash4B
+      Chance = 0.25
+
+SoundEvent = TyWaterBubble
+  Material = ID_None
+    MinPitch = 0.90
+    MaxPitch = 1.10
+    Sound = TyBubble01
+      Chance = 0.1
+    Sound = TyBubble02
+      Chance = 0.05
+    Sound = sfx_0985_littlebubbles
+      Chance = 0.05
+    Sound = TyBubble03
+      Chance = 0.1
+    Sound = TyBubble04
+      Chance = 0.05
+    Sound = TyBubble05
+      Chance = 0.05
+    Sound = TyBubble06
+      Chance = 0.05
+    Sound = TyBubble07
+      Chance = 0.05
+    Sound = TyBubble08
+      Chance = 0.1
+    Sound = TyBubble09
+      Chance = 0.1
+    Sound = TyBubble10
+      Chance = 0.05
+    Sound = TyBubble11
+      Chance = 0.05
+    Sound = TyBubble12
+      Chance = 0.05
+    Sound = TyBubble13
+      Chance = 0.05
+    Sound = TyBubble14
+      Chance = 0.1
+
+SoundEvent = TyOutOfWater
+  Material = ID_None
+    Sound = sfx_0150_tyoutofwater
+
+SoundEvent = TyWaterDeath
+  Range = 5000
+  Material = ID_None
+    Sound = TyBigBubbles1
+      Chance = 0.4
+    Sound = TyBigBubbles2
+      Chance = 0.4
+    Sound = TyBigBubbles3
+      Chance = 0.2
+
+SoundEvent = TyUnderWaterSwim
+  Range = 5000
+  Material = ID_None
+    Sound = sfx_0155_tyuwatermove
+
+SoundEvent = TyUnderWaterSwimLP
+  Range = 5000
+  Material = ID_None
+    Sound = sfx_0156_lp_tyuwatermove
+
+SoundEvent = TyWaterSlideLP
+  Material = ID_None
+    Sound = Ty1_waterslide1
+
+SoundEvent = TyBiteAir
+  Material = ID_NONE
+    MinPitch = 1.10
+    MaxPitch = 1.12
+    Sound = sfx_0089_tybites
+
+SoundEvent = TyBiteDrum
+  Material = ID_NONE
+    Sound = sfx_0075_drum
+      Chance = 1.00
+
+SoundEvent = TyBiteCharge
+  Material = ID_NONE
+    Sound = sfx_0047_superbite
+
+SoundEvent = TyBiteChargedLP
+  Material = ID_NONE
+    Sound = sfx_0046_lp_superbite
+
+SoundEvent = TyBiteRelease
+  Material = ID_NONE
+    Sound = sfx_0048_superbitewhoosh
+
+SoundEvent = TyRangStdThrow
+  Volume = 150
+  Range = 5000
+  Material = ID_NONE
+    Sound = T2_rangthrow_01
+      Chance = 0.2
+    Sound = T2_rangthrow_02
+      Chance = 0.2
+    Sound = T2_rangthrow_03
+      Chance = 0.2
+    Sound = T2_rangthrow_04
+      Chance = 0.2
+    Sound = T2_rangthrow_05
+      Chance = 0.2
+
+SoundEvent = TyRangStdCatch
+  Volume = 150
+  Range = 2000
+  Material = ID_NONE
+    Sound = T2_rangcatch01
+      Chance = 0.2
+    Sound = T2_rangcatch02
+      Chance = 0.2
+    Sound = T2_rangcatch03
+      Chance = 0.2
+    Sound = T2_rangcatchC06
+      Chance = 0.2
+    Sound = T2_rangcatchC015
+      Chance = 0.2
+
+SoundEvent = TyRangStdDeflect
+  Volume = 150
+  Range = 4000
+  Material = ID_NONE
+    Sound = TYR_RangDeflect01
+      Chance = 0.1s
+    Sound = TYR_RangDeflect02
+      Chance = 0.1
+    Sound = TYR_RangDeflect03
+      Chance = 0.1
+    Sound = TYR_RangDeflect04
+      Chance = 0.1
+    Sound = TYR_RangDeflect05
+      Chance = 0.1
+    Sound = TYR_RangDeflect06
+      Chance = 0.1
+    Sound = TYR_RangDeflect07
+      Chance = 0.1
+    Sound = TYR_RangDeflect08
+      Chance = 0.1
+    Sound = TYR_RangDeflect09
+      Chance = 0.1
+    Sound = TYR_RangDeflect10
+      Chance = 0.1
+  Material = ID_WATER_BLUE
+    Sound = sfx_0148_tystep_water
+
+SoundEvent = TyRangAquaThrow
+  Volume = 100
+  Range = 5491
+  Material = ID_NONE
+    Sound = T2_aquathrow1
+      Chance = 0.5
+    Sound = T2_aquathrow3
+      Chance = 0.5
+
+SoundEvent = TyRangAquaCatch
+  Volume = 100
+  Range = 2000
+  Material = ID_NONE
+    Sound = T2Aquarangcatch1
+      Chance = 0.5
+    Sound = T2Aquarangcatch2
+      Chance = 0.5
+
+SoundEvent = TyRangAquaDeflect
+  Volume = 100
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0006_aquadeflect
+  Material = ID_WATER_BLUE
+    Sound = sfx_0148_tystep_water
+
+SoundEvent = TyRangDoomLP
+  Volume = 140
+  Material = ID_NONE
+    Sound = sfx_0028_lp_doomerang
+
+SoundEvent = TyRangFlameLP
+  Volume = 100
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0031_lp_flamerang
+
+SoundEvent = TyRangFlameDeflect
+  Volume = 110
+  Range = 4000
+  Material = ID_NONE
+    Sound = TYR_RangDeflect01
+      Chance = 0.1
+    Sound = TYR_RangDeflect02
+      Chance = 0.1
+    Sound = TYR_RangDeflect03
+      Chance = 0.1
+    Sound = TYR_RangDeflect04
+      Chance = 0.1
+    Sound = TYR_RangDeflect05
+      Chance = 0.1
+    Sound = TYR_RangDeflect06
+      Chance = 0.1
+    Sound = TYR_RangDeflect07
+      Chance = 0.1
+    Sound = TYR_RangDeflect08
+      Chance = 0.1
+    Sound = TYR_RangDeflect09
+      Chance = 0.1
+    Sound = TYR_RangDeflect10
+      Chance = 0.1
+  Material = ID_WATER_BLUE
+    Sound = sfx_0148_tystep_water
+  Material = ID_ICE
+    MinPitch = 1.81
+    MaxPitch = 1.84
+    Sound = sfx_0032_flamerangignite
+
+SoundEvent = TyRangFlameIgnite
+  Volume = 150
+  Range = 5000
+  Material = ID_NONE
+    Sound = T2_flamehits01
+      Chance = 0.4
+    Sound = T2_flamehits02
+      Chance = 0.3
+    Sound = T2_flamehits03
+      Chance = 0.3
+
+SoundEvent = TyRangFlameExtinguish
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 1.50
+    MaxPitch = 1.80
+    Sound = sfx_0324_enemydies
+
+SoundEvent = TyCollectEgg
+    Volume = 100
+  Material = ID_NONE
+    Sound = sfx_0572_collecttegg
+
+SoundEvent = TyCollectCog
+    Volume = 100
+  Material = ID_NONE
+    Sound = sfx_0573_collectcog
+
+SoundEvent = TyAirMeterGain
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 0.82
+    MaxPitch = 1.31
+    Sound = sfx_0517_airgain
+
+SoundEvent = TyAirMeterLose
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0515_airmeterlose
+
+SoundEvent = TyAirMeterEmptyLP
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0516_lp_airempty
+
+SoundEvent = TyBounce
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 0.95
+    MaxPitch = 1.07
+    Sound = sfx_0901_boing
+
+SoundEvent = TyDogPaddleLP
+  Volume = 120
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 1.70
+    MaxPitch = 1.70
+    Sound = sfx_0147_lp_tyswim
+
+SoundEvent = TyLedgeGrab
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_1051_tyclimb
+
+SoundEvent = TyLedgePullUp
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_1050_tyclimb
+
+SoundEvent = TyBushpigHitGround
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 1.30
+    MaxPitch = 1.30
+    Sound = sfx_0420_rback4legs
+  Material = ID_WATER_BLUE
+    Sound = sfx_0285_bullsplash
+
+SoundEvent = TyLassoTensionLP
+  Range = 6000
+  Material = ID_NONE
+    MinPitch = 0.95
+    MaxPitch = 1.05
+    Sound = TY1_B3_tensionLP
+
+SoundEvent = TyLassoSnap
+  Range = 6000
+  Material = ID_NONE
+    MinPitch = 0.95
+    MaxPitch = 1.05
+    Sound = TY1_B3_tensionsnap
+
+// -----------------------------------------------------------------------------
+// Critter
+
+name Critter
+
+SoundEvent = CriterSplashSmall
+  Volume = 100
+  Range = 1424
+  Material = ID_NONE
+    MinPitch = 1.05
+    MaxPitch = 1.23
+    Sound = sfx_0149_tystep_water
+
+// -----------------------------------------------------------------------------
+// CommonEnemy
+
+name CommonEnemy
+
+SoundEvent = EnemyStepSmall
+  Volume = 130
+  Range = 1500
+  Material = ID_NONE
+    MinPitch = 1.50
+    MaxPitch = 1.66
+    Sound = FriendStepBare01
+      Chance = 0.3
+    Sound = FriendStepBare03
+      Chance = 0.4
+    Sound = FriendStepBare02
+      Chance = 0.3
+  Material = ANY_WATER_ID
+    MinPitch = 1.32
+    MaxPitch = 1.52
+    Sound = sfx_0725_lennywetstep
+  Material = ID_ROCK
+    MinPitch = 1.20
+    MaxPitch = 1.41
+    Sound = FriendStepBare01
+      Chance = 0.3
+    Sound = FriendStepBare03
+      Chance = 0.4
+    Sound = FriendStepBare02
+      Chance = 0.3
+  Material = ID_METAL
+    MinPitch = 1.12
+    MaxPitch = 1.30
+    Sound = FriendStepBare01
+      Chance = 0.3
+    Sound = FriendStepBare03
+      Chance = 0.4
+    Sound = FriendStepBare02
+      Chance = 0.3
+
+SoundEvent = EnemyStepMed
+  Volume = 130
+  Range = 1500
+  Material = ID_NONE
+    MinPitch = 0.70
+    MaxPitch = 1.26
+    Sound = TyFriendStepSoft1
+      Chance = 0.3
+    Sound = TyFriendStepSoft2
+      Chance = 0.4
+    Sound = TyFriendStepSoft3
+      Chance = 0.3
+  Material = ID_METAL
+    MinPitch = 0.85
+    MaxPitch = 1.17
+    Volume = 60
+    Sound = EnemyStepMet1
+      Chance = 0.3
+    Sound = EnemyStepMet2
+      Chance = 0.3
+    Sound = EnemyStepMet3
+      Chance = 0.4
+  Material = ID_SNOW
+    MinPitch = 0.95
+    MaxPitch = 1.05
+    Sound = Ty_step_med_snow01
+      Chance = 0.25
+    Sound = Ty_step_med_snow02
+      Chance = 0.25
+    Sound = Ty_step_med_snow03
+      Chance = 0.25
+    Sound = Ty_step_med_snow04
+      Chance = 0.25
+  Material = ANY_WATER_ID
+    MinPitch = 0.88
+    MaxPitch = 1.17
+    Sound = Ty_step_med_water1
+      Chance = 0.25m
+    Sound = Ty_step_med_water2
+      Chance = 0.25
+    Sound = Ty_step_med_water3
+      Chance = 0.25
+    Sound = Ty_step_med_water4
+      Chance = 0.25
+  Material = ID_HOLLOWWOOD
+    MinPitch = 1.0
+    MaxPitch = 1.2
+    Sound = Ty_step_lge_wood1
+      Chance = 0.25
+    Sound = Ty_step_lge_wood2
+      Chance = 0.25
+    Sound = Ty_step_lge_wood3
+      Chance = 0.25
+    Sound = Ty_step_lge_wood4
+      Chance = 0.25
+  Material = ID_WOOD
+    MinPitch = 0.9
+    MaxPitch = 1.0
+    Sound = Ty_step_lge_wood1
+      Chance = 0.25
+    Sound = Ty_step_lge_wood2
+      Chance = 0.25
+    Sound = Ty_step_lge_wood3
+      Chance = 0.25
+    Sound = Ty_step_lge_wood4
+      Chance = 0.25
+  Material = ID_ICE
+    MinPitch = 1.12
+    MaxPitch = 1.31
+    Sound = Ty_step_med_ice01
+      Chance = 0.3
+    Sound = Ty_step_med_ice01
+      Chance = 0.4
+    Sound = Ty_step_med_ice01
+      Chance = 0.3
+
+SoundEvent = EnemyStepLarge
+  Volume = 130
+  Range = 1500
+  Material = ID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.12
+    Sound = Ty_step_lge_dirt1
+      Chance = 0.25
+    Sound = Ty_step_lge_dirt2
+      Chance = 0.25
+    Sound = Ty_step_lge_dirt3
+      Chance = 0.25
+    Sound = Ty_step_lge_dirt4
+      Chance = 0.25
+  Material = ANY_WATER_ID
+    MinPitch = 0.8
+    MaxPitch = 0.95
+    Sound = Ty_step_med_water1
+      Chance = 0.25
+    Sound = Ty_step_med_water2
+      Chance = 0.25
+    Sound = Ty_step_med_water3
+      Chance = 0.25
+    Sound = Ty_step_med_water4
+      Chance = 0.25
+  Material = ID_SNOW
+    MinPitch = 0.71
+    MaxPitch = 0.80
+    Sound = Ty_step_med_snow01
+      Chance = 0.25
+    Sound = Ty_step_med_snow02
+      Chance = 0.25
+    Sound = Ty_step_med_snow03
+      Chance = 0.25
+    Sound = Ty_step_med_snow04
+      Chance = 0.25
+  Material = ID_HOLLOWWOOD
+    MinPitch = 0.95
+    MaxPitch = 1.1
+    Sound = Ty_step_lge_wood1
+      Chance = 0.33
+    Sound = Ty_step_lge_wood2
+      Chance = 0.33
+    Sound = Ty_step_lge_wood3
+      Chance = 0.34
+  Material = ID_WOOD
+    MinPitch = 0.7
+    MaxPitch = 0.8
+    Sound = Ty_step_lge_wood1
+      Chance = 0.33
+    Sound = Ty_step_lge_wood2
+      Chance = 0.33
+    Sound = Ty_step_lge_wood3
+      Chance = 0.34
+  Material = ID_METAL
+    MinPitch = 0.7
+    MaxPitch = 0.9
+    Sound = EnemyStepMet1
+      Chance = 0.3
+    Sound = EnemyStepMet2
+      Chance = 0.3
+    Sound = EnemyStepMet3
+      Chance = 0.4
+  Material = ID_ICE
+    MinPitch = 0.8
+    MaxPitch = 0.9
+    Sound = Ty_step_med_ice01
+      Chance = 0.3
+    Sound = Ty_step_med_ice01
+      Chance = 0.4
+    Sound = Ty_step_med_ice01
+      Chance = 0.3
+
+SoundEvent = EnemyPunchSwing
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.05
+    Sound = sfx_0387_lizardtakeaswing
+
+SoundEvent = EnemyPunchMed
+  Volume = 100
+  Range = 5000
+  Material = ID_NONE
+    Sound = TyPunchedM1
+      Chance = 0.3
+    Sound = TyPunchedM2
+      Chance = 0.4
+    Sound = TyPunchedM3
+      Chance = 0.3
+
+SoundEvent = EnemyPunchLarge
+  Volume = 100
+  Range = 5000
+  Material = ID_NONE
+    Sound = T2_Punch_C_01
+      Chance = 0.25
+    Sound = T2_Punch_C_01
+      Chance = 0.25
+    Sound = T2_Punch_C_01
+      Chance = 0.25
+    Sound = T2_Punch_C_01
+      Chance = 0.25
+
+SoundEvent = EnemyFallSmall
+  Volume = 192
+  Range = 2166
+  Material = ID_NONE
+    Sound = sfx_0320_enemyfallssmall
+  Material = ID_SNOW
+    MinPitch = 1.35
+    MaxPitch = 1.50
+    Sound = sfx_0397_enemyfall_soft
+  Material = ANY_WATER_ID
+    MinPitch = 1.40
+    MaxPitch = 1.50
+    Sound = sfx_0117_minisplash
+      Chance = 0.25
+    Sound = TYB_smallsplash1
+      Chance = 0.25
+    Sound = TYB_smallsplash2
+      Chance = 0.25
+    Sound = TYB_smallsplash3
+      Chance = 0.25
+
+SoundEvent = EnemyFallMed
+  Volume = 170
+  Range = 2463
+  Material = ID_NONE
+    Sound = sfx_0322_enemyfallmed
+  Material = ID_SNOW
+    MinPitch = 1.03
+    MaxPitch = 0.96
+    Sound = sfx_0397_enemyfall_soft
+  Material = ANY_WATER_ID
+    MinPitch = 0.75
+    MaxPitch = 0.87
+    Sound = sfx_0117_minisplash
+      Chance = 0.25
+    Sound = TYB_smallsplash1
+      Chance = 0.25
+    Sound = TYB_smallsplash2
+      Chance = 0.25
+    Sound = TYB_smallsplash3
+      Chance = 0.25
+
+SoundEvent = EnemyFallLarge
+  Volume = 130
+  Range = 3027
+  Material = ID_NONE
+    MinPitch = 0.84
+    MaxPitch = 1.12
+    Sound = sfx_0323_enemyfallslarge
+  Material = ID_SNOW
+    MinPitch = 0.65
+    MaxPitch = 0.75
+    Sound = sfx_0397_enemyfall_soft
+  Material = ANY_WATER_ID
+    MinPitch = 0.75
+    MaxPitch = 0.97
+    Sound = sfx_0116_Tysplash
+
+SoundEvent = EnemyDeathLand
+  Range = 3739
+  Material = ID_NONE
+    Sound = sfx_0324_enemydies
+
+SoundEvent = EnemyDeathWater
+  Range = 3650
+  Material = ID_NONE
+    Sound = sfx_0325_enemydies_uw
+
+// -----------------------------------------------------------------------------
+// BlueTongue
+
+name BlueTongue
+
+SoundEvent = BlueTHiss
+  Range = 2493
+  Material = ID_NONE
+    Sound = sfx_0390_btonguehiss
+      Chance = 0.7
+    Sound = TY_BT_Alert1
+      Chance = 0.1
+    Sound = TY_BT_Alert2
+      Chance = 0.1
+    Sound = TY_BT_Alert3
+      Chance = 0.1
+
+SoundEvent = BlueTGrunt
+  Range = 1840
+  Material = ID_NONE
+    MinPitch = 0.86
+    MaxPitch = 1.00
+    Sound = sfx_1001_fierceouch
+      Chance = 0.2
+    Sound = sfx_1006_bristlingenemy
+      Chance = 0.2
+    Sound = TY_BT_Death1
+      Chance = 0.2
+    Sound = TY_BT_Death2
+      Chance = 0.2
+    Sound = TY_BT_Death3
+      Chance = 0.2
+
+SoundEvent = BlueTBoulderHit
+  Range = 2700
+  Material = ID_NONE
+    Sound = sfx_0890_boulderland
+
+SoundEvent = BlueTBoulderBounce
+  Range = 3561
+  Material = ID_NONE
+    Sound = sfx_0891_boulderbounce
+
+// -----------------------------------------------------------------------------
+// CaveBat
+
+name CaveBat
+
+SoundEvent = CaveBatShriekLP
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0604_lp_batssquealing
+
+// -----------------------------------------------------------------------------
+// Clam
+
+name Clam
+
+SoundEvent = ClamOpens
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0847_clamopens
+
+SoundEvent = ClamCloses
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0846_clamsnapsshut
+
+SoundEvent = ClamEjectsTy
+  Range = 5015
+  Material = ID_NONE
+    Sound = sfx_0845_clamsejectsty
+
+// -----------------------------------------------------------------------------
+// Croc
+
+name Croc
+
+SoundEvent = CrocBite
+  Range = 2671
+  Material = ID_NONE
+    Sound = sfx_0307_crocbites
+
+SoundEvent = CrocSwimLP
+  Range = 2404
+  Material = ID_NONE
+    Sound = sfx_0308_lp_crocswim
+
+SoundEvent = CrocSurfacing
+  Range = 2522
+  Material = ID_NONE
+    Sound = sfx_0309_crocsurface
+
+// -----------------------------------------------------------------------------
+// Frill
+
+name Frill
+
+SoundEvent = FrillHiss
+  Range = 1039
+  Material = ID_NONE
+    Sound = sfx_0386_lizardhiss
+
+SoundEvent = FrillSwing
+  Range = 1543
+  Material = ID_NONE
+    Sound = sfx_0387_lizardtakeaswing
+
+SoundEvent = FrillJunkThrow
+  Range = 4000
+  Material = ID_NONE
+    Sound = sfx_0331_throw
+
+SoundEvent = FrillJunkHitsTy
+  Volume = 100
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 1.20
+    MaxPitch = 1.20
+    Sound = TyPunchedM1
+      Chance = 0.40
+    Sound = TyPunchedM2
+      Chance = 0.60
+
+SoundEvent = FrillJunkHitsGround
+  Range = 4600
+  Material = ID_NONE
+    MinPitch = 0.70
+    MaxPitch = 0.75
+    Sound = sfx_0392_canhit
+
+// -----------------------------------------------------------------------------
+// FrillBike
+
+name FrillBike
+
+SoundEvent = FrillBikeRev
+  Volume = 150
+  Range = 3056
+  Material = ID_NONE
+    Sound = sfx_0368_killbikerev
+
+SoundEvent = FrillBikeRideLP
+  Volume = 150
+  Range = 3086
+  Material = ID_NONE
+    Sound = sfx_0367_lp_killbike
+
+SoundEvent = FrillBikePassing
+  Volume = 170
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0370_killbikepass
+
+SoundEvent = FrillBikeCrash
+  Volume = 150
+  Range = 5006
+  Material = ID_NONE
+    Sound = sfx_0369_killbikedefeated
+  Material = ID_WOOD
+    MinPitch = 0.77
+    MaxPitch = 0.80
+    Sound = sfx_0280_woodcollapse
+  Material = ID_HOLLOWWOOD
+    Sound = sfx_0281_woodcrash
+  Material = ID_METAL
+    MinPitch = 1.30
+    MaxPitch = 1.35
+    Sound = sfx_0282_metalcrash
+
+// -----------------------------------------------------------------------------
+// Leech
+
+name Leech
+
+SoundEvent = LeechBurst
+  Range = 2463
+  Material = ID_NONE
+    Sound = sfx_0352_leechburst
+
+SoundEvent = LeechMove
+  Range = 1100
+  Material = ID_NONE
+    Sound = sfx_0357_leechmove
+
+SoundEvent = LeechSuck
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0358_leechsuck
+
+SoundEvent = LeechJump
+  Range = 2077
+  Material = ID_NONE
+    Sound = sfx_0359_leechjump
+
+// -----------------------------------------------------------------------------
+// Muddie
+
+name Muddie
+
+SoundEvent = MuddieClaw
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0301_crabclaw
+
+SoundEvent = MuddieAppears
+  Range = 3500
+  Material = ID_NONE
+    Sound = sfx_0304_crabsappears
+
+SoundEvent = MuddieWalkLP
+  Range = 1650
+  Material = ID_NONE
+    Sound = sfx_0303_lp_crabscuttle
+
+// -----------------------------------------------------------------------------
+// Rhino
+
+name Rhino
+
+SoundEvent = RhinoStep
+  Range = 2552
+  Material = ID_NONE
+    Sound = sfx_0377_rhinobeetlestep
+
+SoundEvent = RhinoRollLP
+  Range = 2522
+  Material = ID_NONE
+    Sound = sfx_0378_lp_rhinobeetle
+
+SoundEvent = RhinoHissLP
+  Range = 3145
+  Material = ID_NONE
+    Sound = sfx_0380_lp_rbeethissing
+
+// -----------------------------------------------------------------------------
+// Rufus
+
+name Rufus
+
+SoundEvent = RufusAttack
+  Volume = 180
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0329_rufusattack
+
+SoundEvent = RufusHopHitGround
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0330_rufusland
+
+SoundEvent = RufusHopLeaveGround
+  Volume = 150
+  Range = 1602
+  Material = ID_NONE
+    MinPitch = 0.78
+    MaxPitch = 1.28
+    Sound = sfx_0327_rufushop
+
+SoundEvent = RufusIdleScratch
+  Volume = 160
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0328_rufusscratch
+
+// -----------------------------------------------------------------------------
+// ScurbTurkey
+
+name ScurbTurkey
+
+SoundEvent = ScrubTurkeyHit
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 1.28
+    MaxPitch = 1.29
+    Sound = sfx_0649_sturkeycaught
+
+// -----------------------------------------------------------------------------
+// Shark
+
+name Shark
+
+SoundEvent = SharkSwimLP
+  Range = 2647
+  Material = ID_NONE
+    Sound = sfx_0335_lp_sharkmove
+
+SoundEvent = SharkBite
+  Range = 5015
+  Material = ID_NONE
+    Sound = sfx_0338_sharkbite
+
+SoundEvent = SharkHitCage
+  Range = 3234
+  Material = ID_NONE
+    Sound = sfx_0337_sharkbuttscage
+
+// -----------------------------------------------------------------------------
+// Skink
+
+name Skink
+
+SoundEvent = SkinkBatSmack
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0384_batsmack
+
+SoundEvent = SkinkSwing
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 0.50
+    MaxPitch = 0.55
+    Sound = sfx_0387_lizardtakeaswing
+
+SoundEvent = SkinkCanHit
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0392_canhit
+
+SoundEvent = SkinkCanHitGround
+  Range = 3294
+  Material = ID_NONE
+    MinPitch = 0.52
+    MaxPitch = 1.12
+    Sound = T2_ricochet1
+      Chance = 0.60
+    Sound = T2_ricochet2
+      Chance = 0.40
+
+SoundEvent = SkinkKillTy1
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_1015_skinktriumph
+
+SoundEvent = SkinkKillTy2
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_1016_skinktriumph
+
+SoundEvent = SkinkDie1
+  Range = 1573
+  Material = ID_NONE
+    Sound = sfx_1017_skinkdies
+      Chance = 0.40
+    Sound = sfx_1018_skinkdies
+      Chance = 0.60
+
+SoundEvent = SkinkDie2
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_1018_skinkdies
+
+// -----------------------------------------------------------------------------
+// SnowRoo
+
+name SnowRoo
+
+SoundEvent = SnowRooThrow
+  Range = 3833
+  Material = ID_NONE
+    MinPitch = 0.91
+    MaxPitch = 1.09
+    Sound = sfx_0331_throw
+
+SoundEvent = SnowRooSnowBallHitTy
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 1.10
+    MaxPitch = 1.12
+    Sound = sfx_0926_snowballland
+
+SoundEvent = SnowRooSnowBallHitGround
+  Range = 3093
+  Material = ID_NONE
+    Sound = sfx_0925_snowballground
+
+// -----------------------------------------------------------------------------
+// Wombat
+
+name Wombat
+
+SoundEvent = WombatSnowboardLP
+  Range = 1800
+  Material = ID_NONE
+    Sound = sfx_0364_lp_wombatmove
+
+SoundEvent = WombatSnowMove
+  Range = 1900
+  Material = ID_NONE
+    Sound = sfx_0365_wombatpass
+
+SoundEvent = WombatSnowAirTrick
+  Range = 1932
+  Material = ID_NONE
+    Sound = sfx_0366_wombattrick
+
+// -----------------------------------------------------------------------------
+// Aurora
+
+name Aurora
+
+SoundEvent = AuroraSwim
+  Range = 3000
+  Material = ID_NONE
+    Sound = silencio
+
+SoundEvent = AuroraHappy
+  Range = 3000
+  Material = ID_NONE
+    Sound = silencio
+
+// -----------------------------------------------------------------------------
+// AuroraKid
+
+name AuroraKid
+
+SoundEvent = AuroraKidSwim
+  Range = 0
+  Material = ID_NONE
+    Sound = silencio
+      Chance = 0.20
+
+SoundEvent = AuroraKidHappy
+    Volume = 192
+  Range = 979
+  Material = ID_NONE
+    MinPitch = 0.96
+    MaxPitch = 1.11
+    Sound = sfx_1081_seadragonkid
+      Chance = 0.15
+
+// -----------------------------------------------------------------------------
+// KoalaKid
+
+name KoalaKid
+
+SoundEvent = KoalaKidSaveSound
+    Volume = 100
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0522_allopals
+
+// -----------------------------------------------------------------------------
+// Environment
+
+name Environment
+
+SoundEvent = EnvAmbRainforestLP
+  Volume = 100
+  Range = 1484
+  Material = ID_NONE
+    Sound = TYAMB_BirdsSwampLP
+
+SoundEvent = EnvAmbUnderwaterLP
+  Range = 1500
+  Material = ID_NONE
+    Sound = sfx_0855_lp_uwaterambience
+
+SoundEvent = EnvBirdChirp1
+  Volume = 50
+  Range = 1484
+  Material = ID_NONE
+    Sound = sfx_0601_singlechirp
+      Chance = 0.2
+    Sound = TYAMB_BirdCall03
+      Chance = 0.2
+    Sound = TYAMB_BirdCall05
+      Chance = 0.2
+    Sound = TYAMB_BirdCall02
+      Chance = 0.1
+
+SoundEvent = EnvBirdChirp2
+  Volume = 50
+  Range = 1484
+  Material = ID_NONE
+    Sound = sfx_0802_birdtune
+      Chance = 0.2
+    Sound = sfx_0803_birdtune
+      Chance = 0.2
+    Sound = TYAMB_BirdCall01
+      Chance = 0.1
+    Sound = TYAMB_BirdCall07
+      Chance = 0.2
+    Sound = TYAMB_BirdCall05
+      Chance = 0.2
+    Sound = TYAMB_BirdCall02
+      Chance = 0.1
+
+SoundEvent = EnvBirdChirp3
+  Volume = 50
+  Range = 1484
+  Material = ID_NONE
+    Sound = sfx_0804_birdtune
+      Chance = 0.2
+    Sound = sfx_0805_birdwhistle
+      Chance = 0.2
+    Sound = TYAMB_BirdCall06
+      Chance = 0.2
+    Sound = TYAMB_BirdCall03
+      Chance = 0.2
+    Sound = TYAMB_BirdCall04
+      Chance = 0.2
+
+SoundEvent = EnvBridgeCollapse
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0280_woodcollapes
+
+SoundEvent = EnvCricketsLP
+  Volume = 150
+  Range = 1484
+  Material = ID_NONE
+    MinPitch = 0.96
+    MaxPitch = 1.11
+    Sound = sfx_0837_lp_nitebkgrnd
+      Chance = 0.5
+    Sound = TYAMB_cricketslp
+      Chance = 0.5
+
+SoundEvent = EnvCicadasLP
+  Volume = 150
+  Range = 1750
+  Material = ID_NONE
+    MinPitch = 0.96
+    MaxPitch = 1.03
+    Sound = sfx_0801_lp_cicada
+      Chance = 0.5
+    Sound = TYAMB_cicadalp
+      Chance = 0.5
+
+SoundEvent = EnvCrowCall
+  Volume = 100
+  Range = 1480
+  Material = ID_NONE
+    Sound = sfx_0645_crow
+      Chance = 0.25
+    Sound = TYAMB_Crowcaw1
+      Chance = 0.25
+    Sound = TYAMB_Crowcaw2
+      Chance = 0.25
+    Sound = TYAMB_Crowcaw3
+      Chance = 0.25
+
+SoundEvent = EnvCrows
+  Volume = 100
+  Range = 1480
+  Material = ID_NONE
+    Sound = sfx_0670_lp_crows
+      Chance = 0.5
+    Sound =TYAMB_BirdsCrows01LP
+      Chance = 0.5
+
+SoundEvent = EnvExplosionMid
+    Volume = 192
+  Range = 3561
+  Material = ID_NONE
+    MinPitch = 0.9
+    MaxPitch = 1.1
+    Sound = sfx_0033_explosionmid
+      Chance = 0.2
+    Sound = T2_explosion1
+      Chance = 0.2
+    Sound = T2_explosion2
+      Chance = 0.2
+    Sound = T2_explosion3
+      Chance = 0.2
+    Sound = T2_explosion4
+      Chance = 0.2
+
+SoundEvent = EnvFlamesSmallLP
+  Volume = 150
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0857_lp_flaming
+
+SoundEvent = EnvFlamesLargeLP
+  Range = 2107
+  Material = ID_NONE
+
+    MinPitch = 0.8
+    MaxPitch = 1.1
+    Sound = sfx_0863_lp_bushfire
+
+SoundEvent = EnvFlamesDoused
+  Range = 3000
+  Material = ID_NONE
+    MinPitch = 0.70
+    MaxPitch = 0.75
+    Sound = sfx_0324_enemydies
+
+SoundEvent = EnvFrog
+  Volume = 100
+  Range = 1600
+  Material = ID_NONE
+    Sound = sfx_0840_frog
+
+SoundEvent = EnvFrogsLP
+  Volume = 160
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0839_lp_frogsamb
+
+SoundEvent = EnvKookaburra
+  Volume = 192
+  Range = 2900
+  Material = ID_NONE
+    Sound = TYspKookas1
+      Chance = 0.2
+    Sound = TYspKookas3
+      Chance = 0.2
+    Sound = TYspKookas2
+      Chance = 0.2
+    Sound = TYAMB_KookaDist1LP
+      Chance = 0.2
+    Sound = TYAMB_KookaDist2LP
+      Chance = 0.2
+
+SoundEvent = EnvLightRainLP
+    Volume = 128
+  Material = ID_NONE
+    Sound = sfx_0810_lp_rain
+
+SoundEvent = EnvLogRotatingLP
+  Range = 1600
+  Material = ID_NONE
+    Sound = sfx_0842_lp_rotatinglog
+
+SoundEvent = EnvLogRollingLP
+  Range = 2604
+  Material = ID_NONE
+    Sound = sfx_0843_lp_rollinglog
+
+SoundEvent = EnvLogImpactLP
+  Range = 1506
+  Material = ID_NONE
+    Sound = sfx_0844_logimpact
+
+SoundEvent = EnvSeagullsLP
+  Volume = 150
+  Range = 1880
+  Material = ID_NONE
+    Sound = TY1_gullsE_lp
+      Chance = 0.25
+    Sound = TY1_gullsD_lp
+      Chance = 0.25
+    Sound = TY1_gullsB_lp
+      Chance = 0.25
+    Sound = TY1_gullsC_lp
+      Chance = 0.25
+
+SoundEvent = EnvSeaWashLP
+    Volume = 170
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0832_lp_beach
+
+SoundEvent = EnvThunder
+  Range = 1600
+  Material = ID_NONE
+    Sound = sfx_0831_distantthunder
+      Chance = 0.60
+    Sound = sfx_0824_distantthunder
+      Chance = 0.40
+
+SoundEvent = EnvWaterFallCloseLP
+    Volume = 170
+  Range = 1500
+  Material = ID_NONE
+    Sound = TY_WaterfallClose_LP
+
+SoundEvent = EnvWaterFallDistantLP
+  Range = 1800
+  Material = ID_NONE
+    Sound = TY_WaterfallDistant_LP
+
+SoundEvent = EnvWaterFlowPipeLP
+  Range = 3300
+  Material = ID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.10  
+    Sound = sfx_0932_lp_pipeflow
+
+SoundEvent = EnvWaterSlideLP
+    Volume = 100
+  Range = 1600
+  Material = ID_NONE
+    Sound = sfx_0823_lp_waterslide
+
+// -----------------------------------------------------------------------------
+// Bilby
+
+name Bilby
+
+SoundEvent = BilbyCollect
+    Volume = 100
+  Material = ID_NONE
+    Sound = sfx_0574_bilbyrescue
+
+SoundEvent = BilbyCrateSmash
+  Volume 150
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0059_bilbycage01
+
+// -----------------------------------------------------------------------------
+// Boulder
+
+name Boulder
+
+SoundEvent = BoulderRollLP
+  Range = 1543
+  Material = ID_NONE
+    Sound = sfx_0889_lp_boulderoll
+
+SoundEvent = BoulderBounce
+  Range = 3000
+  Material = ID_NONE
+    MinPitch = 1.00
+    MaxPitch = 1.30
+    Sound = sfx_0891_boulderbounce
+
+SoundEvent = BoulderSmash
+  Range = 3500
+  Material = ID_NONE
+    MinPitch = 0.49
+    MaxPitch = 0.70
+    Sound = T2_explosion1
+      Chance = 0.25
+    Sound = T2_explosion2
+      Chance = 0.25
+    Sound = T2_explosion3
+      Chance = 0.25
+    Sound = T2_explosion4
+      Chance = 0.25
+
+// -----------------------------------------------------------------------------
+// Bunyip
+
+name Bunyip
+
+SoundEvent = BunyipAppear
+  Material = ID_NONE
+    Sound = sfx_0590_bunyipappear
+
+SoundEvent = BunyipMoveForearms
+  Material = ID_NONE
+    Sound = sfx_0591_bunyipmove
+
+SoundEvent = BunyipMoveLegs
+  Range = 2047
+  Material = ID_NONE
+    MinPitch = 0.27
+    MaxPitch = 0.45
+    Sound = sfx_0393_bigstep_hard
+
+SoundEvent = BunyipAttackThud
+  Material = ID_NONE
+    Sound = sfx_0593_bunyipthud
+
+SoundEvent = BunyipLP
+  Material = ID_NONE
+    Sound = sfx_0594_lp_bunyip
+
+// -----------------------------------------------------------------------------
+// CheckPoint
+
+name CheckPoint
+
+SoundEvent = CheckPointAppear
+    Volume = 192
+  Material = ID_NONE
+    Sound = sfx_0530_cp_appears
+
+// -----------------------------------------------------------------------------
+// Conveyor
+
+name Conveyor
+
+SoundEvent = ConveyorLP
+  Range = 3264
+  Material = ID_NONE
+    Sound = sfx_0894_lp_beltactive
+
+// -----------------------------------------------------------------------------
+// Crate
+
+name Crate
+
+SoundEvent = CrateSmash
+  Volume = 210
+  Range = 4500
+  Material = ID_NONE
+    Sound = HD_crate_01
+      Chance = 0.17
+    Sound = HD_crate_02
+      Chance = 0.17
+    Sound = HD_crate_03
+      Chance = 0.17
+    Sound = HD_crate_04
+      Chance = 0.17
+    Sound = HD_crate_05
+      Chance = 0.17
+    Sound = HD_crate_06
+      Chance = 0.15
+
+
+// -----------------------------------------------------------------------------
+// Elevator
+
+name Elevator
+
+SoundEvent = ElevatorGoingUp
+  Range = 2500
+  Material = ID_NONE
+    Sound = sfx_0835_elevatorup
+
+SoundEvent = ElevatorGoingDown
+  Range = 2500
+  Material = ID_NONE
+    Sound = sfx_0836_elevatordown
+
+// -----------------------------------------------------------------------------
+// Emu
+
+name Emu
+
+SoundEvent = EmuRunningLP
+  Range = 2500
+  Material = ID_NONE
+    Sound = sfx_0713_lp_emurunning
+
+SoundEvent = EmuSeesTy
+  Range = 8000
+  Material = ID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.25
+    Sound = sfx_0583_emuseen
+
+SoundEvent = EmuCaught
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.25
+    Sound = sfx_0582_emucaught
+
+// -----------------------------------------------------------------------------
+// Fireworks
+
+name Fireworks
+
+SoundEvent = FireworksLaunch
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0427_fireworkslaunch
+
+SoundEvent = FireworksDetonate
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0428_fireworks1
+
+SoundEvent = FireworksCrateExplodes
+  Range = 3145
+  Material = ID_NONE
+    Sound = sfx_0062_crateexplodes
+
+SoundEvent = FireworksIgnite
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 1.20
+    MaxPitch = 1.25
+    Sound = sfx_0032_flamerangignite
+
+// -----------------------------------------------------------------------------
+// Ice
+
+name Ice
+
+SoundEvent = IceCracking
+  Range = 2819
+  Material = ID_NONE
+    Sound = sfx_0929_icecrack
+
+SoundEvent = IceMelting
+  Range = 2789
+  Material = ID_NONE
+    Sound = sfx_0232_lp_icemelting
+
+// -----------------------------------------------------------------------------
+// IceCrystal
+
+name IceCrystal
+
+SoundEvent = IceCrystalBreakUp
+    Volume = 170
+  Range = 3000
+  Material = ID_NONE
+    MinPitch = 0.96
+    MaxPitch = 1.03
+    Sound = T2_icesmash01
+      Chance = 0.5
+    Sound = T2_icesmash02
+      Chance = 0.5
+
+// -----------------------------------------------------------------------------
+// MusicalIcicle
+
+name MusicalIcicle
+
+SoundEvent = IcicleNote1
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0510_musicice
+
+SoundEvent = IcicleNote2
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0511_musicice
+
+SoundEvent = IcicleNote3
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0512_musicice
+
+SoundEvent = IcicleNote4
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0513_musicice
+
+SoundEvent = IcicleNote5
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0514_musicice
+
+// -----------------------------------------------------------------------------
+// Jeep
+
+name Jeep
+
+SoundEvent = JeepIgnition
+  Volume = 150
+  Range = 15000
+  Material = ID_NONE
+    Sound = sfx_0249_jeepignition
+
+SoundEvent = JeepIdleLP
+  Volume = 150
+  Range = 15000
+  Material = ID_NONE
+    Sound = sfx_0251_lp_jeepidle
+
+SoundEvent = JeepGear1LP
+  Volume = 150
+  Range = 10000
+  Material = ID_NONE
+    Sound = sfx_0253_lp_jeep1stgear
+
+SoundEvent = JeepGear2LP
+  Volume = 150
+  Range = 15000
+  Material = ID_NONE
+    MinPitch = 1.31
+    MaxPitch = 1.31
+    Sound = sfx_0253_lp_jeep1stgear
+
+SoundEvent = JeepGear3LP
+  Volume = 150
+  Range = 15000
+  Material = ID_NONE
+    Sound = sfx_0255_lp_jeep3rdgear
+
+SoundEvent = JeepBadGearChange
+  Volume = 150
+  Range = 15000
+  Material = ID_NONE
+    Sound = sfx_0254_gearchange
+
+SoundEvent = JeepThrottle
+  Volume = 150
+  Range = 15000
+  Material = ID_NONE
+    Sound = sfx_0256_jeepthrottle
+
+SoundEvent = JeepGravelSkid
+  Volume = 150
+  Range = 15000
+  Material = ID_NONE
+    Sound = sfx_0260_gravelskid
+
+// -----------------------------------------------------------------------------
+// Maurie
+
+name Maurie
+
+SoundEvent = MaurieFlapLP
+  Volume = 150
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0720_lp_mauriewings
+
+SoundEvent = MuddieFlip
+  Range = 2047
+  Material = ID_NONE
+    MinPitch = 1.20
+    MaxPitch = 1.20
+    Sound = sfx_0101_tyjump
+
+// -----------------------------------------------------------------------------
+// MorayEel
+
+name MorayEel
+
+SoundEvent = MorayEelIdle
+  Range = 2047
+  Material = ID_NONE
+    Sound = sfx_0348_lp_eelidle
+
+SoundEvent = MorayEelAttack
+  Range = 2047
+  Material = ID_NONE
+    MinPitch = 0.50
+    MaxPitch = 0.54
+    Sound = sfx_0346_eelextend
+
+SoundEvent = MorayEelRetreat
+  Range = 2047
+  Material = ID_NONE
+    MinPitch = 0.50
+    MaxPitch = 0.54
+    Sound = sfx_0347_eelretract
+
+// -----------------------------------------------------------------------------
+// Opal
+
+name Opal
+
+SoundEvent = OpalCollect
+    Volume = 128
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0500_opalx
+      Chance = 0.25
+    Sound = sfx_0501_opalx
+      Chance = 0.25
+    Sound = sfx_0502_opalx
+      Chance = 0.25
+    Sound = sfx_0503_opalx
+      Chance = 0.25
+
+// -----------------------------------------------------------------------------
+// OpalCollector
+
+name OpalCollector
+
+SoundEvent = OpalCollectorLP
+  Range = 1500
+  Material = ID_NONE
+    Sound = sfx_0523_lp_opalcollect
+
+// -----------------------------------------------------------------------------
+// Portal
+
+name Portal
+
+SoundEvent = PortalAppears
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0541_Typortal
+
+SoundEvent = PortalShimmerLP
+    Volume = 128
+  Range = 1400
+  Material = ID_NONE
+    Sound = sfx_0999_lp_shimmering
+
+// -----------------------------------------------------------------------------
+// SeaMine
+
+name SeaMine
+
+SoundEvent = SeaMineBeep
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0866_beepingmine
+
+SoundEvent = SeaMineExplode
+    Volume = 128
+  Range = 4000
+  Material = ID_NONE
+    Sound = sfx_0867_mineexploding
+
+// -----------------------------------------------------------------------------
+// Shears
+
+name Shears
+
+SoundEvent = ShearsOpen
+  Range = 2018
+  Material = ID_NONE
+    Sound = sfx_0827_shears
+
+SoundEvent = ShearsClose
+  Range = 2018
+  Material = ID_NONE
+    Sound = sfx_0828_shears
+
+// -----------------------------------------------------------------------------
+// Snow
+
+name Snow
+
+SoundEvent = SnowBallRollLP
+  Range = 2878
+  Material = ID_NONE
+    Sound = sfx_0930_lp_snowball
+
+SoundEvent = GiantSnowBallImpact
+  Range = 3056
+  Material = ID_NONE
+    MinPitch = 1.00
+    MaxPitch = 1.00
+    Sound = sfx_0893_snowlumpsfall
+
+SoundEvent = SnowPileImpact
+  Range = 3175
+  Material = ID_NONE
+    Sound = sfx_0961_snopilebang
+
+SoundEvent = SnowPileExplode
+  Range = 3205
+  Material = ID_NONE
+    MinPitch = 1.48
+    MaxPitch = 1.50
+    Sound = sfx_0961_snopilebang
+
+// -----------------------------------------------------------------------------
+// Spike
+
+name Spike
+
+SoundEvent = SpikeUp
+  Range = 2500
+  Material = ID_NONE
+    Sound = sfx_0826_spike
+
+SoundEvent = SpikeDown
+  Range = 2500
+  Material = ID_NONE
+    Sound = sfx_0825_spike
+
+// -----------------------------------------------------------------------------
+// Stalactite
+
+name Stalactite
+
+SoundEvent = StalactiteFall
+  Range = 3205
+  Material = ID_NONE
+    Sound = sfx_0425_fallingstalactites
+
+SoundEvent = StalactiteHitsGround
+  Range = 3205
+    Volume = 192
+  Material = ID_NONE
+    MinPitch = 0.88
+    MaxPitch = 1.12
+    Sound = sfx_0426_stalactiteimpact
+
+// -----------------------------------------------------------------------------
+// Torch
+
+name Torch
+
+SoundEvent = TorchFireLP
+    Volume = 120
+  Range = 1000
+  Material = ID_NONE
+    Sound = sfx_0861_lp_torch
+
+SoundEvent = TorchExtinguish
+  Range = 2255
+  Material = ID_NONE
+    Sound = sfx_0036_frangextinguish
+
+// -----------------------------------------------------------------------------
+// TimeAttack
+
+name TimeAttack
+
+SoundEvent = TimeAttackStarterGun
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0570_startergun
+
+SoundEvent = TimeAttackBuzzer
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0571_buzzer
+
+// -----------------------------------------------------------------------------
+// Bull
+
+name Bull
+
+SoundEvent = BullRunLP
+  Volume = 190
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0408_lp_rbackrun
+
+SoundEvent = BullRoarClose
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0411_rbackroar
+
+SoundEvent = BullRoarDistant
+  Volume = 190
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0412_rbackroar
+
+SoundEvent = BullAntMoundSmash
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0410_rbackcrash
+
+SoundEvent = BullAntsLP
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0418_lp_antswarm
+
+SoundEvent = BullFall
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0409_rbackfall
+
+SoundEvent = BullHurt
+  Volume = 190
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0416_rbackhurt
+
+SoundEvent = BullSkid
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0415_rbackskid
+
+SoundEvent = BullSnort1
+  Volume = 210
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0406_rbacksnort
+
+SoundEvent = BullSnort2
+  Volume = 190
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0407_rbacksnort
+
+SoundEvent = BullTrotLeft
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 0.95
+    MaxPitch = 1.05
+    Sound = sfx_0413_rbacktrotl
+
+SoundEvent = BullTrotRight
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 0.95
+    MaxPitch = 1.05
+    Sound = sfx_0414_rbacktrotr
+
+SoundEvent = BullSquishTy
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0419_rbacksquish
+
+SoundEvent = BullHoofThud
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0420_rback4legs
+
+SoundEvent = BullDeathCry
+  Volume = 160
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0421_scream
+
+SoundEvent = BullLaugh
+  Volume = 190
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0422_laughing
+
+// -----------------------------------------------------------------------------
+// Neddy
+
+name Neddy
+
+SoundEvent = NeddyStep1
+  Range = 3531
+  Material = ID_NONE
+    MinPitch = 0.86
+    MaxPitch = 1.00
+    Sound = sfx_0466_neddystep
+
+SoundEvent = NeddyStep2
+  Range = 3531
+  Material = ID_NONE
+    MinPitch = 1.05
+    MaxPitch = 1.20
+    Sound = sfx_0466_neddystep
+
+SoundEvent = NeddyArmourDrop
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0461_armourfalls
+
+SoundEvent = NeddyLaugh
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0465_neddylaughs
+
+SoundEvent = NeddyArmourHit
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 0.89
+    MaxPitch = 1.12
+    Sound = sfx_0455_rangneddy
+
+SoundEvent = NeddyFall
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0464_neddyfalls
+
+SoundEvent = NeddyDie
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0463_neddyhit
+
+// -----------------------------------------------------------------------------
+// ShadowBat
+
+name ShadowBat
+
+SoundEvent = ShadowBatFlap
+  Range = 3501
+  Material = ID_NONE
+    Sound = sfx_0432_shadowwingflap
+      Chance = 0.50
+    Sound = sfx_0437_shadowwingflap
+      Chance = 0.50
+
+SoundEvent = ShadowBatRoar
+  Range = 5549
+  Material = ID_NONE
+    Sound = sfx_0433_shadowshriek
+
+SoundEvent = ShadowBatShriek
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0435_shadowdefeated
+
+SoundEvent = ShadowBatSonicBoom
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0431_shadowwaveattack
+
+SoundEvent = ShadowBatSwoop
+  Range = 2878
+  Material = ID_NONE
+    Sound = sfx_040_swoop
+
+SoundEvent = ShadowBatFall
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0430_shadowswoops1
+
+SoundEvent = ShadowBatHitsGround
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0323_enemyfallslarge
+
+// -----------------------------------------------------------------------------
+// Frontend
+
+name Frontend
+
+SoundEvent = FrontendAccept
+    Volume = 128
+  Material = ID_NONE
+    Sound = sfx_menu_accept
+
+SoundEvent = FrontendCancel
+    Volume = 128
+  Material = ID_NONE
+    Sound = sfx_menu_cancel
+
+SoundEvent = FrontendClick
+    Volume = 128
+  Material = ID_NONE
+    Sound = sfx_menu_click
+
+SoundEvent = MenuRangSelect
+    Volume = 128
+  Material = ID_NONE
+    Sound = sfx_menubeep2
+
+// -----------------------------------------------------------------------------
+// FrillToBeSorted
+
+name FrillToBeSorted
+
+SoundEvent = FrillDance
+  Volume 150
+  Range = 2000
+  Material = ID_NONE
+    MinPitch = 0.80
+    MaxPitch = 1.20
+    Sound = sfx_0385_lizarddance
+      Chance = 0.45
+    Sound = sfx_0396_enemystep_soft
+      Chance = 0.55
+
+// -----------------------------------------------------------------------------
+// TyToBeSorted
+
+name TyToBeSorted
+
+SoundEvent = TyWatershake
+  Material = ID_NONE
+    Sound = sfx_0180_wetshaking
+
+// -----------------------------------------------------------------------------
+// LennyToBeSorted
+
+name LennyToBeSorted
+
+SoundEvent = LennyFootstep
+  Volume = 190
+  Range = 3086
+  Material = ID_NONE
+    MinPitch = 1.0
+    MaxPitch = 1.05
+    Sound = Ty_step_small_dirt_01
+      Chance = 0.25
+    Sound = Ty_step_small_dirt_02
+      Chance = 0.25
+    Sound = Ty_step_small_dirt_03
+      Chance = 0.25
+    Sound = Ty_step_small_dirt_04
+      Chance = 0.25
+  Material = ANY_WATER_ID
+    MinPitch = 0.86
+    MaxPitch = 1.27
+    Sound = sfx_0725_lennywetstep
+
+// -----------------------------------------------------------------------------
+// MaurieToBeSorted
+
+name MaurieToBeSorted
+
+SoundEvent = MaurieHit
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_1060_mauriehit
+      Chance = 0.25
+    Sound = sfx_1061_mauriehit
+      Chance = 0.25
+    Sound = sfx_1062_mauriehit
+      Chance = 0.25
+    Sound = sfx_1063_mauriehit
+      Chance = 0.25
+
+// -----------------------------------------------------------------------------
+// FarlappToBeSorted
+
+name FarlappToBeSorted
+
+SoundEvent = Farlapp_SeeEels
+  Range = 2047
+  Material = ID_NONE
+    Sound = silencio
+
+SoundEvent = Farlapp_SeeSharks
+  Range = 2047
+  Material = ID_NONE
+    Sound = silencio
+
+SoundEvent = Farlapp_UseSharkCage
+  Range = 2047
+  Material = ID_NONE
+    Sound = silencio
+
+SoundEvent = Farlapp_FollowMe_1
+  Range = 2047
+  Material = ID_NONE
+    Sound = A3_40_P02
+
+SoundEvent = Farlapp_FollowMe_2
+  Range = 2047
+  Material = ID_NONE
+    Sound = A3_16_P08
+
+SoundEvent = Farlapp_SwimSound
+  Range = 2047
+  Material = ID_NONE
+    Sound = silencio
+
+SoundEvent = FarlappHit
+  Range = 2671
+  Material = ID_NONE
+    Sound = sfx_1038_farlaphit
+
+// -----------------------------------------------------------------------------
+// ToBeSortedFriends
+
+name ToBeSortedFriends
+
+SoundEvent = AuroraHit
+  Range = 3323
+  Material = ID_NONE
+    Sound = sfx_1042_aurorahit
+
+SoundEvent = AuroraKidHit
+  Range = 1513
+  Material = ID_NONE
+    MinPitch = 0.84
+    MaxPitch = 1.12
+    Sound = sfx_1082_seadragonkid
+
+SoundEvent = BunyipElderHit
+  Range = 3620
+  Material = ID_NONE
+    Sound = sfx_1036_bunyipelder
+
+SoundEvent = DennisHit
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 0.98
+    MaxPitch = 1.03
+    Sound = sfx_1024_dennishit
+      Chance = 0.30
+    Sound = sfx_1025_dennishit
+      Chance = 0.35
+    Sound = sfx_1026_dennishit
+      Chance = 0.35
+
+SoundEvent = ElleHit
+  Range = 3323
+  Material = ID_NONE
+    Sound = sfx_1028_ellehit
+
+SoundEvent = JuliusHit
+  Range = 3323
+  Material = ID_NONE
+    Sound = sfx_1043_juliushit
+      Chance = 0.55
+    Sound = sfx_1044_juliushit
+      Chance = 0.45
+
+SoundEvent = KenOathHit
+  Range = 3323
+  Material = ID_NONE
+    Sound = sfx_1035_kenhit
+
+SoundEvent = KoalaKidHit
+  Range = 3323
+  Material = ID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.08
+    Sound = sfx_1091_koalakidhit
+      Chance = 0.45
+    Sound = sfx_1090_koalakidhit
+      Chance = 0.55
+
+SoundEvent = LennyHit
+  Range = 3323
+  Material = ID_NONE
+    Sound = sfx_1032_lennyhit
+      Chance = 0.40
+    Sound = sfx_1031_lennyhit
+      Chance = 0.20
+    Sound = sfx_1033_lennyhit
+      Chance = 0.20
+    Sound = sfx_1034_lennyhit
+      Chance = 0.20
+
+SoundEvent = RexHit
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_1030_rexhit
+
+SoundEvent = ShazzaHit
+  Range = 3323
+  Material = ID_NONE
+    Sound = sfx_1027_shazzahit
+      Chance = 0.65
+    Sound = sfx_1027_shazzahitagain
+      Chance = 0.35
+
+SoundEvent = SheilaHit
+  Range = 3323
+  Material = ID_NONE
+    Sound = sfx_1029_sheilahit
+
+// -----------------------------------------------------------------------------
+// ToBeSortedUnderWaterGate
+
+name ToBeSortedUnderWaterGate
+
+SoundEvent = UWGateOpens
+  Range = 2493
+  Material = ID_NONE
+    Sound = sfx_0829_uwaterhatch
+
+SoundEvent = UWFrillSpearGunFires
+  Range = 2493
+  Material = ID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.10
+    Sound = sfx_0917_speargun
+
+// -----------------------------------------------------------------------------
+// ToBeSortedSpider
+
+name ToBeSortedSpider
+
+SoundEvent = SpiderMoveLP
+  Range = 1395
+  Material = ID_NONE
+    Sound = sfx_0361_lp_spidemove
+
+SoundEvent = SpiderTauntLP
+  Range = 2493
+  Material = ID_NONE
+    Sound = sfx_0361_spidertaunt
+
+SoundEvent = SpiderAttack
+  Range = 2493
+  Material = ID_NONE
+    Sound = sfx_0360_spideattack
+
+SoundEvent = SpiderJump
+  Range = 2493
+  Material = ID_NONE
+    MinPitch = 0.95
+    MaxPitch = 1.00
+    Sound = sfx_menu_click
+
+SoundEvent = SpiderLand
+  Range = 2493
+  Material = ID_NONE
+    MinPitch = 0.77
+    MaxPitch = 0.77
+    Sound = sfx_0131_tyland_dirt
+
+SoundEvent = SpiderDefeated
+  Range = 2493
+  Material = ID_NONE
+    MinPitch = 0.52
+    MaxPitch = 0.54
+    Sound = sfx_0360_spideattack
+
+// -----------------------------------------------------------------------------
+// TyToBeSorted2
+
+name TyToBeSorted2
+
+SoundEvent = TyDiveBite
+  Range = 2493
+  Material = ID_NONE
+    Sound = sfx_0085_divebite
+
+SoundEvent = TyDiveBiteHitGround
+  Range = 5045
+  Material = ID_NONE
+    Sound = sfx_0157_tyknockdown
+  Material = ANY_WATER_ID
+    Sound = sfx_0115_Tysplash
+
+SoundEvent = TyBiteBasket
+  Range = 2493
+  Material = ID_NONE
+    Sound = sfx_0087_basketsmash
+
+SoundEvent = TyBitePie
+  Range = 3500
+  Material = ID_NONE
+    Sound = sfx_0086_tyeatpie
+
+SoundEvent = TyRegainHealth
+  Range = 2493
+  Material = ID_NONE
+    Sound = sfx_0086_tyeatpie
+
+// -----------------------------------------------------------------------------
+// ToBeSortedRhino
+
+name ToBeSortedRhino
+
+SoundEvent = RhinoBeetleFlip
+  Range = 1958
+  Material = ID_NONE
+    MinPitch = 0.69
+    MaxPitch = 0.70
+    Sound = sfx_menu_click
+
+SoundEvent = RhinoBeetleOnBack
+    Volume = 128
+  Range = 1988
+  Material = ID_NONE
+    MinPitch = 0.88
+    MaxPitch = 0.88
+    Sound = sfx_0323_enemyfallslarge
+
+// -----------------------------------------------------------------------------
+// ToBeSortedTeleporters
+
+name ToBeSortedTeleporters
+
+SoundEvent = TeleportMushroom
+  Range = 2493
+  Material = ID_NONE
+    Sound = sfx_0547_shroom
+
+SoundEvent = Warpflower
+  Range = 2493
+  Material = ID_NONE
+    Sound = sfx_0548_jumpflower
+
+// -----------------------------------------------------------------------------
+// ToBeSortedScrubTurkey
+
+name ToBeSortedScrubTurkey
+
+SoundEvent = ScrubTurkeyAlert
+  Range = 2493
+  Material = ID_NONE
+    Sound = sfx_0647_sturkeyseen
+
+SoundEvent = ScrubTurkeyRunningLP
+  Range = 2493
+  Material = ID_NONE
+    Sound = sfx_0648_lp_turkeyrun
+
+SoundEvent = ScrubTurkeyCaught
+  Range = 2493
+  Material = ID_NONE
+    Sound = sfx_0649_sturkeycaught
+
+// -----------------------------------------------------------------------------
+// ToBeSortedSentinel
+
+name ToBeSortedSentinel
+
+SoundEvent = SentinalAlert
+  Range = 1039
+  Material = ID_NONE
+    Sound = sfx_0625_sentinalalarm
+
+// -----------------------------------------------------------------------------
+// ToBeSortedBluetongue
+
+name ToBeSortedBluetongue
+
+SoundEvent = BlueTAlert
+  Range = 1780
+  Material = ID_NONE
+    MinPitch = 0.94
+    MaxPitch = 1.04
+    Sound = sfx_1004_positivegrunt
+      Chance = 0.30
+    Sound = sfx_1005_positivegrunt
+      Chance = 0.35
+    Sound = silencio
+      Chance = 0.35
+
+SoundEvent = BlueTPunch
+  Volume = 100
+  Range = 2493
+  Material = ID_NONE
+    Sound = sfx_0391_btonguepunch
+
+// -----------------------------------------------------------------------------
+// ToBeSortedCaveBat
+
+name ToBeSortedCaveBat
+
+SoundEvent = CaveBatsHit
+  Range = 2493
+  Material = ID_NONE
+    Sound = sfx_0606_cavebatshit
+
+SoundEvent = CaveBatScreech
+  Range = 2493
+  Material = ID_NONE
+    MinPitch = 1.08
+    MaxPitch = 1.22
+    Sound = sfx_0605_batsqueal
+      Chance = 0.1
+    Sound = TyVBat1
+      Chance = 0.15
+    Sound = TyVBat2
+      Chance = 0.15
+    Sound = TyVBat3
+      Chance = 0.15
+    Sound = TyVBat4
+      Chance = 0.15
+    Sound = TyVBat5
+      Chance = 0.15
+    Sound = TyVBat6
+      Chance = 0.15
+
+SoundEvent = CaveBatFlightLP
+  Range = 2047
+  Material = ID_NONE
+    Sound = sfx_0402_lp_batsflock
+
+// -----------------------------------------------------------------------------
+// ToBeSortedSkink
+
+name ToBeSortedSkink
+
+SoundEvent = SkinkFlip
+  Range = 2493
+  Material = ID_NONE
+    MinPitch = 1.29
+    MaxPitch = 1.64
+    Sound = sfx_menu_click
+
+SoundEvent = SkinkDefeated
+  Range = 2493
+  Material = ID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.12
+    Sound = sfx_1011_frillouch
+      Chance = 0.2
+    Sound = sfx_1012_frillouch
+      Chance = 0.2
+    Sound = TY_Frill_Death1
+      Chance = 0.1
+    Sound = TY_Frill_Death4
+      Chance = 0.1
+    Sound = TY_EnemyADeath1
+      Chance = 0.1
+    Sound = TY_EnemyADeath2
+      Chance = 0.2
+    Sound = TY_EnemyADeath3
+      Chance = 0.1
+    Sound = TY_EnemyADeath4
+      Chance = 0.1
+
+// -----------------------------------------------------------------------------
+// ToBeSortedBat
+
+name ToBeSortedBat
+
+SoundEvent = BatFlightLP
+  Range = 1454
+  Material = ID_NONE
+    MinPitch = 0.85
+    MaxPitch = 1.12
+    Sound = sfx_0405_lp_batfly
+
+SoundEvent = BatScreech
+  Range = 2493
+  Material = ID_NONE
+    MinPitch = 1.24
+    MaxPitch = 1.35
+    Sound = sfx_0605_batsqueal
+
+SoundEvent = BatBite
+  Range = 2493
+  Material = ID_NONE
+    Sound = sfx_0404_batbite
+
+SoundEvent = BatDead
+  Range = 2938
+  Material = ID_NONE
+    MinPitch = 0.70
+    MaxPitch = 0.71
+    Sound = sfx_0605_batsqueal
+
+SoundEvent = BatHitGround
+  Range = 2493
+  Material = ID_NONE
+    MinPitch = 1.43
+    MaxPitch = 1.45
+    Sound = sfx_0320_enemyfallssmall
+  Material = ANY_WATER_ID
+    MinPitch = 0.83
+    MaxPitch = 0.85
+    Sound = sfx_0149_tystep_water
+
+// -----------------------------------------------------------------------------
+// ToBeSortedFireDrum
+
+name ToBeSortedFireDrum
+
+SoundEvent = FireDrumsBurningLP
+  Range = 1000
+  Material = ID_NONE
+    MinPitch = 1.00
+    MaxPitch = 1.01
+    Sound = sfx_0857_lp_flaming
+
+// -----------------------------------------------------------------------------
+// ToBeSortedPilotFlame
+
+name ToBeSortedPilotFlame
+
+SoundEvent = PilotFlameLitLP
+  Range = 1800
+  Material = ID_NONE
+    Sound = sfx_0857_lp_flaming
+
+// -----------------------------------------------------------------------------
+// TyToBeSorted3
+
+name TyToBeSorted3
+
+SoundEvent = TyWaterSlideSplash
+  Volume = 50
+  Range = 3000
+  Material = ID_NONE
+    MinPitch = 0.74
+    MaxPitch = 1.30
+    Sound = TySplash1B
+      Chance = 0.25
+    Sound = TySplash2B
+      Chance = 0.25
+    Sound = TySplash3B
+      Chance = 0.25
+    Sound = TySplash4B
+      Chance = 0.25
+
+SoundEvent = TyWaterSlideJump
+  Range = 3000
+  Material = ID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.05
+    Sound = T2_tyjumpA01
+      Chance = 0.25
+    Sound = T2_tyjumpA02
+      Chance = 0.25
+    Sound = T2_tyjumpA04
+      Chance = 0.25
+    Sound = T2_tyjumpA04
+      Chance = 0.25
+
+SoundEvent = TyWaterSlideLand
+  Volume = 120
+  Range = 3000
+  Material = ID_NONE
+    MinPitch = 0.84
+    MaxPitch = 1.12
+    Sound = sfx_0117_minisplash
+      Chance = 0.25
+    Sound = TYB_smallsplash1
+      Chance = 0.25
+    Sound = TYB_smallsplash2
+      Chance = 0.25
+    Sound = TYB_smallsplash3
+      Chance = 0.25
+
+// -----------------------------------------------------------------------------
+// ToBeSortedFrill
+
+name ToBeSortedFrill
+
+SoundEvent = FrillSpawn
+  Range = 3145
+  Material = ID_NONE
+    MinPitch = 1.80
+    MaxPitch = 1.88
+    Sound = sfx_0547_shroom
+
+// -----------------------------------------------------------------------------
+// ToBeSortedEnv
+
+name ToBeSortedEnv
+
+SoundEvent = EnvCaveDrip
+  Range = 1600
+  Material = ID_NONE
+    MinPitch = 0.74
+    MaxPitch = 1.01
+    Sound = Tycavedrip1
+      Chance = 0.2
+    Sound = Tycavedrip2
+      Chance = 0.2
+    Sound = Tycavedrip3
+      Chance = 0.2
+    Sound = Tycavedrip4
+      Chance = 0.2
+    Sound = Tycavedrip5
+      Chance = 0.2
+
+// -----------------------------------------------------------------------------
+// TyToBeSorted4
+
+name TyToBeSorted4
+
+SoundEvent = TyBiteObject
+  Material = ID_NONE
+    MinPitch = 1.00
+    MaxPitch = 1.12
+    Sound = sfx_0090_tybites
+
+SoundEvent = TySkid
+    Volume = 100
+  Range = 5045
+  Material = ID_NONE
+    Sound = sfx_0106_tystopsshort
+  Material = ANY_WATER_ID
+    Sound = sfx_0108_tystopsshortwet
+  Material = ID_SAND
+    Sound = sfx_0107_tystopsshort
+  Material = ID_MUD
+    Sound = sfx_0108_tystopsshortwet
+  Material = ID_QUICKSAND
+    Sound = sfx_0107_tystopsshort
+  Material = ID_GRASS_THIN
+    Sound = sfx_0107_tystopsshort
+  Material = ID_GRASS_THICK
+    MinPitch = 0.90
+    MaxPitch = 0.91
+    Sound = sfx_0107_tystopsshort
+
+// -----------------------------------------------------------------------------
+// AllToBeSorted
+
+name AllToBeSorted
+
+SoundEvent = SentinalCollapse
+  Range = 3412
+  Material = ID_NONE
+    Sound = sfx_0094_sentinalfall
+
+SoundEvent = TyDunnySpawn
+  Range = 3412
+  Material = ID_NONE
+    Sound = sfx_1053_tycheckpoint
+
+SoundEvent = PropWobble
+  Range = 2344
+  Material = ID_NONE
+    MinPitch = 0.79
+    MaxPitch = 1.12
+    Sound = sfx_0037_postwobble
+
+SoundEvent = DropPontoonSplash1
+  Range = 2493
+  Material = ID_NONE
+    Sound = sfx_0310_crocsplash
+
+SoundEvent = DropPontoonFall
+    Volume = 100
+  Range = 2493
+  Material = ID_NONE
+    Sound = sfx_0522_allopals
+
+SoundEvent = RoachFlutterLP
+  Range = 1276
+  Material = ID_NONE
+    Sound = sfx_0362_lp_roachflutter
+
+SoundEvent = RoachMoveLP
+  Range = 1068
+  Material = ID_NONE
+    Sound = sfx_0363_lp_roachmovement
+
+SoundEvent = DialogA3LP
+  Range = 7982
+  Material = ID_NONE
+    Sound = sfx_lp_CSA3
+
+SoundEvent = SpinningLogLP
+  Range = 1098
+  Material = ID_NONE
+    Sound = sfx_0842_lp_rotatinglog
+
+SoundEvent = FrillHit
+  Range = 1600
+  Material = ID_NONE
+    MinPitch = 1.08
+    MaxPitch = 1.24
+    Sound = sfx_1011_frillouch
+      Chance = 0.25
+    Sound = sfx_1012_frillouch
+      Chance = 0.75
+
+SoundEvent = FrillDie
+  Range = 1600
+  Material = ID_NONE
+    Sound = sfx_1011_frillouch
+      Chance = 0.80
+    Sound = sfx_1012_frillouch
+      Chance = 0.20
+
+SoundEvent = TimeAttackWin
+    Volume = 100
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0522_allopals
+
+SoundEvent = BuzzSawShake
+  Range = 1246
+  Material = ID_NONE
+    Sound = sfx_0896_sawshake
+
+SoundEvent = BuzzSawBladeSpinLP
+  Range = 1276
+  Material = ID_NONE
+    Sound = sfx_0895_lp_saw
+
+SoundEvent = DialogA1LP
+    Volume = 128
+  Material = ID_NONE
+    Sound = sfx_lp_CSA1
+
+SoundEvent = DialogA2LP
+    Volume = 128
+  Material = ID_NONE
+    Sound = sfx_lp_CSA2
+
+SoundEvent = DialogA4LP
+    Volume = 128
+  Material = ID_NONE
+    Sound = sfx_lp_CSA4
+
+SoundEvent = DialogB1LP
+    Volume = 128
+  Material = ID_NONE
+    Sound = sfx_lp_CSB1
+
+SoundEvent = DialogB2LP
+    Volume = 128
+  Material = ID_NONE
+    Sound = sfx_lp_CSB2
+
+SoundEvent = DialogB3LP
+    Volume = 128
+  Material = ID_NONE
+    Sound = sfx_lp_CSB3
+
+SoundEvent = DialogB4LP
+    Volume = 128
+  Material = ID_NONE
+    Sound = sfx_lp_CSD4
+
+SoundEvent = DialogC1LP
+    Volume = 128
+  Material = ID_NONE
+    Sound = sfx_lp_CSC1
+
+SoundEvent = DialogC2LP
+    Volume = 128
+  Material = ID_NONE
+    Sound = sfx_lp_CSC2
+
+SoundEvent = DialogC3LP
+    Volume = 128
+  Material = ID_NONE
+    Sound = sfx_lp_CSA3
+
+SoundEvent = DialogC4LP
+    Volume = 128
+  Material = ID_NONE
+    Sound = sfx_lp_CSD4
+
+SoundEvent = DialogE1LP
+  Material = ID_NONE
+    Sound = sfx_lp_CSE1
+
+SoundEvent = DialogE2LP
+  Material = ID_NONE
+    Sound = sfx_lp_CSE2
+
+SoundEvent = DialogE3LP
+  Material = ID_NONE
+    Sound = sfx_lp_CSE3
+
+SoundEvent = DialogE4LP
+  Material = ID_NONE
+    Sound = sfx_lp_CSE4
+
+SoundEvent = DialogZ1LP
+    Volume = 128
+  Material = ID_NONE
+    Sound = sfx_lp_CSB1
+
+SoundEvent = DialogZ2LP
+  Range = 5000
+    Volume = 128
+  Material = ID_NONE
+    Sound = sfx_lp_CSB1
+
+SoundEvent = TyIceSlideLP
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0181_lp_iceglide
+
+SoundEvent = TyLassoLockOn
+  Material = ID_NONE
+    Sound = sfx_1073_typositive
+
+SoundEvent = BullBoulderDig
+  Range = 3769
+  Material = ID_NONE
+    Sound = sfx_0287_bulldigs
+
+SoundEvent = BullBoulderThrow
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0288_bullcannon
+
+SoundEvent = BullShockwave
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0423_bullshockwave
+
+SoundEvent = BullHitFence
+  Volume = 170
+  Range = 3294
+  Material = ID_NONE
+    MinPitch = 0.9
+    MaxPitch = 1.07
+    Sound = sfx_0099_fencehit
+      Chance = 0.25
+      Volume = 120
+    Sound = TY1_B3_FenceHit1
+      Chance = 0.4
+    Sound = TY1_B3_FenceHit2
+      Chance = 0.35
+
+SoundEvent = BullHitShed
+  Volume = 150
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0289_shedsmash
+      Chance = 0.25
+    Sound = TY_B3Shed1
+      Chance = 0.25
+    Sound = TY_B3Shed2
+      Chance = 0.25
+    Sound = TY_B3Shed3
+      Chance = 0.25
+
+SoundEvent = BullB3RunLP
+  Volume = 150
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0408_lp_rbackrunB3
+
+SoundEvent = BullJump
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0286_bulljump
+
+SoundEvent = BullLand
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0290_bulland
+
+SoundEvent = BullSplash
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0285_bullsplash
+
+SoundEvent = BullWaterLP
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0292_lp_bullwater
+
+SoundEvent = BullHitWaterTower
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0282_metalcrash
+
+SoundEvent = BullHitHouse
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0281_woodcrash
+      Chance = 0.4
+    Sound = TY_B3House1
+      Chance = 0.3
+    Sound = TY_B3House2
+      Chance = 0.3
+
+SoundEvent = WaterTowerCollapse
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0284_metaltowerfall
+
+SoundEvent = WaterTowerSplash
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0271_watertanksmash
+
+SoundEvent = WhirlyWindLP
+  Volume = 255
+  Range = 2900
+  Material = ID_NONE
+    Sound = sfx_0935_lp_twister
+
+SoundEvent = WhirlyWindGrabLP
+  Volume = 60
+  Range = 3000
+  Material = ID_NONE
+    Sound = TY1_B3_TwisterattackST
+
+SoundEvent = CrikeySwimLP
+  Range = 3056
+  Material = ID_NONE
+    Sound = sfx_0477_lp_crikeymove
+
+SoundEvent = CrikeyEatsChumLP
+  Range = 4065
+  Material = ID_NONE
+    Sound = sfx_0478_lp_crikeatschum
+
+SoundEvent = CrikeyEatsCanisterLP
+  Range = 4006
+  Material = ID_NONE
+    Sound = sfx_0479_lp_crikeatscan
+
+SoundEvent = CrikeyHurtsTy
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0476_crikeybitesty
+
+SoundEvent = CrikeyHurt
+  Range = 4928
+  Material = ID_NONE
+    Sound = sfx_0484_crikeyhurt
+
+SoundEvent = CanisterRelease
+  Range = 4154
+  Material = ID_NONE
+    Sound = sfx_0098_canrelease
+
+SoundEvent = CanisterFloatUp
+  Range = 4036
+  Material = ID_NONE
+    Sound = sfx_0097_canfloat
+
+SoundEvent = CanisterExplode
+  Range = 5223
+  Material = ID_NONE
+    MinPitch = 0.76
+    MaxPitch = 0.81
+    Sound = sfx_0096_cannister
+
+SoundEvent = WombatHitByTy
+  Range = 2400
+  Material = ID_NONE
+    Sound = sfx_1015_wombathurt
+
+SoundEvent = WombatHitTy
+  Volume = 200
+  Range = 2400
+  Material = ID_NONE
+    Sound = sfx_0389_punch
+
+SoundEvent = WombatDies
+  Range = 2400
+  Material = ID_NONE
+    Sound = sfx_1016_wombatdies
+
+SoundEvent = SlyRangThrow
+  Range = 2400
+  Material = ID_NONE
+    Sound = sfx_0050_slyrangthow
+
+SoundEvent = SlyRangCatch
+  Range = 2400
+  Material = ID_NONE
+    Sound = sfx_0051_slyrangcatch
+
+SoundEvent = SlyRangPass
+  Range = 2400
+  Material = ID_NONE
+    Sound = sfx_0052_slyrangpass
+
+SoundEvent = SlyRangDeflect
+  Range = 2400
+  Material = ID_NONE
+    MinPitch = 0.81
+    MaxPitch = 1.12
+    Sound = sfx_0053_slyrangdflect
+
+SoundEvent = SnowGunFire
+  Range = 2400
+  Material = ID_NONE
+    MinPitch = 0.85
+    MaxPitch = 1.20
+    Sound = sfx_0055_snowcannon
+
+// -----------------------------------------------------------------------------
+// ToBeSortedMainMenu
+
+name ToBeSortedMainMenu
+
+SoundEvent = MainMenuLogo
+    Volume = 128
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_logo_menu_mono
+
+// -----------------------------------------------------------------------------
+// ToBeSortedNinjaGecko
+
+name ToBeSortedNinjaGecko
+
+SoundEvent = NinjaGecko_Whaaaaaaa
+    Volume = 192
+  Range = 2493
+  Material = ID_NONE
+    Sound = sfx_1094_ninja1
+      Chance = 0.40
+    Sound = sfx_1094_ninja2
+      Chance = 0.60
+
+// -----------------------------------------------------------------------------
+// TyToBeSorted5
+
+name TyToBeSorted5
+
+SoundEvent = TyHurt
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_1055_tyhurt
+      Chance = 0.50
+    Sound = sfx_1056_tyhurt
+      Chance = 0.50
+
+SoundEvent = TyRangStdHit
+  Volume = 100
+  Range = 4000
+  Material = ID_NONE
+    Sound = T2_Punch_B_01
+      Chance = 0.25
+    Sound = T2_Punch_B_02
+      Chance = 0.25
+    Sound = T2_Punch_B_03
+      Chance = 0.25
+    Sound = T2_Punch_B_04
+      Chance = 0.25
+
+SoundEvent = TyRangFrostyThrow
+  Range = 2611
+  Material = ID_NONE
+    Sound = HD_frostyrang_throw1
+      Chance = 0.34
+    Sound = HD_frostyrang_throw2
+      Chance = 0.33
+    Sound = HD_frostyrang_throw3
+      Chance = 0.33
+
+SoundEvent = TyRangFrostyCatch
+  Volume = 50
+  Range = 2000
+  Material = ID_NONE
+    Sound = T2_rangcatch01
+      Chance = 0.2
+    Sound = T2_rangcatch02
+      Chance = 0.2
+    Sound = T2_rangcatch03
+      Chance = 0.2
+    Sound = T2_rangcatchC06
+      Chance = 0.2
+    Sound = T2_rangcatchC015
+      Chance = 0.2
+
+SoundEvent = TyRangFrostyDeflect
+  Volume = 110
+  Range = 4000
+  Material = ID_NONE
+    MinPitch = 1.58
+    MaxPitch = 1.73
+    Sound = TYR_RangDeflect01
+      Chance = 0.1
+    Sound = TYR_RangDeflect02
+      Chance = 0.1
+    Sound = TYR_RangDeflect03
+      Chance = 0.1
+    Sound = TYR_RangDeflect04
+      Chance = 0.1
+    Sound = TYR_RangDeflect05
+      Chance = 0.1
+    Sound = TYR_RangDeflect06
+      Chance = 0.1
+    Sound = TYR_RangDeflect07
+      Chance = 0.1
+    Sound = TYR_RangDeflect08
+      Chance = 0.1
+    Sound = TYR_RangDeflect09
+      Chance = 0.1
+    Sound = TYR_RangDeflect10
+      Chance = 0.1
+
+SoundEvent = TyRangFrostyHit
+  Range = 3500
+  Material = ID_NONE
+    MinPitch = 0.84
+    MaxPitch = 1.12
+    Sound = T2_iceformB_1
+      Chance = 0.33
+    Sound = T2_iceformB_2
+      Chance = 0.33
+    Sound = T2_iceformB_3
+      Chance = 0.34
+
+SoundEvent = TyRangFlameThrow
+  Volume = 50
+  Range = 2611
+  Material = ID_NONE
+    Sound = sfx_0031_lp_flamerang
+
+SoundEvent = TyRangFlameCatch
+  Volume = 50
+  Range = 2000
+  Material = ID_NONE
+    Sound = T2_rangcatch01
+      Chance = 0.2
+    Sound = T2_rangcatch02
+      Chance = 0.2
+    Sound = T2_rangcatch03
+      Chance = 0.2
+    Sound = T2_rangcatchC06
+      Chance = 0.2
+    Sound = T2_rangcatchC015
+      Chance = 0.2
+
+SoundEvent = TyRangFlameHit
+  Volume = 100
+  Range = 3500
+  Material = ID_NONE
+    MinPitch = 1.22
+    MaxPitch = 1.38
+    Sound = T2_flamehits01
+      Chance = 0.4
+    Sound = T2_flamehits03
+      Chance = 0.4
+    Sound = T2_flamehits02
+      Chance = 0.2
+
+SoundEvent = TyRangSmashThrow
+  Volume = 200
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 0.75
+    MaxPitch = 0.85
+    Sound = TYR_smasharang_throw1
+      Chance = 0.3
+    Sound = TYR_smasharang_throw2
+      Chance = 0.3
+    Sound = TYR_smasharang_throw3
+      Chance = 0.4
+
+SoundEvent = TyRangSmashCatch
+  Volume = 120
+  Range = 2000
+  Material = ID_NONE
+    Sound = T2_rangcatch01
+      Chance = 0.2
+    Sound = T2_rangcatch02
+      Chance = 0.2
+    Sound = T2_rangcatch03
+      Chance = 0.2
+    Sound = T2_rangcatchC06
+      Chance = 0.2
+    Sound = T2_rangcatchC015
+      Chance = 0.2
+
+SoundEvent = TyRangSmashDeflect
+  Volume = 200
+  Range = 4000
+  Material = ID_NONE
+    MinPitch = 0.68
+    MaxPitch = 0.81
+    Sound = TYR_RangDeflect01
+      Chance = 0.1
+    Sound = TYR_RangDeflect02
+      Chance = 0.1
+    Sound = TYR_RangDeflect03
+      Chance = 0.1
+    Sound = TYR_RangDeflect04
+      Chance = 0.1
+    Sound = TYR_RangDeflect05
+      Chance = 0.1
+    Sound = TYR_RangDeflect06
+      Chance = 0.1
+    Sound = TYR_RangDeflect07
+      Chance = 0.1
+    Sound = TYR_RangDeflect08
+      Chance = 0.1
+    Sound = TYR_RangDeflect09
+      Chance = 0.1
+    Sound = TYR_RangDeflect10
+      Chance = 0.1
+  Material = ANY_WATER_ID
+    Sound = sfx_0148_tystep_water
+
+SoundEvent = TyRangSmashHit
+  Range = 8000
+  Material = ID_NONE
+    MinPitch = 1.20
+    MaxPitch = 1.31
+    Sound = T2_explosion4
+      Chance = 0.5
+    Sound = T2_explosion1
+      Chance = 0.5
+
+SoundEvent = TyRangKaboomThrow
+  Volume = 150
+  Range = 5282
+  Material = ID_NONE
+    MinPitch = 0.70
+    MaxPitch = 0.82
+    Sound = HD_kaboomerang_throw1
+      Chance = 0.34
+    Sound = HD_kaboomerang_throw2
+      Chance = 0.33
+    Sound = HD_kaboomerang_throw3
+      Chance = 0.33
+
+SoundEvent = TyRangKaboomCatch
+  Volume = 120
+  Range = 2000
+  Material = ID_NONE
+    Sound = T2_rangcatch01
+      Chance = 0.2
+    Sound = T2_rangcatch02
+      Chance = 0.2
+    Sound = T2_rangcatch03
+      Chance = 0.2
+    Sound = T2_rangcatchC06
+      Chance = 0.2
+    Sound = T2_rangcatchC015
+      Chance = 0.2
+
+SoundEvent = TyRangKaboomDeflect
+  Volume = 110
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 0.73
+    MaxPitch = 1.00
+    Sound = TYR_RangDeflect01
+      Chance = 0.1
+    Sound = TYR_RangDeflect02
+      Chance = 0.1
+    Sound = TYR_RangDeflect03
+      Chance = 0.1
+    Sound = TYR_RangDeflect04
+      Chance = 0.1
+    Sound = TYR_RangDeflect05
+      Chance = 0.1
+    Sound = TYR_RangDeflect06
+      Chance = 0.1
+    Sound = TYR_RangDeflect07
+      Chance = 0.1
+    Sound = TYR_RangDeflect08
+      Chance = 0.1
+    Sound = TYR_RangDeflect09
+      Chance = 0.1
+    Sound = TYR_RangDeflect10
+      Chance = 0.1
+  Material = ANY_WATER_ID
+    Sound = sfx_0149_tystep_water
+
+SoundEvent = TyRangKaboomHit
+  Volume = 255
+  Range = 5036
+  Material = ID_NONE
+    MinPitch = 0.77
+    MaxPitch = 0.99
+    Sound = T2_explosion1
+      Chance = 0.5
+    Sound = T2_explosion2
+      Chance = 0.5
+
+SoundEvent = TyRangDoomThrow
+  Volume = 110
+  Range = 5045
+  Material = ID_NONE
+    Sound = T2_rangthrow_01
+      Chance = 0.2
+    Sound = T2_rangthrow_02
+      Chance = 0.2
+    Sound = T2_rangthrow_03
+      Chance = 0.2
+    Sound = T2_rangthrow_04
+      Chance = 0.2
+    Sound = T2_rangthrow_05
+      Chance = 0.2
+
+SoundEvent = TyRangDoomCatch
+  Volume = 120
+  Range = 2000
+  Material = ID_NONE
+    Sound = T2_rangcatch01
+      Chance = 0.2
+    Sound = T2_rangcatch02
+      Chance = 0.2
+    Sound = T2_rangcatch03
+      Chance = 0.2
+    Sound = T2_rangcatchC06
+      Chance = 0.2
+    Sound = T2_rangcatchC015
+      Chance = 0.2
+
+SoundEvent = TyRangDoomDeflect
+  Volume = 110
+  Range = 6000
+  Material = ID_NONE
+    Sound = TYR_RangDeflect01
+      Chance = 0.1
+    Sound = TYR_RangDeflect02
+      Chance = 0.1
+    Sound = TYR_RangDeflect03
+      Chance = 0.1
+    Sound = TYR_RangDeflect04
+      Chance = 0.1
+    Sound = TYR_RangDeflect05
+      Chance = 0.1
+    Sound = TYR_RangDeflect06
+      Chance = 0.1
+    Sound = TYR_RangDeflect07
+      Chance = 0.1
+    Sound = TYR_RangDeflect08
+      Chance = 0.1
+    Sound = TYR_RangDeflect09
+      Chance = 0.1
+    Sound = TYR_RangDeflect10
+      Chance = 0.1
+  Material = ANY_WATER_ID
+    Sound = sfx_0148_tystep_water
+
+SoundEvent = TyRangDoomHit
+  Volume = 110
+  Range = 6000
+  Material = ID_NONE
+    Sound = T2_Punch_B_01
+      Chance = 0.25
+    Sound = T2_Punch_B_02
+      Chance = 0.25
+    Sound = T2_Punch_B_03
+      Chance = 0.25
+    Sound = T2_Punch_B_04
+      Chance = 0.25
+
+SoundEvent = TyRangMegaThrow
+  Volume = 110
+  Range = 2997
+  Material = ID_NONE
+    Sound = T2_rangthrow_01
+      Chance = 0.2
+    Sound = T2_rangthrow_02
+      Chance = 0.2
+    Sound = T2_rangthrow_03
+      Chance = 0.2
+    Sound = T2_rangthrow_04
+      Chance = 0.2
+    Sound = T2_rangthrow_05
+      Chance = 0.2
+
+SoundEvent = TyRangMegaCatch
+  Volume = 100
+  Range = 2000
+  Material = ID_NONE
+    Sound = T2_rangcatch01
+      Chance = 0.2
+    Sound = T2_rangcatch02
+      Chance = 0.2
+    Sound = T2_rangcatch03
+      Chance = 0.2
+    Sound = T2_rangcatchC06
+      Chance = 0.2
+    Sound = T2_rangcatchC015
+      Chance = 0.2
+
+SoundEvent = TyRangMegaDeflect
+  Volume = 120
+  Range = 8000
+  Material = ID_NONE
+    Sound = TYR_RangDeflect01
+      Chance = 0.1
+    Sound = TYR_RangDeflect02
+      Chance = 0.1
+    Sound = TYR_RangDeflect03
+      Chance = 0.1
+    Sound = TYR_RangDeflect04
+      Chance = 0.1
+    Sound = TYR_RangDeflect05
+      Chance = 0.1
+    Sound = TYR_RangDeflect06
+      Chance = 0.1
+    Sound = TYR_RangDeflect07
+      Chance = 0.1
+    Sound = TYR_RangDeflect08
+      Chance = 0.1
+    Sound = TYR_RangDeflect09
+      Chance = 0.1
+    Sound = TYR_RangDeflect10
+      Chance = 0.1
+  Material = ID_WATER_BLUE
+    Sound = sfx_0148_tystep_water
+
+SoundEvent = TyRangMegaHit
+  Volume = 120
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 0.86
+    MaxPitch = 1.08
+    Sound = T2_Punch_B_01
+      Chance = 0.25
+    Sound = T2_Punch_B_02
+      Chance = 0.25
+    Sound = T2_Punch_B_03
+      Chance = 0.25
+    Sound = T2_Punch_B_04
+      Chance = 0.25
+
+SoundEvent = TyRangZoomThrow
+  Volume = 110
+  Range = 5430
+  Material = ID_NONE
+    Sound = T2_rangthrow_01
+      Chance = 0.2
+    Sound = T2_rangthrow_02
+      Chance = 0.2
+    Sound = T2_rangthrow_03
+      Chance = 0.2
+    Sound = T2_rangthrow_04
+      Chance = 0.2
+    Sound = T2_rangthrow_05
+      Chance = 0.2
+
+SoundEvent = TyRangZoomCatch
+  Volume = 120
+  Range = 2000
+  Material = ID_NONE
+    Sound = T2_rangcatch01
+      Chance = 0.2
+    Sound = T2_rangcatch02
+      Chance = 0.2
+    Sound = T2_rangcatch03
+      Chance = 0.2
+    Sound = T2_rangcatchC06
+      Chance = 0.2
+    Sound = T2_rangcatchC015
+      Chance = 0.2
+
+SoundEvent = TyRangZoomDeflect
+  Volume = 100
+  Range = 9900
+  Material = ID_NONE
+    Sound = TYR_RangDeflect01
+      Chance = 0.1
+    Sound = TYR_RangDeflect02
+      Chance = 0.1
+    Sound = TYR_RangDeflect03
+      Chance = 0.1
+    Sound = TYR_RangDeflect04
+      Chance = 0.1
+    Sound = TYR_RangDeflect05
+      Chance = 0.1
+    Sound = TYR_RangDeflect06
+      Chance = 0.1
+    Sound = TYR_RangDeflect07
+      Chance = 0.1
+    Sound = TYR_RangDeflect08
+      Chance = 0.1
+    Sound = TYR_RangDeflect09
+      Chance = 0.1
+    Sound = TYR_RangDeflect10
+      Chance = 0.1
+  Material = ID_WATER_BLUE
+    Sound = sfx_0148_tystep_water
+
+SoundEvent = TyRangZoomHit
+  Volume = 110
+  Range = 9900
+  Material = ID_NONE
+    Sound = T2_Punch_B_01
+      Chance = 0.25
+    Sound = T2_Punch_B_02
+      Chance = 0.25
+    Sound = T2_Punch_B_03
+      Chance = 0.25
+    Sound = T2_Punch_B_04
+      Chance = 0.25
+
+SoundEvent = TyRangInfraThrow
+  Volume = 110
+  Range = 3383
+  Material = ID_NONE
+    MinPitch = 1.51
+    MaxPitch = 1.61
+    Sound = T2_rangthrow_01
+      Chance = 0.2
+    Sound = T2_rangthrow_02
+      Chance = 0.2
+    Sound = T2_rangthrow_03
+      Chance = 0.2
+    Sound = T2_rangthrow_04
+      Chance = 0.2
+    Sound = T2_rangthrow_05
+      Chance = 0.2
+
+SoundEvent = TyRangInfraCatch
+  Volume = 120
+  Range = 2000
+  Material = ID_NONE
+    Sound = T2_rangcatch01
+      Chance = 0.2
+    Sound = T2_rangcatch02
+      Chance = 0.2
+    Sound = T2_rangcatch03
+      Chance = 0.2
+    Sound = T2_rangcatchC06
+      Chance = 0.2
+    Sound = T2_rangcatchC015
+      Chance = 0.2
+
+SoundEvent = TyRangInfraDeflect
+  Volume = 110
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYR_RangDeflect01
+      Chance = 0.1
+    Sound = TYR_RangDeflect02
+      Chance = 0.1
+    Sound = TYR_RangDeflect03
+      Chance = 0.1
+    Sound = TYR_RangDeflect04
+      Chance = 0.1
+    Sound = TYR_RangDeflect05
+      Chance = 0.1
+    Sound = TYR_RangDeflect06
+      Chance = 0.1
+    Sound = TYR_RangDeflect07
+      Chance = 0.1
+    Sound = TYR_RangDeflect08
+      Chance = 0.1
+    Sound = TYR_RangDeflect09
+      Chance = 0.1
+    Sound = TYR_RangDeflect10
+      Chance = 0.1
+  Material = ID_WATER_BLUE
+    Sound = sfx_0148_tystep_water
+
+SoundEvent = TyRangInfraHit
+  Volume = 120
+  Range = 3700
+  Material = ID_NONE
+    MinPitch = 0.81
+    MaxPitch = 0.86
+    Sound = T2_Punch_B_01
+      Chance = 0.25
+    Sound = T2_Punch_B_02
+      Chance = 0.25
+    Sound = T2_Punch_B_03
+      Chance = 0.25
+    Sound = T2_Punch_B_04
+      Chance = 0.25
+
+SoundEvent = TyRangInfraBeepLP
+  Range = 6000
+  Material = ID_NONE
+    MinPitch = 0.34
+    MaxPitch = 0.46
+    Sound = sfx_0016_irangbeep
+
+SoundEvent = TyRangZappyThrow
+  Range = 2939
+  Material = ID_NONE
+    Sound = HD_zappyrang_throw_01
+      Chance = 0.34
+    Sound = HD_zappyrang_throw_02
+      Chance = 0.33
+    Sound = HD_zappyrang_throw_03
+      Chance = 0.33
+
+SoundEvent = TyRangZappyCatch
+  Volume = 120
+  Range = 2000
+  Material = ID_NONE
+    Sound = T2_rangcatch01
+      Chance = 0.2
+    Sound = T2_rangcatch02
+      Chance = 0.2
+    Sound = T2_rangcatch03
+      Chance = 0.2
+    Sound = T2_rangcatchC06
+      Chance = 0.2
+    Sound = T2_rangcatchC015
+      Chance = 0.2
+
+SoundEvent = TyRangZappyDeflect
+  Volume = 110
+  Range = 4000
+  Material = ID_NONE
+    Sound = TYR_RangDeflect01
+      Chance = 0.1
+    Sound = TYR_RangDeflect02
+      Chance = 0.1
+    Sound = TYR_RangDeflect03
+      Chance = 0.1
+    Sound = TYR_RangDeflect04
+      Chance = 0.1
+    Sound = TYR_RangDeflect05
+      Chance = 0.1
+    Sound = TYR_RangDeflect06
+      Chance = 0.1
+    Sound = TYR_RangDeflect07
+      Chance = 0.1
+    Sound = TYR_RangDeflect08
+      Chance = 0.1
+    Sound = TYR_RangDeflect09
+      Chance = 0.1
+    Sound = TYR_RangDeflect10
+      Chance = 0.1
+  Material = ID_WATER_BLUE
+    Sound = sfx_0148_tystep_water
+
+SoundEvent = TyRangZappyHit
+  Volume = 130
+  Range = 4000
+  Material = ID_NONE
+    Sound = T2_rang_thunder_hit01
+      Chance = 0.5
+    Sound = T2_rang_thunder_hit02
+      Chance = 0.5
+
+SoundEvent = TyRangAquaHit
+  Volume = 110
+  Range = 4000
+  Material = ID_NONE
+    Sound = HD_aquarang_uwater_hit
+
+SoundEvent = TyRangMultiThrow
+  Volume = 120
+  Range = 3500
+  Material = ID_NONE
+    Sound = HD_multirang_throw1
+      Chance = 0.34
+    Sound = HD_multirang_throw2
+      Chance = 0.33
+    Sound = HD_multirang_throw3
+      Chance = 0.33
+
+SoundEvent = TyRangMultiCatch
+  Volume = 100
+  Range = 2000
+  Material = ID_NONE
+    Sound = T2_rangcatch01
+      Chance = 0.2
+    Sound = T2_rangcatch02
+      Chance = 0.2
+    Sound = T2_rangcatch03
+      Chance = 0.2
+    Sound = T2_rangcatchC06
+      Chance = 0.2
+    Sound = T2_rangcatchC015
+      Chance = 0.2
+
+SoundEvent = TyRangMultiDeflect
+  Volume = 100
+  Range = 4000
+  Material = ID_NONE
+    MinPitch = 1.30
+    MaxPitch = 1.70
+    Sound = TYR_RangDeflect01
+      Chance = 0.1
+    Sound = TYR_RangDeflect02
+      Chance = 0.1
+    Sound = TYR_RangDeflect03
+      Chance = 0.1
+    Sound = TYR_RangDeflect04
+      Chance = 0.1
+    Sound = TYR_RangDeflect05
+      Chance = 0.1
+    Sound = TYR_RangDeflect06
+      Chance = 0.1
+    Sound = TYR_RangDeflect07
+      Chance = 0.1
+    Sound = TYR_RangDeflect08
+      Chance = 0.1
+    Sound = TYR_RangDeflect09
+      Chance = 0.1
+    Sound = TYR_RangDeflect10
+      Chance = 0.1
+  Material = ID_WATER_BLUE
+    Sound = sfx_0148_tystep_water
+
+SoundEvent = TyRangMultiHit
+  Volume = 120
+  Range = 4086
+  Material = ID_NONE
+    MinPitch = 0.78
+    MaxPitch = 1.25
+    Sound = T2_Punch_B_01
+      Chance = 0.25
+    Sound = T2_Punch_B_02
+      Chance = 0.25
+    Sound = T2_Punch_B_03
+      Chance = 0.25
+    Sound = T2_Punch_B_04
+      Chance = 0.25
+
+SoundEvent = TyLassoThrow
+  Range = 4000
+  Material = ID_NONE
+    Sound = TY1_B3_lasoothrow1
+      Chance = 0.3
+    Sound = TY1_B3_lasoothrow2
+      Chance = 0.3
+    Sound = TY1_B3_lasoothrow3
+      Chance = 0.4
+
+SoundEvent = TyLassoCatch
+  Range = 4000
+  Material = ID_NONE
+    Sound = sfx_0010_lassocatch
+
+// -----------------------------------------------------------------------------
+// ToBeSortedSly
+
+name ToBeSortedSly
+
+SoundEvent = SlyRangHit
+  Range = 2000
+  Material = ID_NONE
+    MinPitch = 0.51
+    MaxPitch = 0.66
+    Sound = sfx_0389_punch
+
+// -----------------------------------------------------------------------------
+// ToBeSortedFluffy
+
+name ToBeSortedFluffy
+
+SoundEvent = FluffyPoundGround
+  Volume 255
+  Range = 5000
+  Material = ID_NONE
+    Sound = TY_YowieSlam
+
+SoundEvent = FluffySquishTy
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0419_rbacksquish
+
+SoundEvent = FluffyYowieRoar
+  Volume 255
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0440_yowieroar
+
+SoundEvent = FluffyYowieHurtScream
+  Volume 255
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0441_yowiedefeated
+
+SoundEvent = FluffyRobotRoar
+  Volume 255
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0445_robotroar
+
+SoundEvent = FluffyRobotHurt
+  Volume 255
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0449_robothurt
+
+SoundEvent = FluffyRobotLP
+  Volume 170
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0443_lp_robot
+
+SoundEvent = FluffyHeadDetatch
+  Volume 255
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0444_headdetatch
+
+SoundEvent = FluffyHeadhover
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0442_lp_hoverhead
+
+SoundEvent = FluffyAttackTwo
+  Volume 255
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0447_fluffyattack
+
+SoundEvent = FluffyAttackThree
+  Volume 255
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0448_fluffyattack
+
+SoundEvent = FluffyRangThroughBurner
+  Volume 255
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 0.67
+    MaxPitch = 0.74
+    Sound = sfx_0080_superflame
+
+// -----------------------------------------------------------------------------
+// ToBeSortedProps
+
+name ToBeSortedProps
+
+SoundEvent = ButtonPress
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0525_bigbutton
+
+SoundEvent = GateOpen
+  Volume 150
+  Range = 2000
+  Material = ID_NONE
+    MinPitch = 1.00
+    MaxPitch = 1.29
+    Sound = sfx_0937_doorsqueak
+
+SoundEvent = GateClose
+  Volume 150
+  Range = 2000
+  Material = ID_NONE
+    MinPitch = 0.65
+    MaxPitch = 0.88
+    Sound = sfx_0937_doorsqueak
+
+SoundEvent = FurnaceLP
+  Range = 1484
+  Material = ID_NONE
+    Sound = sfx_0858_lp_furnace
+
+// -----------------------------------------------------------------------------
+// ToBeSortedEnv2
+
+name ToBeSortedEnv2
+
+SoundEvent = EnvBirdChirp4
+  Volume = 100
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0804_birdtune
+      Chance = 0.1
+    Sound = sfx_0805_birdwhistle
+      Chance = 0.2
+    Sound = TYAMB_BirdCall06
+      Chance = 0.2
+    Sound = TYAMB_BirdCall03
+      Chance = 0.2
+    Sound = TYAMB_BirdCall04
+      Chance = 0.2
+
+SoundEvent = EnvBirdSongLP
+  Volume = 100
+  Range = 1800
+  Material = ID_NONE
+    Sound = TYAMB_Birds05LP
+      Chance = 0.2
+    Sound = TYAMB_Birds03LP
+      Chance = 0.2
+    Sound = TYAMB_Birds02LP
+      Chance = 0.2
+    Sound = TYAMB_Birds04LP
+      Chance = 0.2
+    Sound = TYAMB_Birds01LP
+      Chance = 0.2
+
+SoundEvent = EnvBushFireLP
+    Volume = 150
+  Range = 1800
+  Material = ID_NONE
+    MinPitch = 0.94
+    MaxPitch = 1.08
+    Sound = sfx_0863_lp_bushfire
+      Chance = 0.30
+    Sound = sfx_0857_lp_flaming
+      Chance = 0.70
+
+SoundEvent = EnvBushFire2LP
+  Volume = 150
+  Range = 1800
+  Material = ID_NONE
+    Sound = sfx_0858_lp_furnace
+
+SoundEvent = EnvFarThunder
+  Range = 1500
+  Material = ID_NONE
+    Sound = sfx_0824_distantthunder
+      Chance = 0.30
+    Sound = sfx_0831_distantthunder
+      Chance = 0.60
+
+SoundEvent = EnvMountWindLP
+  Volume = 100
+  Range = 4500
+  Material = ID_NONE
+    MinPitch = 0.64
+    MaxPitch = 1.22
+    Sound = sfx_0815_lp_mtwind
+
+SoundEvent = EnvPontoonAreaLP
+  Volume = 80
+  Range = 1500
+  Material = ID_NONE
+    Sound = sfx_0838_lp_pontoonarea
+
+// -----------------------------------------------------------------------------
+// Placeholder
+
+name Placeholder
+
+SoundEvent = PLACEHOLDER
+  Range = 5000
+  Material = ID_NONE
+    Sound = PLACEHOLDER
+
+// -----------------------------------------------------------------------------
+// ToBeSortedProps2
+
+name ToBeSortedProps2
+
+SoundEvent = FurnaceRockingLP
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0873_lp_furnaceidle
+
+SoundEvent = FurnaceOpenCold
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0921_furnacecold
+
+SoundEvent = FurnaceOpenHot
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0920_furnaceio
+
+SoundEvent = GeyserIdleLP
+  Range = 2500
+  Material = ID_NONE
+    Sound = sfx_0869_lp_geyser
+
+SoundEvent = GeyserGush
+  Range = 2997
+  Material = ID_NONE
+    Sound = sfx_0870_geyser
+
+SoundEvent = OpalsAllCollected
+    Volume = 100
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0522_allopals
+
+SoundEvent = PlatformHoverLP
+  Volume = 100
+  Range = 1543
+  Material = ID_NONE
+    Sound = sfx_0866_lp_hvrpltfm
+
+// -----------------------------------------------------------------------------
+// TyToBeSorted6
+
+name TyToBeSorted6
+
+SoundEvent = TyIdle1
+    Volume = 85
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 1.55
+    MaxPitch = 1.55
+    Sound = sfx_0028_lp_doomerang
+
+SoundEvent = TyIdle2
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 1.65
+    MaxPitch = 1.65
+    Sound = sfx_0101_tyjump
+
+SoundEvent = TyIdle3
+  Material = ID_NONE
+    Sound = PLACEHOLDER
+
+// -----------------------------------------------------------------------------
+// 06-11-02
+
+name 06-11-02
+
+SoundEvent = DialogD4LP
+  Material = ID_NONE
+    Sound = sfx_lp_CSD4
+
+SoundEvent = OpalCollectorWorkingLP
+    Volume = 150
+  Range = 2500
+  Material = ID_NONE
+    Sound = sfx_0523_lp_opalcollect
+
+SoundEvent = ThunderEggLaunch
+  Range = 2500
+  Material = ID_NONE
+    MinPitch = 0.50
+    MaxPitch = 0.50
+    Sound = sfx_0101_tyjump
+
+SoundEvent = ToxicPipe
+    Volume = 170
+  Range = 7389
+  Material = ID_NONE
+    MinPitch = 0.87
+    MaxPitch = 1.23
+    Sound = sfx_0963_toxicpipe
+
+SoundEvent = ThinIceShatter
+    Volume = 150
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0938_thinice
+
+SoundEvent = ChumExplode
+  Range = 4000
+  Material = ID_NONE
+    Sound = sfx_0475_chumexplode
+
+SoundEvent = CrikeyThrashingLP
+    Volume = 120
+  Range = 3501
+  Material = ID_NONE
+    Sound = sfx_0476_lp_criksplash
+
+SoundEvent = JuliusTalMachineLP
+  Range = 1500
+  Material = ID_NONE
+    Sound = sfx_0577_lp_idletalisman
+
+SoundEvent = JuliusTalMachineWorkLP
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0576_lp_talismachine
+
+SoundEvent = JuliusRangMachineWorkLP
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0578_lp_rangmachine
+
+// -----------------------------------------------------------------------------
+// 06-12-02
+
+name 06-12-02
+
+SoundEvent = PilotFlameUnlitLP
+  Range = 1800
+  Material = ID_NONE
+    Sound = sfx_0852_lp_unlitflame
+
+SoundEvent = FlameThrowerLP
+    Volume = 192
+  Range = 1000
+  Material = ID_NONE
+    MinPitch = 0.7
+    MaxPitch = 1.2
+    Sound = sfx_0490_lp_flamethrow
+      Chance = 0.5
+    Sound = Ty1_Flamethrow1_lp
+      Chance = 0.5
+
+SoundEvent = A2JeepBonnetClose
+    Volume = 100
+  Range = 3000
+  Material = ID_NONE
+    MinPitch = 2.00
+    MaxPitch = 2.00
+    Sound = sfx_0890_boulderland
+
+SoundEvent = A2JeepDriveOff
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0743_jeepstartdrive
+
+SoundEvent = FrillRepairPipe
+  Range = 7389
+  Material = ID_NONE
+    Sound = sfx_0964_piperepair
+      Chance = 0.40
+    Sound = sfx_0965_piperepair
+      Chance = 0.60
+
+SoundEvent = LavaFlowLP
+  Range = 1800
+  Material = ID_NONE
+    MinPitch = 0.71
+    MaxPitch = 1.11
+    Sound = sfx_0814_lp_lava
+
+SoundEvent = FoundObjectiveKid
+  Range = 1800
+  Material = ID_NONE
+    Sound = sfx_0580_rescue
+
+SoundEvent = EnvSeagull
+  Range = 2300
+  Material = ID_NONE
+    MinPitch = 0.97
+    MaxPitch = 1.01
+    Sound = sfx_0700_seagull
+      Chance = 0.4
+    Sound = sfx_0701_seagull
+      Chance = 0.40
+
+// -----------------------------------------------------------------------------
+// 06-19-02
+
+name 06-19-02
+
+SoundEvent = JuliusTalMachineEvent1
+  Range = 1000
+  Material = ID_NONE
+    MinPitch = 0.89
+    MaxPitch = 1.10
+    Sound = sfx_0558_talismanmove
+
+SoundEvent = JuliusTalMachineEvent2
+  Range = 1000
+  Material = ID_NONE
+    MinPitch = 0.88
+    MaxPitch = 1.12
+    Sound = sfx_0559_talismanmove
+
+SoundEvent = JuliusRangMachineEvent1
+    Volume = 180
+  Range = 1000
+  Material = ID_NONE
+    MinPitch = 2.00
+    MaxPitch = 0.55
+    Sound = sfx_0560_rangpress
+
+SoundEvent = IceForming
+  Range = 1810
+  Material = ID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.12
+    Sound = T2_iceformB_1
+      Chance = 0.4
+    Sound = T2_iceformB_3
+      Chance = 0.4
+    Sound = T2_iceformB_2
+      Chance = 0.2
+
+SoundEvent = DepthChargeExplode
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0918_dchargebang
+
+SoundEvent = DepthChargeExplodeUW
+    Volume = 150
+  Range = 3000
+  Material = ID_NONE
+    MinPitch = 0.71
+    MaxPitch = 0.71
+    Sound = sfx_0918_dchargebang
+
+SoundEvent = FrillBoatIdleLP
+  Range = 3116
+  Material = ID_NONE
+    Sound = sfx_0372_lp_speedboat
+
+SoundEvent = FrillBoatIdleUWLP
+  Range = 3086
+  Material = ID_NONE
+    Sound = sfx_0372_lp_speedboat
+
+SoundEvent = FrillBoatHitIce
+  Range = 3586
+  Material = ID_NONE
+    MinPitch = 0.87
+    MaxPitch = 1.22
+    Sound = sfx_0374_speedboatimpact
+
+SoundEvent = RingoIdleLP
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0745_lp_olliegrowl
+
+SoundEvent = RingoHit
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0751_olliehithead
+
+SoundEvent = RingoTenticleHit
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0746_olliehit
+
+SoundEvent = RingoTenticleThrashLP
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0747_lp_olliethresh
+
+SoundEvent = RexJump
+  Range = 3000
+  Material = ID_NONE
+    MinPitch = 1.04
+    MaxPitch = 1.12
+    Sound = sfx_0756_rexjump
+
+SoundEvent = ElleJump
+  Range = 3000
+  Material = ID_NONE
+    MinPitch = 0.80
+    MaxPitch = 0.87
+    Sound = sfx_0755_ellejump
+
+SoundEvent = RexElleStep
+  Range = 3000
+  Material = ID_NONE
+    MinPitch = 0.72
+    MaxPitch = 0.94
+    Sound = sfx_0750_rexellestep
+      Chance = 0.48
+    Sound = sfx_0749_rexellestep
+      Chance = 0.52
+
+SoundEvent = RexElleLand
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0752_rexelleland
+
+SoundEvent = RexElleClankinGold
+  Range = 3000
+  Material = ID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.18
+    Sound = sfx_0753_goldclank
+
+SoundEvent = RexEllePickupGold
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0754_goldpu
+
+// -----------------------------------------------------------------------------
+// 06-21-02
+
+name 06-21-02
+
+SoundEvent = TyShockwaved
+  Range = 4000
+  Material = ID_NONE
+    Sound = sfx_0391_btonguepunch
+
+SoundEvent = DoorSlideUpDown
+  Range = 1721
+  Material = ID_NONE
+    MinPitch = 0.87
+    MaxPitch = 1.21
+    Sound = sfx_0967_slidingdoor
+
+SoundEvent = TrapdoorOpen
+  Range = 1513
+  Material = ID_NONE
+    Sound = sfx_0892_trapdoor
+
+SoundEvent = DoorThud
+  Range = 1306
+  Material = ID_NONE
+    MinPitch = 0.84
+    MaxPitch = 1.00
+    Sound = sfx_0968_doorthud
+
+SoundEvent = FluffyIgnite
+  Range = 5500
+  Material = ID_NONE
+    MinPitch = 0.45
+    MaxPitch = 0.47
+    Sound = sfx_0032_flamerangignite
+
+SoundEvent = FluffySinking
+    Volume = 250
+  Range = 4500
+  Material = ID_NONE
+    MinPitch = 0.74
+    MaxPitch = 0.74
+    Sound = sfx_0905_lp_bubbles
+
+SoundEvent = FluffyChestBeat
+  Range = 6000
+  Material = ID_NONE
+    MinPitch = 0.71
+    MaxPitch = 0.71
+    Sound = sfx_0451_chestbeat
+
+SoundEvent = FluffyRobotChestBeat
+  Range = 6500
+  Material = ID_NONE
+    Sound = sfx_0451_robotbeat
+
+SoundEvent = FluffyJump
+  Range = 4200
+  Material = ID_NONE
+    Sound = sfx_0472_fluffyjump
+
+SoundEvent = FluffyLand
+  Range = 4451
+  Material = ID_NONE
+    Sound = sfx_0471_fluffyland
+
+SoundEvent = FluffyRangDeflect
+  Range = 4510
+  Material = ID_NONE
+    MinPitch = 0.71
+    MaxPitch = 1.27
+    Sound = sfx_0026_ricochet
+      Chance = 0.70
+    Sound = sfx_0027_ricochet
+      Chance = 0.30
+
+SoundEvent = NinjaJump
+  Range = 1899
+  Material = ID_NONE
+    MinPitch = 0.94
+    MaxPitch = 1.12
+    Sound = sfx_0395_ninjawhip
+      Chance = 0.45
+    Sound = sfx_1014_gninjawa
+      Chance = 0.55
+
+SoundEvent = NinjaLand
+    Volume = 192
+  Range = 1000
+  Material = ID_NONE
+    MinPitch = 0.79
+    MaxPitch = 0.81
+    Sound = Ty_step_lge_dirt1
+
+SoundEvent = NinjaThrow
+  Range = 2500
+  Material = ID_NONE
+    Sound = sfx_0072_ninjastarthro
+
+SoundEvent = NinjaStarImpact
+  Range = 2404
+  Material = ID_NONE
+    MinPitch = 0.85
+    MaxPitch = 1.18
+    Sound = sfx_0071_ninjastarhit
+
+SoundEvent = NinjaHurt
+  Range = 2077
+  Material = ID_NONE
+    Sound = sfx_1014_ninjadeath
+
+SoundEvent = LilNeddyShieldHit
+  Range = 2463
+  Material = ID_NONE
+    MinPitch = 0.75
+    MaxPitch = 1.28
+    Sound = sfx_0073_lneddyshield
+
+SoundEvent = LilNeddyHurt
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0349_lilneddyouch
+
+SoundEvent = MuddieHurt
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0305_crabdeath
+
+// -----------------------------------------------------------------------------
+// 06-24-02
+
+name 06-24-02
+
+SoundEvent = A2ShazzaHitsHead
+    Volume = 150
+  Range = 3000
+  Material = ID_NONE
+    MinPitch = 1.69
+    MaxPitch = 1.69
+    Sound = sfx_0890_boulderland
+
+SoundEvent = BullHitWall
+    Volume = 192
+  Range = 3325
+  Material = ID_NONE
+    MinPitch = 1.26
+    MaxPitch = 1.47
+    Sound = sfx_0410_rbackcrash
+
+SoundEvent = BullB3Snort
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0407_B3rbacksnort
+
+SoundEvent = SnowSpiderMoveLP
+  Range = 1602
+  Material = ID_NONE
+    Sound = sfx_1077_lp_snowspider
+
+SoundEvent = SnowSpiderAttack
+  Range = 2000
+  Material = ID_NONE
+    MinPitch = 1.20
+    MaxPitch = 1.39
+    Sound = sfx_0352_leechburst
+
+SoundEvent = SnowSpiderDefeated
+  Range = 2000
+  Material = ID_NONE
+    MinPitch = 0.50
+    MaxPitch = 0.50
+    Sound = sfx_0358_leechsuck
+
+SoundEvent = BilbyDadCooee
+  Volume = 120
+  Range = 3000
+  Material = ID_NONE
+    MinPitch = 0.80
+    MaxPitch = 0.80
+    Sound = sfx_0555_bilbyclue
+
+SoundEvent = BilbyMumCooee
+  Volume = 120
+  Range = 3000
+  Material = ID_NONE
+    MinPitch = 1.12
+    MaxPitch = 1.12
+    Sound = sfx_0555_bilbyclue
+
+SoundEvent = BilbyBoyCooee
+  Volume = 120
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0555_bilbyclue
+
+SoundEvent = BilbyGirlCooee
+  Volume = 120
+  Range = 3000
+  Material = ID_NONE
+    MinPitch = 1.30
+    MaxPitch = 1.30
+    Sound = sfx_0555_bilbyclue
+
+SoundEvent = BilbyGranCooee
+  Volume = 120
+  Range = 3000
+  Material = ID_NONE
+    MinPitch = 0.90
+    MaxPitch = 0.90
+    Sound = sfx_0555_bilbyclue
+
+SoundEvent = RangCollectionLP
+  Volume = 150
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0554_collectrang
+
+SoundEvent = TalismanCollectionLP
+  Volume = 120
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0575_collecttalisman
+
+SoundEvent = SpiderTrapdoorOpen
+  Range = 2500
+  Material = ID_NONE
+    Sound = sfx_0892_trapdoor
+
+SoundEvent = CableCarLP
+  Volume = 120
+  Range = 2433
+  Material = ID_NONE
+    Sound = sfx_0886_lp_cablecar
+
+SoundEvent = BlueTongueRockHit
+  Volume = 120
+  Range = 3500
+  Material = ID_NONE
+    MinPitch = 0.84
+    MaxPitch = 1.18
+    Sound = sfx_1095_rockland
+  Material = ANY_WATER_ID
+    MinPitch = 0.91
+    MaxPitch = 1.41
+    Sound = sfx_0117_minisplash
+      Chance = 0.25
+    Sound = TYB_smallsplash1
+      Chance = 0.25
+    Sound = TYB_smallsplash2
+      Chance = 0.25
+    Sound = TYB_smallsplash3
+      Chance = 0.25
+  Material = ID_SNOW
+    Sound = sfx_0926_snowballland
+
+SoundEvent = BlueTongueRockHitCar
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0962_cablecarhit
+
+SoundEvent = KoalaKidHelpMe
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_1085_koalakid
+      Chance = 0.25
+    Sound = sfx_1086_koalakid
+      Chance = 0.35
+    Sound = silencio
+      Chance = 0.40
+
+SoundEvent = AuroraKidHelpMe
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_1087_koalakid
+      Chance = 0.20
+    Sound = sfx_1085_koalakid
+      Chance = 0.40
+    Sound = sfx_1086_koalakid
+      Chance = 0.40
+
+// -----------------------------------------------------------------------------
+// 06-30-02
+
+name 06-30-02
+
+SoundEvent = CoconutRang
+  Range = 2500
+  Material = ID_NONE
+    Sound = sfx_0848_coconuthits
+
+SoundEvent = CoconutLand
+  Range = 2500
+  Material = ID_NONE
+    Sound = sfx_1092_cocoqsand
+
+SoundEvent = IceCrateSmash
+  Volume = 170
+  Range = 2000
+  Material = ID_NONE
+    MinPitch = 0.87
+    MaxPitch = 1.08
+    Sound = T2_icesmash01
+
+SoundEvent = LavaGeyserGush
+  Range = 3000
+  Material = ID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.12
+    Sound = sfx_1093_lavaspout
+
+SoundEvent = LilNeddySwing
+  Range = 2000
+  Material = ID_NONE
+    MinPitch = 0.70
+    MaxPitch = 0.71
+    Sound = sfx_0387_lizardtakeaswing
+
+SoundEvent = LilNeddyLand
+  Range = 2000
+  Material = ID_NONE
+    MinPitch = 0.74
+    MaxPitch = 1.19
+    Sound = sfx_0351_lneddyland
+
+SoundEvent = LilNeddyCharge
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0350_lilneddycharge
+
+SoundEvent = BullAndTyClaim
+  Volume = 180
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0527_B3claim
+
+SoundEvent = BullAndTyDunny
+  Volume = 180
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0528_B3checkpoint
+
+SoundEvent = EnvCowLP
+  Volume = 200
+  Range = 2900
+  Material = ID_NONE
+    Sound = TY_B3cows_lp
+
+SoundEvent = EnvSheepLP
+  Volume = 150
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0818_lp_sheep
+
+SoundEvent = BullB3Roar
+  Volume = 150
+  Range = 1780
+  Material = ID_NONE
+    Sound = sfx_0416_rbackroarb3
+
+SoundEvent = BullB3Fall
+  Range = 3356
+  Material = ID_NONE
+    Sound = sfx_0409_rbackfall
+
+SoundEvent = BullB3WaterWalkLP
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0292_lp_bullwater
+
+SoundEvent = BullB3Charge
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0291_bullcharge
+
+SoundEvent = ShadowSteamLP
+  Range = 2300
+  Material = ID_NONE
+    MinPitch = 0.87
+    MaxPitch = 1.20
+    Sound = sfx_1096_lp_steam
+
+SoundEvent = ShadowSuckLP
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0436_lp_shadowsucks
+
+SoundEvent = BunyipRoar
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0595_bunyipyell
+
+// -----------------------------------------------------------------------------
+// 07-09-02
+
+name 07-09-02
+
+SoundEvent = CassCockpitLP
+  Range = 801
+  Material = ID_NONE
+    Sound = sfx_0940_lp_bcassint
+
+SoundEvent = CassFootstep
+    Volume = 128
+  Range = 3000
+  Material = ID_NONE
+    MinPitch = 0.77
+    MaxPitch = 1.35
+    Sound = sfx_0987_robotstep
+
+SoundEvent = CassInteriorLP
+  Range = 1039
+  Material = ID_NONE
+    Sound = sfx_0986_lp_robotengroom
+      Chance = 0.40
+    Sound = sfx_0988_lp_robotengroom
+      Chance = 0.60
+
+SoundEvent = SlyStep
+    Volume = 190
+  Range = 2136
+  Material = ID_WOOD
+    MinPitch = 0.82
+    MaxPitch = 1.18
+    Sound = sfx_0992_slystepwood
+  Material = ID_HOLLOWWOOD
+    MinPitch = 0.89
+    MaxPitch = 1.10
+    Sound = sfx_0992_slystepwood
+
+SoundEvent = SlyStepMetal
+    Volume = 190
+  Range = 2000
+  Material = ID_NONE
+    MinPitch = 0.85
+    MaxPitch = 1.12
+    Sound = Ty_step_med_hard01
+      Chance = 0.25
+    Sound = Ty_step_med_hard02
+      Chance = 0.25
+    Sound = Ty_step_med_hard04
+      Chance = 0.25
+    Sound = Ty_step_med_hard05
+      Chance = 0.25
+  Material = ID_METAL
+    MinPitch = 0.90
+    MaxPitch = 1.12
+    Sound = sfx_0993_slystepmetal
+
+SoundEvent = SlyLand
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0991_slyland
+
+SoundEvent = EnvE4TunnelLP
+  Volume = 180
+  Range = 2500
+  Material = ID_NONE
+    Sound = sfx_0990_lp_tunnel
+      Chance = 0.15
+    Sound = sfx_0990_lp_tunnel2
+      Chance = 0.15
+    Sound = sfx_0990_lp_tunnel3
+      Chance = 0.20
+    Sound = sfx_0990_lp_tunnel4
+      Chance = 0.20
+    Sound = sfx_0990_lp_tunnel5
+      Chance = 0.30
+
+SoundEvent = EnvE4Tunnel
+  Volume = 150
+  Range = 800
+  Material = ID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.04
+    Sound = sfx_0989_tunnelwhoosh
+      Chance = 0.15
+    Sound = sfx_0989_tunnelwhoosh2
+      Chance = 0.20
+    Sound = sfx_0989_tunnelwhoosh3
+      Chance = 0.20
+    Sound = sfx_0989_tunnelwhoosh4
+      Chance = 0.20
+    Sound = sfx_0989_tunnelwhoosh5
+      Chance = 0.25
+
+SoundEvent = GlassShatter
+    Volume = 170
+  Range = 2000
+  Material = ID_NONE
+    MinPitch = 0.86
+    MaxPitch = 1.42
+    Sound = sfx_0079_glassshatter
+
+SoundEvent = TreasureChestOpen
+  Range = 2600
+  Material = ID_NONE
+    MinPitch = 1.55
+    MaxPitch = 1.65
+    Sound = sfx_0937_doorsqueak
+
+SoundEvent = TreasureChestWobbleLP
+  Range = 2600
+  Material = ID_NONE
+    MinPitch = 0.59
+    MaxPitch = 0.64
+    Sound = sfx_0972_lp_rattlingchest
+
+// -----------------------------------------------------------------------------
+// 07-11-02
+
+name 07-11-02
+
+SoundEvent = E4DoorHit
+  Range = 4000
+  Material = ID_NONE
+    MinPitch = 0.91
+    MaxPitch = 1.12
+    Sound = sfx_0877_E4cassdoorhit
+
+SoundEvent = E4DoorExplode
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 0.84
+    MaxPitch = 1.18
+    Sound = sfx_0878_E4explode
+
+SoundEvent = FlameThrowerUp
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0878_E4fthrowerup
+
+SoundEvent = FlameThrowerDown
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0880_E4throwerdown
+
+SoundEvent = ObjectiveA1
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0531_objectiveA1
+
+SoundEvent = ObjectiveA3
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0535_objectiveB2
+
+SoundEvent = ObjectiveB1
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0535_objectiveB2
+
+SoundEvent = ObjectiveB2
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0535_objectiveB2
+
+SoundEvent = ObjectiveB3
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0531_objectiveA1
+
+SoundEvent = ObjectiveC1
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0531_objectiveA1
+
+SoundEvent = ObjectiveC2
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0535_objectiveB2
+
+SoundEvent = ObjectiveC3
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0535_objectiveB2
+
+SoundEvent = ObjectiveE4
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0531_objectiveA1
+
+SoundEvent = DebrisShatter
+  Range = 2000
+  Material = ID_NONE
+    MinPitch = 0.86
+    MaxPitch = 1.09
+    Sound = sfx_0971_wsdebris
+      Chance = 0.45
+    Sound = sfx_0970_wsdebris
+      Chance = 0.55
+
+SoundEvent = FrillThrowerDies
+    Volume = 180
+  Range = 2300
+  Material = ID_NONE
+    MinPitch = 0.93
+    MaxPitch = 1.12
+    Sound = sfx_1009_frillshriek
+
+SoundEvent = SnowRooTaunt
+  Range = 2500
+  Material = ID_NONE
+    Sound = sfx_0376_snowrootaunt
+
+SoundEvent = WombatTaunt
+  Range = 2500
+  Material = ID_NONE
+    Sound = sfx_0375_wombattaunt
+
+SoundEvent = WhitePostShatter
+  Range = 2500
+  Material = ID_NONE
+    Sound = sfx_0095_smwoodimpct
+
+SoundEvent = RoadSignShatter
+  Range = 2500
+  Material = ID_NONE
+    MinPitch = 0.78
+    MaxPitch = 1.12
+    Sound = sfx_0278_streetsign
+
+SoundEvent = DoomarangGrindLP
+  Range = 6000
+  Material = ID_NONE
+    Sound = sfx_0276_lp_doomgrind
+
+SoundEvent = B3HouseCollapse1
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0279_housecollapse
+
+SoundEvent = B3HouseCollapse2
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0284_metaltowerfall
+
+SoundEvent = B3HouseCollapse3
+  Range = 5000
+  Material = ID_NONE
+    Sound = sfx_0280_woodcollapse
+
+// -----------------------------------------------------------------------------
+// 07-17-02-CutsceneSounds
+
+name 07-17-02-CutsceneSounds
+
+SoundEvent = D1RobotCollapse
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_CSD1_robotcollapse
+
+SoundEvent = D1TalismanSpin
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_CSFX_talismanspin
+
+SoundEvent = A1RufusSnore
+    Volume = 128
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0326_snoring
+
+SoundEvent = A1RufusStretch
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0328_rufusscratch
+
+SoundEvent = B2Avalanche
+    Volume = 192
+  Range = 3000
+  Material = ID_NONE
+    MinPitch = 0.12
+    MaxPitch = 0.15
+    Sound = sfx_0115_Tysplash
+
+SoundEvent = B2YabbyPickup
+  Range = 4000
+  Material = ID_NONE
+    Sound = sfx_CSFX_pickup
+
+SoundEvent = B3BullBreathing
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_CSFX_bullbreath
+
+SoundEvent = C1Flashes
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_CSFX_flash
+
+SoundEvent = C4FluffyJump
+  Range = 4000
+  Material = ID_NONE
+    Sound = sfx_CSFX_longjump
+
+SoundEvent = D4CrikeyJump
+  Range = 4985
+  Material = ID_NONE
+    Sound = sfx_0973_crikeysurface
+
+SoundEvent = D4CrikeySwimLP
+  Range = 5015
+  Material = ID_NONE
+    Sound = sfx_0975_lp_surfaceswim
+
+SoundEvent = D4CrikeySplash
+  Range = 5016
+  Material = ID_NONE
+    MinPitch = 0.95
+    MaxPitch = 1.05
+    Sound = HD_Crikey_bigsplash_01
+      Chance = 0.25
+    Sound = HD_Crikey_bigsplash_02
+      Chance = 0.25
+    Sound = HD_Crikey_bigsplash_03
+      Chance = 0.25
+    Sound = HD_Crikey_bigsplash_04
+      Chance = 0.25
+
+SoundEvent = D2Latch
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_CSFX_latch
+
+SoundEvent = D2MetalDoor1Open
+  Range = 2000
+  Material = ID_NONE
+    MinPitch = 0.56
+    MaxPitch = 0.60
+    Sound = sfx_CSFX_metaldoor2
+
+SoundEvent = D2MetalDoor2Open
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_CSFX_metaldoor2
+
+SoundEvent = D2ShadowBatJump
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_menu_click
+
+SoundEvent = CSTyStepMetal
+  Range = 2000
+  Material = ID_NONE
+    MinPitch = 0.78
+    MaxPitch = 1.12
+    Sound = sfx_0162_tystep_metal
+
+SoundEvent = CSTyLandMetal
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0161_tyland_metal
+
+SoundEvent = CSWhoosh
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_CSFX_whoosh
+
+SoundEvent = CSLongJump
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_CSFX_longjump
+
+SoundEvent = CSPickup
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_CSFX_pickup
+
+SoundEvent = CSDropWood
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_CSFX_dropitem
+
+SoundEvent = CSDropMetal
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_CSFX_metaldrop
+
+SoundEvent = D2RobotLegMove
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_CSFX_robotservo
+
+SoundEvent = D2RobotFootstep
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_CSFX_robotstep
+
+SoundEvent = E4RobotHeadRattleLP
+    Volume = 192
+  Range = 2789
+  Material = ID_NONE
+    MinPitch = 1.58
+    MaxPitch = 1.64
+    Sound = sfx_0873_lp_furnaceidle
+
+SoundEvent = E4RobotHeadDetach
+  Range = 7418
+  Material = ID_NONE
+    Sound = sfx_CSFX_headflyoff
+
+// -----------------------------------------------------------------------------
+// 07-17-02
+
+name 07-17-02
+
+SoundEvent = EZoneGateOpen
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_1098_dooropen
+
+SoundEvent = EZoneGateClose
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_1098_doorclose
+
+SoundEvent = GeneratorLP
+    Volume = 190
+  Range = 1200
+  Material = ID_NONE
+    Sound = sfx_1097_lp_gennie
+
+SoundEvent = HayBaleShatter
+    Volume = 160
+  Range = 2000
+  Material = ID_NONE
+    MinPitch = 1.0
+    MaxPitch = 1.3
+    Sound = Tykart_bailhit03
+      Chance = 0.5
+    Sound = Tykart_bailhit04
+      Chance = 0.5
+
+SoundEvent = WaterTroughShatter
+  Range = 2000
+  Material = ID_NONE
+    MinPitch = 0.49
+    MaxPitch = 0.66
+    Sound = Ty_TreeSmash1
+
+SoundEvent = CrikeyAttackingTy
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0488_crikeybites
+
+SoundEvent = FlameLogShatter
+  Range = 2000
+  Material = ID_NONE
+    MinPitch = 0.40
+    MaxPitch = 0.39
+    Sound = Ty_TreeSmash1
+
+SoundEvent = IceWallShatter
+
+  Volume = 180
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0070_crystalsmash
+
+// -----------------------------------------------------------------------------
+// 07-24-02
+
+name 07-24-02
+
+SoundEvent = CaveBatIdle
+  Range = 1980
+  Material = ID_NONE
+    MinPitch = 0.88
+    MaxPitch = 1.22
+    Sound = sfx_0370_cavebatidle
+
+SoundEvent = EelBites
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_0404_batbite
+
+SoundEvent = CSLaserLP
+  Range = 2500
+  Material = ID_NONE
+    Sound = sfx_CSFX_lp_laser
+
+SoundEvent = CSShazzaKiss
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_CSFX_D2shazzasnog
+
+SoundEvent = SlyHurt
+  Range = 2700
+  Material = ID_NONE
+    Sound = sfx_1039_slyhit
+      Chance = 0.45
+    Sound = sfx_1040_slyhit
+      Chance = 0.55
+
+SoundEvent = SlyTaunt
+  Range = 2000
+  Material = ID_NONE
+    Sound = C1_30_P04
+
+SoundEvent = TyRangChronoHit
+  Range = 2500
+  Material = ID_NONE
+    MinPitch = 0.54
+    MaxPitch = 0.56
+    Sound = sfx_0032_flamerangignite
+
+// NEW SOUNDS FOR STEAM
+SoundEvent = TyRangFlameThrow2
+  Volume = 150
+  Range = 2611
+  Material = ID_NONE
+    Sound = HD_flamerang_throw_01
+      Chance = 0.34
+    Sound = HD_flamerang_throw_02
+      Chance = 0.33
+    Sound = HD_flamerang_throw_03
+      Chance = 0.33
+
+SoundEvent = TyGlideLoop
+    Volume = 180
+  Range = 5000
+  Material = ID_NONE
+    Sound = HD_Ty_glide_lp
+
+SoundEvent = FishSwallow
+  Range = 3000
+  Material = ID_NONE
+    Sound = sfx_0404_batbite
+    MinPitch = 0.8
+    MaxPitch = 0.8
+
+SoundEvent = Z1FlameLogLP
+    Volume = 32
+  Range = 2000
+  Material = ID_NONE
+    MinPitch = 0.80
+    MaxPitch = 1.10
+    Sound = SP_fire_med_lp
+      Chance = 0.25
+    Sound = SP_fire_med_lp
+      Chance = 0.25
+    Sound = SP_fire_med_lp
+      Chance = 0.25
+    Sound = silencio
+      Chance = 0.25
+
+SoundEvent = TYLedgeRangHit
+    Volume = 128
+  Range = 5000
+  Material = ID_NONE
+    MinPitch = 0.90
+    MaxPitch = 1.05
+    Sound = HD_grab_dirt_gravel
+  Material = ID_GRASS_THICK
+    MinPitch = 0.85
+    MaxPitch = 0.95
+    Sound = HD_grab_dirt_gravel
+  Material = ID_GRASS_THIN
+    MinPitch = 1.00
+    MaxPitch = 1.25
+    Sound = HD_grab_dirt_gravel
+  Material = ID_WOOD
+    MinPitch = 0.75
+    MaxPitch = 0.85
+    Sound = HD_grab_stone_rock
+  Material = ID_HOLLOWWOOD
+    MinPitch = 1.10
+    MaxPitch = 0.95
+    Sound = HD_grab_stone_rock
+  Material = ID_METAL
+    MinPitch = 0.85
+    MaxPitch = 1.08
+    Sound = HD_grab_metal
+  Material = ID_ICE
+    MinPitch = 0.90
+    MaxPitch = 1.10
+    Sound = HD_grab_sand_snow
+  Material = ID_SNOW
+    MinPitch = 0.65
+    MaxPitch = 0.76
+    Sound = HD_grab_sand_snow
+  Material = ID_ROCK
+    MinPitch = 0.90
+    MaxPitch = 1.12
+    Sound = HD_grab_stone_rock
+
+SoundEvent = TYBiteHit
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_ty_bitesNEW
+
+SoundEvent = TYHurtBurn
+  Range = 2000
+  Material = ID_NONE
+    Sound = sfx_ty_burn
+
+SoundEvent = YabbyHit
+  Range = 2000
+  Material = ID_NONE
+    Sound = HD_yabbie_hit
+
+SoundEvent = UW_StalacFall
+  Range = 2000
+  Material = ID_NONE
+    Sound = HD_uwater_stalac_fall
+
+SoundEvent = UW_StalacLand
+  Range = 2000
+  Material = ID_NONE
+    Sound = HD_uwater_stalac_land
+
+SoundEvent = A1_2ndRang
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY1_A1_2ndRangRemove
+
+SoundEvent = A4_TalismanGet
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY1_A1_2ndRangRemove
+
+SoundEvent = TalismanPlace
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY1_CS_PlaceTalisman
+
+SoundEvent = TalismanHandle1
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY1_CS_TalismanHandle1
+
+SoundEvent = TalismanHandle2
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY1_CS_TalismanHandle2
+
+SoundEvent = TYSP_Desert1
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_B3atmos_lp1
+
+SoundEvent = TYSP_Desert2
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY1_wind_desert1_lp
+
+SoundEvent = TYSP_Desert3
+  Range = 2000
+  Material = ID_NONE
+    Sound = TYAMB_BirdsCrows01LP
+
+SoundEvent = TYSP_River1
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYSP_River2
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYSP_Ocean1
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY1_oceanshoreD_lp
+      Chance = 0.4
+    Sound = TY1_oceanshoreC_lp
+      Chance = 0.3
+    Sound = TY1_oceanshoreB_lp
+      Chance = 0.3
+
+SoundEvent = TYSP_Ocean2
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY1_oceanC_lp
+      Chance = 0.5
+    Sound = TY1_oceanB_lp
+      Chance = 0.5
+
+SoundEvent = TYSP_Seagulls
+  Volume = 150
+  Range = 1880
+  Material = ID_NONE
+    Sound = TY1_gullsE_lp
+      Chance = 0.25
+    Sound = TY1_gullsD_lp
+      Chance = 0.25
+    Sound = TY1_gullsB_lp
+      Chance = 0.25
+    Sound = TY1_gullsC_lp
+      Chance = 0.25
+
+SoundEvent = TYSP_MountWind1
+  Volume = 150
+  Range = 2900
+  Material = ID_NONE
+    Sound = TY1_wind_mntD_lp
+
+SoundEvent = TYSP_MountWind2
+  Volume = 150
+  Range = 2900
+  Material = ID_NONE
+    Sound = TY1_wind_mntC_lp
+
+SoundEvent = TYSP_MountWind3
+  Volume = 150
+  Range = 2900
+  Material = ID_NONE
+    Sound = TY1_wind_mntB_lp
+
+SoundEvent = TYSP_MountWind4
+  Volume = 150
+  Range = 2900
+  Material = ID_NONE
+    Sound = TY1_windmtnhighE_lp
+      Chance = 0.5
+    Sound = TY1_windmtnhighD_lp
+      Chance = 0.5
+
+SoundEvent = TYSP_Rainforest1
+  Volume = 150
+  Range = 2000
+  Material = ID_NONE
+    Sound = TYSP_Rainforest1
+
+SoundEvent = TYSP_Rainforest2
+  Range = 2000
+  Material = ID_NONE
+    Sound = TYSP_Rainforest2
+
+SoundEvent = TYSP_Rainforest3
+  Range = 2000
+  Material = ID_NONE
+    Sound = TYSP_Rainforest3
+
+SoundEvent = TYSP_Rainforest4
+  Range = 2000
+  Material = ID_NONE
+    Sound = TYSP_Rainforest4
+
+SoundEvent = TYSP_CaveForest
+  Range = 2000
+  Material = ID_NONE
+    Sound = TYSP_CaveForest
+
+SoundEvent = TYSP_CaveOcean
+  Range = 2000
+  Material = ID_NONE
+    Sound = TYSP_CaveOcean
+
+SoundEvent = TYSP_CavernB3
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY1_cave_int_drips_lp
+
+SoundEvent = TYSP_CavernShadow
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY1_wind_shadowB_lp
+
+SoundEvent = TYSP_Misc1
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY1_cavern_eerie2_lp
+
+SoundEvent = TYSP_Misc2
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY1_cavern_eerie1_lp
+
+SoundEvent = TYSP_Misc3
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY1_rumble_lp
+
+SoundEvent = TYSP_Misc4
+  Range = 1800
+  Material = ID_NONE
+    Sound = TY_WaterfallDistant_LP
+
+SoundEvent = TYSP_Misc5
+  Range = 2000
+  Material = ID_NONE
+    Sound = SP_JuliusMachine_02_lp
+
+SoundEvent = TYSP_Misc6
+  Range = 2000
+  Material = ID_NONE
+    Sound = SP_JuliusMachine_01_lp
+
+SoundEvent = TYSP_Misc7
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_JuliusElectric_LP
+
+SoundEvent = TYSP_Misc8
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYSP_Misc9
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYSP_Misc10
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYCS_001
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYCS_002
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYCS_003
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYCS_004
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYCS_005
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYCS_006
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYCS_007
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYCS_008
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYCS_009
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYCS_010
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYCS_011
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYCS_012
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYCS_013
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYCS_014
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYCS_015
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYCS_016
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYCS_017
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYCS_018
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYCS_019
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+SoundEvent = TYCS_020
+  Range = 2000
+  Material = ID_NONE
+    Sound = TY_EnemyADeath4
+
+
+SoundEvent = TYHardCoreOn
+  Volume = 130 
+  Range = 5000
+  Material = ID_NONE
+    Sound = Ty_HardcoreOn
+
+
+
+SoundEvent = TYHardCoreOff  
+  Volume = 140
+  Range = 5000
+  Material = ID_NONE
+    Sound = HardCoreOff
+	
+// New Cutscene Sounds
+
+SoundEvent = TYCSA1_01_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSA1_01_Extra
+	
+SoundEvent = TYCSA1_02_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSA1_02_Extra
+	
+SoundEvent = TYCSA1_03_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSA1_03_Extra
+
+SoundEvent = TYCSA1_60_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSA1_60_Extra
+
+SoundEvent = TYCSA1_61_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSA1_61_Extra
+
+SoundEvent = TYCSA1_62_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSA1_62_Extra
+
+SoundEvent = TYCSZ1_08_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSZ1_08_Extra
+
+SoundEvent = TYCSZ1_09_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSZ1_09_Extra
+
+SoundEvent = TYCSZ1_12_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSZ1_12_Extra
+
+SoundEvent = TYCSZ1_13_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSZ1_13_Extra
+
+SoundEvent = TYCSZ1_15_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSZ1_15_Extra
+
+SoundEvent = TYCSZ1_16_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSZ1_16_Extra
+
+SoundEvent = TYCSZ1_50_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSZ1_50_Extra
+
+SoundEvent = TYCSZ1_59_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSZ1_59_Extra
+
+SoundEvent = TYCSZ1_72_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSZ1_72_Extra
+
+SoundEvent = TYCSZ1_73_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSZ1_73_Extra
+
+SoundEvent = TYCSZ1_74_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSZ1_74_Extra
+
+SoundEvent = TYCSA2_33_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSA2_33_Extra
+
+SoundEvent = TYCSA2_70_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSA2_70_Extra
+
+SoundEvent = TYCSA3_70_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSA3_70_Extra
+
+SoundEvent = TYCSB1_70_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSB1_70_Extra
+
+SoundEvent = TYCSB2_70_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSB2_70_Extra
+
+SoundEvent = TYCSB3_02_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSB3_02_Extra
+
+SoundEvent = TYCSD4_05_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSD4_05_Extra
+
+SoundEvent = TYCSC1_70_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSC1_70_Extra
+
+SoundEvent = TYCSC1_27_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSC1_27_Extra
+
+SoundEvent = TYCSC2_70_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSC2_70_Extra
+
+SoundEvent = TYCSC3_70_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSC3_70_Extra
+
+SoundEvent = TYCSC3_60_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSC3_60_Extra
+
+SoundEvent = TYCSC3_61_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSC3_61_Extra
+
+SoundEvent = TYCSD2_03_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSD2_03_Extra
+
+SoundEvent = TYCSD2_07_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSD2_07_Extra
+
+SoundEvent = TYCSZ1_11_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSZ1_11_Extra
+	
+SoundEvent = TYCSZ1_17_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSZ1_17_Extra
+
+SoundEvent = TYCSZ1_18_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSZ1_18_Extra
+
+SoundEvent = TYCSZ1_19_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSZ1_19_Extra
+
+SoundEvent = TYCSZ1_20_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSZ1_20_Extra
+	
+SoundEvent = TYCSZ1_21_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSZ1_21_Extra
+
+SoundEvent = TYCSZ1_60_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSZ1_60_Extra
+
+SoundEvent = TYCSZ1_61_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSZ1_61_Extra
+
+SoundEvent = TYCSE4_06_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSE4_06_Extra
+
+SoundEvent = TYCSD2_05_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSD2_05_Extra
+	
+SoundEvent = TYCSD2_08_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSD2_08_Extra
+	
+SoundEvent = TYCSC4_04_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSC4_04_Extra
+	
+SoundEvent = TYCSC4_05_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSC4_05_Extra
+	
+SoundEvent = TYCSD1_07_Extra
+  Range = 5000
+  Material = ID_NONE
+    Sound = TYCSD1_07_Extra
