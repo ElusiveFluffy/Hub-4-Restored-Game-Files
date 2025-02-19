@@ -1362,13 +1362,25 @@ filter_gc 1
 name FE_007_001
 filter_gc 1
 
-name FE_000_Map_z2_00
+name FE_000_Map_Z1_00
 filter_gc 1
 masked 1
 aref .7
 clampuv 1 1
 
-name FE_000_Map_Z1_00
+name FE_000_Map_Z2_00
+filter_gc 1
+masked 1
+aref .7
+clampuv 1 1
+
+name FE_000_Map_Z3_00
+filter_gc 1
+masked 1
+aref .7
+clampuv 1 1
+
+name FE_000_Map_Z4_00
 filter_gc 1
 masked 1
 aref .7
@@ -1451,7 +1463,19 @@ masked 1
 aref .7
 clampuv 1 1
 
+name FE_000_Map_D1_00
+filter_gc 1
+masked 1
+aref .7
+clampuv 1 1
+
 name FE_000_Map_D2_00
+filter_gc 1
+masked 1
+aref .7
+clampuv 1 1
+
+name FE_000_Map_D3_00
 filter_gc 1
 masked 1
 aref .7
@@ -1481,14 +1505,14 @@ masked 1
 aref .7
 clampuv 1 1
 
-name Fe_999_TyEaLogo_Wood
-filter_gc 1
-
 name FE_000_Map_E4_00
 filter_gc 1
 masked 1
 aref .7
 clampuv 1 1
+
+name Fe_999_TyEaLogo_Wood
+filter_gc 1
 
 
 name FE_999_bg_Rock
