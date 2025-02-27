@@ -65,7 +65,7 @@ TEXT_BOOMERANG_DESC Carved from the wood of an ancient gum tree, this rang is li
 TEXT_AQUARANG_DESC Found by Rex in an old shipwreck, the Aquarangs can cut through water like a hot knife through butter. Unlike the other rangs, these are the only ones that work under water.
 TEXT_FLAMERANG_DESC Harnessing the power of the Fire Thunder Eggs, the Flamerang creates a devastating fireball on impact. Lightweight and durable, not only is it lethal to enemies it can also melt ice.
 TEXT_FROSTYRANG_DESC Using the energy from the Ice Thunder Eggs, the Frostyrang can put out fires, freeze enemies and even create ice stepping stones in water!
-TEXT_SMASHARANG_DESC The flyweight of the Smasharang is deceptive. Through the power of the Earth Thunder Eggs, it is super strong, and can even break through steel crates, and doors.
+TEXT_SMASHARANG_DESC Using the force within the Earth Thunder Eggs, the Smasharang has deceptive flyweight and strength, able to smash the toughest of objects.
 TEXT_ZAPPYRANG_DESC Brimming with energy from the Lightning Thunder Eggs, the Zappyrang is a highly charged rang with enough power to jump-start a generator.
 TEXT_ZOOMERANG_DESC With a built in telescopic aimer, the Zoomerang has the longest reach of all the rangs. You can use it to zoom in on far away objects.
 TEXT_MULTIRANG_DESC Not as fast or far reaching as the others, the Multirang lets you throw multiple rangs at the same time. Use it to unleash a frenzy of boomerang justice on Cass' henchmen!
