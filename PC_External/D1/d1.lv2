@@ -9,9 +9,9 @@ name setup
 WorldMinMax = -26720.057,0.000,-41083.297,109986.766,16372.377,80120.359
 ground = Room_d1_01.mdl
 collisionHeapSize = 2502656
-envcube = Env_b1.mdl
+envcube = Env_D1.mdl
+envrotate = 0
 bDrawLensFlare = 0
-envrotate = 0.00
 fog = 0.01, 0.11, 0.22
 waterFog = 0.40, 0.35, 0.75
 maxDepth = 600.00
