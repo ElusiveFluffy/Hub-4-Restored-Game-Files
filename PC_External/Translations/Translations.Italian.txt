@@ -1,0 +1,1245 @@
+TEXT_ERROR_STEAM_CLIENT Si prega di accedere al client Steam
+TEXT_ERROR_STEAM_CLIENT_MSG TY, la Tigre della Tasmania Edition richiede il client di Steam per essere in esecuzione e l'utente Steam accesso, per il lancio.
+TEXT_ERROR_STEAM_APPID The Steam App ID utilizzato non Ë corretto.
+TEXT_ERROR_STEAM_APPID_MSG Si prega di assicurarsi che non vi Ë alcuna steam_appid.txt nella TY directory tigre della Tasmania o altro sistema di assoluta App ID attiva.
+TEXT_ERROR_STEAM_GAME_LICENCE Nessuna licenza di gioco valida trovato.
+TEXT_ERROR_STEAM_GAME_LICENCE_MSG Verifica di aver eseguito l'accesso al client Steam correttamente e che avete acquistato il gioco su quel conto.
+
+TEXT_ERROR_OPENGL_VERSION Versione OpenGL insufficiente: %s
+TEXT_ERROR_OPENGL_VERSION_MSG Il tuo OpenGL non supporta vertex_array_objects. Si prega di aggiornare i driver grafici.
+TEXT_ERROR_OPENGL_SHADER_VERSION Insufficiente versione OpenGL Shader: %s
+TEXT_ERROR_OPENGL_SHADER_VERSION_MSG La versione OpenGL Shader deve essere di almeno 1,20 o superiore (OpenGL 2.1 o superiore). Si prega di aggiornare i driver grafici.
+
+TEXT_ERROR_OPENAL_NOT_FOUND Impossibile creare dispositivo audio OpenAL Soft
+TEXT_ERROR_OPENAL_NOT_FOUND_MSG Per TY Ë necessario avere OpenAL installato! Prova ad installare oalinst.exe dalla cartella _CommonRedist/OpenAL nella cartella TY.\n\nInoltre, controlla che sia presente un dispositivo audio abilitato (altoparlanti o cuffie) sul tuo computer, in quanto per far funzionare TY Ë necessario un dispositivo audio valido.
+
+TEXT_TITLE TY, la Tigre della Tasmaniaô
+TEXT_COPYRIGHT © 2002-2020 Krome Studios Inc. Tutti i diritti riservati. TY, la Tigre della Tasmania e il logo Krome Studios sono marchi registrati di Krome Studios Inc.
+
+TEXT_LEVEL_Z1 Scogliere arcobaleno
+TEXT_LEVEL_Z2 Scogliere arcobaleno
+TEXT_LEVEL_Z3 
+TEXT_LEVEL_Z4 
+TEXT_LEVEL_A1 Two Up
+TEXT_LEVEL_A2 Camminata nel parco
+TEXT_LEVEL_A3 In acqua con Rex
+TEXT_LEVEL_A4 Ca' del Toro
+TEXT_LEVEL_B1 Il ponte sul fiume TY
+TEXT_LEVEL_B2 Preoccupazioni innevate
+TEXT_LEVEL_B3 Safari nell'entroterra
+TEXT_LEVEL_B4 
+TEXT_LEVEL_C1 Lenny, l'uccello lira
+TEXT_LEVEL_C2 Oltre il tronco nero
+TEXT_LEVEL_C3 Rex segna il terreno
+TEXT_LEVEL_C4 Fiordo di Fluffy
+TEXT_LEVEL_D1
+TEXT_LEVEL_D2 La cima di Cass
+TEXT_LEVEL_D3 
+TEXT_LEVEL_D4 Baia di Crikey
+TEXT_LEVEL_E1 Passo Cass
+TEXT_LEVEL_E2 Mondo bonus
+TEXT_LEVEL_E3 Mondo bonus
+TEXT_LEVEL_E4 Battaglia finale
+
+TEXT_MENU_PLAYGAME Gioca
+TEXT_MENU_INTRO Intro
+TEXT_MENU_GALLERY Galleria
+TEXT_LOADING Caricamento
+
+TEXT_BOOMERANG_NAME Boomerang
+TEXT_AQUARANG_NAME Acquarang
+TEXT_FLAMERANG_NAME Fiammarang
+TEXT_FROSTYRANG_NAME Gelorang
+TEXT_SMASHARANG_NAME Smasharang
+TEXT_ZAPPYRANG_NAME Zappyrang
+TEXT_ZOOMERANG_NAME Zoomerang
+TEXT_MULTIRANG_NAME Multirang
+TEXT_INFRARANG_NAME Infrarang
+TEXT_MEGARANG_NAME Megarang
+TEXT_KABOOMARANG_NAME Kaboomarang
+TEXT_CHRONORANG_NAME Chronorang
+TEXT_DOOMARANG_NAME Destinorang
+TEXT_LASSORANG_NAME Lazorang
+
+TEXT_BOOMERANG_DESC Intagliato dal legno di vecchi alberi della gomma, questo boomerang Ë leggero e veloce. Come tutti i boomerang, puÚ essere lanciato in prima persona premendo VISUALE DI TYõ. Puoi inoltre scorrere tra la tua collezione di boomerang premendo BOOMERANG SUCCESSIVOó e BOOMERANG PRECEDENTEñ.
+TEXT_AQUARANG_DESC Trovati da Rex in un vecchio relitto di barca, gli Acquarang penetrano attraverso l'acqua come un coltello caldo nel burro. Al contrario degli altri boomerang, questi sono gli unici utilizzabili sott'acqua.
+TEXT_FLAMERANG_DESC Conglobando l'energia delle Uova di Tuono Infuocate, il Fiammarang crea un impatto devastante. Leggero e resistente, non Ë solo letale per i nemici ma puÚ anche sciogliere il ghiaccio.
+TEXT_FROSTYRANG_DESC Utilizzando l'energia delle Uova di Tuono Ghiacciate, il Gelorang puÚ spegnere incendi, congelare i nemici e creare dei blocchi di ghiaccio in acqua!
+TEXT_SMASHARANG_DESC .
+TEXT_ZAPPYRANG_DESC Pulsante dell'energia proveniente dalle Uova di Tuono Fulminanti, lo Zappyrang Ë un boomernag ad alta carica potenziale in grado di attivare un generatore spento.
+TEXT_ZOOMERANG_DESC Grazie al puntatore telescopico, lo Zoomerang ha la maggior gittata fra tutti i boomerang. Puoi usarlo per osservare oggetti lontani.
+TEXT_MULTIRANG_DESC Pi˘ lento e con una gittata minore degli altri boomerang, il Multirang ti consente di lanciare diversi boomerang contemporaneamente. Utilizzalo per scagliare un attacco multiplo sugli scagnozzi di Cass!
+TEXT_INFRARANG_DESC Grazie all'utilizzo di uno speciale accessorio a infrarossi, l'Infrarang ti permette di vedere cose altrimenti invisibili premendo VISUALE DI TYõ. Ricordati di esaminare sempre le nuove zone alla ricerca di qualche tesoro!
+TEXT_MEGARANG_DESC Grazie alla Super Tecnologia a Ricerca, brevettata da Julius, il Megarang puÚ dirigersi automaticamente verso i nemici o verso le casse. Utile quando ti trovi di fronte a un gruppo di scagnozzi di Cass.
+TEXT_KABOOMARANG_DESC Costruito in Exploderium, una sostanza presente solamente nell'entroterra, il Kaboomarang genera un'esplosione all'impatto con il bersaglio.
+TEXT_CHRONORANG_DESC Utilizzando l'ultima invenzione di Julius, il Transistor Transtemporale, il Cronorang riesce a rallentare il tempo, costringendo gli scagnozzi di Cass a muoversi pi˘ lentamente.
+TEXT_DOOMARANG_DESC Il Destinorang puÚ essere controllato a distanza e consente di raggiungere luoghi altrimenti inaccessibili. Tramandato da generazioni dalla famiglia di TY questo Ë l'ultimo dono di Sly.
+TEXT_LASSORANG_DESC Creato da Julius, il Lassorangs puÚ agganciare i nemici o gli emu in fuga. Se agganci qualcosa, puoi riportarlo verso di te premendo il tasto di LANCIOí. Questi boomerang sono disponibili solamente quando ti trovi sul toro.
+
+TEXT_ELEMENT_WOOD Legno
+TEXT_ELEMENT_WATER Acqua
+TEXT_ELEMENT_FIRE Fuoco
+TEXT_ELEMENT_EARTH Terra
+TEXT_ELEMENT_AIR Aria
+TEXT_ELEMENT_TECH Tecnologia
+
+TEXT_RANGE_CLOSE Vicino
+TEXT_RANGE_MEDIUM Medio
+TEXT_RANGE_LONG Lontano
+
+TEXT_SPEED_SLOW Lento
+TEXT_SPEED_FAST Veloce
+TEXT_SPEED_VERYFAST Velocissimo
+
+TEXT_MENU_SOUND Sonoro
+TEXT_MENU_MUSIC Musica
+TEXT_MENU_SFX Effetti
+TEXT_MENU_BACK Indietro
+TEXT_MENU_STEREO Stereo
+TEXT_MENU_MONO Mono
+TEXT_MENU_AUDIO Uscita
+TEXT_MENU_POSITION Posizione
+TEXT_MENU_SCREEN Schermo
+TEXT_MENU_DEFAULT Predefinito
+[PS2]
+TEXT_MENU_WIDE Widescreen
+[GCN]
+TEXT_MENU_WIDE Widescreen
+[PC]
+TEXT_MENU_WIDE Widescreen
+[NX]
+TEXT_MENU_WIDE Widescreen
+[]
+TEXT_MENU_NORMAL Normale
+TEXT_MENU_MOVE_SCREEN Muovi lo schermo con il controller
+TEXT_MENU_TO_ACCEPT á per accettare
+TEXT_MENU_TO_CANCEL ì per annullare
+TEXT_MENU_TO_RESET à per resettare
+TEXT_MENU_HORZ_SHIFT Spostamento orizzontale: %d
+TEXT_MENU_VERT_SHIFT Spostamento verticale: %d
+TEXT_MENU_SHIFT_HORZ Sposta in orizzontale
+TEXT_MENU_SHIFT_VERT Sposta in verticale
+TEXT_MENU_CONTROLS Controlli
+TEXT_MENU_OPTIONS Opzioni
+[PC]
+TEXT_MENU_GAMEPAD Gamepad
+[NX]
+TEXT_MENU_GAMEPAD Controller
+[]
+TEXT_MENU_KBM Tastiera e Mouse
+TEXT_MENU_CONFIGURATION Configurazione
+TEXT_MENU_CAMERA Telecamera
+[PS2]
+TEXT_MENU_RUMBLE Vibraz. controller
+[GCN]
+TEXT_MENU_RUMBLE Rumble
+[PC]
+TEXT_MENU_RUMBLE Vibrazione
+[NX]
+TEXT_MENU_RUMBLE Vibrazione
+[]
+TEXT_MENU_ON On
+TEXT_MENU_OFF Off
+TEXT_MENU_FLIPPED Invertita
+TEXT_MENU_A A
+TEXT_MENU_B B
+TEXT_MENU_C C
+TEXT_MENU_D D
+TEXT_MENU_JOYPAD Joypad
+TEXT_MENU_TYPE Tipo
+TEXT_MENU_GAME_TOTALS Totali di gioco
+TEXT_MENU_TOTAL Totale
+TEXT_MENU_CONTINUE Continua
+TEXT_MENU_GAME_INFO Informazioni
+TEXT_MENU_CHANGE_LEVEL Cambia livello
+TEXT_MENU_PLAY_CUTSCENE Vedi intermezzo
+TEXT_MENU_EXIT_LEVEL Abbandona
+TEXT_MENU_ARE_YOU_SURE Sei sicuro?
+TEXT_MENU_YES SÏ
+TEXT_MENU_NO No
+
+TEXT_MENU_CANCEL Annulla
+TEXT_MENU_CHANGE_SETTING Cambia impostazioni
+TEXT_MENU_SELECT Seleziona
+TEXT_MENU_ACCEPT Accetta
+TEXT_MENU_SELECT_LEVEL Liv.
+TEXT_MENU_SELECT_RANG Rang
+TEXT_MENU_SELECT_SCREEN Schermo
+
+TEXT_MENU_PLAYERSELECT_TITLE Seleziona personaggio
+
+TEXT_MENU_NEW_GAME Nuova partita
+TEXT_MENU_LOAD_GAME Carica partita
+TEXT_MENU_SAVE_GAME Salva
+
+TEXT_CHARACTER_TY TY
+TEXT_CHARACTER_SLY Sly
+TEXT_CHARACTER_SHAZZA Shazza
+
+TEXT_GALLERY_BILBYBOY .
+TEXT_GALLERY_BILBYDAD .
+TEXT_GALLERY_BILBYGIRL .
+TEXT_GALLERY_BILBYGRANNY .
+TEXT_GALLERY_BIBLYMUM .
+TEXT_GALLERY_BLUETONGUE .
+TEXT_GALLERY_BOSSCASS .
+TEXT_GALLERY_BULL .
+TEXT_GALLERY_BUNYIP .
+TEXT_GALLERY_CHOCKERS .
+TEXT_GALLERY_DENNIS .
+TEXT_GALLERY_ELLE .
+TEXT_GALLERY_EMU .
+TEXT_GALLERY_FARLAPP .
+TEXT_GALLERY_FRILLLIZARD .
+TEXT_GALLERY_JULIUS .
+TEXT_GALLERY_LEECH .
+TEXT_GALLERY_LENNY .
+TEXT_GALLERY_MAURIE .
+TEXT_GALLERY_MUDCRAB .
+TEXT_GALLERY_NEDDY .
+TEXT_GALLERY_REX .
+TEXT_GALLERY_RHINO .
+TEXT_GALLERY_REDKANGAROO .
+TEXT_GALLERY_SALTIE .
+TEXT_GALLERY_SHARK .
+TEXT_GALLERY_SHAZZA .
+TEXT_GALLERY_SHEILA .
+TEXT_GALLERY_SLY .
+TEXT_GALLERY_TY .
+
+TEXT_MENU_MAINMENU Menu principale
+
+TEXT_CHEAT_JUMPENABLED Trucco salto attivato
+TEXT_CHEAT_JUMPDISABLED Trucco salto disattivato
+TEXT_CHEAT_LEVELENABLED Cambio livello attivato
+TEXT_CHEAT_LEVELDISABLED Cambio livello disattivato
+TEXT_MENU_TIMEOUTWARNING Passaggio alla modalit‡ attrazione in %d secondi...
+TEXT_CHEAT_E3DEMO Demo E3
+TEXT_CHEAT_ENABLEALLLEVELS Tutti i livelli attivati
+TEXT_CHEAT_DISABLEALLLEVELS Solo livello selezionati
+TEXT_CHEAT_TRANSFERRINGDDA Trasferimento informazioni DDA all'ospite...
+TEXT_CHEAT_DDATRANSFEROK Trasferimento DDA riuscito
+
+TEXT_OBJECTIVE_Z1_0 .
+TEXT_OBJECTIVE_Z1_1 .
+TEXT_OBJECTIVE_Z1_2 .
+TEXT_OBJECTIVE_Z1_3 .
+TEXT_OBJECTIVE_Z1_4 .
+TEXT_OBJECTIVE_Z1_5 .
+TEXT_OBJECTIVE_Z1_6 .
+TEXT_OBJECTIVE_Z1_7 .
+
+TEXT_OBJECTIVE_Z2_0 .
+TEXT_OBJECTIVE_Z2_1 .
+TEXT_OBJECTIVE_Z2_2 .
+TEXT_OBJECTIVE_Z2_3 .
+TEXT_OBJECTIVE_Z2_4 .
+TEXT_OBJECTIVE_Z2_5 .
+TEXT_OBJECTIVE_Z2_6 .
+TEXT_OBJECTIVE_Z2_7 .
+
+TEXT_OBJECTIVE_Z3_0 .
+TEXT_OBJECTIVE_Z3_1 .
+TEXT_OBJECTIVE_Z3_2 .
+TEXT_OBJECTIVE_Z3_3 .
+TEXT_OBJECTIVE_Z3_4 .
+TEXT_OBJECTIVE_Z3_5 .
+TEXT_OBJECTIVE_Z3_6 .
+TEXT_OBJECTIVE_Z3_7 .
+
+TEXT_OBJECTIVE_Z4_0 .
+TEXT_OBJECTIVE_Z4_1 .
+TEXT_OBJECTIVE_Z4_2 .
+TEXT_OBJECTIVE_Z4_3 .
+TEXT_OBJECTIVE_Z4_4 .
+TEXT_OBJECTIVE_Z4_5 .
+TEXT_OBJECTIVE_Z4_6 .
+TEXT_OBJECTIVE_Z4_7 .
+
+TEXT_OBJECTIVE_A1_0 Raccogli 300 Opali
+TEXT_OBJECTIVE_A1_1 Trova 5 Bilby
+TEXT_OBJECTIVE_A1_2 Prova cronometrata
+TEXT_OBJECTIVE_A1_3 Supera il dirupo
+TEXT_OBJECTIVE_A1_4 Elimina gli iguana
+TEXT_OBJECTIVE_A1_5 Salto roccioso
+TEXT_OBJECTIVE_A1_6 Super morso
+TEXT_OBJECTIVE_A1_7 Abbassa le piattaforme
+ 
+TEXT_OBJECTIVE_A2_0 Raccogli 300 Opali
+TEXT_OBJECTIVE_A2_1 Trova 5 Bilby
+TEXT_OBJECTIVE_A2_2 Gara di vombati
+TEXT_OBJECTIVE_A2_3 Problemi articolati
+TEXT_OBJECTIVE_A2_4 Albero rimbalzante
+TEXT_OBJECTIVE_A2_5 Guidami Betty!
+TEXT_OBJECTIVE_A2_6 Inseguimento al tacchino
+TEXT_OBJECTIVE_A2_7 Scalata del ceppo
+ 
+TEXT_OBJECTIVE_A3_0 Raccogli 300 Opali
+TEXT_OBJECTIVE_A3_1 Trova 5 Bilby
+TEXT_OBJECTIVE_A3_2 Sfida Rex
+TEXT_OBJECTIVE_A3_3 Dov'Ë Elle?
+TEXT_OBJECTIVE_A3_4 Il piccoli di Aurora
+TEXT_OBJECTIVE_A3_5 Sabbie mobili Coconut
+TEXT_OBJECTIVE_A3_6 Relitto di barca
+TEXT_OBJECTIVE_A3_7 Il covo delle uova
+ 
+TEXT_OBJECTIVE_A4_0 .
+TEXT_OBJECTIVE_A4_1 .
+TEXT_OBJECTIVE_A4_2 .
+TEXT_OBJECTIVE_A4_3 .
+TEXT_OBJECTIVE_A4_4 .
+TEXT_OBJECTIVE_A4_5 .
+TEXT_OBJECTIVE_A4_6 .
+TEXT_OBJECTIVE_A4_7 .
+ 
+TEXT_OBJECTIVE_B1_0 Raccogli 300 Opali
+TEXT_OBJECTIVE_B1_1 Trova 5 Bilby
+TEXT_OBJECTIVE_B1_2 Sfida contro il tempo
+TEXT_OBJECTIVE_B1_3 Casa, dolce casa
+TEXT_OBJECTIVE_B1_4 La casa di Dennis
+TEXT_OBJECTIVE_B1_5 Tacchini in coppia
+TEXT_OBJECTIVE_B1_6 Il tuffo di TY
+TEXT_OBJECTIVE_B1_7 Neddy il bullo
+ 
+TEXT_OBJECTIVE_B2_0 Raccogli 300 Opali
+TEXT_OBJECTIVE_B2_1 Trova 5 Bilby
+TEXT_OBJECTIVE_B2_2 Sfida contro il tempo
+TEXT_OBJECTIVE_B2_3 Caos tra i koala
+TEXT_OBJECTIVE_B2_4 La vecchia fabbrica
+TEXT_OBJECTIVE_B2_5 Intrappola il gambero
+TEXT_OBJECTIVE_B2_6 Ghiaccioli musicali
+TEXT_OBJECTIVE_B2_7 Picchi innevati
+ 
+TEXT_OBJECTIVE_B3_0 Raccogli 300 Opali
+TEXT_OBJECTIVE_B3_1 Trova 5 Bilby
+TEXT_OBJECTIVE_B3_2 Sfida Shazza
+TEXT_OBJECTIVE_B3_3 Recupero emu
+TEXT_OBJECTIVE_B3_4 Follia degli iguana
+TEXT_OBJECTIVE_B3_5 Combattere il fuoco
+TEXT_OBJECTIVE_B3_6 Problemi tossici
+TEXT_OBJECTIVE_B3_7 Uovo di Tuono segreto
+ 
+TEXT_OBJECTIVE_B4_0 .
+TEXT_OBJECTIVE_B4_1 .
+TEXT_OBJECTIVE_B4_2 .
+TEXT_OBJECTIVE_B4_3 .
+TEXT_OBJECTIVE_B4_4 .
+TEXT_OBJECTIVE_B4_5 .
+TEXT_OBJECTIVE_B4_6 .
+TEXT_OBJECTIVE_B4_7 .
+ 
+TEXT_OBJECTIVE_C1_0 Raccogli 300 Opali
+TEXT_OBJECTIVE_C1_1 Trova 5 Bilby
+TEXT_OBJECTIVE_C1_2 Sfida a tempo
+TEXT_OBJECTIVE_C1_3 Lenny l'uccello lira
+TEXT_OBJECTIVE_C1_4 La pericolsa fornace
+TEXT_OBJECTIVE_C1_5 Preoccupazioni acquatiche
+TEXT_OBJECTIVE_C1_6 Torri fangose
+TEXT_OBJECTIVE_C1_7 Veleggiando sulla piattaforma
+ 
+TEXT_OBJECTIVE_C2_0 Raccogli 300 Opali
+TEXT_OBJECTIVE_C2_1 Trova 5 Bilby
+TEXT_OBJECTIVE_C2_2 Rivincita con il vombato
+TEXT_OBJECTIVE_C2_3 Crisi tra i koala
+TEXT_OBJECTIVE_C2_4 I predatori della funivia
+TEXT_OBJECTIVE_C2_5 Iguana reali
+TEXT_OBJECTIVE_C2_6 Recupera Boonie
+TEXT_OBJECTIVE_C2_7 Studiare la colonna
+ 
+TEXT_OBJECTIVE_C3_0 Raccogli 300 Opali
+TEXT_OBJECTIVE_C3_1 Trova 5 Bilby
+TEXT_OBJECTIVE_C3_2 Sfida Rex
+TEXT_OBJECTIVE_C3_3 Caccia al tesoro
+TEXT_OBJECTIVE_C3_4 Il bottino di Parrot Beard
+TEXT_OBJECTIVE_C3_5 Battaglia marina con gli iguana
+TEXT_OBJECTIVE_C3_6 Salto sul geyser
+TEXT_OBJECTIVE_C3_7 Panico vulcanico
+ 
+TEXT_OBJECTIVE_C4_0 .
+TEXT_OBJECTIVE_C4_1 .
+TEXT_OBJECTIVE_C4_2 .
+TEXT_OBJECTIVE_C4_3 .
+TEXT_OBJECTIVE_C4_4 .
+TEXT_OBJECTIVE_C4_5 .
+TEXT_OBJECTIVE_C4_6 .
+TEXT_OBJECTIVE_C4_7 .
+ 
+TEXT_OBJECTIVE_D1_0 Raccogli 300 Opali
+TEXT_OBJECTIVE_D1_1 Trova 5 Bilby
+TEXT_OBJECTIVE_D1_2 Sfida il bracconiere di pecore
+TEXT_OBJECTIVE_D1_3 Libera la citt‡ dai min min
+TEXT_OBJECTIVE_D1_4 Iguana a batteria
+TEXT_OBJECTIVE_D1_5 Il dottore volante
+TEXT_OBJECTIVE_D1_6 Obiettivo 6
+TEXT_OBJECTIVE_D1_7 Obiettivo 7
+ 
+TEXT_OBJECTIVE_D2_0 Raccogli 300 Opali
+TEXT_OBJECTIVE_D2_1 Trova 5 Bilby
+TEXT_OBJECTIVE_D2_2 Vinci la prova cronometrata
+TEXT_OBJECTIVE_D2_3 Trova la stanzione di pompaggio
+TEXT_OBJECTIVE_D2_4 Sconfiggi Chockers
+TEXT_OBJECTIVE_D2_5 Obiettivo 5
+TEXT_OBJECTIVE_D2_6 Obiettivo 6
+TEXT_OBJECTIVE_D2_7 Obiettivo 7
+ 
+TEXT_OBJECTIVE_D3_0 Raccogli 300 Opali
+TEXT_OBJECTIVE_D3_1 Trova 5 Bilby
+TEXT_OBJECTIVE_D3_2 Vinci la prova cronometrata
+TEXT_OBJECTIVE_D3_3 Koala sul ghiaccio
+TEXT_OBJECTIVE_D3_4 Le pistole di Maicaldo
+TEXT_OBJECTIVE_D3_5 Quattro tacchini
+TEXT_OBJECTIVE_D3_6 Trova l'Uovo di Tuono nascosto
+TEXT_OBJECTIVE_D3_7 Morso caricato
+
+TEXT_OBJECTIVE_D4_0 .
+TEXT_OBJECTIVE_D4_1 .
+TEXT_OBJECTIVE_D4_2 .
+TEXT_OBJECTIVE_D4_3 .
+TEXT_OBJECTIVE_D4_4 .
+TEXT_OBJECTIVE_D4_5 .
+TEXT_OBJECTIVE_D4_6 .
+TEXT_OBJECTIVE_D4_7 .
+
+TEXT_OBJECTIVE_E1_0 .
+TEXT_OBJECTIVE_E1_1 .
+TEXT_OBJECTIVE_E1_2 .
+TEXT_OBJECTIVE_E1_3 .
+TEXT_OBJECTIVE_E1_4 .
+TEXT_OBJECTIVE_E1_5 .
+TEXT_OBJECTIVE_E1_6 .
+TEXT_OBJECTIVE_E1_7 .
+
+TEXT_OBJECTIVE_E2_0 .
+TEXT_OBJECTIVE_E2_1 .
+TEXT_OBJECTIVE_E2_2 .
+TEXT_OBJECTIVE_E2_3 .
+TEXT_OBJECTIVE_E2_4 .
+TEXT_OBJECTIVE_E2_5 .
+TEXT_OBJECTIVE_E2_6 .
+TEXT_OBJECTIVE_E2_7 .
+
+TEXT_OBJECTIVE_E3_0 .
+TEXT_OBJECTIVE_E3_1 .
+TEXT_OBJECTIVE_E3_2 .
+TEXT_OBJECTIVE_E3_3 .
+TEXT_OBJECTIVE_E3_4 .
+TEXT_OBJECTIVE_E3_5 .
+TEXT_OBJECTIVE_E3_6 .
+TEXT_OBJECTIVE_E3_7 .
+
+TEXT_OBJECTIVE_E4_0 .
+TEXT_OBJECTIVE_E4_1 .
+TEXT_OBJECTIVE_E4_2 .
+TEXT_OBJECTIVE_E4_3 .
+TEXT_OBJECTIVE_E4_4 .
+TEXT_OBJECTIVE_E4_5 .
+TEXT_OBJECTIVE_E4_6 .
+TEXT_OBJECTIVE_E4_7 .
+
+TEXT_MENU_EXTRAS Extra
+TEXT_MENU_PAUSED In pausa
+TEXT_MENU_RETRY Riprova
+TEXT_MENU_OK Okay
+
+[PS2]
+TEXT_MEMCARD_AUTOSAVING      Salvataggio automatico
+TEXT_MEMCARD_BADQUERY        CATTIVA RICHIESTA!
+TEXT_MEMCARD_NOCARDFOUND     Nessuna MEMORY CARD (PS2) trovata.\n\nInserisci una MEMORY CARD (PS2).
+TEXT_MEMCARD_SELECTCARD      Seleziona MEMORY CARD (PS2).
+TEXT_MEMCARD_NOTFORMATTED    La MEMORY CARD (PS2) nell'%s non Ë formattata.
+TEXT_MEMCARD_NOFREESPACE     Spazio libero insufficiente sulla MEMORY CARD (PS2) nell'%s per salvare la partita.\n\nAlmeno %dKB sono necessari per salvare una partita di TY.
+TEXT_MEMCARD_NOSAVEGAME      La MEMORY CARD (PS2) nell'%s non contiene alcun salvataggio di gioco di TY.
+TEXT_MEMCARD_SAVEGAMESPACE   Spazio libero insufficiente sulla MEMORY CARD (PS2) nell'%s per salvare la partita.\n\nInserisci una MEMORY CARD (PS2) con almeno %dKB di spazio libero o che contenga un salvataggio di gioco di TY.
+TEXT_MEMCARD_FORMATCARD      La MEMORY CARD (PS2) nell'%s non Ë formattata.\n\nVuoi formattarla adesso?
+TEXT_MEMCARD_NODATA          La MEMORY CARD (PS2) nell'%s non contiene salvataggio di TY.\n\nVuoi crearne uno?
+TEXT_MEMCARD_OVERWRITE       Il salvataggio selezionato sar‡ sovrascritto.\n\nVuoi continuare?
+TEXT_MEMCARD_FORMATFAIL      Formattazione fallita!\n\nErrore sulla MEMORY CARD (PS2) nell'%s.
+TEXT_MEMCARD_READFAIL        Caricamento fallito!\n\nErrore sulla MEMORY CARD (PS2) nell'%s.
+TEXT_MEMCARD_WRITEFAIL       Salvataggio fallito!\n\nErrore sulla MEMORY CARD (PS2) nell'%s.
+TEXT_MEMCARD_CORRUPTDATA     La MEMORY CARD (PS2) nell'%s contiene dati danneggiati.
+TEXT_MEMCARD_SLOT1           ingresso MEMORY CARD 1
+TEXT_MEMCARD_SLOT2           ingresso MEMORY CARD 2
+TEXT_MEMCARD_READING         Caricamento dati.\n\nNon rimuovere la MEMORY CARD (PS2) nell'%s, non resettare e non spegnere la console.
+TEXT_MEMCARD_WRITING         Salvataggio dati.\n\nNon rimuovere la MEMORY CARD (PS2) nell'%s, non resettare e non spegnere la console.
+TEXT_MEMCARD_FORMATTING      Formattazione.\n\nNon rimuovere la MEMORY CARD (PS2) nell'%s, non resettare e non spegnere la console.
+TEXT_MEMCARD_SELECTFILE      Seleziona un file di salvataggio.\n(%s)
+TEXT_LICENSE                 Licenza
+
+[GCN]
+TEXT_MEMCARD_AUTOSAVING      Salvataggio automatico
+TEXT_MEMCARD_BADQUERY        CATTIVA RICHIESTA!
+TEXT_MEMCARD_NOCARDFOUND     Nessuna Memory Card trovata.\n\nInserisci una Memory Card.
+TEXT_MEMCARD_SELECTCARD      Seleziona Memory Card.
+TEXT_MEMCARD_NOTFORMATTED    La memory card nell'%s Ë formattata per un'altra piattaforma.\n\nPer salvare i dati di gioco di TY Ë necessario formattarla.
+TEXT_MEMCARD_NOFREESPACE     La Memory Card nello %s non ha spazio libero sufficiente per salvare il gioco.\n\nPer un salvataggio Ë necessaria una Memory Card con almeno %y file e %x blocchi vuoti.
+TEXT_MEMCARD_NOSAVEGAME      La Memory Card nello %s non contiene alcun salvataggio di gioco di TY.
+TEXT_MEMCARD_SAVEGAMESPACE   La Memory Card nello %s non ha abbastanza spazio libero per salvare la partita.\n\nInserisci una Memory Card con almeno %y file e %x blocchi liberi o che contenga un salvataggio di TY.
+TEXT_MEMCARD_FORMATCARD      La memory card nello %s Ë formattata per un'altra piattaforma.\n\nPer salvare i dati di gioco di TY Ë necessario formattarla.\n\nLa formattazione canceller‡ tutti i dati precedentemente salvati.
+TEXT_MEMCARD_NODATA          La Memory Card (Scheda Memoria) in %s non contiene salvataggi di TY.\n\nVuoi crearne uno?
+TEXT_MEMCARD_OVERWRITE       Il salvataggio selezionato sar‡ sovrascritto.\n\nVuoi continuare?
+TEXT_MEMCARD_FORMATFAIL      La Memory Card (Scheda Memoria) nello %s Ë danneggiata e non puÚ essere utilizzata.
+TEXT_MEMCARD_READFAIL        Caricamento fallito.
+TEXT_MEMCARD_WRITEFAIL       Salvataggio fallito.
+TEXT_MEMCARD_CORRUPTDATA     La Memory Card nello %s Ë danneggiata e deve essere formattata.
+TEXT_MEMCARD_SLOT1           Slot A
+TEXT_MEMCARD_SLOT2           Slot B
+TEXT_MEMCARD_READING         Caricamento dati.\n\nNon rimuovere la Memory Card nello %s, non spegnere e non premere il pulsante RESET.
+TEXT_MEMCARD_WRITING         Salvataggio dati.\n\nNon rimuovere la Memory Card nello %s, non spegnere e non premere il pulsante RESET.
+TEXT_MEMCARD_FORMATTING      Formattazione.\n\nNon rimuovere la Memory Card nello %s, non spegnere e non premere il pulsante RESET.
+TEXT_MEMCARD_SELECTFILE      Seleziona un file di salvataggio.\n(%s)
+TEXT_LICENSE                 Licensed By Nintendo
+
+[PC]
+TEXT_MEMCARD_AUTOSAVING      Salvataggio automatico
+TEXT_MEMCARD_BADQUERY        CATTIVA RICHIESTA!
+TEXT_MEMCARD_NOCARDFOUND     Nessuna memory unit trovata.\n\nInserisci una memory unit.
+TEXT_MEMCARD_SELECTCARD      Seleziona memory unit.
+TEXT_MEMCARD_NOTFORMATTED    La %s non Ë formattata.
+TEXT_MEMCARD_NOFREESPACE     PC non dispone di sufficienti blocchi liberi per salvare.\n\n» necessario liberare altri %d blocchi.
+TEXT_MEMCARD_NOSAVEGAME      No TY valida partite salvate trovati.
+TEXT_MEMCARD_SAVEGAMESPACE   La %s non ha abbastanza spazio libero per salvare la partita.\n\nInserisci una memory unit con almeno %d blocchi liberi o che contenga un salvataggio di gioco di TY.
+TEXT_MEMCARD_FORMATCARD      La %s non Ë formattata.\n\nVuoi formattarla adesso?
+TEXT_MEMCARD_NODATA          La %s non contiene salvataggi di TY.\n\nVuoi crearne uno?
+TEXT_MEMCARD_OVERWRITE       Il salvataggio selezionato sar‡ sovrascritto.\n\nVuoi continuare?
+TEXT_MEMCARD_FORMATFAIL      Formattazione fallita!
+TEXT_MEMCARD_READFAIL        Caricamento fallito!\n\nImpossibile caricare il salvataggio.\n\nPremi á per continuare.
+TEXT_MEMCARD_WRITEFAIL       Salvataggio fallito!
+TEXT_MEMCARD_CORRUPTDATA     La %s contiene dati danneggiati.
+TEXT_MEMCARD_SLOT1           MU %.1d%c
+TEXT_MEMCARD_SLOT2           Disco rigido
+TEXT_MEMCARD_READING         Caricamento di un file di salvataggio.\n\nNon rimuovere le memory unit e non scollegare i controller.
+TEXT_MEMCARD_WRITING         Salvataggio su %s in corso.\n\nNon rimuovere le memory unit e non scollegare i controller.
+TEXT_MEMCARD_FORMATTING      Formattazione %s in corso.\n\nNon rimuovere le memory unit e non scollegare i controller.
+TEXT_MEMCARD_SELECTFILE      Seleziona un file di salvataggio.\n(%s)
+TEXT_LICENSE                 Licenza
+
+[NX]
+TEXT_MEMCARD_AUTOSAVING      Salvataggio automatico
+TEXT_MEMCARD_BADQUERY        CATTIVA RICHIESTA!
+TEXT_MEMCARD_NOCARDFOUND     Nessuna memory unit trovata.\n\nInserisci una memory unit.
+TEXT_MEMCARD_SELECTCARD      Seleziona memory unit.
+TEXT_MEMCARD_NOTFORMATTED    La %s non Ë formattata.
+TEXT_MEMCARD_NOFREESPACE     Memoria di sistema non dispone di sufficienti blocchi liberi per salvare.\n\n» necessario liberare altri %d blocchi.
+TEXT_MEMCARD_NOSAVEGAME      No TY valida partite salvate trovati.
+TEXT_MEMCARD_SAVEGAMESPACE   La %s non ha abbastanza spazio libero per salvare la partita.\n\nInserisci una memory unit con almeno %d blocchi liberi o che contenga un salvataggio di gioco di TY.
+TEXT_MEMCARD_FORMATCARD      La %s non Ë formattata.\n\nVuoi formattarla adesso?
+TEXT_MEMCARD_NODATA          La %s non contiene salvataggi di TY.\n\nVuoi crearne uno?
+TEXT_MEMCARD_OVERWRITE       Il salvataggio selezionato sar‡ sovrascritto.\n\nVuoi continuare?
+TEXT_MEMCARD_FORMATFAIL      Formattazione fallita!
+TEXT_MEMCARD_READFAIL        Caricamento fallito!\n\nImpossibile caricare il salvataggio.\n\nPremi Ü per continuare.
+TEXT_MEMCARD_WRITEFAIL       Salvataggio fallito!
+TEXT_MEMCARD_CORRUPTDATA     La %s contiene dati danneggiati.
+TEXT_MEMCARD_SLOT1           MU %.1d%c
+TEXT_MEMCARD_SLOT2           Disco rigido
+TEXT_MEMCARD_READING         Caricamento di un file di salvataggio.\n\nNon rimuovere le memory unit e non scollegare i controller.
+TEXT_MEMCARD_WRITING         Salvataggio su %s in corso.\n\nNon rimuovere le memory unit e non scollegare i controller.
+TEXT_MEMCARD_FORMATTING      Formattazione %s in corso.\n\nNon rimuovere le memory unit e non scollegare i controller.
+TEXT_MEMCARD_SELECTFILE      Seleziona un file di salvataggio.\n(%s)
+TEXT_LICENSE                 Licenza
+
+[]
+TEXT_MEMCARD_GAMESLOT1       Partita 1
+TEXT_MEMCARD_GAMESLOT2       Partita 2
+TEXT_MEMCARD_GAMESLOT3       Partita 3
+
+TEXT_CHEAT_BOSSENABLED Trucchi boss attivati
+TEXT_CHEAT_BOSSDISABLED Trucchi boss disattivati
+
+[PS2]
+TEXT_MENU_CONTROLLERREMOVED Controller scollegato.%sRicollega il controller nell'ingresso controller %d e premi il tasto STARTç per continuare.
+[GCN]
+TEXT_MENU_CONTROLLERREMOVED .
+[PC]
+TEXT_MENU_CONTROLLERREMOVED Controller scollegato.%sRicollegare il controller alla porta del controller %d e premere STARTç per continuare.
+[NX]
+TEXT_MENU_CONTROLLERREMOVED Controller scollegato.%sRicollegare il controller alla porta del controller %d e premere STARTç per continuare.
+
+[]
+TEXT_MENU_GAMEPLAYTIMEOUT Il demo terminer‡ in %d secondi.
+
+[PS2]
+TEXT_MEMCARD_CARDREMOVED     La MEMORY CARD (PS2) nell'%s Ë stata rimossa.\n\nIl salvataggio automatico Ë stato disattivato.\n\nPer riattivarlo manualmente salva la partita con l'opzione "Salva partita" nel menu di pausa.\n\nPremi á per continuare.
+
+[GCN]
+TEXT_MEMCARD_CARDREMOVED     La Memory Card nello %s Ë stata rimossa.\n\nIl salvataggio automatico Ë stato disattivato.\n\nPer riattivarlo manualmente salva la partita con l'opzione "Salva partita" nel menu di pausa.\n\nPremi á per continuare.
+
+[PC]
+TEXT_MEMCARD_CARDREMOVED     La %s Ë stata rimossa.\n\nIl salvataggio automatico Ë stato disattivato.\n\nPer riattivarlo manualmente salva la partita con l'opzione "Salva partita" nel menu di pausa.\n\nPremi á per continuare.
+
+[NX]
+TEXT_MEMCARD_CARDREMOVED     La %s Ë stata rimossa.\n\nIl salvataggio automatico Ë stato disattivato.\n\nPer riattivarlo manualmente salva la partita con l'opzione "Salva partita" nel menu di pausa.\n\nPremi Ü per continuare.
+
+[]
+TEXT_MENU_MAKINGOF Hi-Res Test
+TEXT_MENU_CREDITS Riconoscimenti
+TEXT_MENU_PRESSSTART Premi Start
+TEXT_MENU_COMPLETE Completo
+
+[PS2]
+TEXT_MEMCARD_WITHOUTSAVING   Premi à per continuare senza salvare.
+TEXT_MEMCARD_NOCARDBOOT      Nessuna MEMORY CARD (PS2) trovata.\n\nPer favore inserisci una MEMORY CARD (PS2) con almeno %dKB di spazio libero o che contenga salvataggi di TY.
+
+[GCN]
+TEXT_MEMCARD_WITHOUTSAVING   Premi ì per continuare senza salvare.
+TEXT_MEMCARD_NOCARDBOOT      Nessuna Memory Card trovata.\n\nInserisci una Memory Card con almeno %y file e %x blocchi vuoti o con dati salvati di TY.
+
+[PC]
+TEXT_MEMCARD_WITHOUTSAVING   Premi à per continuare senza salvare.
+TEXT_MEMCARD_NOCARDBOOT      Nessuna memory unit trovata.\n\nInserisci una memory unit con almeno %d blocchi liberi o che contenga salvataggi di TY.
+
+[NX]
+TEXT_MEMCARD_WITHOUTSAVING   Premi à per continuare senza salvare.
+TEXT_MEMCARD_NOCARDBOOT      Nessuna memory unit trovata.\n\nInserisci una memory unit con almeno %d blocchi liberi o che contenga salvataggi di TY.
+
+[]
+TEXT_MENU_NTSC NTSC
+TEXT_MENU_PAL PAL
+
+TEXT_CREDITS_000 Pubblicato da
+TEXT_CREDITS_001 Copyright @ 2002 Electronic Arts
+TEXT_CREDITS_002 Tutti i diritti risevati
+TEXT_CREDITS_003 Sviluppato da
+TEXT_CREDITS_004 Vice Presidente, Sviluppo
+TEXT_CREDITS_005 Produttore
+TEXT_CREDITS_006 Assistente produzione
+TEXT_CREDITS_007 Responsabile marchio gruppo
+TEXT_CREDITS_008 Responsabile marchio
+TEXT_CREDITS_009 Responsabile pubbliche relazioni
+TEXT_CREDITS_010 Direttore creativo
+TEXT_CREDITS_011 Grafico (progettazione confezione U.S.A)
+TEXT_CREDITS_012 Responsabili produzioni
+TEXT_CREDITS_013 Responsabile marketing rete
+TEXT_CREDITS_014 Responsabile marketing televisivo
+TEXT_CREDITS_015 VP del marketing
+TEXT_CREDITS_016 Direttore delle strategie marketing
+TEXT_CREDITS_017 Direttore licenze e sviluppo del prodotto
+TEXT_CREDITS_018 Responsabile capo CQ
+TEXT_CREDITS_019 Capo CQ
+TEXT_CREDITS_020 Assistente capo CQ
+TEXT_CREDITS_021 Staff CQ
+TEXT_CREDITS_022 Coordinatore localizzazione
+TEXT_CREDITS_023 Capo produttore esecutivo
+TEXT_CREDITS_024 Direttore dello sviluppo
+TEXT_CREDITS_025 .
+TEXT_CREDITS_026 Direttore creativo
+TEXT_CREDITS_027 Responsabile studio
+TEXT_CREDITS_028 Produttore
+TEXT_CREDITS_029 Produttore esecutivo
+TEXT_CREDITS_030 Assistenti alla produzione
+TEXT_CREDITS_031 Responsabile ufficio
+TEXT_CREDITS_032 Assistente d'ufficio
+TEXT_CREDITS_033 Supporto tecnico
+TEXT_CREDITS_034 Capo hardware
+TEXT_CREDITS_035 Tuttofare
+TEXT_CREDITS_036 Manuale gioco
+TEXT_CREDITS_037 Team programmazione
+TEXT_CREDITS_038 Capo programmatore
+TEXT_CREDITS_039 Assistente capo programmazione
+TEXT_CREDITS_040 Motore Merkury
+TEXT_CREDITS_041 Supervisione programmazione/Progettista livelli
+TEXT_CREDITS_042 Team programmazione
+TEXT_CREDITS_043 Documentazione
+TEXT_CREDITS_044 Team grafico
+TEXT_CREDITS_045 Capo grafico
+TEXT_CREDITS_046 Capo grafico concettuale
+TEXT_CREDITS_047 Grafico concettuale aggiuntivo
+TEXT_CREDITS_048 Grafico storyboard
+TEXT_CREDITS_049 Capo grafico texture e modelli
+TEXT_CREDITS_050 Dipartimento texture
+TEXT_CREDITS_051 Grafico aggiuntivo
+TEXT_CREDITS_052 Dipartimento modellazione
+TEXT_CREDITS_053 Capo costruttore livelli
+TEXT_CREDITS_054 Dipartimento costruzione livelli
+TEXT_CREDITS_055 Animatore capo
+TEXT_CREDITS_056 Dipartimento animazioni
+TEXT_CREDITS_057 Capo creazione intermezzi
+TEXT_CREDITS_058 Dipartimento intermezzi
+TEXT_CREDITS_059 Produzione video
+TEXT_CREDITS_060 Capo popolatore livelli
+TEXT_CREDITS_061 Supervisore popolazione livelli
+TEXT_CREDITS_062 Dipartimento popolazione livelli
+TEXT_CREDITS_063 Autore testi
+TEXT_CREDITS_064 Team audio
+TEXT_CREDITS_065 Ingegnere audio
+TEXT_CREDITS_066 Attori
+TEXT_CREDITS_067 Team controllo qualit‡
+TEXT_CREDITS_068 Responsabile CQ
+TEXT_CREDITS_069 Capo CQ
+TEXT_CREDITS_070 Supervisore CQ
+TEXT_CREDITS_071 Staff CQ
+
+[PS2]
+TEXT_MEMCARD_DAMAGEDCARD     .
+TEXT_MEMCARD_UNSUPPORTEDCARD .
+TEXT_MEMCARD_REPAIRCARD      .
+TEXT_MEMCARD_CORRUPTCARD     .
+
+[GCN]
+TEXT_MEMCARD_DAMAGEDCARD     La Memory Card nello %s Ë danneggiata e deve essere formattata.
+TEXT_MEMCARD_UNSUPPORTEDCARD La Memory Card nello %s non Ë compatibile con i salvataggi di gioco di TY.
+TEXT_MEMCARD_REPAIRCARD      La memory card nello %s Ë danneggiata ed Ë necessario formattarla.\n\nLa formattazione canceller‡ tutti i dati precedentemente salvati.
+TEXT_MEMCARD_CORRUPTCARD     La Memory Card (Scheda Memoria) nello %s Ë danneggiata e non puÚ essere utilizzata.
+
+[PC]
+TEXT_MEMCARD_DAMAGEDCARD     .
+TEXT_MEMCARD_UNSUPPORTEDCARD .
+TEXT_MEMCARD_REPAIRCARD	     .
+TEXT_MEMCARD_CORRUPTCARD     .
+
+[NX]
+TEXT_MEMCARD_DAMAGEDCARD     .
+TEXT_MEMCARD_UNSUPPORTEDCARD .
+TEXT_MEMCARD_REPAIRCARD	     .
+TEXT_MEMCARD_CORRUPTCARD     .
+
+[]
+TEXT_MENU_SURROUND           Surround
+TEXT_DISC_REMOVED            Disco di gioco rimosso.
+TEXT_DISC_PLEASE_INSERT      Inserisci il disco di TY, la Tigre della Tasmaniaô per continuare a giocare.
+TEXT_DISC_COVER_OPEN         Chiudere il coperchio del disco.
+
+[PS2]
+TEXT_DISC_UNREADABLE         Impossibile leggere disco di gioco.
+TEXT_DISC_RTFM               .
+[GCN]
+TEXT_DISC_UNREADABLE         Impossibile leggere disco di gioco.
+TEXT_DISC_RTFM               Consulta il manuale di istruzioni del Nintendo GameCubeô per ulteriori informazioni.
+[PC]
+TEXT_DISC_UNREADABLE         Si Ë verificato un problema con il disco in uso. Potrebbe essere sporco o danneggiato.
+TEXT_DISC_RTFM               Premere á per continuare.
+[NX]
+TEXT_DISC_UNREADABLE         Si Ë verificato un problema con il disco in uso. Potrebbe essere sporco o danneggiato.
+TEXT_DISC_RTFM               Premere á per continuare.
+
+[]
+TEXT_MEMCARD_EMPTY           Vuota
+
+[PS2]
+TEXT_MEMCARD_CORRUPT         Dannegg.
+TEXT_MEMCARD_AUTOSAVEWARN1   Attenzione! TY, la Tigre della Tasmaniaô usa il salvataggio automatico.\n\nQuesta icona apparir‡ quando sar‡ effettuato un salvataggio automatico.
+TEXT_MEMCARD_AUTOSAVEWARN2   Non rimuovere la memory card (PS2) e non spegnere la console durante il salvataggio automatico del gioco.\n\nPremere á per continuare.
+
+[GCN]
+TEXT_MEMCARD_CORRUPT         Dannegg.
+TEXT_MEMCARD_AUTOSAVEWARN1   Attenzione! TY, la Tigre della Tasmaniaô usa il salvataggio automatico.\n\nQuesta icona apparir‡ quando sar‡ effettuato un salvataggio automatico.
+TEXT_MEMCARD_AUTOSAVEWARN2   Non rimuovere la memory card e non spegnere la console durante il salvataggio automatico del gioco.\n\nPremere á per continuare.
+
+[PC]
+TEXT_MEMCARD_CORRUPT         Dannegg.
+TEXT_MEMCARD_AUTOSAVEWARN1   Attenzione! TY, la Tigre della Tasmaniaô usa il salvataggio automatico.\n\nQuesta icona apparir‡ quando sar‡ effettuato un salvataggio automatico.
+TEXT_MEMCARD_AUTOSAVEWARN2   Non spegnere PC durante il salvataggio automatico.\n\nPremere á per continuare.
+
+[NX]
+TEXT_MEMCARD_CORRUPT         Dannegg.
+TEXT_MEMCARD_AUTOSAVEWARN1   Attenzione! TY, la Tigre della Tasmaniaô usa il salvataggio automatico.\n\nQuesta icona apparir‡ quando sar‡ effettuato un salvataggio automatico.
+TEXT_MEMCARD_AUTOSAVEWARN2   Non spegnere la console durante il salvataggio automatico.\n\nPremere Ü per continuare.
+
+[]
+TEXT_MEMCARD_SAVESUCCESSFUL  Salvataggio riuscito.
+TEXT_MEMCARD_LOADSUCCESSFUL  Caricamento riuscito.
+
+[]
+TEXT_CONTROLS_FIRSTPERSON Visuale TY
+TEXT_CONTROLS_ENEMYCAMERA Blocca
+TEXT_CONTROLS_CAMERADISTANCE Vis. a distanza
+TEXT_CONTROLS_ACTION Azione
+TEXT_CONTROLS_THROW Lancia
+TEXT_CONTROLS_BITE Mordi
+TEXT_CONTROLS_JUMP Salta
+TEXT_CONTROLS_MOVEMENT Muovi TY
+TEXT_CONTROLS_ADJUSTCAMERA Muovi inq.
+TEXT_CONTROLS_START Avvio
+TEXT_CONTROLS_GAMEINFO Info gioco
+TEXT_CONTROLS_CHANGERANGS Cambia Rang
+TEXT_CONTROLS_NEXTRANG Rang succ.
+TEXT_CONTROLS_PREVIOUSRANG Rang prec.
+
+TEXT_CREDITS_072 Speriamo che vi siate divertiti
+TEXT_CREDITS_073 Progettazione
+TEXT_CREDITS_074 Progettazione agg.
+TEXT_CREDITS_075 Programmatori
+TEXT_CREDITS_076 Capo grafico livelli
+TEXT_CREDITS_077 Responsabile modelli
+TEXT_CREDITS_078 Grafici
+TEXT_CREDITS_079 Grafica concettuale/prog. personaggi
+TEXT_CREDITS_080 Grafica conc. aggiuntiva
+TEXT_CREDITS_081 Dipartimento texture
+TEXT_CREDITS_082 Audio
+TEXT_CREDITS_083 Prog. audio
+TEXT_CREDITS_084 Programmatore audio
+TEXT_CREDITS_085 Registrato presso Krome Studios, Brisbane, Australia
+TEXT_CREDITS_086 Musica aggiuntiva registrata a
+TEXT_CREDITS_087 Chitarra
+TEXT_CREDITS_088 Tastiere
+TEXT_CREDITS_089 Basso
+TEXT_CREDITS_090 Campioni
+TEXT_CREDITS_091 Struttura
+TEXT_CREDITS_092 Animazione
+TEXT_CREDITS_093 Direzione e soggetti
+TEXT_CREDITS_094 Animazione intermezzi
+TEXT_CREDITS_095 Costr. intermezzi
+TEXT_CREDITS_096 Produzione video
+TEXT_CREDITS_097 Editor video
+TEXT_CREDITS_098 Documentari
+TEXT_CREDITS_099 Costr. livelli
+TEXT_CREDITS_100 Costr. livelli senior
+TEXT_CREDITS_101 Costr. livelli
+TEXT_CREDITS_102 Amministrazione
+TEXT_CREDITS_103 Resp. supporto hardware
+TEXT_CREDITS_104 Supporto hardware aggiuntivo
+TEXT_CREDITS_105 Controllo qualit‡
+TEXT_CREDITS_106 QA senior
+TEXT_CREDITS_107 Ringr. speciali
+TEXT_CREDITS_108 In memoria di
+TEXT_CREDITS_109 Produzione/supervisione
+TEXT_CREDITS_110 Produttore associato
+TEXT_CREDITS_111 Direzione, affari e sviluppo prodotto
+TEXT_CREDITS_112 Responsabile sviluppo
+TEXT_CREDITS_113 Resp. prodotto senior
+TEXT_CREDITS_114 Assistente Marketing
+TEXT_CREDITS_115 Pubbliche relazioni
+TEXT_CREDITS_116 Specialista produzione internazionale
+TEXT_CREDITS_117 Assistente produzione
+TEXT_CREDITS_118 Gestione progetto confezione
+TEXT_CREDITS_119 Grafica/design confezione
+TEXT_CREDITS_120 Illustrazione confez.
+TEXT_CREDITS_121 Layout documentazione
+TEXT_CREDITS_122 Mastering
+TEXT_CREDITS_123 Controllo qualit‡ clienti
+TEXT_CREDITS_124 Capo tester
+TEXT_CREDITS_125 Assistente
+TEXT_CREDITS_126 Tester
+TEXT_CREDITS_127 Il cast
+TEXT_CREDITS_128 TY la Tigre della Tasmania
+TEXT_CREDITS_129 Maurie il Cacatua dalla Cresta Sulfurea
+TEXT_CREDITS_130 Shazza la Dingo
+TEXT_CREDITS_131 Boss Cass
+TEXT_CREDITS_132 Rex l'Ornitorinco
+TEXT_CREDITS_133 Elle l'Ornitorinco
+TEXT_CREDITS_134 Sheila la Koala
+TEXT_CREDITS_135 Julius il Koala
+TEXT_CREDITS_136 Neddy il Bullo
+TEXT_CREDITS_137 Dennis la Raganella Verde
+TEXT_CREDITS_138 Ranger Ken
+TEXT_CREDITS_139 Sly
+TEXT_CREDITS_140 Lenny l'Uccello Lira
+TEXT_CREDITS_141 Wedgewood il Pirata
+TEXT_CREDITS_142 Andy il Vombato
+TEXT_CREDITS_143 Anziano dei Bunyip
+TEXT_CREDITS_144 Shadow il Pipistrello Fantasma
+TEXT_CREDITS_145 Aurora il Drago Marino
+TEXT_CREDITS_146 Boonie
+TEXT_CREDITS_147 Bilby Boy
+TEXT_CREDITS_148 Cavalluccio Marino di Rex
+TEXT_CREDITS_149 L'Iguana
+TEXT_CREDITS_150 La Lingua Blu
+TEXT_CREDITS_151 Bry
+TEXT_CREDITS_152 Bro
+TEXT_CREDITS_153 Testi
+TEXT_CREDITS_154 Consulenza narrativa e testi audio
+TEXT_CREDITS_155 Dialoghi aggiuntivi
+TEXT_CREDITS_156 Responsabile voci (US)
+TEXT_CREDITS_157 Responsabile voci (Melbourne)
+TEXT_CREDITS_158 Tecnico audio (San Francisco)
+TEXT_CREDITS_159 Editor audio (San Francisco)
+TEXT_CREDITS_160 Tecnico audio (Los Angeles)
+TEXT_CREDITS_161 Voci extra registrate ai Krome Studios (Brisbane)
+TEXT_CREDITS_162 Supervisione 3D
+TEXT_CREDITS_163 Animatore capo personaggi
+TEXT_CREDITS_164 Direttore tecnico
+TEXT_CREDITS_165 Animatori
+TEXT_CREDITS_166 Grafico colori cornici
+TEXT_CREDITS_167 Tecnico operazioni video
+TEXT_CREDITS_168 Nessun animale Ë stato maltrattato realizzando questo gioco.
+TEXT_CREDITS_169 Musica
+TEXT_CREDITS_170 Coordinamento traduzioni
+TEXT_CREDITS_171 Resp. intermezzi
+TEXT_CREDITS_172 Direttore gioco
+TEXT_CREDITS_173 Progettista creativo senior
+TEXT_CREDITS_174 Editor video senior
+TEXT_CREDITS_175 Editor software gioco
+
+TEXT_MENU_OBJECTIVE Obiettivo
+
+[PS2]
+TEXT_MEMCARD_MANAGECARD .
+[GCN]
+TEXT_MEMCARD_MANAGECARD Gestione Memory Card
+[PC]
+TEXT_MEMCARD_MANAGECARD Interfaccia
+[NX]
+TEXT_MEMCARD_MANAGECARD Interfaccia
+
+[]
+TEXT_MENU_VIDEOS Filmati
+TEXT_VIDEO_00 Prologo
+TEXT_VIDEO_01 Boss Cass trova il primo Talismano
+TEXT_VIDEO_02 Sly rivela che TY cerca i Talismani
+TEXT_VIDEO_03 Cass invia Sly a fermare TY
+TEXT_VIDEO_04 Cass rivela i piani...
+TEXT_VIDEO_05 TY trova il Talismano Rana
+TEXT_VIDEO_06 TY trova il talismano Cacatua
+TEXT_VIDEO_07 TY trova il Talismano Ornitorinco
+TEXT_MENU_PLAYVIDEO Gioca
+TEXT_MENU_SELECTPAGE Pag.
+TEXT_MENU_SELECTVIDEO Film
+
+[PS2]
+TEXT_MEMCARD_FULLCARD .
+[GCN]
+TEXT_MEMCARD_FULLCARD Memory Card piena
+[PC]
+TEXT_MEMCARD_FULLCARD Disco rigido pieno
+[NX]
+TEXT_MEMCARD_FULLCARD Memoria di sistema pieno
+
+[]
+TEXT_MENU_SUBTITLES Sottotitoli
+
+[PS2]
+TEXT_MEMCARD_RESETWARN       .
+[GCN]
+TEXT_MEMCARD_RESETWARN       Attenzione!\n\nTornando alla Gestione†Memory Card perderai i progressi.\n\nContinuare?
+[PC]
+TEXT_MEMCARD_RESETWARN       Attenzione!\n\nAvviando l'interfaccia perderai i progressi.\n\nContinuare?
+[NX]
+TEXT_MEMCARD_RESETWARN       Attenzione!\n\nAvviando l'interfaccia perderai i progressi.\n\nContinuare?
+
+[]
+TEXT_VIDEO_08 Tagli
+
+TEXT_CREDITS_176 Supervis. progetto
+TEXT_CREDITS_177 Supervis. QA
+TEXT_CREDITS_178 A.P. (Los Angeles)
+TEXT_CREDITS_179 Editor (Los Angeles)
+TEXT_CREDITS_180 Prog. creativo senior
+TEXT_CREDITS_181 Editor video senior
+
+TEXT_MEMCARD_FORMAT          Formatta
+
+TEXT_CREDITS_182 Tutti i logo sono marchi delle rispettive compagnie
+
+[PS2]
+TEXT_MEMCARD_DELETECORRUPTEDQ .
+TEXT_MEMCARD_DELETING        .
+TEXT_MEMCARD_DELETEFAIL      .
+[GCN]
+TEXT_MEMCARD_DELETECORRUPTEDQ La Memory Card (Scheda Memoria) nello %s Ë danneggiata.\n\nCancellare?
+TEXT_MEMCARD_DELETING        Cancellazione in corso.\n\nNon rimuovere la Memory Card (Scheda Memoria) nello %s, non resettare o spegnere il Nintendo GameCube (TM).
+TEXT_MEMCARD_DELETEFAIL      Cancellazione fallita.
+[PC]
+TEXT_MEMCARD_DELETECORRUPTEDQ .
+TEXT_MEMCARD_DELETING        .
+TEXT_MEMCARD_DELETEFAIL      .
+[NX]
+TEXT_MEMCARD_DELETECORRUPTEDQ .
+TEXT_MEMCARD_DELETING        .
+TEXT_MEMCARD_DELETEFAIL      .
+
+[]
+TEXT_CREDITS_183 Testing linguistico funzionale
+TEXT_CREDITS_184 Capo progetto TLF
+TEXT_CREDITS_185 Tester LF
+
+TEXT_MENU_CONFIRM_EXIT_LEVEL Esci e torna alle Scogliere arcobaleno?
+TEXT_MENU_LOSE_PROGRESS Tutti i progressi di gioco non salvati saranno persi.
+
+TEXT_ENTERACTION Premi ì per entrare
+
+[PS2]
+TEXT_MEMCARD_DASHBOARD1 .
+TEXT_MEMCARD_DASHBOARD2 .
+TEXT_MEMCARD_AUTOSAVEERROR   Salvataggio fallito!\n\nErrore nella MEMORY CARD (PS2) nell'%s.\n\nIl salvataggio automatico Ë stato disattivato.\n\nPer riattivarlo manualmente salva la partita con l'opzione 'Salva partita' nel menu di pausa.\n\nPremi á per continuare.
+TEXT_MEMCARD_NOFREESPACE2    .
+TEXT_MEMCARD_SAVEGAMESPACE2  .
+[GCN]
+TEXT_MEMCARD_DASHBOARD1 .
+TEXT_MEMCARD_DASHBOARD2 .
+TEXT_MEMCARD_AUTOSAVEERROR   La Memory Card (Scheda Memoria) nello %s Ë danneggiata e non puÚ essere utilizzata.\n\nIl salvataggio automatico Ë stato disattivato.\n\nPer riattivarlo manualmente salva la partita con l'opzione 'Salva partita' nel menu di pausa.\n\nPremi á per continuare.
+TEXT_MEMCARD_NOFREESPACE2    La Memory Card (Scheda Memoria) nello %s non ha abbastanza spazio per salvare il gioco. \n\nPer creare un nuovo salvataggio di Ty Ë necessaria una Memory Card (Scheda Memoria) con almeno %y file e %x blocchi vuoti, oppure puoi sovrascrivere  o caricare un salvataggio precedente.
+TEXT_MEMCARD_SAVEGAMESPACE2  La Memory Card (Scheda Memoria) nello %s non ha abbastanza spazio per  creare un nuovo salvataggio di Ty. \n\nSe desideri creare un nuovo salvataggio di Ty, inserisci una Memory Card (Scheda Memoria) con almeno %y file e %x blocchi vuoti, oppure puoi sovrascrivere o caricare un salvataggio precedente.
+[PC]
+TEXT_MEMCARD_DASHBOARD1 Premere á per continuare senza salvare o
+TEXT_MEMCARD_DASHBOARD2 per liberare altri blocchi.
+TEXT_MEMCARD_AUTOSAVEERROR   Salvataggio fallito!\n\nIl salvataggio automatico Ë stato disattivato.\n\nPer riattivarlo manualmente salvare la partita con l'opzione 'Salva partita' nel menu di pausa.\n\nPremere á per continuare.
+TEXT_MEMCARD_NOFREESPACE2    .
+TEXT_MEMCARD_SAVEGAMESPACE2  .
+[NX]
+TEXT_MEMCARD_DASHBOARD1 Premere Ü per continuare senza salvare o
+TEXT_MEMCARD_DASHBOARD2 per liberare altri blocchi.
+TEXT_MEMCARD_AUTOSAVEERROR   Salvataggio fallito!\n\nIl salvataggio automatico Ë stato disattivato.\n\nPer riattivarlo manualmente salvare la partita con l'opzione 'Salva partita' nel menu di pausa.\n\nPremere Ü per continuare.
+TEXT_MEMCARD_NOFREESPACE2    .
+TEXT_MEMCARD_SAVEGAMESPACE2  .
+
+[]
+TEXT_CREDITS_186 Dolby e il simbolo della doppia D sono marchi di Dolby Laboratories
+TEXT_CREDITS_187 Localizzazione
+TEXT_CREDITS_188 Responsabile localizzazione EAD
+TEXT_CREDITS_189 Responsabile localizzazione progetto
+TEXT_CREDITS_190 Responsabili localizzazione
+TEXT_CREDITS_191 Italia
+TEXT_CREDITS_192 Germania
+TEXT_CREDITS_193 Francia
+TEXT_CREDITS_194 Spagna
+TEXT_CREDITS_195 Coordinamento localizzazione
+TEXT_CREDITS_196 Traduttori
+TEXT_CREDITS_197 Testing linguistico
+TEXT_CREDITS_198 Roland GS Sound Set usato con l'autorizzazione 
+TEXT_CREDITS_199 TY, la Tigre della Tasmania HD Della Squadra
+
+[PS2]
+TEXT_MEMCARD_UNKNOWNDEVICE   .
+TEXT_MEMCARD_AUTOSAVEBROKEN  .
+TEXT_MEMCARD_CARDREMOVED2    .
+TEXT_MEMCARD_RESETWARN2      .
+[GCN]
+TEXT_MEMCARD_UNKNOWNDEVICE   Il dispositivo nello %s non Ë supportato. \nSostituirlo con una Memory Card (Scheda Memoria).
+TEXT_MEMCARD_AUTOSAVEBROKEN  La Memory Card (Scheda Memoria) nello %s Ë danneggiata ed Ë necessario formattarla. \n\nIl Salvataggio Automatico Ë stato disattivato. \n\nPer riattivarlo salva manualmente utilizzando l'opzione 'Salva' nel menu 'In Pausa'. \n\nPremi á per continuare.
+TEXT_MEMCARD_CARDREMOVED2    La Memory Card nello %s Ë stata rimossa.
+TEXT_MEMCARD_RESETWARN2      .
+[PC]
+TEXT_MEMCARD_UNKNOWNDEVICE   .
+TEXT_MEMCARD_AUTOSAVEBROKEN  .
+TEXT_MEMCARD_CARDREMOVED2    .
+TEXT_MEMCARD_RESETWARN2      Attenzione!\n\nAvviando l'interfaccia perderai i dati del gioco.\n\nContinuare?
+[NX]
+TEXT_MEMCARD_UNKNOWNDEVICE   .
+TEXT_MEMCARD_AUTOSAVEBROKEN  .
+TEXT_MEMCARD_CARDREMOVED2    .
+TEXT_MEMCARD_RESETWARN2      Attenzione!\n\nAvviando l'interfaccia perderai i dati del gioco.\n\nContinuare?
+
+[]
+TEXT_MENU_EXIT_GAME Esci dal gioco
+TEXT_MENU_EXIT_GAME_DIALOG_TITLE Esci dal gioco?
+
+TEXT_CONTROLS_MOVE_FORWARD Inoltrare
+TEXT_CONTROLS_MOVE_BACKWARD Rovescio
+TEXT_CONTROLS_MOVE_LEFT Sinistra
+TEXT_CONTROLS_MOVE_RIGHT Destra
+TEXT_CONTROLS_MOVE_WALK Camminare
+
+TEXT_MENU_RESET_TO_DEFAULT Condizioni Originali
+TEXT_MENU_MOUSE_SENSITIVITY Sensibilit‡ del mouse
+TEXT_MENU_CAMERA_THIRDPERSONX Rotazione della telecamera S/D
+TEXT_MENU_CAMERA_THIRDPERSONY Camera di Rotazione S/G
+TEXT_MENU_CAMERA_THIRDPERSONSPEED Speed Camera
+TEXT_MENU_CAMERA_FIRSTPERSONX TY Visualizza S/D
+TEXT_MENU_CAMERA_FIRSTPERSONY TY View S/G
+TEXT_MENU_CAMERA_FIRSTPERSONSPEED TY View Velocit‡
+TEXT_MENU_CAMERA_TRACKBODY Traccia corpo su Jump
+
+TEXT_MENU_FULLSCREEN Schermo Intero
+TEXT_MENU_RESOLUTION Risoluzione
+TEXT_MENU_DETAILSETTINGS Livello di Dettaglio
+TEXT_MENU_SHADOWS Ombre
+TEXT_MENU_REFLECTIONS Riflessi
+TEXT_MENU_MSAA MSAA
+TEXT_MENU_ANISOTROPIC Filtraggio Anisotropico
+TEXT_MENU_SSAO SSAO
+TEXT_MENU_BLOOM Fioritura
+TEXT_MENU_GRASS Erba Dettaglio
+TEXT_MENU_DRAW_DISTANCE Disegnare Distanza
+TEXT_MENU_PROPS Cosa
+
+TEXT_MENU_UNSUPPORTED Non Supportato
+TEXT_MENU_LOW Basso
+TEXT_MENU_MID Medio
+TEXT_MENU_HIGH Alto
+TEXT_MENU_CUSTOM Costume
+TEXT_MENU_UNSUPPORTED_GL_DRIVERS AVVERTIMENTO! Alcune funzioni non sono supportate con i driver attuali. Si prega di aggiornare i driver della scheda grafica.
+TEXT_MENU_2X 2x
+TEXT_MENU_4X 4x
+TEXT_MENU_8X 8x
+
+TEXT_MENU_LEADERBOARDS Classifica
+TEXT_MENU_LEADERBOARDS_HEADING_RANK Rango
+TEXT_MENU_LEADERBOARDS_HEADING_NAME Nome
+TEXT_MENU_LEADERBOARDS_HEADING_TIME Tempo
+
+TEXT_MENU_LEADERBOARDS_CHANGE_TO_SPEED_RUN TOGGLE VELOCIT¿ CORRERE
+TEXT_MENU_LEADERBOARDS_CHANGE_TO_TIME_ATTACK TOGGLE TEMPO ATTACCO
+TEXT_MENU_LEADERBOARDS_SPEEDRUN_NORMAL GIOCO COMPLETO
+TEXT_MENU_LEADERBOARDS_SPEEDRUN_NORMALCHEAT GIOCO COMPLETO (TRUCCHI)
+TEXT_MENU_LEADERBOARDS_SPEEDRUN_COMPLETE GIOCO COMPLETO 100%
+TEXT_MENU_LEADERBOARDS_SPEEDRUN_COMPLETECHEAT GIOCO COMPLETO 100% (TRUCCHI)
+
+TEXT_MENU_MSAA_NOTIFICATION Le modifiche alle impostazioni MSAA verranno applicate solo dopo che il gioco Ë stato riavviato.
+TEXT_VIDEO_09 Krome Logo, 2002
+TEXT_VIDEO_10 E3 Final Trailer, 2002
+TEXT_VIDEO_11 First Pitch, 2001
+TEXT_VIDEO_12 Second Pitch - Living World, 2001
+TEXT_VIDEO_13 Initial TY Prototypes, 2000
+
+TEXT_MENU_CAMERA_FIRSTPERSON_INITIALDIR Di TY Direzione vista
+TEXT_MENU_CAMERA_FIRSTPERSON_INITIALDIR_HERO Corpo di TY
+TEXT_MENU_CAMERA_FIRSTPERSON_INITIALDIR_CAMERA Telecamera
+
+TEXT_MENU_RANG_SELECT_WHEEL Ruota per selezionare un boomerang
+
+TEXT_MENU_HARDCORE_MODE_TOGGLE Premi ì per cambia modalit‡ di gioco.
+TEXT_MENU_HARDCORE_MODE Modalit‡ Hardcore
+TEXT_MENU_NORMAL_MODE Modalit‡ Normale
+TEXT_MENU_GAME_OVER Gioco Finito
+TEXT_MENU_LEADERBOARDS_SPEEDRUN_ANYCOMPLETE GIOCO COMPLETO (HARDCORE)
+TEXT_MENU_LEADERBOARDS_SPEEDRUN_100COMPLETE GIOCO COMPLETO 100% (HARDCORE)
+
+TEXT_CREDITS_FMOD Realizzato con FMOD Studio da Firelight Technologies Pty Ltd.
+
+TEXT_MENU_GAMEMANUAL Manuale del gioco
+TEXT_MENU_SKINSELECT Skin
+TEXT_MENU_SKIN00_NAME Classic
+TEXT_MENU_SKIN00_DESC The standard style.
+TEXT_MENU_SKIN01_NAME Prototype
+TEXT_MENU_SKIN01_DESC Purple flavoured for extra kick.
+
+TEXT_VIDEO_ST0000 Preso! Preso!
+TEXT_VIDEO_ST0001 Ok TY, ora tocca a me. Prendimi se ci riesci!
+TEXT_VIDEO_ST0002 Woooohhhh! Uggh.
+TEXT_VIDEO_ST0003 Amico, non muoverti. CercherÚ aiuto.
+TEXT_VIDEO_ST0004 Non aver paura, TY.
+TEXT_VIDEO_ST0005 Sono Nandu Gili, L'anziano dei bunyip...
+TEXT_VIDEO_ST0006 Ciao amico.
+TEXT_VIDEO_ST0007 » ora che tu sappia la verit‡.
+TEXT_VIDEO_ST0008 Anni fa si Ë consumata una battaglia per il possesso di cinque talismani mistici.
+TEXT_VIDEO_ST0009 I miei antenati dinosauri erano qui prima di voi, puzzolenti, opportunisti mammiferi pelosi!
+TEXT_VIDEO_ST0010 Ricorda la cometa!
+TEXT_VIDEO_ST0011 Nooooo! Voi mammiferi non meritate di essere il primo anello della catena alimentare!
+TEXT_VIDEO_ST0012 Ora!
+TEXT_VIDEO_ST0013 
+TEXT_VIDEO_ST0014 Ora per riportare l'ordine una volte per tutte!
+TEXT_VIDEO_ST0015 Yaargh!
+TEXT_VIDEO_ST0016 Arrenditi Boss Cass.
+TEXT_VIDEO_ST0017 Mai! Mai! Mai!
+TEXT_VIDEO_ST0018 Hahahahahaaa!
+TEXT_VIDEO_ST0019 Ciao Ciao...
+TEXT_VIDEO_ST0020 Nooooooooo!
+TEXT_VIDEO_ST0021 I pochi coraggiosi che hanno sfidato Boss Cass sono stati intrappolati nei sogni.
+TEXT_VIDEO_ST0022 Mamma? Papa?
+TEXT_VIDEO_ST0023 Si dice che Boss Cass stia di nuovo cercando i talismani.
+TEXT_VIDEO_ST0024 Dev'essere fermato a tutti i costi.
+TEXT_VIDEO_ST0025 Tocca a te trovare i talismani prima di lui.
+TEXT_VIDEO_ST0026 Tocca a me salvare la mia famiglia!
+TEXT_VIDEO_ST0027 Oi! TY! Stai bene?
+TEXT_VIDEO_ST0028 Maurie? Sono felice di vederti!
+TEXT_VIDEO_ST0029 Non crederai mai a quello che Ë appena successo.
+TEXT_VIDEO_ST0030 Stavo giocando nella foresta, quando improvvisamente...
+TEXT_VIDEO_ST0031 ... ed Ë qui che sei apparso tu.
+TEXT_VIDEO_ST0032 Caspita! Sembra che ti aspetti una grande avventura, amico.
+TEXT_VIDEO_ST0033 Non che io sia interessato a queste cose.
+TEXT_VIDEO_ST0034 Preferirei stare a casa a vedere le partite...
+TEXT_VIDEO_ST0035 Ti dico una cosa, tu ti occupi della parte avventurosa e io ti aiuterÚ come posso...
+
+TEXT_VIDEO_ST0036 Ben fatto, TY!
+TEXT_VIDEO_ST0037 Hai recuperato il primo degli antichi talismani.
+TEXT_VIDEO_ST0038 Quando Boss Cass scoprir‡ che vogliamo rovinare
+TEXT_VIDEO_ST0039 il suo piano, far‡ di tutto per fermarci.
+TEXT_VIDEO_ST0040 Sta' attento, amico.
+TEXT_VIDEO_ST0041 Andr‡ tutto bene, vecchio mio.
+TEXT_VIDEO_ST0042 Che colpo di fortuna! hai trovato un talismano!
+TEXT_VIDEO_ST0043 Potrei aver scommesso sul cavallo sbagliato...
+TEXT_VIDEO_ST0044 Comunque, amico, Julius ha un regalo per te nel suo laboratorio.
+
+TEXT_VIDEO_ST0045 Vedo che hai recuperato il terzo talismano.
+TEXT_VIDEO_ST0046 Non indugiare nell'autocompiacimento.
+TEXT_VIDEO_ST0047 Ti attendono ancora molti pericoli.
+TEXT_VIDEO_ST0048 Beh, devo ammetterlo amico, non stai facendo un brutto lavoro.
+TEXT_VIDEO_ST0049 Appena sufficiente, forse... ma brutto non direi.
+TEXT_VIDEO_ST0050 Julius ti sta aspettando al laboratorio.
+TEXT_VIDEO_ST0051 Penso che abbia qualcosa di nuovo per te.
+TEXT_VIDEO_ST0052 Ganzo!
+
+TEXT_VIDEO_ST0053 Hai fatto molta strada. Non sar‡ un compito facile.
+TEXT_VIDEO_ST0054 Ma ho fiducia in te, amico mio.
+TEXT_VIDEO_ST0055 Non rimanere immobile come uno stoccafisso, amico.
+TEXT_VIDEO_ST0056 Julius ha qualcosa che ti aiuter‡.
+TEXT_VIDEO_ST0057 Il tuo lavoro Ë quasi finito.
+
+TEXT_VIDEO_ST0058 L'ho trovato! L'ho trovato!
+TEXT_VIDEO_ST0059 Fammelo vedere.
+TEXT_VIDEO_ST0060 Finalmente... Un talismano mistico.
+TEXT_VIDEO_ST0061 » tempo di andarcene.
+TEXT_VIDEO_ST0062 Abbiamo altri talismani da trovare.
+TEXT_VIDEO_ST0063 Ehi tu! Prendi la mia roba.
+TEXT_VIDEO_ST0064 Eh eh eh...
+TEXT_VIDEO_ST0065 Presto un potere incredibile sar‡ mio, mio, mio! Eh eh!
+
+TEXT_VIDEO_ST0066 Sei stato bravo, amico mio...
+TEXT_VIDEO_ST0067 La tua informazione Ë preziosissima.
+TEXT_VIDEO_ST0068 CosÏ qualcuno crede di potermi fermare nella ricerca dei talismani.
+TEXT_VIDEO_ST0069 Ovviamente non ci riuscir‡ mai.
+TEXT_VIDEO_ST0070 Questo mammifero ficcanaso deve essere fermato.
+TEXT_VIDEO_ST0071 SÏ signore, subito signore.
+TEXT_VIDEO_ST0072 Quei talismani devono essere miei.
+TEXT_VIDEO_ST0073 Inizio fase due!
+TEXT_VIDEO_ST0074 Eh eh eh.
+
+TEXT_VIDEO_ST0075 Vai prima tu.
+TEXT_VIDEO_ST0076 No, tu vai prima.
+TEXT_VIDEO_ST0077 Vado sempre prima io...
+TEXT_VIDEO_ST0078 Entrate!
+TEXT_VIDEO_ST0079 Vi siete occupati di quella fastidiosa tigre della tasmania?
+TEXT_VIDEO_ST0080 Beh, la situazione Ë che... Vedi...
+TEXT_VIDEO_ST0081 Lui Ë piuttosto... Um... Beh... Bravino.
+TEXT_VIDEO_ST0082 Cosa?!
+TEXT_VIDEO_ST0083 Non posso credere che un ratto metta nel sacco le mie lucertole migliori.
+TEXT_VIDEO_ST0084 » troppo forte per noi, Boss.
+TEXT_VIDEO_ST0085 Sai, stavo pensando...
+TEXT_VIDEO_ST0086 Invece di provare a fermarlo, forse... Dovremmo...
+TEXT_VIDEO_ST0087 Stai bene Boss?
+TEXT_VIDEO_ST0088 Venite qui...
+TEXT_VIDEO_ST0089 Forza, venite qui...
+TEXT_VIDEO_ST0090 Non vi farÚ male...
+TEXT_VIDEO_ST0091 Allora, come mi chiamo?
+TEXT_VIDEO_ST0092 Uhh... Cass?
+TEXT_VIDEO_ST0093 No. Quello Ë il mio cognome.
+TEXT_VIDEO_ST0094 Come mi chiamo?
+TEXT_VIDEO_ST0095 Io, Io, Io lo so!
+TEXT_VIDEO_ST0096 Allora rispondi.
+TEXT_VIDEO_ST0097 Uhh... Boss?
+TEXT_VIDEO_ST0098 Giusto.
+TEXT_VIDEO_ST0099 E. Io sono. L'unico. Boss. Da queste. Parti.
+TEXT_VIDEO_ST0100 E. Sono io. Quello che. Pensa. Ora levatevi dai piedi!
+TEXT_VIDEO_ST0101 Imbecilli. Mi sono circondato di perfetti imbecilli.
+TEXT_VIDEO_ST0102 Forse posso aiutare.
+TEXT_VIDEO_ST0103 Chi conosce le tigri della tasmania meglio... di me?
+TEXT_VIDEO_ST0104 Gi‡, chi?
+TEXT_VIDEO_ST0105 Ah. Ah. Ah. Aaah...
+
+TEXT_VIDEO_ST0106 Ti sei occupato del nostro piccolo problema?
+TEXT_VIDEO_ST0107 Ci ho provato... ma...
+TEXT_VIDEO_ST0108 » pi˘ forte di quanto pensassi.
+TEXT_VIDEO_ST0109 » pi˘ forte di quanto pensassi.
+TEXT_VIDEO_ST0110 Quanto. PuÚ. Essere forte?!
+TEXT_VIDEO_ST0111 ». Solo. Un piccolo. Ratto...
+TEXT_VIDEO_ST0112 arancione.
+TEXT_VIDEO_ST0113 Ha degli amici. I bunyip lo stanno aiutando.
+TEXT_VIDEO_ST0114 Cosa?! Bene, i giochi sono fatti.
+TEXT_VIDEO_ST0115 Per conquistare il mondo devo avere quei talismani!
+TEXT_VIDEO_ST0116 Devo proprio spedirli nel mondo dei sogni, cosÏ mi
+TEXT_VIDEO_ST0117 libererÚ una volta per tutte di quei fastidiosi
+TEXT_VIDEO_ST0118 mammiferi dal sangue caldo.
+TEXT_VIDEO_ST0119 Eccetto i presenti, ovviamente.
+TEXT_VIDEO_ST0120 Se il nostro amico arancione Ë cosÏ interessato
+TEXT_VIDEO_ST0121 ai talismani, allora lasciamolo fare.
+TEXT_VIDEO_ST0122 La mia minaccia metallica, qui presente,
+TEXT_VIDEO_ST0123 penser‡ a lui e mi porter‡ i suoi talismani.
+TEXT_VIDEO_ST0124 CosÏ semplice eppure geniale!
+TEXT_VIDEO_ST0125 Ah Ah Ah Ah Ah...
+
+TEXT_MENU_SKIN02_NAME Ridge
+TEXT_MENU_SKIN02_DESC 
+TEXT_MENU_SKIN03_NAME Flinders
+TEXT_MENU_SKIN03_DESC 
+TEXT_MENU_SKIN04_NAME Sly
+TEXT_MENU_SKIN04_DESC 
+TEXT_MENU_SKIN05_NAME Wetsuit
+TEXT_MENU_SKIN05_DESC 
+TEXT_MENU_SKIN06_NAME Doomeranger
+TEXT_MENU_SKIN06_DESC 
+TEXT_MENU_SKIN07_NAME Tasmanian Dingo
+TEXT_MENU_SKIN07_DESC 
+TEXT_MENU_SKIN08_NAME Ghost Tiger
+TEXT_MENU_SKIN08_DESC 
+
+TEXT_MENU_CAMERA_AUTOCENTER Centra-Auto Telecamera
+TEXT_MENU_GAMEPAD_Throw_Dir .
