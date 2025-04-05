@@ -6,7 +6,7 @@
 
 name setup
 
-WorldMinMax = -8629.379,-691.532,-9576.902,17641.574,5007.562,24922.574
+WorldMinMax = -13129.861,-691.532,-9576.902,17641.574,5007.562,24922.574
 ground = room_z1_01.mdl
 collisionHeapSize = 0
 envcube = env_z1.mdl
@@ -3467,7 +3467,7 @@ bExitPortal = 0,false
 bVisible = 1,true
 // User: DAN
 
-pos = 4218, 1189, 8456
+pos = -8994.296, 683.016, 5971.117
 ID = 146,BeyondTheBlackStumpPortal
 standPos = -6639.220, 453.861, 764.441
 standYaw = 0.000
@@ -3539,7 +3539,7 @@ bExitPortal = 0,false
 bVisible = 0,false
 // User: DAN
 
-pos = 4518, 1162, 7890
+pos = -8866.094, 673.060, 7869.457
 ID = 154,LyreLyrePantsOnFirePortal
 standPos = -6639.220, 453.861, 764.441
 standYaw = 0.000
@@ -3566,7 +3566,7 @@ bExitPortal = 0,false
 bVisible = 1,true
 // User: DAN
 
-pos = 3906, 1203, 9231
+pos = -7825.846, 2119.074, 8668.493
 ID = 157,RexMarksTheSpotPortal
 standPos = -91.016, 2553.495, 425.661
 standYaw = 0.000
@@ -3677,7 +3677,7 @@ pos = 6049, 187, -2105
 pos = -4881, 671, 4354
 // User: DAN
 
-pos = -5481, 660, 6600
+pos = -9181, 2275, 6918
 // User: DAN
 
 pos = -5013, 90, -1700
@@ -3713,13 +3713,13 @@ pos = -7461, 735, -588
 pos = 2509, -425, -678
 // User: DAN
 
-pos = 14, 125, -6602
+pos = -6871, 1665, 10257
 // User: DAN
 
 pos = -495, 122, -6889
 // User: DAN
 
-pos = 878, 1932, -1660
+pos = -8763, 1235, 3679
 // User: DAN
 
 pos = 1677, 2398, 11482
@@ -3828,7 +3828,7 @@ bRespawn = 0,false
 CrateNumber = 3
 // User: DAN
 
-pos = -5866, 942, 6575
+pos = -8634, 1263, 7764
 rot = 0.000, 0.000, 0.000
 count = 0
 platformID = 0,none
@@ -3836,7 +3836,17 @@ platformID = 0,none
 ID = 639,InvisicrateRS7
 bRespawn = 0,false
 CrateNumber = 2
-// User: DAN
+// User: Kana
+
+pos = -7611, 1308, 11392
+rot = 0.000, 0.000, 0.000
+count = 0
+platformID = 0,none
+(A)Opal = 0
+ID = 640,InvisicrateRS10
+bRespawn = 0,false
+CrateNumber = 373
+// User: Kana
 
 name PONTOON
 
@@ -7021,6 +7031,14 @@ OnShatter = event
   TargetID = 190,ScriptSlySpyOnTy
   Message = Activate
 // User: DAN
+
+name SMASHROCK
+
+pos = 2404.67, 1033.27, 5786.66
+rot = 0.000, 0.135, 0.000
+scale = 1.32, 1.05, 1.2
+ID = 707,SMASHROCK
+// User: Kana
 
 name EZONEGATE
 
