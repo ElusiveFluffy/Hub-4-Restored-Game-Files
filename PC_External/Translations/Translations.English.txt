@@ -73,7 +73,7 @@ TEXT_INFRARANG_DESC Using a special infrared attachment, the Infrarang will enab
 TEXT_MEGARANG_DESC Using Julius' patented Super Seeking Technology, the Megarang has the ability to auto target both enemies and crates. Useful when you run into a bunch of Cass' henchmen.
 TEXT_KABOOMARANG_DESC Made from Exploderium, an ancient substance found only in the Outback, the Kaboomarang creates a deadly explosion on impact.
 TEXT_CHRONORANG_DESC Using Julius' latest invention, the Trans Temporal Transistor, the Chronorang can affect the time field around Cass' henchmen causing them to slow down.
-TEXT_DOOMARANG_DESC The Doomerang can be controlled remotely allowing you to fly it into out of the way places. Passed down through TY's family this is a last minute gift from Sly.
+TEXT_DOOMARANG_DESC The Doomarang can be controlled remotely allowing you to fly it into out of the way places. Passed down through TY's family this is a last minute gift from Sly.
 TEXT_LASSORANG_DESC Created by Julius, the Lassorangs can be used to hook enemies and wayward emus. If you hook something you can reel it in by pressing the THROW button’. These are only available when riding Bull.
 
 TEXT_ELEMENT_WOOD Wood
