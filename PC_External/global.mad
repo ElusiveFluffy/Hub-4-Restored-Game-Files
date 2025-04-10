@@ -3,6 +3,7 @@
 // Material Description file for
 // Ty the Tasmanian Tiger
 // � 2000,2001,2002 Krome Studios
+// � 2000,2001,2002 Krome Studios
 
 // new bit-wise texture ID's. To combine ID's, just add the numbers together
 #define ID_NONE           0	      // no material id
@@ -5990,6 +5991,7 @@ name TY0101_03
 doublesided 1
 aref 1
 masked 1
+clampUV 0, 1
 
 name TY0101_04
 doublesided 1
