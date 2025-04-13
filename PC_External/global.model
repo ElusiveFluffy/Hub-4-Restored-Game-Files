@@ -2343,6 +2343,20 @@ power 14
 upvel 40
 spinrate .1
 
+name P0934_SmashCrate
+radius = 100.0
+height = 50.0
+minAlpha = 0.5
+maxDrawDist = 8000.0
+maxUpdateDist = 8000.0
+maxScissorDist =  1000.0
+flags = alpha
+lod = 0
+collide = dynamic
+power 14
+upvel 40
+spinrate .1
+
 
 
 name prop_0026_WaterTank

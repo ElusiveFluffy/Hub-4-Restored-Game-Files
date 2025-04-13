@@ -976,6 +976,8 @@ name setup
 	Sound = TYCSC4_05_Extra,c4
 	Sound = TYCSD1_07_Extra,d1
 
+  Sound = sfx_metalcrate
+
 
 
 // -----------------------------------------------------------------------------
@@ -4466,6 +4468,7 @@ SoundEvent = TyRangSmashDeflect
     Sound = sfx_0148_tystep_water
 
 SoundEvent = TyRangSmashHit
+  Volume = 255
   Range = 8000
   Material = ID_NONE
     MinPitch = 1.20
@@ -7070,3 +7073,19 @@ SoundEvent = TYCSD1_07_Extra
   Range = 5000
   Material = ID_NONE
     Sound = TYCSD1_07_Extra
+
+// -----------------------------------------------------------------------------
+// Crate
+
+name SmashCrate
+
+SoundEvent SmashCrateSmash
+  Volume 180
+  Range 4500
+  Material = ID_None
+    Sound = sfx_metalcrate
+      Chance = 0.3
+    Sound = Tykart_methit02
+      Chance = 0.3
+    Sound = Tykart_methit03
+      Chance = 0.4
