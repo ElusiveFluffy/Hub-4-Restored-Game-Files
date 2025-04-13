@@ -2215,6 +2215,15 @@ masked 1
 aref .9
 id 4097
 
+name SmashCrateSpec alias P_com_PlasticEnv
+blend 1
+envmap 1
+color .5 .5 .5
+
+name p_com_smashcrate
+overlay SmashCrateSpec
+id 268435457
+
 name Prop_Common_Page_Blueflame
 blend 1
 scroll 0,.75
