@@ -2,8 +2,7 @@
 
 // Material Description file for
 // Ty the Tasmanian Tiger
-// ï¿½ 2000,2001,2002 Krome Studios
-// ï¿½ 2000,2001,2002 Krome Studios
+// © 2000,2001,2002 Krome Studios
 
 // new bit-wise texture ID's. To combine ID's, just add the numbers together
 #define ID_NONE           0	      // no material id
@@ -5149,6 +5148,40 @@ masked 1
 aref .5
 
 
+name rz3_021
+noReceiveShadows
+
+name rz3_022
+Masked 1
+Aref .6
+noReceiveShadows
+
+name p_bur_boabtreebark
+id 4096
+
+name p_bur_boabtreeroots
+id 4096
+
+name p_bur_boabtreeroottop
+id 4096
+
+name p_com_poncianaleaf
+nocollide 1
+Masked 1
+Aref .6
+address 0.5 0
+sinrotate 0.5 0 1 1.5
+
+name P_Cur_Leaves 
+masked 1
+Aref .8
+address 1
+sinrotate .5 0 1 1.5
+
+name p_cur_shrub
+Masked 1
+Aref .6
+sinrotate 0.5 0.23 1.2 0.6
 
 
 //==============================Z2=============================
@@ -5985,7 +6018,7 @@ rotate .5 .5 .1
 address 1 1 1
 
 name TY0101_02
-nocollide 1
+//nocollide 1
 
 name TY0101_03
 doublesided 1
