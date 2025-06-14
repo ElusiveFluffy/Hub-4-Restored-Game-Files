@@ -1693,6 +1693,9 @@ filter_gc 1
 name FE_005_LoadingScrn_B3
 filter_gc 1
 
+name FE_005_LoadingScrn_B4
+filter_gc 1
+
 name FE_005_LoadingScrn_C1
 filter_gc 1
 
@@ -1709,6 +1712,9 @@ name FE_005_LoadingScrn_D1
 filter_gc 1
 
 name FE_005_LoadingScrn_D2
+filter_gc 1
+
+name FE_005_LoadingScrn_D3
 filter_gc 1
 
 name FE_005_LoadingScrn_D4
@@ -1732,68 +1738,111 @@ filter_gc 1
 name FE_005_LoadingScrn_Z2
 filter_gc 1
 
-name D1_Icon
+name FE_005_LoadingScrn_Z3
 filter_gc 1
 
-name D4_Icon
-filter_gc 1
-
-name D2_Icon
-filter_gc 1
-
-name D1_alternate
-filter_gc 1
-
-name C3_Icon
-filter_gc 1
-
-name C2_Icon
-filter_gc 1
-
-name B3_Icon
-filter_gc 1
-
-name A4_Icon
-filter_gc 1
-
-name C4_Icon
-filter_gc 1
-
-name E1_Icon
-filter_gc 1
-
-name E4_Icon
+name FE_005_LoadingScrn_Z4
 filter_gc 1
 
 name Z1_Icon
 filter_gc 1
+clampUV 1 1
+
+name Z2_Icon
+filter_gc 1
+clampUV 1 1
+
+name Z3_Icon
+filter_gc 1
+clampUV 1 1
+
+name Z4_Icon
+filter_gc 1
+clampUV 1 1
 
 name A1_Icon
 filter_gc 1
+clampUV 1 1
 
 name A2_Icon
 filter_gc 1
+clampUV 1 1
 
 name A3_Icon
 filter_gc 1
+clampUV 1 1
+
+name A4_Icon
+filter_gc 1
+clampUV 1 1
 
 name B1_Icon
 filter_gc 1
+clampUV 1 1
 
 name B2_Icon
 filter_gc 1
+clampUV 1 1
+
+name B3_Icon
+filter_gc 1
+clampUV 1 1
 
 name B4_Icon
 filter_gc 1
+clampUV 1 1
 
 name C1_Icon
 filter_gc 1
+clampUV 1 1
+
+name C2_Icon
+filter_gc 1
+clampUV 1 1
+
+name C3_Icon
+filter_gc 1
+clampUV 1 1
+
+name C4_Icon
+filter_gc 1
+clampUV 1 1
+
+name D1_alternate
+filter_gc 1
+clampUV 1 1
+
+name D1_Icon
+filter_gc 1
+clampUV 1 1
+
+name D2_Icon
+filter_gc 1
+clampUV 1 1
+
+name D3_Icon
+filter_gc 1
+clampUV 1 1
+
+name D4_Icon
+filter_gc 1
+clampUV 1 1
+
+name E1_Icon
+filter_gc 1
+clampUV 1 1
 
 name E2_Icon
 filter_gc 1
+clampUV 1 1
 
 name E3_Icon
 filter_gc 1
+clampUV 1 1
+
+name E4_Icon
+filter_gc 1
+clampUV 1 1
 
 
 
