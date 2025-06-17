@@ -2713,8 +2713,9 @@ name Fireworks
 
 SoundEvent = FireworksLaunch
   Range = 5000
+  Volume = 90
   Material = ID_NONE
-    Sound = sfx_0427_fireworkslaunch
+    Sound = sfx_0427_fireworkslaunchTWO
 
 SoundEvent = FireworksDetonate
   Range = 5000
