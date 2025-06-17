@@ -27,7 +27,7 @@ TEXT_LEVEL_A4 Bull's Pen
 TEXT_LEVEL_B1 Bridge on the River TY
 TEXT_LEVEL_B2 Snow Worries
 TEXT_LEVEL_B3 Outback Safari
-TEXT_LEVEL_B4 
+TEXT_LEVEL_B4 Shadow's Grotto
 TEXT_LEVEL_C1 Lyre, Lyre Pants on Fire
 TEXT_LEVEL_C2 Beyond the Black Stump
 TEXT_LEVEL_C3 Rex Marks The Spot
