@@ -110,7 +110,7 @@ bUseEventCamera = 0,false
 heroPos = 0.000, 0.000, 0.000
 heroLookAt = 0.000, 0.000, 0.000
 bUseHeroPos = 0,false
-dialogNr = 2
+dialogNr = -1
 dialogNr2 = -1
 dialog2Nr = -1
 dialog2Nr2 = -1
@@ -168,8 +168,8 @@ dialogNr2 = -1
 dialog2Nr = -1
 dialog2Nr2 = -1
 OnCompletion = event
-  TargetID = 0,none
-  Message = none
+  TargetID = 5,Z1Portal
+  Message = Activate
 bUseNewDialog = 1,true
 OnActivation = event
   TargetID = 0,none
@@ -367,6 +367,16 @@ rot = 0.000, 0.000, 0.000
 scale = 1.000, 1.000, 1.000
 // User: ???
 
+name PORTAL
+
+pos = -1768, -524, -104
+ID = 5,Z1Portal
+standPos = 0.000, 0.000, 0.000
+standYaw = 0.000
+connectingLevel = 0,z1
+bExitPortal = 1,true
+bVisible = 0,false
+
 name WHITEBAT
 
 pos = 0, 0, 0
@@ -460,7 +470,7 @@ OnDamage2 = event
   TargetID = 0,none
   Message = none
 OnDefeated = event
-  TargetID = 31,DefeatedScript
+  TargetID = 4,DefeatShadow
   Message = Activate
 ID = 312,ShadowBat
 bEnabled = 0,false
