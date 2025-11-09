@@ -32,9 +32,10 @@ lod_5 = 17000
 lod_6 = 25000
 lod_7 = 40000
 overlay_0 = room_z1_05.mdl, 1, none
-overlay_1 = room_z1_02.mdl, 0, grasseffect
-overlay_2 = room_z1_04.mdl, 0, none
+overlay_1 = room_z1_04.mdl, 0, none
+overlay_2 = room_z1_01.mdl, 0, grasseffect
 overlay_3 = room_z1_07.mdl, 0, none
+overlay_4 = room_z1_temp.mdl, 0, none
 overlay_water = Room_z1_03.mdl, Room_z1_water
 shadow_dir = 0.304,-0.901,0.308
 shadow_fadeTo = 0.40
@@ -3729,6 +3730,17 @@ name EXTRALIFE
 
 pos = -5942, 637, 7141
 // User: DAN
+
+name Rock4
+pos = -7236.525, 595.896, 7245.570
+rot = 0.000, 1.000, 0.000
+
+pos = -7708.742, 595.896, 7228.866
+rot = 0.000, 4.140, 0.000
+
+pos = -7467.658, 595.893, 7265.901
+rot = 0.000, 4.000, 0.000
+scale = 0.7, 1, 0.8
 
 name INVISICRATE
 
