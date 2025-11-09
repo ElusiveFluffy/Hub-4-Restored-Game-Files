@@ -89,7 +89,7 @@ fromLevel = 20,e1
 
 pos = -3349, 148, 9256
 rot = 0.033, 1.859, -0.035
-fromLevel = 19,d4
+fromLevel = 11,b4
 // User: DAN
 
 pos = 6194, 699, 508
@@ -1026,7 +1026,7 @@ OnNo = event
 // User: DAN
 
 pos = -3382, 128, 9776
-ID = 670,IntroToPippyBeach
+ID = 670,IntroToKumuCaves
 camera = camera
   cameraSource = -3216.060, 363.864, 9929.392
   cameraTarget = -3621.798, 304.808, 9962.499
@@ -1069,7 +1069,7 @@ dialogNr2 = -1
 dialog2Nr = -1
 dialog2Nr2 = -1
 OnCompletion = event
-  TargetID = 150,PippyBeachPortal
+  TargetID = 150,KumuCavesPortal
   Message = Activate
 bUseNewDialog = 1,true
 OnActivation = event
@@ -2212,7 +2212,7 @@ delay = 0.000
 bDelayEachMessage = 0,false
 bEnabled = 1,true
 Message0 = event
-  TargetID = 150,PippyBeachPortal
+  TargetID = 150,KumuCavesPortal
   Message = Show
 Message1 = event
   TargetID = 672,FightBossB
@@ -2553,7 +2553,7 @@ condition = 12,BeenB
 bNegative = 0,false
 bEnabled = 1,true
 Message0 = event
-  TargetID = 150,PippyBeachPortal
+  TargetID = 150,KumuCavesPortal
   Message = Show
 Message1 = event
   TargetID = 0,none
@@ -3504,10 +3504,10 @@ bVisible = 1,true
 // User: DAN
 
 pos = -4095, 171, 8300
-ID = 150,PippyBeachPortal
+ID = 150,KumuCavesPortal
 standPos = -6027.000, 522.000, 1142.000
 standYaw = 0.000
-connectingLevel = 19,d4
+connectingLevel = 11,b4
 bExitPortal = 0,false
 bVisible = 0,false
 // User: DAN
@@ -8679,10 +8679,10 @@ OnAllTechnorangs = event
   TargetID = 0,none
   Message = none
 OnIntroduceTalisman = event
-  TargetID = 670,IntroToPippyBeach
+  TargetID = 670,IntroToKumuCaves
   Message = Activate
 OnRecapTalisman = event
-  TargetID = 670,IntroToPippyBeach
+  TargetID = 670,IntroToKumuCaves
   Message = Activate
 OnNeedTalisman = event
   TargetID = 669,VisitAllPortalsB
