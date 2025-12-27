@@ -1,0 +1,29 @@
+[setup]
+
+camera = CSB4_04_camera.cam,20,265
+actor = Act_75_Shadowbat,csb4_04_01_Shadowbat,20,265
+actor = csb4_04_02_talisman,csb4_04_02_Talisman,20,265
+subtitle = CSD2_08
+firstsample = CSE1_07_P11
+musicloop =
+PlaySFXName = TYCSD2_08_Extra
+
+[timeline]
+
+frame = 24
+say = CSE1_07_P11,CSE1_07_P12
+subtitle = 0
+
+frame = 134
+effect = event=playsound name=ShadowBatFlap
+
+frame = 174
+effect = event=playsound name=ShadowBatFlap
+
+frame = 207
+effect = event=playsound name=ShadowBatFlap
+
+frame = 224
+effect = event=playsound name=CSWhoosh
+
+//end
